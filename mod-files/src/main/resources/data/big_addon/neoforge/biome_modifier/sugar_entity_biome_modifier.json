@@ -1,0 +1,14 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "big_addon:wastes",
+    "big_addon:titan_grounds",
+    "big_addon:gravite_islands"
+  ],
+  "spawners": {
+    "type": "big_addon:sugar_entity",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

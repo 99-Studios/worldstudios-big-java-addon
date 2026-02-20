@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:forgium_multitool"
+    },
+    "title": {
+      "translate": "advancements.forger.title"
+    },
+    "description": {
+      "translate": "advancements.forger.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "forger_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:forgium_multitool"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 400
+  },
+  "parent": "big_addon:gravite_ore"
+}

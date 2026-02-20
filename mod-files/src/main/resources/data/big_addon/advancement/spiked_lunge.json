@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:branite_lunge"
+    },
+    "title": {
+      "translate": "advancements.spiked_lunge.title"
+    },
+    "description": {
+      "translate": "advancements.spiked_lunge.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spiked_lunge_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 70
+  },
+  "parent": "big_addon:a_very_strong_weapon"
+}

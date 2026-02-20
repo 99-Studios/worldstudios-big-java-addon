@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/hevore",
+    "up": "big_addon:block/hevore",
+    "north": "big_addon:block/hevore_front",
+    "east": "big_addon:block/hevore",
+    "south": "big_addon:block/hevore",
+    "west": "big_addon:block/hevore",
+    "particle": "big_addon:block/hevore"
+  },
+  "render_type": "solid"
+}

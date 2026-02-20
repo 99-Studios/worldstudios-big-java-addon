@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 40,
+  "cookingtime": 500,
+  "ingredient": "minecraft:iron_ingot",
+  "result": {
+    "id": "big_addon:steel"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": "big_addon:amethesium_ore",
+  "result": {
+    "id": "big_addon:amethesium_ingot"
+  }
+}

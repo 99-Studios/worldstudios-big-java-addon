@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:nacor_log",
+    "big_addon:andor_log",
+    "big_addon:nacor_planks",
+    "big_addon:andor_wood",
+    "big_addon:nacor_wood",
+    "big_addon:andor_planks"
+  ]
+}

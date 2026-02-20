@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "big_addon:nacor_planks"
+  },
+  "result": {
+    "id": "big_addon:nacor_fence_gate",
+    "count": 1
+  }
+}

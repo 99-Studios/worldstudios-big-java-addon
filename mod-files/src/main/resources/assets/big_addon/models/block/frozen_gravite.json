@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/gravite",
+    "up": "big_addon:block/frozen_gravite_top",
+    "north": "big_addon:block/frozen_gravite",
+    "east": "big_addon:block/frozen_gravite",
+    "south": "big_addon:block/frozen_gravite",
+    "west": "big_addon:block/frozen_gravite",
+    "particle": "big_addon:block/gravite"
+  },
+  "render_type": "solid"
+}

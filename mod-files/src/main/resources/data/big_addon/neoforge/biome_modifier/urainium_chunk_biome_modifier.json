@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "big_addon:wastes",
+  "features": "big_addon:urainium_chunk",
+  "step": "underground_ores"
+}

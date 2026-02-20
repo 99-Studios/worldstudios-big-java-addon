@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.big_addon.fast_teleport"
+  },
+  "supported_items": "big_addon:ender_helmet_helmet",
+  "weight": 10,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "head"
+  ],
+  "exclusive_set": []
+}

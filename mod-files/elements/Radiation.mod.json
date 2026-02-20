@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Radiation",
+    "icon": "radiation",
+    "color": {
+      "value": -16737997,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "CUSTOM:RadiationParticles"
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "RadiationOnEffectActiveTick"
+    }
+  }
+}

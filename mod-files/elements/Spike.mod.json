@@ -1,0 +1,38 @@
+{
+  "_fv": 79,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Spike",
+    "supportedSlots": "any",
+    "weight": 1,
+    "anvilCost": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [
+      {
+        "value": "IMPALING"
+      },
+      {
+        "value": "PIERCING"
+      },
+      {
+        "value": "THORNS"
+      }
+    ],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:BraniteLunge"
+      },
+      {
+        "value": "CUSTOM:StoneLunge"
+      },
+      {
+        "value": "CUSTOM:AmethesiumLunge"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 40,
+  "cookingtime": 167,
+  "ingredient": "minecraft:iron_ingot",
+  "result": {
+    "id": "big_addon:steel"
+  }
+}

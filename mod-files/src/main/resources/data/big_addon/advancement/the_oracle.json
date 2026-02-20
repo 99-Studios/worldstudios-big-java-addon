@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:block/stone",
+    "icon": {
+      "id": "big_addon:gravite"
+    },
+    "title": {
+      "translate": "advancements.the_oracle.title"
+    },
+    "description": {
+      "translate": "advancements.the_oracle.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "the_oracle_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

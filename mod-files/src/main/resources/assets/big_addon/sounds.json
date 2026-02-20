@@ -1,0 +1,26 @@
+{
+  "carefree": {
+    "sounds": [
+      {
+        "name": "big_addon:carefree",
+        "stream": true
+      }
+    ]
+  },
+  "fairy.ambient": {
+    "sounds": [
+      {
+        "name": "big_addon:glitter",
+        "stream": false
+      }
+    ]
+  },
+  "the_will_of_rights": {
+    "sounds": [
+      {
+        "name": "big_addon:fadr.com_the_will_of_rights",
+        "stream": true
+      }
+    ]
+  }
+}

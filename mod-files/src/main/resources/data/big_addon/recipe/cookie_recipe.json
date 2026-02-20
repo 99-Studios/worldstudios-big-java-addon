@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 10,
+  "cookingtime": 600,
+  "ingredient": "minecraft:cookie",
+  "result": {
+    "id": "big_addon:cookie"
+  }
+}

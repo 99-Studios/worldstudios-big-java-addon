@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "big_addon:gyrule_crystal"
+  },
+  "result": {
+    "id": "big_addon:energy_detector",
+    "count": 1
+  }
+}

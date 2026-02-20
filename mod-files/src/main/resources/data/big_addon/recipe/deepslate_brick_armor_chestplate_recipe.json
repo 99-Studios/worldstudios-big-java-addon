@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:deepslate_bricks"
+  },
+  "result": {
+    "id": "big_addon:deepslate_brick_armor_chestplate",
+    "count": 1
+  }
+}

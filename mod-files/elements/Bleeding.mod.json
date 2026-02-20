@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Bleeding",
+    "icon": "bleeding",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "CUSTOM:BleedingParticle"
+    },
+    "onAddedSound": {
+      "value": "entity.player.hurt"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "BleedingOnEffectActiveTick"
+    }
+  }
+}

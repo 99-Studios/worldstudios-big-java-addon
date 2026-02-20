@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "big_addon:amethesium_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:amethesium_shovel",
+    "count": 1
+  }
+}

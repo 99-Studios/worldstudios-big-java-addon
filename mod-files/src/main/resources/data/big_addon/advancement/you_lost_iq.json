@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:cube_essence"
+    },
+    "title": {
+      "translate": "advancements.you_lost_iq.title"
+    },
+    "description": {
+      "translate": "advancements.you_lost_iq.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "you_lost_iq_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "big_addon:get_smart"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/ice_pillar_top",
+    "up": "big_addon:block/ice_pillar_top",
+    "north": "big_addon:block/ice_pillar",
+    "east": "big_addon:block/ice_pillar",
+    "south": "big_addon:block/ice_pillar",
+    "west": "big_addon:block/ice_pillar",
+    "particle": "big_addon:block/ice_pillar_top"
+  },
+  "render_type": "cutout_mipped"
+}

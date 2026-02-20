@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aa ",
+    " b "
+  ],
+  "key": {
+    "a": "big_addon:forgium",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:forgium_multitool",
+    "count": 1
+  }
+}

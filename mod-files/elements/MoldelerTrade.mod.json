@@ -1,0 +1,105 @@
+{
+  "_fv": 79,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:MoldelerProfession"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.CLAY"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Capsule"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "Blocks.BRICK_BLOCK"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Items.BRICK"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 4,
+            "level": 3,
+            "maxTrades": 7,
+            "xp": 15,
+            "priceMultiplier": 0.15
+          },
+          {
+            "price1": {
+              "value": "Blocks.CLAY"
+            },
+            "countPrice1": 3,
+            "price2": {
+              "value": "CUSTOM:Capsule"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.REDSTONE"
+            },
+            "countOffer": 5,
+            "level": 4,
+            "maxTrades": 7,
+            "xp": 20,
+            "priceMultiplier": 0.2
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Capsule"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": "Blocks.SMOOTH_STONE"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "Items.ENDER_PEARL"
+            },
+            "countOffer": 6,
+            "level": 5,
+            "maxTrades": 5,
+            "xp": 25,
+            "priceMultiplier": 0.25
+          }
+        ]
+      }
+    ]
+  }
+}

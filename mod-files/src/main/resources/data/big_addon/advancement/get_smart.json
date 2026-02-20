@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:cube_essence"
+    },
+    "title": {
+      "translate": "advancements.get_smart.title"
+    },
+    "description": {
+      "translate": "advancements.get_smart.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_smart_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "big_addon:why_is_this_a_thing"
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:ignightium_block",
+    "big_addon:frozen_gravite",
+    "big_addon:semite",
+    "big_addon:gravite",
+    "big_addon:blazite_ore",
+    "big_addon:urainium_chunk",
+    "big_addon:blazite_block",
+    "big_addon:hevore",
+    "big_addon:ignightium_ore",
+    "big_addon:gyrule_ore"
+  ]
+}

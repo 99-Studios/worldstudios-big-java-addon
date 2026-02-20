@@ -1,0 +1,26 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "20,000 Diamonds Under The Sea",
+    "achievementDescription": "Obtain 20,000 diamonds.",
+    "achievementIcon": {
+      "value": "Items.DIAMOND"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "TwentyThousandDiamondsUnderTheSeaLootTable"
+    ],
+    "rewardRecipes": [],
+    "rewardXP": 9999,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:TopTierChallenges"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"153\" y=\"104\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">20000</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">20000</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.DIAMOND</field></block></value></block></next></block></xml>"
+  }
+}

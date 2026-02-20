@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:trash_bag"
+    },
+    "title": {
+      "translate": "advancements.take_out_the_trash.title"
+    },
+    "description": {
+      "translate": "advancements.take_out_the_trash.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "take_out_the_trash_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:trash_bag"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:adventure/root"
+}

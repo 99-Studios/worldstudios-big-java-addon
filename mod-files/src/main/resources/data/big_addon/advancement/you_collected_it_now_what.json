@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:branite_ore"
+    },
+    "title": {
+      "translate": "advancements.you_collected_it_now_what.title"
+    },
+    "description": {
+      "translate": "advancements.you_collected_it_now_what.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "you_collected_it_now_what_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:branite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "big_addon:world_studios_big_java_advancements"
+}

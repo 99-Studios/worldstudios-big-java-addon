@@ -1,0 +1,11 @@
+{
+  "asset_id": "big_addon:the_hidden_one",
+  "height": 3,
+  "width": 3,
+  "title": {
+    "translate": "painting.big_addon.the_hidden_one.title"
+  },
+  "author": {
+    "translate": "painting.big_addon.the_hidden_one.author"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "big_addon:cookie",
+    "big_addon:dark_splatter"
+  ],
+  "result": {
+    "id": "big_addon:dark_cookie",
+    "count": 1
+  }
+}

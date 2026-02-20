@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.big_addon.the_will_of_rights.desc"
+  },
+  "length_in_seconds": 30,
+  "sound_event": "big_addon:the_will_of_rights"
+}

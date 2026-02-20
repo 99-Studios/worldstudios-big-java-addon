@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/waste_stone",
+    "up": "big_addon:block/waste_stone",
+    "north": "big_addon:block/waste_stone",
+    "east": "big_addon:block/waste_stone",
+    "south": "big_addon:block/waste_stone",
+    "west": "big_addon:block/waste_stone",
+    "particle": "big_addon:block/waste_stone"
+  },
+  "render_type": "solid"
+}

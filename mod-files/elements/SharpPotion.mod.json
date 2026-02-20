@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Sharp Potion",
+    "splashName": "Splash Sharp Potion",
+    "lingeringName": "Lingering Sharp Potion",
+    "arrowName": "Sharpened Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Bleeding"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

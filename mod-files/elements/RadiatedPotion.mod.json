@@ -1,0 +1,32 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Radiated Potion",
+    "splashName": "Splash Radiated Potion",
+    "lingeringName": "Lingering Radiated Potion",
+    "arrowName": "Radiated Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Radiation"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

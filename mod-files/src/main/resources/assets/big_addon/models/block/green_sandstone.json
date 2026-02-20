@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "big_addon:block/green_sandstone_top",
+    "top": "big_addon:block/green_sandstone_top",
+    "side": "big_addon:block/green_sandstone",
+    "overlay": "big_addon:block/green_sandstone",
+    "particle": "big_addon:block/green_sandstone_top"
+  },
+  "render_type": "cutout_mipped"
+}

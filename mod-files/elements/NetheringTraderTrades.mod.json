@@ -1,0 +1,105 @@
+{
+  "_fv": 79,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:NetheringTrader"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.NETHER_WART"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WartedEmerald"
+            },
+            "countOffer": 2,
+            "level": 1,
+            "maxTrades": 32,
+            "xp": 4,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.SHROOMLIGHT"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Steel"
+            },
+            "countOffer": 5,
+            "level": 2,
+            "maxTrades": 25,
+            "xp": 9,
+            "priceMultiplier": 0.12
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:WartedEmerald"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.NETHERITE_INGOT"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 32,
+            "xp": 11,
+            "priceMultiplier": 0.1
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Capsteel"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "Items.NETHERITE_SCRAP"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:Ignyite"
+            },
+            "countOffer": 4,
+            "level": 4,
+            "maxTrades": 32,
+            "xp": 20,
+            "priceMultiplier": 0.03
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:RefinedFlintAndSteel"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:TitanToolSword"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 3,
+            "xp": 32,
+            "priceMultiplier": 0.14
+          }
+        ]
+      }
+    ]
+  }
+}

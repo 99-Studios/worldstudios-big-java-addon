@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Nethering Trader",
+    "pointOfInterest": {
+      "value": "Blocks.ANCIENT_DEBRIS"
+    },
+    "actionSound": {
+      "value": "entity.wandering_trader.reappeared"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "wandering_trader.png",
+    "zombifiedProfessionTextureFile": "wandering_trader.png"
+  }
+}

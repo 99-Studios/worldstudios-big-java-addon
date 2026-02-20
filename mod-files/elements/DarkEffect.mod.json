@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Dark",
+    "icon": "dark",
+    "color": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "CUSTOM:DarkParticle"
+    },
+    "onAddedSound": {
+      "value": "event.raid.horn"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "DarkEffectOnEffectActiveTick"
+    }
+  }
+}

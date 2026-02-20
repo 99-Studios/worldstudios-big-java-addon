@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "painting",
+  "definition": {
+    "texture": "worldstudios_painting.png",
+    "width": 48,
+    "height": 32,
+    "title": "WorldStudios",
+    "author": "WorldStudios"
+  }
+}

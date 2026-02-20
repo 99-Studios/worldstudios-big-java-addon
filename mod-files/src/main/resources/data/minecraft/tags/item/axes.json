@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:granite_axe",
+    "big_addon:command_block_axe",
+    "big_addon:andesite_axe",
+    "big_addon:ignightium_axe",
+    "big_addon:forgium_multitool",
+    "big_addon:sparkle_axe",
+    "big_addon:andor_axe",
+    "big_addon:blazite_axe",
+    "big_addon:steel_tool_axe",
+    "big_addon:repeating_command_block_axe",
+    "big_addon:chain_command_block_axe",
+    "big_addon:titan_tool_axe",
+    "big_addon:wool_axe",
+    "big_addon:dirt_tool_axe",
+    "big_addon:amethesium_axe",
+    "big_addon:skeleton_axe",
+    "big_addon:nacor_axe"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "big_addon:block/yellow_dirt",
+    "top": "big_addon:block/yellow_grass_block",
+    "side": "big_addon:block/yellow_dirt",
+    "overlay": "big_addon:block/yellow_dirt",
+    "particle": "big_addon:block/yellow_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

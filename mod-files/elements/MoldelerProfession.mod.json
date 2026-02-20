@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Moldeler",
+    "pointOfInterest": {
+      "value": "CUSTOM:Moldeler"
+    },
+    "actionSound": {
+      "value": "entity.villager.work_leatherworker"
+    },
+    "hat": "None",
+    "professionTextureFile": "moldeler.png",
+    "zombifiedProfessionTextureFile": "moldeler.png"
+  }
+}

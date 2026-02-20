@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 30,
+  "cookingtime": 200,
+  "ingredient": "big_addon:titan_heart",
+  "result": {
+    "id": "big_addon:titan_ingot"
+  }
+}

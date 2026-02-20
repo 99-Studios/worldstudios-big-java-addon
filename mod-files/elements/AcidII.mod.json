@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Acid II",
+    "splashName": "Splash Potion of Acid II",
+    "lingeringName": "Lingering Potion of Acid II",
+    "arrowName": "Arrow of Acid II",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:AcidEffect"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

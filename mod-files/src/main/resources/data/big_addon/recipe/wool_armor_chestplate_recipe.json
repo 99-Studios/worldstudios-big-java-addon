@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:white_wool"
+  },
+  "result": {
+    "id": "big_addon:wool_armor_chestplate",
+    "count": 1
+  }
+}

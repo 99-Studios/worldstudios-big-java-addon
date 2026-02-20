@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:coal_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.using_coal_to_mine_coal.title"
+    },
+    "description": {
+      "translate": "advancements.using_coal_to_mine_coal.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "using_coal_to_mine_coal_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:coal_pickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "big_addon:call_coal"
+}

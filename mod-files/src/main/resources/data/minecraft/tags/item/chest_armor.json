@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:blazite_armor_chestplate",
+    "big_addon:titan_armor_armor_chestplate",
+    "big_addon:deepslate_brick_armor_chestplate",
+    "big_addon:brain_armor_armor_chestplate",
+    "big_addon:skeleton_armor_chestplate",
+    "big_addon:brick_armor_chestplate",
+    "big_addon:command_block_armor_chestplate",
+    "big_addon:wool_armor_chestplate",
+    "big_addon:stone_armor_chestplate",
+    "big_addon:resin_brick_armor_chestplate",
+    "big_addon:chain_command_block_armor_chestplate",
+    "big_addon:repeating_command_block_armor_chestplate",
+    "big_addon:andor_armor_chestplate",
+    "big_addon:dirt_armor_chestplate",
+    "big_addon:acid_armor_chestplate",
+    "big_addon:andesite_armor_chestplate",
+    "big_addon:amethesium_armor_chestplate",
+    "big_addon:steel_armor_armor_chestplate",
+    "big_addon:ignightium_armor_chestplate",
+    "big_addon:granite_armor_chestplate"
+  ]
+}

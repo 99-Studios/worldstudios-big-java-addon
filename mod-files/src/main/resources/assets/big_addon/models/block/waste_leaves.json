@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/waste_leaves",
+    "up": "big_addon:block/waste_leaves",
+    "north": "big_addon:block/waste_leaves",
+    "east": "big_addon:block/waste_leaves",
+    "south": "big_addon:block/waste_leaves",
+    "west": "big_addon:block/waste_leaves",
+    "particle": "big_addon:block/waste_leaves"
+  },
+  "render_type": "solid"
+}

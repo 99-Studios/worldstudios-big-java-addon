@@ -1,0 +1,45 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "forgium_multitool",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Forgium Multitool",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 16.0,
+    "attackSpeed": 1.6,
+    "enchantability": 26,
+    "damageVsEntity": 13.0,
+    "usageCount": 5052,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Forgium"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FogiumMultitoolProcedure"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "FogiumMultitoolProcedure"
+    }
+  }
+}

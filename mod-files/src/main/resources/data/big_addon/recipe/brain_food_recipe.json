@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "big_addon:brain"
+  ],
+  "result": {
+    "id": "big_addon:brain_food",
+    "count": 4
+  }
+}

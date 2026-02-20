@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Fairy Brew",
+    "splashName": "Splash Potion of Fairy Brew",
+    "lingeringName": "Lingering Potion of Fairy Brew",
+    "arrowName": "Arrow of Fairy Brew",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:FairyBrewEffect"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

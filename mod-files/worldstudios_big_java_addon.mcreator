@@ -1,0 +1,1833 @@
+{
+  "mod_elements": [
+    {
+      "name": "Carefree",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carefree",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/CarefreeItem.java",
+          "src/main/resources/assets/big_addon/models/item/carefree.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/coal_pickaxe.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/CoalPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UsingCoalToMineCoal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "using_coal_to_mine_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/using_coal_to_mine_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "CallCoal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "call_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/call_coal.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/coal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WorldStudios",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_studios",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EnderHelmet",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/ender_helmet_helmet.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/EnderHelmetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderHelmetHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_helmet_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/EnderHelmetHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/ender_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLastHelmet",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_last_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/the_last_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "FastTeleport",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_teleport",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/enchantment/FastTeleportEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "EnderHelmetTeleport",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_helmet_teleport",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AcidEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/potion/AcidEffectMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidII",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_ii",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AcidDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/damage_type/acid_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/AcidProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AcidArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/acid_armor_chestplate.json",
+          "src/main/resources/assets/big_addon/models/item/acid_armor_leggings.json",
+          "src/main/resources/assets/big_addon/models/item/acid_armor_boots.json",
+          "src/main/resources/assets/big_addon/models/item/acid_armor_helmet.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/AcidArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/recipes/brewing/AcidPotionRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidIIPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_ii_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/recipes/brewing/AcidIIPotionRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/acid_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/acid_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/acid_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/acid_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/client/particle/AcidParticleParticle.java",
+          "src/main/resources/assets/big_addon/particles/acid_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "AcidFluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_fluid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/blockstates/acid_fluid.json",
+          "src/main/resources/assets/big_addon/models/item/acid_fluid_bucket.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/AcidFluidItem.java",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/fluid/AcidFluidFluid.java",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/AcidFluidBlock.java",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/fluid/types/AcidFluidFluidType.java",
+          "src/main/resources/assets/big_addon/models/block/acid_fluid.json"
+        ]
+      }
+    },
+    {
+      "name": "ReadyForAcid",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ready_for_acid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/ready_for_acid.json"
+        ]
+      }
+    },
+    {
+      "name": "Dinamite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinamite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/DinamiteItem.java",
+          "src/main/resources/assets/big_addon/models/item/dinamite.json"
+        ]
+      }
+    },
+    {
+      "name": "DinamiteProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinamite_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/entity/DinamiteProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DinamiteProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinamite_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/DinamiteProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DinamiteExplosion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinamite_explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/DinamiteExplosionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DinamiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinamite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/dinamite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Explosion",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/enchantment/ExplosionEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "DamageProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/DamageProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Damage",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/command/DamageCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "WasteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/block/waste_block.json",
+          "src/main/resources/data/big_addon/loot_tables/blocks/waste_block.json",
+          "src/main/resources/assets/big_addon/blockstates/waste_block.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/WasteBlockBlock.java",
+          "src/main/resources/assets/big_addon/models/item/waste_block.json"
+        ]
+      }
+    },
+    {
+      "name": "WasteStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/loot_tables/blocks/waste_stone.json",
+          "src/main/resources/assets/big_addon/models/block/waste_stone.json",
+          "src/main/resources/assets/big_addon/blockstates/waste_stone.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/WasteStoneBlock.java",
+          "src/main/resources/assets/big_addon/models/item/waste_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "WasteLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/loot_tables/blocks/waste_log.json",
+          "src/main/resources/assets/big_addon/blockstates/waste_log.json",
+          "src/main/resources/assets/big_addon/models/item/waste_log.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/WasteLogBlock.java",
+          "src/main/resources/assets/big_addon/models/block/waste_log.json"
+        ]
+      }
+    },
+    {
+      "name": "WasteLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/WasteLeavesBlock.java",
+          "src/main/resources/assets/big_addon/models/item/waste_leaves.json",
+          "src/main/resources/assets/big_addon/blockstates/waste_leaves.json",
+          "src/main/resources/assets/big_addon/models/block/waste_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "WasteProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/WasteProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waste",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/WasteItem.java",
+          "src/main/resources/assets/big_addon/models/item/waste.json"
+        ]
+      }
+    },
+    {
+      "name": "Wastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/worldgen/placed_feature/wastes_tree.json",
+          "src/main/resources/data/big_addon/worldgen/biome/wastes.json",
+          "src/main/resources/data/big_addon/worldgen/configured_feature/wastes_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "WasteLeavesLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waste_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/loot_tables/blocks/waste_leaves_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumChunk",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_chunk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/urainium_chunk.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/UrainiumChunkBlock.java",
+          "src/main/resources/data/big_addon/forge/biome_modifier/urainium_chunk_biome_modifier.json",
+          "src/main/resources/data/big_addon/loot_tables/blocks/urainium_chunk.json",
+          "src/main/resources/assets/big_addon/blockstates/urainium_chunk.json",
+          "src/main/resources/assets/big_addon/models/block/urainium_chunk.json",
+          "src/main/resources/data/big_addon/worldgen/configured_feature/urainium_chunk.json",
+          "src/main/resources/data/big_addon/worldgen/placed_feature/urainium_chunk.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumPeice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_peice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/urainium_peice.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/UrainiumPeiceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/UrainiumIngotItem.java",
+          "src/main/resources/assets/big_addon/models/item/urainium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Wasted",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasted",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/wasted.json"
+        ]
+      }
+    },
+    {
+      "name": "Radioactive",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radioactive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/radioactive.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/urainium_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/UrainiumBladeItem.java",
+          "src/main/resources/assets/big_addon/models/item/urainium_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumBladeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_blade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/urainium_blade_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/UrainiumPickaxeItem.java",
+          "src/main/resources/assets/big_addon/models/item/urainium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/urainium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/urainium_shield.json",
+          "src/main/resources/assets/big_addon/models/item/urainium_shield_0.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/UrainiumShieldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumShieldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_shield_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/urainium_shield_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ANewTypeOfTool",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_new_type_of_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/a_new_type_of_tool.json"
+        ]
+      }
+    },
+    {
+      "name": "EvenMoreRadioactive",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "even_more_radioactive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/even_more_radioactive.json"
+        ]
+      }
+    },
+    {
+      "name": "TheMaskedHero",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_masked_hero",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DirtArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/dirt_armor_chestplate.json",
+          "src/main/resources/assets/big_addon/models/item/dirt_armor_helmet.json",
+          "src/main/resources/assets/big_addon/models/item/dirt_armor_leggings.json",
+          "src/main/resources/assets/big_addon/models/item/dirt_armor_boots.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/DirtArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dirt",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/enchantment/DirtEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/DirtProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtSimulator",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_simulator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/dirt_simulator.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtSimulator2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_simulator_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/dirt_simulator_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtSimulator2Procedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_simulator_2_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/DirtSimulator2ProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gravite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/GraviteBlock.java",
+          "src/main/resources/assets/big_addon/blockstates/gravite.json",
+          "src/main/resources/data/big_addon/loot_tables/blocks/gravite.json",
+          "src/main/resources/assets/big_addon/models/block/gravite.json",
+          "src/main/resources/assets/big_addon/models/item/gravite.json"
+        ]
+      }
+    },
+    {
+      "name": "Oracle",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oracle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/block/oracle_portal_ew.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/OracleItem.java",
+          "src/main/resources/data/big_addon/dimension/oracle.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/world/dimension/OracleDimension.java",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/world/teleporter/OracleTeleporter.java",
+          "src/main/resources/data/big_addon/dimension_type/oracle.json",
+          "src/main/resources/assets/big_addon/models/item/oracle.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/OraclePortalBlock.java",
+          "src/main/resources/assets/big_addon/blockstates/oracle_portal.json",
+          "src/main/resources/assets/big_addon/models/block/oracle_portal_ns.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/world/teleporter/OraclePortalShape.java"
+        ]
+      }
+    },
+    {
+      "name": "LitherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lither_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/lither_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AFourthDimension",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_fourth_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/a_fourth_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "TheOracle",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_oracle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/the_oracle.json"
+        ]
+      }
+    },
+    {
+      "name": "TheOracleProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_oracle_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/TheOracleProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Semite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/loot_tables/blocks/semite.json",
+          "src/main/resources/assets/big_addon/blockstates/semite.json",
+          "src/main/resources/assets/big_addon/models/block/semite.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/SemiteBlock.java",
+          "src/main/resources/assets/big_addon/models/item/semite.json"
+        ]
+      }
+    },
+    {
+      "name": "GraviteIslands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravite_islands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/worldgen/biome/gravite_islands.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/dirt_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/dirt_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/dirt_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/dirt_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrExplore",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "or_explore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/or_explore.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/ForgiumOreBlock.java",
+          "src/main/resources/assets/big_addon/models/item/forgium_ore.json",
+          "src/main/resources/assets/big_addon/models/block/forgium_ore.json",
+          "src/main/resources/assets/big_addon/blockstates/forgium_ore.json",
+          "src/main/resources/data/big_addon/loot_tables/blocks/forgium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Forgium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/forgium.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/ForgiumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FogiumMultitoolProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fogium_multitool_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/FogiumMultitoolProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForgiumMultitool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgium_multitool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/ForgiumMultitoolItem.java",
+          "src/main/resources/assets/big_addon/models/item/forgium_multitool.json"
+        ]
+      }
+    },
+    {
+      "name": "GraviteOre",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/gravite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Forger",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forger",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/advancements/forger.json"
+        ]
+      }
+    },
+    {
+      "name": "SemiteOreProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "semite_ore_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/procedures/SemiteOreProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForgiumMultitoolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgium_multitool_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/forgium_multitool_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Moldeler",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldeler",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/loot_tables/blocks/moldeler.json",
+          "src/main/resources/assets/big_addon/models/block/moldeler.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/MoldelerBlock.java",
+          "src/main/resources/assets/big_addon/models/item/moldeler.json",
+          "src/main/resources/assets/big_addon/blockstates/moldeler.json"
+        ]
+      }
+    },
+    {
+      "name": "MoldelerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldeler_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/moldeler_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Capsule",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/block/capsule.json",
+          "src/main/resources/assets/big_addon/models/item/capsule.json",
+          "src/main/resources/assets/big_addon/blockstates/capsule.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/CapsuleBlock.java",
+          "src/main/resources/data/big_addon/loot_tables/blocks/capsule.json"
+        ]
+      }
+    },
+    {
+      "name": "MoldelerProfession",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldeler_profession",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MoldelerTrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moldeler_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CapsuleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/capsule_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CapsuledRedstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuled_redstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/CapsuledRedstoneBlock.java",
+          "src/main/resources/data/big_addon/loot_tables/blocks/capsuled_redstone.json",
+          "src/main/resources/assets/big_addon/models/item/capsuled_redstone.json",
+          "src/main/resources/assets/big_addon/blockstates/capsuled_redstone.json",
+          "src/main/resources/assets/big_addon/models/block/capsuled_redstone.json"
+        ]
+      }
+    },
+    {
+      "name": "CapsuledRedstoneRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuled_redstone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/capsuled_redstone_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CapsuledRedstoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuled_redstone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/blockstates/capsuled_redstone_block.json",
+          "src/main/resources/assets/big_addon/models/block/capsuled_redstone_block.json",
+          "src/main/resources/data/big_addon/loot_tables/blocks/capsuled_redstone_block.json",
+          "src/main/resources/assets/big_addon/models/item/capsuled_redstone_block.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/CapsuledRedstoneBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CapsuledRedstoneBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsuled_redstone_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/capsuled_redstone_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LongZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/forge/biome_modifier/long_zombie_biome_modifier.json",
+          "src/main/resources/assets/big_addon/models/item/long_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/client/renderer/LongZombieRenderer.java",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/entity/LongZombieEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Titan",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/entity/TitanEntity.java",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/client/renderer/TitanRenderer.java",
+          "src/main/resources/data/big_addon/forge/biome_modifier/titan_biome_modifier.json",
+          "src/main/resources/assets/big_addon/models/item/titan_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanHeart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/TitanHeartItem.java",
+          "src/main/resources/assets/big_addon/models/item/titan_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/TitanIngotItem.java",
+          "src/main/resources/assets/big_addon/models/item/titan_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanArmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/TitanArmorArmorItem.java",
+          "src/main/resources/assets/big_addon/models/item/titan_armor_armor_chestplate.json",
+          "src/main/resources/assets/big_addon/models/item/titan_armor_armor_helmet.json",
+          "src/main/resources/assets/big_addon/models/item/titan_armor_armor_leggings.json",
+          "src/main/resources/assets/big_addon/models/item/titan_armor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_armor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanArmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Hevore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hevore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/hevore.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/block/HevoreBlock.java",
+          "src/main/resources/assets/big_addon/models/block/hevore.json",
+          "src/main/resources/data/big_addon/loot_tables/blocks/hevore.json",
+          "src/main/resources/assets/big_addon/blockstates/hevore.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanGrounds",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_grounds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/worldgen/biome/titan_grounds.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanToolPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_tool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/titan_tool_pickaxe.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/TitanToolPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TitanToolAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_tool_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/big_addon/models/item/titan_tool_axe.json",
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/TitanToolAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TitanToolSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_tool_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosbigjavaaddon/item/TitanToolSwordItem.java",
+          "src/main/resources/assets/big_addon/models/item/titan_tool_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanToolPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_tool_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_tool_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanToolAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_tool_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_tool_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanToolSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_tool_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/big_addon/recipes/titan_tool_sword_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "carefree",
+      "files": [
+        "carefree"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:AcidFluid"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Hevore",
+      "~CUSTOM:Semite",
+      "~CUSTOM:Gravite",
+      "~CUSTOM:UrainiumChunk"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Hevore",
+      "~CUSTOM:CapsuledRedstoneBlock",
+      "~CUSTOM:Moldeler",
+      "~CUSTOM:ForgiumOre",
+      "~CUSTOM:Semite",
+      "~CUSTOM:Gravite",
+      "~CUSTOM:UrainiumChunk"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TitanToolPickaxe",
+      "~CUSTOM:ForgiumMultitool",
+      "~CUSTOM:UrainiumPickaxe",
+      "~CUSTOM:UrainiumBlade",
+      "~CUSTOM:CoalPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TitanToolAxe",
+      "~CUSTOM:ForgiumMultitool"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TitanToolSword",
+      "~CUSTOM:ForgiumMultitool"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Carefree"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:WasteStone",
+      "~CUSTOM:WasteBlock",
+      "~CUSTOM:Hevore",
+      "~CUSTOM:Gravite",
+      "~CUSTOM:Semite"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.worldstudios_big_java_addon.waste_stone": "Waste Stone",
+      "block.worldstudios_big_java_addon.forgium_ore": "Forgium Ore",
+      "item.big_addon.acid_armor_leggings": "Acid Armor Leggings",
+      "block.big_addon.urainium_chunk": "Urainium Chunk",
+      "item.big_addon.titan_tool_pickaxe": "Titan Pickaxe",
+      "item.big_addon.titan_tool_axe": "Titan Axe",
+      "item.worldstudios_big_java_addon.acid_fluid_bucket": "Acid Bucket",
+      "enchantment.worldstudios_big_java_addon.dirt": "Dirt",
+      "item.worldstudios_big_java_addon.dirt_armor_helmet": "Dirt Helmet",
+      "advancements.radioactive.title": "Radioactive",
+      "advancements.wasted.title": "Wasted",
+      "block.worldstudios_big_java_addon.semite": "Semite",
+      "item.big_addon.carefree.desc": "WorldStudios",
+      "item.worldstudios_big_java_addon.acid_armor_chestplate": "Acid Armor Chestplate",
+      "block.worldstudios_big_java_addon.waste_log": "Waste Log",
+      "item.worldstudios_big_java_addon.urainium_peice": "Urainium Peice",
+      "advancements.or_explore.title": "Or Explore",
+      "item.worldstudios_big_java_addon.oracle": "Lither",
+      "block.worldstudios_big_java_addon.moldeler": "Moldeler",
+      "item.worldstudios_big_java_addon.forgium": "Forgium",
+      "item.big_addon.acid_armor_boots": "Acid Armor Boots",
+      "item.big_addon.dirt_armor_boots": "Dirt Boots",
+      "advancements.the_last_helmet.title": "The Last Helmet",
+      "item.big_addon.titan_armor_armor_boots": "Titan Boots",
+      "item.worldstudios_big_java_addon.long_zombie_spawn_egg": "Long Zombie Spawn Egg",
+      "entity.worldstudios_big_java_addon.titan": "Titan",
+      "item.worldstudios_big_java_addon.titan_tool_sword": "Titan Sword",
+      "item.big_addon.titan_tool_sword": "Titan Sword",
+      "advancements.call_coal.title": "Call Coal",
+      "item.big_addon.titan_armor_armor_chestplate": "Titan Chestplate",
+      "item.big_addon.titan_armor_armor_leggings": "Titan Leggings",
+      "advancements.using_coal_to_mine_coal.descr": "Use coal to make a pickaxe.",
+      "block.worldstudios_big_java_addon.capsuled_redstone": "Capsuled Redstone",
+      "item.worldstudios_big_java_addon.dirt_armor_leggings": "Dirt Leggings",
+      "block.worldstudios_big_java_addon.gravite": "Gravite",
+      "advancements.dirt_simulator.descr": "Wear a full dirt armor set.",
+      "item.worldstudios_big_java_addon.forgium_multitool": "Forgium Multitool",
+      "biome.worldstudios_big_java_addon.gravite_islands": "Gravite Plains",
+      "entity.big_addon.long_zombie": "Long Zombie",
+      "block.big_addon.waste_stone": "Waste Stone",
+      "advancements.dirt_simulator.title": "Dirt Simulator",
+      "item.worldstudios_big_java_addon.titan_heart": "Titan Heart",
+      "entity.worldstudios_big_java_addon.long_zombie": "Long Zombie",
+      "block.big_addon.capsuled_redstone_block": "Capsuled Redstone Block",
+      "item.worldstudios_big_java_addon.coal_pickaxe": "Coal Pickaxe",
+      "advancements.a_fourth_dimension.descr": "Enter the Oracle dimension.",
+      "item.worldstudios_big_java_addon.ender_helmet_helmet": "Ender Helmet",
+      "item.minecraft.lingering_potion.effect.acid_ii": "Lingering Potion of Acid II",
+      "item.worldstudios_big_java_addon.titan_tool_axe": "Titan Axe",
+      "item.big_addon.titan_spawn_egg": "Titan Spawn Egg",
+      "item.minecraft.tipped_arrow.effect.acid": "Arrow of Acid",
+      "item.big_addon.titan_heart": "Titan Heart",
+      "effect.worldstudios_big_java_addon.acid_effect": "Acid",
+      "item.worldstudios_big_java_addon.titan_ingot": "Titan Ingot",
+      "enchantment.worldstudios_big_java_addon.explosion": "Explosion",
+      "biome.big_addon.wastes": "Wastes",
+      "item.big_addon.long_zombie_spawn_egg": "Long Zombie Spawn Egg",
+      "painting.worldstudios_big_java_addon.world_studios.author": "WorldStudios",
+      "advancements.call_coal.descr": "Mine coal for the first time.",
+      "item.worldstudios_big_java_addon.titan_armor_armor_helmet": "Titan Helmet",
+      "advancements.or_explore.descr": "Visit every biome in the Oracle.",
+      "entity.minecraft.villager.worldstudios_big_java_addon.moldeler_profession": "Moldeler Profession",
+      "item.worldstudios_big_java_addon.urainium_ingot": "Urainium Ingot",
+      "item.big_addon.carefree": "Carefree",
+      "biome.big_addon.titan_grounds": "Titan Grounds",
+      "death.attack.acid_damage": "%1$s was killed by acid",
+      "block.big_addon.capsule": "Capsule",
+      "advancements.ready_for_acid.title": "Ready For Acid",
+      "item.worldstudios_big_java_addon.dirt_armor_chestplate": "Dirt Chestplate",
+      "item.big_addon.acid_armor_helmet": "Acid Armor Helmet",
+      "block.worldstudios_big_java_addon.waste_leaves": "Waste Leaves",
+      "item.big_addon.waste": "Waste",
+      "block.big_addon.waste_leaves": "Waste Leaves",
+      "block.big_addon.forgium_ore": "Forgium Ore",
+      "item.worldstudios_big_java_addon.titan_armor_armor_chestplate": "Titan Chestplate",
+      "item.big_addon.dinamite": "Dinamite",
+      "item.big_addon.titan_ingot": "Titan Ingot",
+      "biome.worldstudios_big_java_addon.titan_grounds": "Titan Grounds",
+      "item.big_addon.urainium_peice": "Urainium Peice",
+      "item.worldstudios_big_java_addon.carefree.desc": "WorldStudios",
+      "block.worldstudios_big_java_addon.capsule": "Capsule",
+      "item.big_addon.titan_armor_armor_helmet": "Titan Helmet",
+      "advancements.dirt_simulator_2.title": "Dirt Simulator 2",
+      "item.worldstudios_big_java_addon.titan_tool_pickaxe": "Titan Pickaxe",
+      "advancements.wasted.descr": "Enter the Wastes biome.",
+      "entity.big_addon.titan": "Titan",
+      "painting.worldstudios_big_java_addon.the_masked_hero.title": "The Masked Hero",
+      "item.big_addon.urainium_shield": "Urainium Shield",
+      "advancements.using_coal_to_mine_coal.title": "Using Coal To Mine Coal",
+      "gamerule.enderHelmetTeleport.description": "Deactivates teleporting with the Ender Helmet when false.",
+      "item.worldstudios_big_java_addon.titan_armor_armor_leggings": "Titan Leggings",
+      "item.big_addon.coal_pickaxe": "Coal Pickaxe",
+      "entity.minecraft.villager.big_addon.moldeler_profession": "Moldeler Profession",
+      "painting.worldstudios_big_java_addon.the_masked_hero.author": "WorldStudios",
+      "fluid.big_addon.acid_fluid": "Acid",
+      "block.big_addon.gravite": "Gravite",
+      "item.worldstudios_big_java_addon.acid_armor_helmet": "Acid Armor Helmet",
+      "advancements.radioactive.descr": "Mine Urainium in the Wastes biome.",
+      "item.worldstudios_big_java_addon.waste": "Waste",
+      "item.big_addon.urainium_blade": "Urainium Blade",
+      "item.big_addon.forgium": "Forgium",
+      "item.minecraft.tipped_arrow.effect.acid_ii": "Arrow of Acid II",
+      "item.big_addon.forgium_multitool": "Forgium Multitool",
+      "item.worldstudios_big_java_addon.dinamite": "Dinamite",
+      "painting.worldstudios_big_java_addon.world_studios.title": "WorldStudios",
+      "advancements.gravite_ore.title": "Semite Ore",
+      "block.big_addon.capsuled_redstone": "Capsuled Redstone",
+      "advancements.forger.descr": "Craft a Forgium Multitool.",
+      "advancements.ready_for_acid.descr": "Have the intire acid armor set.",
+      "item.minecraft.splash_potion.effect.acid_ii": "Splash Potion of Acid II",
+      "death.attack.acid_damage.item": "%1$s was killed by %2$s using %3$s",
+      "item.worldstudios_big_java_addon.titan_spawn_egg": "Titan Spawn Egg",
+      "painting.big_addon.the_masked_hero.title": "The Masked Hero",
+      "item.big_addon.dirt_armor_leggings": "Dirt Leggings",
+      "item.big_addon.ender_helmet_helmet": "Ender Helmet",
+      "item.worldstudios_big_java_addon.dirt_armor_boots": "Dirt Boots",
+      "advancements.the_oracle.descr": "Advancements for the Oracle.",
+      "item.worldstudios_big_java_addon.acid_armor_leggings": "Acid Armor Leggings",
+      "enchantment.big_addon.explosion": "Explosion",
+      "item.worldstudios_big_java_addon.carefree": "Carefree",
+      "death.attack.acid_damage.player": "%1$s died whilst trying to escape %2$s",
+      "item.worldstudios_big_java_addon.urainium_shield": "Urainium Shield",
+      "item.worldstudios_big_java_addon.acid_armor_boots": "Acid Armor Boots",
+      "advancements.a_fourth_dimension.title": "A Fourth Dimension",
+      "item.minecraft.potion.effect.acid": "Potion of Acid",
+      "block.worldstudios_big_java_addon.urainium_chunk": "Urainium Chunk",
+      "item.big_addon.urainium_pickaxe": "Urainium Pickaxe",
+      "enchantment.worldstudios_big_java_addon.fast_teleport": "Fast Teleport",
+      "block.big_addon.waste_log": "Waste Log",
+      "effect.big_addon.acid_effect": "Acid",
+      "item.big_addon.acid_fluid_bucket": "Acid Bucket",
+      "block.worldstudios_big_java_addon.capsuled_redstone_block": "Capsuled Redstone Block",
+      "biome.worldstudios_big_java_addon.gravite_plains": "Gravite Plains",
+      "item.minecraft.lingering_potion.effect.acid": "Lingering Potion of Acid",
+      "item.minecraft.splash_potion.effect.acid": "Splash Potion of Acid",
+      "item.big_addon.dirt_armor_helmet": "Dirt Helmet",
+      "item.big_addon.dirt_armor_chestplate": "Dirt Chestplate",
+      "advancements.a_new_type_of_tool.title": "A New Type Of Tool",
+      "fluid.worldstudios_big_java_addon.acid_fluid": "Acid",
+      "item.big_addon.oracle": "Lither",
+      "advancements.even_more_radioactive.descr": "Have all urainium tools on you.",
+      "advancements.even_more_radioactive.title": "Even More Radioactive",
+      "advancements.the_last_helmet.descr": "Make a helmet out of ender eyes.",
+      "block.worldstudios_big_java_addon.hevore": "Hevore",
+      "block.big_addon.waste_block": "Waste Block",
+      "advancements.a_new_type_of_tool.descr": "Craft a urainium blade.",
+      "advancements.the_oracle.title": "Oracle",
+      "block.big_addon.moldeler": "Moldeler",
+      "item.big_addon.urainium_ingot": "Urainium Ingot",
+      "item.worldstudios_big_java_addon.urainium_pickaxe": "Urainium Pickaxe",
+      "subtitles.carefree": "",
+      "painting.big_addon.world_studios.author": "WorldStudios",
+      "gamerule.enderHelmetTeleport": "Ender Helmet Teleport",
+      "item.worldstudios_big_java_addon.titan_armor_armor_boots": "Titan Boots",
+      "painting.big_addon.world_studios.title": "WorldStudios",
+      "enchantment.big_addon.fast_teleport": "Fast Teleport",
+      "block.big_addon.acid_fluid": "Acid",
+      "item.big_addon.acid_armor_chestplate": "Acid Armor Chestplate",
+      "painting.big_addon.the_masked_hero.author": "WorldStudios",
+      "block.big_addon.hevore": "Hevore",
+      "advancements.forger.title": "Forger",
+      "block.worldstudios_big_java_addon.acid_fluid": "Acid",
+      "biome.worldstudios_big_java_addon.wastes": "Wastes",
+      "advancements.dirt_simulator_2.descr": "Enchant a full dirt armor set with dirt",
+      "enchantment.big_addon.dirt": "Dirt",
+      "block.big_addon.semite": "Semite",
+      "block.worldstudios_big_java_addon.waste_block": "Waste Block",
+      "item.minecraft.potion.effect.acid_ii": "Potion of Acid II",
+      "biome.big_addon.gravite_islands": "Gravite Plains",
+      "item.worldstudios_big_java_addon.urainium_blade": "Urainium Blade",
+      "advancements.gravite_ore.descr": "Mine Forgium Ore."
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "big_addon",
+    "modName": "WorldStudios\u0027 Big Java Addon",
+    "version": "0.0.2",
+    "description": "Adds a bunch of random stuff to minecraft java like an ender helmet and a biome full of waste.",
+    "author": "WorldStudios",
+    "websiteURL": "https://worldstudiosweb.wordpress.com",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "minecraft_title",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.worldstudiosbigjavaaddon"
+  },
+  "mcreatorVersion": 202400232117
+}

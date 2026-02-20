@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "big_addon:granite_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "big_addon:granite_armor"
+      }
+    ]
+  }
+}

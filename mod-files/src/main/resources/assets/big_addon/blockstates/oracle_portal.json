@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "big_addon:block/oracle_portal_ew"
+    },
+    "axis=x": {
+      "model": "big_addon:block/oracle_portal_ns"
+    }
+  }
+}

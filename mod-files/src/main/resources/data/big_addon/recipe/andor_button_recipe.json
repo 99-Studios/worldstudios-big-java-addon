@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "big_addon:andor_planks"
+  ],
+  "result": {
+    "id": "big_addon:andor_button",
+    "count": 1
+  }
+}

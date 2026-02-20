@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "big_addon:block/andor_slab"
+    },
+    "type=top": {
+      "model": "big_addon:block/andor_slab_top"
+    },
+    "type=double": {
+      "model": "big_addon:block/andor_slab_full"
+    }
+  }
+}

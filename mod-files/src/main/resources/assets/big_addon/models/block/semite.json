@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "big_addon:block/semite",
+    "particle": "big_addon:block/semite"
+  },
+  "render_type": "solid"
+}

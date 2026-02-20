@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": {
+    "type": "big_addon:bull",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 6
+  }
+}

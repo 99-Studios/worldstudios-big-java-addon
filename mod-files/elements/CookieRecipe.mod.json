@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Campfire cooking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 10.0,
+    "cookingTime": 600,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "campfireCookingInputStack": {
+      "value": "Items.COOKIE"
+    },
+    "campfireCookingReturnStack": {
+      "value": "CUSTOM:Cookie"
+    },
+    "name": "cookie_recipe",
+    "namespace": "mod"
+  }
+}

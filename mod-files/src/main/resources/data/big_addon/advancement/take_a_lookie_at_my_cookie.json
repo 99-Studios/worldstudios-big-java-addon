@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:dark_cookie"
+    },
+    "title": {
+      "translate": "advancements.take_a_lookie_at_my_cookie.title"
+    },
+    "description": {
+      "translate": "advancements.take_a_lookie_at_my_cookie.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "take_a_lookie_at_my_cookie_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:dark_cookie"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    },
+    "take_a_lookie_at_my_cookie_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "big_addon:dark_cookie"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "big_addon:dark_droplets"
+}

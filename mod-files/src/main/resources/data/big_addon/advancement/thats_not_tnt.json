@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:ignyite"
+    },
+    "title": {
+      "translate": "advancements.thats_not_tnt.title"
+    },
+    "description": {
+      "translate": "advancements.thats_not_tnt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thats_not_tnt_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:ignyite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 60
+  },
+  "parent": "big_addon:ninty_gravel_down_the_drain"
+}

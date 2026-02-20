@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 30.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:TitanHeart"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:TitanIngot"
+    },
+    "name": "titan_ingot_recipe",
+    "namespace": "mod"
+  }
+}

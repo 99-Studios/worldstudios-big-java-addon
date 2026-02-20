@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:amethesium_lunge"
+    },
+    "title": {
+      "translate": "advancements.they_have_one_of_this_too.title"
+    },
+    "description": {
+      "translate": "advancements.they_have_one_of_this_too.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "they_have_one_of_this_too_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:amethesium_lunge"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "big_addon:two_in_one"
+}

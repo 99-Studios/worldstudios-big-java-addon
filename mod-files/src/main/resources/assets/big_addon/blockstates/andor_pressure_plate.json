@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "big_addon:block/andor_pressure_plate"
+    },
+    "powered=true": {
+      "model": "big_addon:block/andor_pressure_plate_down"
+    }
+  }
+}

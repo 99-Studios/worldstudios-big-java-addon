@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:dirt_armor_boots"
+    },
+    "title": {
+      "translate": "advancements.dirt_simulator_2.title"
+    },
+    "description": {
+      "translate": "advancements.dirt_simulator_2.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dirt_simulator_2_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "big_addon:dirt_simulator"
+}

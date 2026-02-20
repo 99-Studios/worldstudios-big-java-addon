@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "big_addon:waste",
+    "minecraft:bundle"
+  ],
+  "result": {
+    "id": "big_addon:trash_bag",
+    "count": 1
+  }
+}

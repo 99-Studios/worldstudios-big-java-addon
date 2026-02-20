@@ -1,0 +1,11 @@
+{
+  "asset_id": "big_addon:the_human_skeleton",
+  "height": 2,
+  "width": 1,
+  "title": {
+    "translate": "painting.big_addon.the_human_skeleton.title"
+  },
+  "author": {
+    "translate": "painting.big_addon.the_human_skeleton.author"
+  }
+}

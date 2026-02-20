@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "big_addon:block/andor_planks",
+    "particle": "big_addon:block/andor_planks"
+  },
+  "render_type": "solid"
+}

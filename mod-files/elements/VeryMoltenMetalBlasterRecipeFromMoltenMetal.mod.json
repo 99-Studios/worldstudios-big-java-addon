@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 25.0,
+    "cookingTime": 900,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:MoltenMetal"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:VeryMoltenMetal"
+    },
+    "name": "very_molten_metal_blaster_recipe_from_molten_metal",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:warted_emerald"
+    },
+    "title": {
+      "translate": "advancements.somethings_wrong_with_this_emerald.title"
+    },
+    "description": {
+      "translate": "advancements.somethings_wrong_with_this_emerald.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "somethings_wrong_with_this_emerald_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:warted_emerald"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "big_addon:world_studios_big_java_advancements"
+}

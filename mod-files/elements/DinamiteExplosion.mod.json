@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"207\" y=\"133\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"wait\"><value name=\"ticks\"><block type=\"math_number\"><field name=\"NUM\">40</field></block></value><statement name=\"do\"><block type=\"explode\"><field name=\"mode\">TNT</field><value name=\"x\"><block type=\"coord_x\"/></value><value name=\"y\"><block type=\"coord_y\"/></value><value name=\"z\"><block type=\"coord_z\"/></value><value name=\"power\"><block type=\"math_dual_ops\"><field name=\"OP\">MULTIPLY</field><value name=\"A\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value><value name=\"B\"><block type=\"math_dual_ops\"><field name=\"OP\">MINUS</field><value name=\"A\"><block type=\"math_dual_ops\"><field name=\"OP\">DIVIDE</field><value name=\"A\"><block type=\"math_dual_ops\"><field name=\"OP\">ADD</field><value name=\"A\"><block type=\"item_get_enhancement\"><field name=\"enhancement\">CUSTOM:Explosion</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Dinamite</field></block></value></block></value><value name=\"B\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value></block></value><value name=\"B\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value></block></value><value name=\"B\"><block type=\"math_number\"><field name=\"NUM\">0.5</field></block></value></block></value></block></value></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

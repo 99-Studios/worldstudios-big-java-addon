@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:energy_detector"
+    },
+    "title": {
+      "translate": "advancements.energy_rush.title"
+    },
+    "description": {
+      "translate": "advancements.energy_rush.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "energy_rush_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "big_addon:the_oracle"
+}

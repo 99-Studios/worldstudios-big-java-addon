@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:resin_brick_armor_helmet",
+    "big_addon:stone_armor_helmet",
+    "big_addon:granite_armor_helmet",
+    "big_addon:chain_command_block_armor_helmet",
+    "big_addon:blazite_armor_helmet",
+    "big_addon:dirt_armor_helmet",
+    "big_addon:titan_armor_armor_helmet",
+    "big_addon:ender_helmet_helmet",
+    "big_addon:skeleton_armor_helmet",
+    "big_addon:brick_armor_helmet",
+    "big_addon:brain_armor_armor_helmet",
+    "big_addon:deepslate_brick_armor_helmet",
+    "big_addon:steel_armor_armor_helmet",
+    "big_addon:repeating_command_block_armor_helmet",
+    "big_addon:command_block_armor_helmet",
+    "big_addon:acid_armor_helmet",
+    "big_addon:wool_armor_helmet",
+    "big_addon:amethesium_armor_helmet",
+    "big_addon:andor_armor_helmet",
+    "big_addon:andesite_armor_helmet",
+    "big_addon:ignightium_armor_helmet"
+  ]
+}

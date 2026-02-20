@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "big_addon:titan_grounds",
+  "features": "big_addon:gyrule_ore",
+  "step": "underground_ores"
+}

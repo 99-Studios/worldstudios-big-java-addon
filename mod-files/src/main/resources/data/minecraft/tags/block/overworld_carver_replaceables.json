@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:frozen_gravite",
+    "big_addon:semite",
+    "big_addon:gravite",
+    "big_addon:yellow_grass_block",
+    "big_addon:hevore",
+    "big_addon:waste_block",
+    "big_addon:green_sandstone",
+    "big_addon:green_sand",
+    "big_addon:waste_stone",
+    "big_addon:yellow_dirt"
+  ]
+}

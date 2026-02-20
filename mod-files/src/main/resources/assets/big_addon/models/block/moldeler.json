@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/modeler_base",
+    "up": "big_addon:block/modeler_base",
+    "north": "big_addon:block/modeler_front",
+    "east": "big_addon:block/modeler_left",
+    "south": "big_addon:block/modeler_base",
+    "west": "big_addon:block/modeler_right",
+    "particle": "big_addon:block/modeler_base"
+  },
+  "render_type": "solid"
+}

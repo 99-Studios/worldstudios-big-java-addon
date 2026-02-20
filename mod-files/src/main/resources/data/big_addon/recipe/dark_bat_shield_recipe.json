@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "big_addon:dark_bat_wing",
+    "minecraft:shield",
+    "big_addon:dark_bat_wing"
+  ],
+  "result": {
+    "id": "big_addon:dark_bat_sheild",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:wool_shovel",
+    "big_addon:granite_shovel",
+    "big_addon:blazite_shovel",
+    "big_addon:andesite_shovel",
+    "big_addon:dirt_tool_shovel",
+    "big_addon:andor_shovel"
+  ]
+}

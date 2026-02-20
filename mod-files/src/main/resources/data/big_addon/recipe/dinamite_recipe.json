@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": "#minecraft:sand",
+    "b": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "big_addon:dinamite",
+    "count": 4
+  }
+}

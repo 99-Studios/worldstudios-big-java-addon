@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"206\" y=\"177\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"entity_has_item_inventory\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ForgiumOre</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_add_achievement\"><field name=\"achievement\">CUSTOM:GraviteOre</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

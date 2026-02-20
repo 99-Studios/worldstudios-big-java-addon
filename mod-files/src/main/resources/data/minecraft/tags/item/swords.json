@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:skeleton_sword",
+    "big_addon:wool_sword",
+    "big_addon:chain_command_block_sword",
+    "big_addon:amethesium_sword",
+    "big_addon:andor_sword",
+    "big_addon:ignightium_sword",
+    "big_addon:forgium_multitool",
+    "big_addon:andesite_sword",
+    "big_addon:command_block_sword",
+    "big_addon:blazite_sword",
+    "big_addon:repeating_command_block_sword",
+    "big_addon:dirt_tool_sword",
+    "big_addon:steel_tool_sword",
+    "big_addon:nacor_sword",
+    "big_addon:sparkle_sword",
+    "big_addon:titan_tool_sword",
+    "big_addon:sword_of_the_frozen_warrior",
+    "big_addon:granite_sword"
+  ]
+}

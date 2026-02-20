@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:flint",
+    "minecraft:end_rod",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "big_addon:oracle",
+    "count": 1
+  }
+}

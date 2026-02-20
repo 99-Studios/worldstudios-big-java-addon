@@ -1,0 +1,11 @@
+{
+  "asset_id": "big_addon:world_studios",
+  "height": 2,
+  "width": 3,
+  "title": {
+    "translate": "painting.big_addon.world_studios.title"
+  },
+  "author": {
+    "translate": "painting.big_addon.world_studios.author"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "minecraft:redstone_block",
+    "big_addon:capsule"
+  ],
+  "result": {
+    "id": "big_addon:capsuled_redstone_block",
+    "count": 1
+  }
+}

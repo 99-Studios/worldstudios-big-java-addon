@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      },
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      },
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      },
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      },
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AmethesiumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmethesiumArmor.legs"
+    },
+    "name": "amethesium_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

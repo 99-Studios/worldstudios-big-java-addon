@@ -1,0 +1,11 @@
+{
+  "asset_id": "big_addon:deep_in_the_dark",
+  "height": 2,
+  "width": 4,
+  "title": {
+    "translate": "painting.big_addon.deep_in_the_dark.title"
+  },
+  "author": {
+    "translate": "painting.big_addon.deep_in_the_dark.author"
+  }
+}

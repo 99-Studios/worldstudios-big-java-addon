@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "big_addon:item/walking_chest_spawn_egg_generated"
+  }
+}

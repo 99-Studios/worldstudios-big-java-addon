@@ -1,0 +1,13 @@
+{
+  "workspacePanelIconSize": "MEDIUM",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 1,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, WorldStudios\u0027 Big Java Addon]",
+      "[, WorldStudios\u0027 Big Java Addon, Source (Gradle)]",
+      "[, WorldStudios\u0027 Big Java Addon, Resources (Gradle)]"
+    ]
+  }
+}

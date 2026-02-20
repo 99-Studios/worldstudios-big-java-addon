@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "big_addon:green_sandstone",
+  "result": {
+    "id": "big_addon:smooth_green_sandstone",
+    "count": 3
+  }
+}

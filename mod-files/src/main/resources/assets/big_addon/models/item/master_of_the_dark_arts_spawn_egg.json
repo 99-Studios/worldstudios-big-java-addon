@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "big_addon:item/master_of_the_dark_arts_spawn_egg_generated"
+  }
+}

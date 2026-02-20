@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:spike",
+    "big_addon:fast_teleport",
+    "big_addon:explosion"
+  ]
+}

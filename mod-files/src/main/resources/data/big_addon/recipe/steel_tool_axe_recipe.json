@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "big_addon:steel",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:steel_tool_axe",
+    "count": 1
+  }
+}

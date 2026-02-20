@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "big_addon:block/nacor_planks",
+    "bottom": "big_addon:block/nacor_planks",
+    "top": "big_addon:block/nacor_planks",
+    "side": "big_addon:block/nacor_planks"
+  },
+  "render_type": "solid"
+}

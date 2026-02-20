@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "big_addon:capsule",
+    "big_addon:steel"
+  ],
+  "result": {
+    "id": "big_addon:capsteel",
+    "count": 1
+  }
+}

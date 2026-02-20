@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gunpowder",
+    "b": "big_addon:block_of_flint"
+  },
+  "result": {
+    "id": "big_addon:ignyite",
+    "count": 1
+  }
+}

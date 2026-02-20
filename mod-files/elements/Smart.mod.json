@@ -1,0 +1,38 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Smart",
+    "icon": "smart",
+    "color": {
+      "value": -13108,
+      "falpha": 0.0
+    },
+    "particle": {
+      "value": "CUSTOM:SmartParticles"
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "CUSTOM:HighlyIntelegent"
+        },
+        "amount": 1.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": {
+      "name": "SmartEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "SmartEffectExpires"
+    }
+  }
+}

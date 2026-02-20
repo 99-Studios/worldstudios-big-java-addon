@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "category": "building",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "big_addon:nacor_planks"
+  },
+  "result": {
+    "id": "big_addon:nacor_stairs",
+    "count": 4
+  }
+}

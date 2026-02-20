@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 50,
+  "cookingtime": 1800,
+  "ingredient": "big_addon:molten_metal",
+  "result": {
+    "id": "big_addon:very_molten_metal"
+  }
+}

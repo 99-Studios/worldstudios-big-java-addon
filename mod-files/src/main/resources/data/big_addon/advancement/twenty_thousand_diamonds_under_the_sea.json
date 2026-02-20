@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancements.twenty_thousand_diamonds_under_the_sea.title"
+    },
+    "description": {
+      "translate": "advancements.twenty_thousand_diamonds_under_the_sea.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "twenty_thousand_diamonds_under_the_sea_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "count": {
+              "min": 20000,
+              "max": 20000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 9999,
+    "loot": [
+      "big_addon:entities/heroic_diamond"
+    ]
+  },
+  "parent": "big_addon:top_tier_challenges"
+}

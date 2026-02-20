@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:semite",
+    "big_addon:blazite_ore",
+    "big_addon:smooth_green_sandstone",
+    "big_addon:capsuled_redstone_block",
+    "big_addon:ignightium_ore",
+    "big_addon:branite_ore",
+    "big_addon:gyrule_ore",
+    "big_addon:amethesium_ore",
+    "big_addon:ignightium_block",
+    "big_addon:frozen_gravite",
+    "big_addon:gravite",
+    "big_addon:urainium_chunk",
+    "big_addon:blazite_block",
+    "big_addon:hevore",
+    "big_addon:green_sandstone",
+    "big_addon:moldeler",
+    "big_addon:forgium_ore"
+  ]
+}

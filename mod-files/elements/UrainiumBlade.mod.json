@@ -1,0 +1,35 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "urainium_blade",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Urainium Blade",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 14.0,
+    "attackSpeed": 1.6,
+    "enchantability": 22,
+    "damageVsEntity": 10.0,
+    "usageCount": 4084,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

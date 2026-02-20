@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.5,
+    "scaling": "never",
+    "effects": "burning",
+    "normalDeathMessage": "%1$s irradiated to their death",
+    "itemDeathMessage": "%1$s was killed by %2$s using an irradiated %3$s",
+    "playerDeathMessage": "%1$s irradiated to their death whilst trying to escape %2$s"
+  }
+}

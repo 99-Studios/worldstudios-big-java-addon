@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "big_addon:block/andor_planks",
+    "bottom": "big_addon:block/andor_planks",
+    "top": "big_addon:block/andor_planks",
+    "side": "big_addon:block/andor_planks"
+  },
+  "render_type": "solid"
+}

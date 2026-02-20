@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:long_zombie",
+    "big_addon:radiant_zombie",
+    "big_addon:titan"
+  ]
+}

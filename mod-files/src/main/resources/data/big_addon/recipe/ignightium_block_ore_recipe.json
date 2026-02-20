@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "big_addon:ignightium_block"
+  ],
+  "result": {
+    "id": "big_addon:ignightium_ingot",
+    "count": 9
+  }
+}

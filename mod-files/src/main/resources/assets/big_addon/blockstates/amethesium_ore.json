@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "big_addon:block/amethesium_ore"
+    }
+  }
+}

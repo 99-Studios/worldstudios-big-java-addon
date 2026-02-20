@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:bone"
+  },
+  "result": {
+    "id": "big_addon:skeleton_armor_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:command_block_shovel",
+    "big_addon:amethesium_shovel",
+    "big_addon:skeleton_shovel",
+    "big_addon:chain_command_block_shovel",
+    "big_addon:repeating_command_block_shovel",
+    "big_addon:nacor_shovel",
+    "big_addon:blazite_shovel",
+    "big_addon:steel_tool_shovel",
+    "big_addon:wool_shovel",
+    "big_addon:dirt_tool_shovel",
+    "big_addon:ignightium_shovel",
+    "big_addon:andor_shovel",
+    "big_addon:andesite_shovel",
+    "big_addon:granite_shovel"
+  ]
+}

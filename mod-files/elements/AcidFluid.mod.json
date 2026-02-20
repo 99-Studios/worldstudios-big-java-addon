@@ -1,0 +1,52 @@
+{
+  "_fv": 79,
+  "_type": "fluid",
+  "definition": {
+    "name": "Acid",
+    "bucketName": "Acid Bucket",
+    "textureStill": "acid_fluid1",
+    "textureFlowing": "acid_flowing",
+    "hasFog": false,
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 30,
+    "levelDecrease": 3,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "CUSTOM:AcidParticle"
+    },
+    "flowStrength": 1.5,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "acid_bucket",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "emptySound": {
+      "value": "item.bucket.empty_lava"
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "GREEN",
+    "onEntityCollides": {
+      "name": "AcidProcedure"
+    }
+  }
+}

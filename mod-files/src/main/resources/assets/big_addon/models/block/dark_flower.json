@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "big_addon:block/dark_flower",
+    "particle": "big_addon:block/dark_flower"
+  },
+  "render_type": "cutout"
+}

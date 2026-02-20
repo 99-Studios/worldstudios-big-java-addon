@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:block_of_sparkles"
+    },
+    "title": {
+      "translate": "advancements.spread_the_love.title"
+    },
+    "description": {
+      "translate": "advancements.spread_the_love.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spread_the_love_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "big_addon:world_studios_big_java_advancements"
+}

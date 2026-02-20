@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block"
+    },
+    "title": {
+      "translate": "advancements.nothing_happened.title"
+    },
+    "description": {
+      "translate": "advancements.nothing_happened.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nothing_happened_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 60
+  },
+  "parent": "big_addon:world_studios_big_java_advancements"
+}

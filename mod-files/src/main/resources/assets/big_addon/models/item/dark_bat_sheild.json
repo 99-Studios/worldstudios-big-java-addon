@@ -1,0 +1,7 @@
+{
+  "parent": "big_addon:custom/darkbatsheild",
+  "textures": {
+    "0": "big_addon:block/shield",
+    "particle": "big_addon:item/shield"
+  }
+}

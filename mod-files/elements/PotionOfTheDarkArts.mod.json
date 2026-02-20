@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of The Dark Arts",
+    "splashName": "Splash Potion of The Dark Arts",
+    "lingeringName": "Lingering Potion of The Dark Arts",
+    "arrowName": "Arrow of The Dark Arts",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:DarkEffect"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "big_addon:gravite_islands",
+  "spawners": {
+    "type": "big_addon:fairy",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

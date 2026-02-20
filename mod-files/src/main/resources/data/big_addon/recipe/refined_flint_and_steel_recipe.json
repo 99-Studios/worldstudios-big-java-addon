@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "big_addon:capsteel",
+    "minecraft:flint"
+  ],
+  "result": {
+    "id": "big_addon:refined_flint_and_steel",
+    "count": 1
+  }
+}

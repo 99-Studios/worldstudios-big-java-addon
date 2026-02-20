@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Or Explore",
+    "achievementDescription": "Visit every biome in the Oracle.",
+    "achievementIcon": {
+      "value": "CUSTOM:Semite"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 150,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:TheOracle"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:Wastes</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:GraviteIslands</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:TitanGrounds</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:YellowFields</field><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:GreenDesert</field></block></next></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}

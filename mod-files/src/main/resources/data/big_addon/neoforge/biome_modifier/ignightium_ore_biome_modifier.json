@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "big_addon:frozen_biome",
+  "features": "big_addon:ignightium_ore",
+  "step": "underground_ores"
+}

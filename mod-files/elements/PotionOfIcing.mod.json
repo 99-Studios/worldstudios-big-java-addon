@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Icing",
+    "splashName": "Splash Potion of Icing",
+    "lingeringName": "Lingering Potion of Icing",
+    "arrowName": "Arrow of Icing",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Icing"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AndorPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AndorPlanks"
+      },
+      {
+        "value": "CUSTOM:AndorPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AndorPlanks"
+      },
+      {
+        "value": "CUSTOM:AndorPlanks"
+      },
+      {
+        "value": "CUSTOM:AndorPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AndorStairs"
+    },
+    "name": "andor_stairs_recipe",
+    "namespace": "mod"
+  }
+}

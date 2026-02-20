@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal_ore"
+    },
+    "title": {
+      "translate": "advancements.call_coal.title"
+    },
+    "description": {
+      "translate": "advancements.call_coal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "call_coal_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "big_addon:coal_pickaxe_recipe"
+    ]
+  },
+  "parent": "big_addon:world_studios_big_java_advancements"
+}

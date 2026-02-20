@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  a",
+    " b ",
+    "b  "
+  ],
+  "key": {
+    "a": "#c:stones",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:stone_lunge",
+    "count": 1
+  }
+}

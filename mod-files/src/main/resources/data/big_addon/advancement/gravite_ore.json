@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:forgium_ore"
+    },
+    "title": {
+      "translate": "advancements.gravite_ore.title"
+    },
+    "description": {
+      "translate": "advancements.gravite_ore.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gravite_ore_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 40
+  },
+  "parent": "big_addon:the_oracle"
+}

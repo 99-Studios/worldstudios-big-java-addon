@@ -1,0 +1,32 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Extremely Radiated Potion",
+    "splashName": "Splash Extremely Radiated Potion",
+    "lingeringName": "Lingering Extremely Radiated Potion",
+    "arrowName": "Extremely Radiated Arrow",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Radiation"
+        },
+        "duration": 5400,
+        "infinite": false,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 5400,
+        "infinite": false,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

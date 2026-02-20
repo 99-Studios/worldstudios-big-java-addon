@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "big_addon:nacor_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:nacor_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "big_addon:nacor_log"
+  ],
+  "result": {
+    "id": "big_addon:nacor_planks",
+    "count": 4
+  }
+}

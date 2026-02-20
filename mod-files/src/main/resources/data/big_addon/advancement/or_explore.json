@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:semite"
+    },
+    "title": {
+      "translate": "advancements.or_explore.title"
+    },
+    "description": {
+      "translate": "advancements.or_explore.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "or_explore_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "big_addon:wastes"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "or_explore_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "big_addon:gravite_islands"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "or_explore_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "big_addon:titan_grounds"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "or_explore_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "big_addon:yellow_fields"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "or_explore_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "big_addon:green_desert"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "big_addon:the_oracle"
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:capsteel"
+    },
+    "title": {
+      "translate": "advancements.trap_or_metal.title"
+    },
+    "description": {
+      "translate": "advancements.trap_or_metal.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trap_or_metal_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:capsteel"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "recipes": [
+      "big_addon:refined_flint_and_steel_recipe"
+    ]
+  },
+  "parent": "big_addon:a_better_iron"
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "big_addon:block/urainium_chunk",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "big_addon:block/urainium_chunk"
+    },
+    "axis=z": {
+      "model": "big_addon:block/urainium_chunk",
+      "x": 90
+    }
+  }
+}

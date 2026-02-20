@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "big_addon:andor_log"
+  },
+  "result": {
+    "id": "big_addon:andor_wood",
+    "count": 3
+  }
+}

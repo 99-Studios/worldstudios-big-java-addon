@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "big_addon:item/refined_flint_and_steel"
+  }
+}

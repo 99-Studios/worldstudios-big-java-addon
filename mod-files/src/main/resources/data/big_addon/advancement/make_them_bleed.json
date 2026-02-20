@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:branite_lunge"
+    },
+    "title": {
+      "translate": "advancements.make_them_bleed.title"
+    },
+    "description": {
+      "translate": "advancements.make_them_bleed.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "make_them_bleed_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "big_addon:spiked_lunge"
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 40.0,
+    "cookingTime": 167,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Items.IRON_INGOT"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:Steel"
+    },
+    "name": "steel_blasting_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:block/stone",
+    "icon": {
+      "id": "big_addon:capsuled_redstone_block"
+    },
+    "title": {
+      "translate": "advancements.world_studios_big_java_advancements.title"
+    },
+    "description": {
+      "translate": "advancements.world_studios_big_java_advancements.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "world_studios_big_java_advancements_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

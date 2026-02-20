@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "big_addon:blazite_block"
+  ],
+  "result": {
+    "id": "big_addon:blazite",
+    "count": 9
+  }
+}

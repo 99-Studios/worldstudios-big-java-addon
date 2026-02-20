@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "big_addon:nacor_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:nacor_fence",
+    "count": 3
+  }
+}

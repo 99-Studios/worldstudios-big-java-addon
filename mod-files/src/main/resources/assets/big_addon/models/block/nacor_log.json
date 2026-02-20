@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/nacor_log_top",
+    "up": "big_addon:block/nacor_log_top",
+    "north": "big_addon:block/nacor_log",
+    "east": "big_addon:block/nacor_log",
+    "south": "big_addon:block/nacor_log",
+    "west": "big_addon:block/nacor_log",
+    "particle": "big_addon:block/nacor_log_top"
+  },
+  "render_type": "solid"
+}

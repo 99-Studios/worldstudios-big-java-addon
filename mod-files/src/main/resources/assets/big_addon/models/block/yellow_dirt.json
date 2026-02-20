@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "big_addon:block/yellow_dirt",
+    "particle": "big_addon:block/yellow_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

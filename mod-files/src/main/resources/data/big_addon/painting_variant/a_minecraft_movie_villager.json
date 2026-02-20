@@ -1,0 +1,11 @@
+{
+  "asset_id": "big_addon:a_minecraft_movie_villager",
+  "height": 2,
+  "width": 1,
+  "title": {
+    "translate": "painting.big_addon.a_minecraft_movie_villager.title"
+  },
+  "author": {
+    "translate": "painting.big_addon.a_minecraft_movie_villager.author"
+  }
+}

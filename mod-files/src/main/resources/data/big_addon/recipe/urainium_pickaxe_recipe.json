@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "big_addon:urainium_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "big_addon:urainium_pickaxe",
+    "count": 1
+  }
+}

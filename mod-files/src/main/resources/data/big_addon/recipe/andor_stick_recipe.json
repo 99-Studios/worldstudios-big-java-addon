@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": "big_addon:andor_planks"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "count": 4
+  }
+}

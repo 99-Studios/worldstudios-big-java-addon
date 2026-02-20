@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:steel"
+    },
+    "title": {
+      "translate": "advancements.a_better_iron.title"
+    },
+    "description": {
+      "translate": "advancements.a_better_iron.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_better_iron_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:steel"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25,
+    "recipes": [
+      "big_addon:steel_armor_armor_helmet_recipe",
+      "big_addon:steel_armor_armor_chestplate_recipe",
+      "big_addon:steel_armor_armor_leggings_recipe",
+      "big_addon:steel_armor_armor_boots_recipe",
+      "big_addon:steel_tool_pickaxe_recipe",
+      "big_addon:steel_tool_axe_recipe",
+      "big_addon:steel_tool_sword_recipe",
+      "big_addon:steel_tool_shovel_recipe",
+      "big_addon:steel_tool_hoe_recipe",
+      "big_addon:very_molten_metal_recipe_from_steel",
+      "big_addon:capsteel_recipe"
+    ]
+  },
+  "parent": "big_addon:world_studios_big_java_advancements"
+}

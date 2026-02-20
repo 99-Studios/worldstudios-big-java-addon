@@ -1,0 +1,23 @@
+# MCreator and Gradle temporary files
+.gradle/
+build/
+bin/
+out/
+run/
+
+# IDE-specific files (IntelliJ/Eclipse)
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# MCreator logs and lock files
+*.log
+.mcreator/gradle.lock

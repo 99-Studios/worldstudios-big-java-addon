@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "big_addon:frozen_biome",
+  "spawners": {
+    "type": "big_addon:ice_dragon",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Fairy's Blessing",
+    "icon": "fairy",
+    "color": {
+      "value": -52276,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "FairyBlessingOnEffectActiveTick"
+    }
+  }
+}

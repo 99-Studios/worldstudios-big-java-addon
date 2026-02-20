@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "big_addon:blocks/capsuled_redstone_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "big_addon:capsuled_redstone_block"
+        }
+      ]
+    }
+  ]
+}

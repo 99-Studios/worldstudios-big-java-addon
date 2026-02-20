@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:blazite_ore"
+    },
+    "title": {
+      "translate": "advancements.now_we_blazin.title"
+    },
+    "description": {
+      "translate": "advancements.now_we_blazin.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "now_we_blazin_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "big_addon:blazite"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 40,
+    "recipes": [
+      "big_addon:blazite_pickaxe_recipe",
+      "big_addon:blazite_axe_recipe",
+      "big_addon:blazite_sword_recipe",
+      "big_addon:blazite_shovel_recipe",
+      "big_addon:blazite_hoe_recipe",
+      "big_addon:blazite_armor_helmet_recipe",
+      "big_addon:blazite_armor_chestplate_recipe",
+      "big_addon:blazite_armor_leggings_recipe",
+      "big_addon:blazite_armor_boots_recipe"
+    ]
+  },
+  "parent": "big_addon:the_oracle"
+}

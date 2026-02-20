@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "big_addon:amethesium_lunge"
+    },
+    "title": {
+      "translate": "advancements.revenge.title"
+    },
+    "description": {
+      "translate": "advancements.revenge.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "revenge_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 120
+  },
+  "parent": "big_addon:they_have_one_of_this_too"
+}

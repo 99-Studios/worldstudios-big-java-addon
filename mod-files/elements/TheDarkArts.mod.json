@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 1.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s struggled to survive against the dark arts",
+    "itemDeathMessage": "%1$s was killed by %2$s using the dark arts",
+    "playerDeathMessage": "%1$s struggled to survive against the dark arts whilst trying to escape %2$s"
+  }
+}

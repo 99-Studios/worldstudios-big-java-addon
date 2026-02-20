@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "command",
+  "definition": {
+    "commandName": "damage",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"78\" y=\"75\"><next><block type=\"call_procedure\"><field name=\"procedure\">DamageProcedure</field></block></next></block></xml>"
+  }
+}

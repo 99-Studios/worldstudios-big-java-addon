@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/entity/raid/Raid$RaiderType",
+      "name": "BIG_ADDON_MASTER_OF_THE_DARK_ARTS",
+      "constructor": "(Ljava/util/function/Supplier;[I)V",
+      "parameters": {
+        "class": "net/mcreator/worldstudiosbigjavaaddon/entity/MasterOfTheDarkArtsEntity",
+        "field": "RAIDER_TYPE"
+      }
+    }
+  ]
+}

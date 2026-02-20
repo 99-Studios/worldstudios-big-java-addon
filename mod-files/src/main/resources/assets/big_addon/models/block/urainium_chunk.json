@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "big_addon:block/urainium_chunk",
+    "up": "big_addon:block/urainium_chunk",
+    "north": "big_addon:block/urainium_chunk",
+    "east": "big_addon:block/urainium_chunk",
+    "south": "big_addon:block/urainium_chunk",
+    "west": "big_addon:block/urainium_chunk",
+    "particle": "big_addon:block/urainium_chunk"
+  },
+  "render_type": "translucent"
+}
