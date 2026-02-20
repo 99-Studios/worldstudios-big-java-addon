@@ -10036,11 +10036,11 @@
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModAttributes.java",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModFluids.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModFluidTypes.java",
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModFluids.java",
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModScreens.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModMenus.java",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModGameRules.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModFuels.java",
       "src/main/resources/data/neoforge/data_maps/entity_type/monster_room_mobs.json",
@@ -10054,18 +10054,18 @@
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModTrades.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModBlocks.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModItems.java",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModEntities.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModEntityRenderers.java",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModModels.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/META-INF/enumextensions.json",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModSounds.java",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModTabs.java",
-      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/network/BigAddonModVariables.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModEntities.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModSounds.java",
+      "src/main/resources/META-INF/enumextensions.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModTabs.java",
       "src/main/java/net/mcreator/worldstudiosbigjavaaddon/BigAddonMod.java",
-      "src/main/resources/assets/big_addon/sounds.json"
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/init/BigAddonModModels.java",
+      "src/main/resources/assets/big_addon/sounds.json",
+      "src/main/java/net/mcreator/worldstudiosbigjavaaddon/network/BigAddonModVariables.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
     ]
   },
   "foldersRoot": {
