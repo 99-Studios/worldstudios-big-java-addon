@@ -1,1 +1,31 @@
-mod-files/.mcreator/workspaceBackups/big_addon.mcreator-backup_20260228_201550
+# Gradle
+.gradle/
+build/
+
+# Minecraft run folders
+run/
+logs/
+crash-reports/
+
+# Generated files
+classes/
+generated/
+out/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MCreator files
+*.mcreator.backup
+*.mcreator.bak
+
+# Java build files
+*.class
+*.jar
