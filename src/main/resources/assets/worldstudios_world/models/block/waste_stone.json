@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/waste_stone",
     "west": "worldstudios_world:block/waste_stone",
     "particle": "worldstudios_world:block/waste_stone"
-  },
-  "render_type": "solid"
+  }
 }

@@ -48,7 +48,10 @@ public class GreenSandBlock extends FallingBlock {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(FALLING, true);
+		BlockState state = super.getStateForPlacement(context);
+		if (state == null)
+			return null;
+		return state.setValue(FALLING, true);
 	}
 
 	@Override

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "take_a_lookie_at_my_cookie_0": {
+    "take_a_lookie_at_my_cookie_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "take_a_lookie_at_my_cookie_1": {
+    "take_a_lookie_at_my_cookie_2": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {

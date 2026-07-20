@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -14,9 +14,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "efficiency": 20.0,
     "attackSpeed": 1.6,
@@ -27,9 +25,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:TitanIngot"
-      }
+      "CUSTOM:TitanIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "NETHERITE",

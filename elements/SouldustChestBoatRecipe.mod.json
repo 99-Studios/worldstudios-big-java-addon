@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "chest_boat",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SouldustBoat"
-      }
+      "CUSTOM:SouldustBoat"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SouldustBoat"
-      },
-      {
-        "value": "Blocks.CHEST"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SouldustBoat",
+      "Blocks.CHEST",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SouldustChestBoat"
-    },
+    "recipeReturnStack": "CUSTOM:SouldustChestBoat",
     "name": "souldust_chest_boat_recipe",
     "namespace": "mod"
   }

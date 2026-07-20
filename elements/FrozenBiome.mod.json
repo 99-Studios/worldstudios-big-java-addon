@@ -1,17 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Frozen",
-    "groundBlock": {
-      "value": "CUSTOM:FrozenGravite"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:Semite"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:FrozenGravite"
-    },
+    "groundBlock": "CUSTOM:FrozenGravite",
+    "undergroundBlock": "CUSTOM:Semite",
+    "underwaterBlock": "CUSTOM:FrozenGravite",
     "airColor": {
       "value": -1,
       "falpha": 0.0
@@ -20,23 +14,13 @@
       "value": -1,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": true,
-    "particleToSpawn": {
-      "value": "SNOWFLAKE"
-    },
+    "particleToSpawn": "SNOWFLAKE",
     "particlesProbability": 0.05,
     "rainingPossibility": 0.5,
     "temperature": 0.0,
@@ -71,18 +55,10 @@
     "vanillaTreeType": "Savanna trees",
     "treeType": 1,
     "minHeight": 8,
-    "treeStem": {
-      "value": "CUSTOM:NacorLog"
-    },
-    "treeBranch": {
-      "value": "CUSTOM:NacorLeaves"
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "CUSTOM:NacorLog",
+    "treeBranch": "CUSTOM:NacorLeaves",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves",
       "FrozenTopLayer"

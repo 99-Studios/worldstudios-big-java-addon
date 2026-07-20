@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "we_still_blazin_0": {
+    "we_still_blazin_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "we_still_blazin_1": {
+    "we_still_blazin_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "we_still_blazin_2": {
+    "we_still_blazin_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "we_still_blazin_3": {
+    "we_still_blazin_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -71,7 +71,7 @@
         ]
       }
     },
-    "we_still_blazin_4": {
+    "we_still_blazin_9": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -85,7 +85,7 @@
         ]
       }
     },
-    "we_still_blazin_5": {
+    "we_still_blazin_11": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -99,7 +99,7 @@
         ]
       }
     },
-    "we_still_blazin_6": {
+    "we_still_blazin_13": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -113,7 +113,7 @@
         ]
       }
     },
-    "we_still_blazin_7": {
+    "we_still_blazin_15": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -127,7 +127,7 @@
         ]
       }
     },
-    "we_still_blazin_8": {
+    "we_still_blazin_17": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

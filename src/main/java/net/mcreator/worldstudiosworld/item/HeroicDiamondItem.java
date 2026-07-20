@@ -1,7 +1,9 @@
 package net.mcreator.worldstudiosworld.item;
 
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ItemInstance;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
@@ -17,8 +19,8 @@ public class HeroicDiamondItem extends Item {
 	}
 
 	@Override
-	public ItemStack getCraftingRemainder(ItemStack itemstack) {
-		return new ItemStack(this);
+	public ItemStackTemplate getCraftingRemainder(ItemInstance itemInstance) {
+		return new ItemStackTemplate(this);
 	}
 
 	@Override

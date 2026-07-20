@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -14,9 +14,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "efficiency": 24.0,
     "attackSpeed": 30.0,
@@ -27,9 +25,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "Blocks.REPEATING_COMMAND_BLOCK"
-      }
+      "Blocks.REPEATING_COMMAND_BLOCK"
     ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",

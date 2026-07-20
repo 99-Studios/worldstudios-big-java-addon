@@ -6,8 +6,8 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.BlockPos;
 
@@ -15,7 +15,7 @@ public class DirtProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (itemstack.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("worldstudios_world:dirt")))) != 0 && entity.onGround()) {
+		if (itemstack.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, Identifier.parse("worldstudios_world:dirt")))) != 0 && entity.onGround()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y - 1, z);
 				BlockState _bs = Blocks.DIRT.defaultBlockState();

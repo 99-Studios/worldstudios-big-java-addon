@@ -1,13 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "specialentity",
   "definition": {
     "entityType": "ChestBoat",
     "name": "Souldust Boat with Chest",
+    "rarity": "COMMON",
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "entityTexture": "souldust_chest_boat",
     "itemTexture": "souldust_chest_boat"

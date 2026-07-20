@@ -3,7 +3,9 @@ package net.mcreator.worldstudiosworld.item;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ItemInstance;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -24,17 +26,17 @@ public class UrainiumBladeItem extends Item {
 
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
-		itemstack.hurtAndBreak(1, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
+		itemstack.hurtAndBreak(1, entity, entity.getUsedItemHand().asEquipmentSlot());
 		return true;
 	}
 
 	@Override
 	public void hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-		itemstack.hurtAndBreak(2, entity, LivingEntity.getSlotForHand(entity.getUsedItemHand()));
+		itemstack.hurtAndBreak(2, entity, entity.getUsedItemHand().asEquipmentSlot());
 	}
 
 	@Override
-	public ItemStack getCraftingRemainder(ItemStack itemstack) {
-		return new ItemStack(this);
+	public ItemStackTemplate getCraftingRemainder(ItemInstance itemInstance) {
+		return new ItemStackTemplate(this);
 	}
 }

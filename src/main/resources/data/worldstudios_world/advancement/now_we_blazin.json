@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "now_we_blazin_0": {
+    "now_we_blazin_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

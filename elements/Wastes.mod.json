@@ -1,17 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Wastes",
-    "groundBlock": {
-      "value": "CUSTOM:WasteBlock"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:WasteStone"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:WasteBlock"
-    },
+    "groundBlock": "CUSTOM:WasteBlock",
+    "undergroundBlock": "CUSTOM:WasteStone",
+    "underwaterBlock": "CUSTOM:WasteBlock",
     "airColor": {
       "value": -10066330,
       "falpha": 0.0
@@ -24,23 +18,13 @@
       "value": -13421773,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:AcidParticle"
-    },
+    "particleToSpawn": "CUSTOM:AcidParticle",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -75,18 +59,10 @@
     "vanillaTreeType": "Big trees",
     "treeType": 1,
     "minHeight": 12,
-    "treeStem": {
-      "value": "CUSTOM:WasteLog"
-    },
-    "treeBranch": {
-      "value": "CUSTOM:WasteLeaves"
-    },
-    "treeVines": {
-      "value": ""
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "CUSTOM:WasteLog",
+    "treeBranch": "CUSTOM:WasteLeaves",
+    "treeVines": "",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves",
       "Ores"
@@ -113,9 +89,7 @@
     "spawnRuinedPortal": "NONE",
     "spawnEntries": [
       {
-        "entity": {
-          "value": "CUSTOM:Cuber"
-        },
+        "entity": "CUSTOM:Cuber",
         "minGroup": 1,
         "maxGroup": 8,
         "weight": 45,

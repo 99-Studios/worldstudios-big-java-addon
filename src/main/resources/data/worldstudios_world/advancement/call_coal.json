@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "call_coal_0": {
+    "call_coal_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

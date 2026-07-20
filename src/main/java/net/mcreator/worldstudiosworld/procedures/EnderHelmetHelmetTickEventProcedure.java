@@ -1,7 +1,5 @@
 package net.mcreator.worldstudiosworld.procedures;
 
-import org.checkerframework.checker.units.qual.Speed;
-
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -9,8 +7,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
 import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
 import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
@@ -29,11 +27,11 @@ public class EnderHelmetHelmetTickEventProcedure {
 		if (entity == null)
 			return;
 		double Speed = 0;
-		if ((world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().getBoolean(WorldstudiosWorldModGameRules.ENDER_HELMET_TELEPORT)) == true) {
+		if ((world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().get(WorldstudiosWorldModGameRules.ENDER_HELMET_TELEPORT.get())) == true) {
 			if (new ItemStack(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get())
-					.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("worldstudios_world:fast_teleport")))) != 0) {
+					.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, Identifier.parse("worldstudios_world:fast_teleport")))) != 0) {
 				Speed = 2.5 + new ItemStack(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get())
-						.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("worldstudios_world:fast_teleport"))));
+						.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, Identifier.parse("worldstudios_world:fast_teleport"))));
 			} else {
 				Speed = 1;
 			}

@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class DarkFlowerBlock extends FlowerBlock {
 	public DarkFlowerBlock(BlockBehaviour.Properties properties) {
-		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.GRASS).instabreak().noCollission().pushReaction(PushReaction.DESTROY));
+		super(MobEffects.SPEED, 100, properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

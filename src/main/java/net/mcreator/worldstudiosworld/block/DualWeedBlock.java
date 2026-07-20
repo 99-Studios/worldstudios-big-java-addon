@@ -16,7 +16,7 @@ import net.minecraft.core.BlockPos;
 
 public class DualWeedBlock extends DoublePlantBlock {
 	public DualWeedBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+		super(properties.mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollision().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

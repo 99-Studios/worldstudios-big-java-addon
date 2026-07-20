@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "wooden_stairs",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      }
+      "CUSTOM:SouldustPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      }
+      "CUSTOM:SouldustPlanks",
+      "",
+      "",
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:SouldustPlanks",
+      "",
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:SouldustPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SouldustStairs"
-    },
+    "recipeReturnStack": "CUSTOM:SouldustStairs",
     "name": "souldust_stairs_recipe",
     "namespace": "mod"
   }

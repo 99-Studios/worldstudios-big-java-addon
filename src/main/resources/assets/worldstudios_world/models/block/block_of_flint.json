@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/block_of_flint",
     "particle": "worldstudios_world:block/block_of_flint"
-  },
-  "render_type": "solid"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Master Of The Dark Arts",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": ""
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Raider",
     "mobCreatureType": "ILLAGER",
     "attackStrength": 4,
@@ -101,31 +87,15 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "CUSTOM:DarkFlower"
-    },
-    "livingSound": {
-      "value": "entity.evocation_illager.ambient"
-    },
-    "hurtSound": {
-      "value": "entity.evocation_illager.hurt"
-    },
-    "deathSound": {
-      "value": "entity.evocation_illager.death"
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "raidCelebrationSound": {
-      "value": "entity.evoker.celebrate"
-    },
+    "mobDrop": "CUSTOM:DarkFlower",
+    "livingSound": "entity.evocation_illager.ambient",
+    "hurtSound": "entity.evocation_illager.hurt",
+    "deathSound": "entity.evocation_illager.death",
+    "stepSound": "",
+    "raidCelebrationSound": "entity.evoker.celebrate",
     "entityDataEntries": [],
-    "onMobTickUpdate": {
-      "name": "MasterOfTheDarkArtsOnEntityTickUpdate"
-    },
-    "onPlayerCollidesWith": {
-      "name": "GivePlayerDarkEffect"
-    },
+    "onMobTickUpdate": "MasterOfTheDarkArtsOnEntityTickUpdate",
+    "onPlayerCollidesWith": "GivePlayerDarkEffect",
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -133,9 +103,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": true,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "DarkProjectile",
     "rangedAttackInterval": 15,
     "rangedAttackRadius": 10.0,

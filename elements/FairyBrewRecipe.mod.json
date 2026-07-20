@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "POTION:AWKWARD"
-    },
-    "brewingIngredientStack": {
-      "value": "CUSTOM:FairyHeart"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:FairyBrew"
-    },
+    "brewingInputStack": "POTION:AWKWARD",
+    "brewingIngredientStack": "CUSTOM:FairyHeart",
+    "brewingReturnStack": "POTION:CUSTOM:FairyBrew",
     "name": "fairy_brew_recipe",
     "namespace": "mod"
   }

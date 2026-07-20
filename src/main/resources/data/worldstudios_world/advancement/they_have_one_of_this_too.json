@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "they_have_one_of_this_too_0": {
+    "they_have_one_of_this_too_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

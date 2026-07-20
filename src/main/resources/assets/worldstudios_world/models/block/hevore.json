@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/hevore",
     "west": "worldstudios_world:block/hevore",
     "particle": "worldstudios_world:block/hevore"
-  },
-  "render_type": "solid"
+  }
 }

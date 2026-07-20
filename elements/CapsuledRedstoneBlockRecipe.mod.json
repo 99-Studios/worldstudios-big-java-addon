@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "Blocks.REDSTONE_BLOCK"
-      },
-      {
-        "value": "CUSTOM:Capsule"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.REDSTONE_BLOCK",
+      "CUSTOM:Capsule",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CapsuledRedstoneBlock"
-    },
+    "recipeReturnStack": "CUSTOM:CapsuledRedstoneBlock",
     "name": "capsuled_redstone_block_recipe",
     "namespace": "mod"
   }

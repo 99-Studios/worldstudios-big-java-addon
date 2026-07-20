@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "enchantment",
   "definition": {
     "name": "Dragon",
@@ -10,25 +10,16 @@
     "damageModifier": 0,
     "incompatibleEnchantments": [],
     "supportedItems": [
-      {
-        "value": "CUSTOM:SouldustPickaxe"
-      },
-      {
-        "value": "CUSTOM:SouldustAxe"
-      },
-      {
-        "value": "CUSTOM:SouldustSword"
-      },
-      {
-        "value": "CUSTOM:SouldustShovel"
-      },
-      {
-        "value": "CUSTOM:SouldustHoe"
-      }
+      "CUSTOM:SouldustPickaxe",
+      "CUSTOM:SouldustAxe",
+      "CUSTOM:SouldustSword",
+      "CUSTOM:SouldustShovel",
+      "CUSTOM:SouldustHoe"
     ],
     "isTreasureEnchantment": false,
     "isCurse": false,
     "canGenerateInLootTables": true,
-    "canVillagerTrade": false
+    "canVillagerTrade": false,
+    "effectsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"enchantment_effects_start\" deletable=\"false\" x=\"40\" y=\"80\"></block></xml>"
   }
 }

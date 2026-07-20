@@ -14,6 +14,6 @@ import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;
 
 public class WorldstudiosWorldModFluidTypes {
 	public static final DeferredRegister<FluidType> REGISTRY = DeferredRegister.create(NeoForgeRegistries.FLUID_TYPES, WorldstudiosWorldMod.MODID);
-	public static final DeferredHolder<FluidType, FluidType> ACID_FLUID_TYPE = REGISTRY.register("acid_fluid", () -> new AcidFluidFluidType());
-	public static final DeferredHolder<FluidType, FluidType> BRAIN_FLUID_TYPE = REGISTRY.register("brain_fluid", () -> new BrainFluidFluidType());
+	public static final DeferredHolder<FluidType, FluidType> ACID_FLUID_TYPE = REGISTRY.register("acid_fluid", AcidFluidFluidType::new);
+	public static final DeferredHolder<FluidType, FluidType> BRAIN_FLUID_TYPE = REGISTRY.register("brain_fluid", BrainFluidFluidType::new);
 }

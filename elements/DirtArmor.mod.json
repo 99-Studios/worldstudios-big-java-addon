@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,13 +10,9 @@
     "textureLeggings": "dirt_armor_leggings",
     "enableBoots": true,
     "textureBoots": "dirt_armor_boots",
-    "onBootsTick": {
-      "name": "DirtProcedure"
-    },
+    "onBootsTick": "DirtProcedure",
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "armorTextureFile": "dirt_armor",
     "helmetName": "Dirt Helmet",
@@ -87,14 +83,11 @@
     "enchantability": 5,
     "toughness": 0.1,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "Blocks.DIRT"
-      }
+      "Blocks.DIRT"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

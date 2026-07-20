@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "CUSTOM:BlockOfFlint"
-      },
-      {
-        "value": "CUSTOM:BlockOfFlint"
-      },
-      {
-        "value": "CUSTOM:BlockOfFlint"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      }
+      "Items.GUNPOWDER",
+      "Items.GUNPOWDER",
+      "Items.GUNPOWDER",
+      "CUSTOM:BlockOfFlint",
+      "CUSTOM:BlockOfFlint",
+      "CUSTOM:BlockOfFlint",
+      "Items.GUNPOWDER",
+      "Items.GUNPOWDER",
+      "Items.GUNPOWDER"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Ignyite"
-    },
+    "recipeReturnStack": "CUSTOM:Ignyite",
     "name": "ignyite_recipe",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -11,9 +11,7 @@
     "enableBoots": true,
     "textureBoots": "chaincommandblock_boots",
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "armorTextureFile": "chaincommandblock",
     "helmetName": "ChainCommandBlock Helmet",
@@ -96,14 +94,11 @@
     "enchantability": 68,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "Blocks.CHAIN_COMMAND_BLOCK"
-      }
+      "Blocks.CHAIN_COMMAND_BLOCK"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

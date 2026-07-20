@@ -3,10 +3,10 @@
  */
 package net.mcreator.worldstudiosworld.init;
 
+import net.neoforged.neoforge.transfer.fluid.BucketResourceHandler;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -365,8 +365,8 @@ public class WorldstudiosWorldModItems {
 		MOLDELER = block(WorldstudiosWorldModBlocks.MOLDELER);
 		CAPSULE = block(WorldstudiosWorldModBlocks.CAPSULE);
 		CAPSULED_REDSTONE_BLOCK = block(WorldstudiosWorldModBlocks.CAPSULED_REDSTONE_BLOCK);
-		LONG_ZOMBIE_SPAWN_EGG = register("long_zombie_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.LONG_ZOMBIE.get(), properties));
-		TITAN_SPAWN_EGG = register("titan_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.TITAN.get(), properties));
+		LONG_ZOMBIE_SPAWN_EGG = register("long_zombie_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.LONG_ZOMBIE.get())));
+		TITAN_SPAWN_EGG = register("titan_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.TITAN.get())));
 		TITAN_HEART = register("titan_heart", TitanHeartItem::new);
 		TITAN_INGOT = register("titan_ingot", TitanIngotItem::new);
 		TITAN_ARMOR_ARMOR_HELMET = register("titan_armor_armor_helmet", TitanArmorArmorItem.Helmet::new);
@@ -377,9 +377,9 @@ public class WorldstudiosWorldModItems {
 		TITAN_TOOL_PICKAXE = register("titan_tool_pickaxe", TitanToolPickaxeItem::new);
 		TITAN_TOOL_AXE = register("titan_tool_axe", TitanToolAxeItem::new);
 		TITAN_TOOL_SWORD = register("titan_tool_sword", TitanToolSwordItem::new);
-		FAIRY_SPAWN_EGG = register("fairy_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.FAIRY.get(), properties));
+		FAIRY_SPAWN_EGG = register("fairy_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.FAIRY.get())));
 		BLOCK_OF_SPARKLES = block(WorldstudiosWorldModBlocks.BLOCK_OF_SPARKLES);
-		PROD_SPAWN_EGG = register("prod_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.PROD.get(), properties));
+		PROD_SPAWN_EGG = register("prod_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.PROD.get())));
 		PROD_MISSLE_ITEM = register("prod_missle_item", ProdMissleItemItem::new);
 		SPARKLES = register("sparkles", SparklesItem::new);
 		FAIRY_HEART = register("fairy_heart", FairyHeartItem::new);
@@ -408,7 +408,7 @@ public class WorldstudiosWorldModItems {
 		ANDOR_SWORD = register("andor_sword", AndorSwordItem::new);
 		ANDOR_SHOVEL = register("andor_shovel", AndorShovelItem::new);
 		ANDOR_HOE = register("andor_hoe", AndorHoeItem::new);
-		SUGAR_ENTITY_SPAWN_EGG = register("sugar_entity_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.SUGAR_ENTITY.get(), properties));
+		SUGAR_ENTITY_SPAWN_EGG = register("sugar_entity_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.SUGAR_ENTITY.get())));
 		FERTILIZED_SUGAR = register("fertilized_sugar", FertilizedSugarItem::new);
 		DIRT_TOOL_PICKAXE = register("dirt_tool_pickaxe", DirtToolPickaxeItem::new);
 		DIRT_TOOL_AXE = register("dirt_tool_axe", DirtToolAxeItem::new);
@@ -439,7 +439,7 @@ public class WorldstudiosWorldModItems {
 		BLAZITE_ARMOR_LEGGINGS = register("blazite_armor_leggings", BlaziteArmorItem.Leggings::new);
 		BLAZITE_ARMOR_BOOTS = register("blazite_armor_boots", BlaziteArmorItem.Boots::new);
 		BRAIN = block(WorldstudiosWorldModBlocks.BRAIN);
-		BIRD_BRAIN_SPAWN_EGG = register("bird_brain_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.BIRD_BRAIN.get(), properties));
+		BIRD_BRAIN_SPAWN_EGG = register("bird_brain_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.BIRD_BRAIN.get())));
 		STONE_ARMOR_HELMET = register("stone_armor_helmet", StoneArmorItem.Helmet::new);
 		STONE_ARMOR_CHESTPLATE = register("stone_armor_chestplate", StoneArmorItem.Chestplate::new);
 		STONE_ARMOR_LEGGINGS = register("stone_armor_leggings", StoneArmorItem.Leggings::new);
@@ -471,16 +471,16 @@ public class WorldstudiosWorldModItems {
 		CAREFREE = register("carefree", CarefreeItem::new);
 		HEROIC_DIAMOND = register("heroic_diamond", HeroicDiamondItem::new);
 		TRASH_BAG = register("trash_bag", TrashBagItem::new);
-		DARK_BAT_SPAWN_EGG = register("dark_bat_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.DARK_BAT.get(), properties));
+		DARK_BAT_SPAWN_EGG = register("dark_bat_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.DARK_BAT.get())));
 		DARK_BAT_WING = register("dark_bat_wing", DarkBatWingItem::new);
 		DARK_BAT_SHEILD = register("dark_bat_sheild", DarkBatSheildItem::new);
-		THIEF_SPAWN_EGG = register("thief_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.THIEF.get(), properties));
+		THIEF_SPAWN_EGG = register("thief_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.THIEF.get())));
 		APPLE_PIE = register("apple_pie", ApplePieItem::new);
 		GREEN_SAND = block(WorldstudiosWorldModBlocks.GREEN_SAND);
 		GREEN_SANDSTONE = block(WorldstudiosWorldModBlocks.GREEN_SANDSTONE);
 		SMOOTH_GREEN_SANDSTONE = block(WorldstudiosWorldModBlocks.SMOOTH_GREEN_SANDSTONE);
 		BRAIN_FOOD = register("brain_food", BrainFoodItem::new);
-		RADIANT_ZOMBIE_SPAWN_EGG = register("radiant_zombie_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.RADIANT_ZOMBIE.get(), properties));
+		RADIANT_ZOMBIE_SPAWN_EGG = register("radiant_zombie_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.RADIANT_ZOMBIE.get())));
 		FROZEN_GRAVITE = block(WorldstudiosWorldModBlocks.FROZEN_GRAVITE);
 		NACOR_WOOD = block(WorldstudiosWorldModBlocks.NACOR_WOOD);
 		NACOR_LOG = block(WorldstudiosWorldModBlocks.NACOR_LOG);
@@ -497,9 +497,9 @@ public class WorldstudiosWorldModItems {
 		NACOR_SWORD = register("nacor_sword", NacorSwordItem::new);
 		NACOR_SHOVEL = register("nacor_shovel", NacorShovelItem::new);
 		NACOR_HOE = register("nacor_hoe", NacorHoeItem::new);
-		YETI_SPAWN_EGG = register("yeti_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.YETI.get(), properties));
+		YETI_SPAWN_EGG = register("yeti_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.YETI.get())));
 		SWORD_OF_THE_FROZEN_WARRIOR = register("sword_of_the_frozen_warrior", SwordOfTheFrozenWarriorItem::new);
-		ICE_DRAGON_SPAWN_EGG = register("ice_dragon_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.ICE_DRAGON.get(), properties));
+		ICE_DRAGON_SPAWN_EGG = register("ice_dragon_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.ICE_DRAGON.get())));
 		ICE_DRAGON_ICEBALL = register("ice_dragon_iceball", IceDragonIceballItem::new);
 		YETI_HEART = register("yeti_heart", YetiHeartItem::new);
 		ICE_DRAGON_HEART = register("ice_dragon_heart", IceDragonHeartItem::new);
@@ -553,12 +553,12 @@ public class WorldstudiosWorldModItems {
 		REPEATING_COMMAND_BLOCK_SWORD = register("repeating_command_block_sword", RepeatingCommandBlockSwordItem::new);
 		REPEATING_COMMAND_BLOCK_SHOVEL = register("repeating_command_block_shovel", RepeatingCommandBlockShovelItem::new);
 		REPEATING_COMMAND_BLOCK_HOE = register("repeating_command_block_hoe", RepeatingCommandBlockHoeItem::new);
-		MASTER_OF_THE_DARK_ARTS_SPAWN_EGG = register("master_of_the_dark_arts_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.MASTER_OF_THE_DARK_ARTS.get(), properties));
+		MASTER_OF_THE_DARK_ARTS_SPAWN_EGG = register("master_of_the_dark_arts_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.MASTER_OF_THE_DARK_ARTS.get())));
 		DARK_FLOWER = block(WorldstudiosWorldModBlocks.DARK_FLOWER);
 		ICE_PILLAR = block(WorldstudiosWorldModBlocks.ICE_PILLAR);
 		DARK_SPLATTER = register("dark_splatter", DarkSplatterItem::new);
 		DARK_COOKIE = register("dark_cookie", DarkCookieItem::new);
-		DARK_PHANTOM_SPAWN_EGG = register("dark_phantom_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.DARK_PHANTOM.get(), properties));
+		DARK_PHANTOM_SPAWN_EGG = register("dark_phantom_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.DARK_PHANTOM.get())));
 		DARK_PARTICLE_ITEM = register("dark_particle_item", DarkParticleItemItem::new);
 		BRICK_ARMOR_HELMET = register("brick_armor_helmet", BrickArmorItem.Helmet::new);
 		BRICK_ARMOR_CHESTPLATE = register("brick_armor_chestplate", BrickArmorItem.Chestplate::new);
@@ -591,11 +591,11 @@ public class WorldstudiosWorldModItems {
 		BLOCK_OF_FLINT = block(WorldstudiosWorldModBlocks.BLOCK_OF_FLINT);
 		WARTED_EMERALD = register("warted_emerald", WartedEmeraldItem::new);
 		THE_WILL_OF_RIGHTS = register("the_will_of_rights", TheWillOfRightsItem::new);
-		WALKING_CHEST_SPAWN_EGG = register("walking_chest_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.WALKING_CHEST.get(), properties));
+		WALKING_CHEST_SPAWN_EGG = register("walking_chest_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.WALKING_CHEST.get())));
 		BRANITE = register("branite", BraniteItem::new);
 		BRANITE_ORE = block(WorldstudiosWorldModBlocks.BRANITE_ORE, new Item.Properties().rarity(Rarity.UNCOMMON));
 		BRANITE_LUNGE = register("branite_lunge", BraniteLungeItem::new);
-		BULL_SPAWN_EGG = register("bull_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.BULL.get(), properties));
+		BULL_SPAWN_EGG = register("bull_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.BULL.get())));
 		STONE_LUNGE = register("stone_lunge", StoneLungeItem::new);
 		AMETHESIUM_ORE = block(WorldstudiosWorldModBlocks.AMETHESIUM_ORE, new Item.Properties().rarity(Rarity.UNCOMMON).fireResistant());
 		AMETHESIUM_INGOT = register("amethesium_ingot", AmethesiumIngotItem::new);
@@ -609,12 +609,12 @@ public class WorldstudiosWorldModItems {
 		AMETHESIUM_ARMOR_LEGGINGS = register("amethesium_armor_leggings", AmethesiumArmorItem.Leggings::new);
 		AMETHESIUM_ARMOR_BOOTS = register("amethesium_armor_boots", AmethesiumArmorItem.Boots::new);
 		AMETHESIUM_LUNGE = register("amethesium_lunge", AmethesiumLungeItem::new);
-		CUBER_SPAWN_EGG = register("cuber_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.CUBER.get(), properties));
+		CUBER_SPAWN_EGG = register("cuber_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.CUBER.get())));
 		CUBE_ESSENCE = register("cube_essence", CubeEssenceItem::new);
 		STEEL_BOAT = register("steel_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.STEEL_BOAT.get(), properties.stacksTo(1)));
 		CUTEPLANT = block(WorldstudiosWorldModBlocks.CUTEPLANT);
-		CRAWLPING_SPAWN_EGG = register("crawlping_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.CRAWLPING.get(), properties));
-		SAWPING_SPAWN_EGG = register("sawping_spawn_egg", properties -> new SpawnEggItem(WorldstudiosWorldModEntities.SAWPING.get(), properties));
+		CRAWLPING_SPAWN_EGG = register("crawlping_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.CRAWLPING.get())));
+		SAWPING_SPAWN_EGG = register("sawping_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.SAWPING.get())));
 		SOULDUST_LOG = block(WorldstudiosWorldModBlocks.SOULDUST_LOG);
 		SOULDUST_WOOD = block(WorldstudiosWorldModBlocks.SOULDUST_WOOD);
 		STRIPPED_SOULDUST_LOG = block(WorldstudiosWorldModBlocks.STRIPPED_SOULDUST_LOG);
@@ -646,7 +646,7 @@ public class WorldstudiosWorldModItems {
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
-		return REGISTRY.registerItem(name, supplier, new Item.Properties());
+		return REGISTRY.registerItem(name, supplier, Item.Properties::new);
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
@@ -654,7 +654,7 @@ public class WorldstudiosWorldModItems {
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
@@ -662,7 +662,7 @@ public class WorldstudiosWorldModItems {
 	}
 
 	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
@@ -670,7 +670,7 @@ public class WorldstudiosWorldModItems {
 	}
 
 	private static DeferredItem<Item> signBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new SignItem(block.get(), wallBlock.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new SignItem(block.get(), wallBlock.get(), prop), () -> properties);
 	}
 
 	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock) {
@@ -678,13 +678,13 @@ public class WorldstudiosWorldModItems {
 	}
 
 	private static DeferredItem<Item> hangingSignBlock(DeferredHolder<Block, Block> block, DeferredHolder<Block, Block> wallBlock, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new HangingSignItem(block.get(), wallBlock.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new HangingSignItem(block.get(), wallBlock.get(), prop), () -> properties);
 	}
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new TrashBagInventoryCapability(stack), TRASH_BAG.get());
-		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), ACID_FLUID_BUCKET.get());
-		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), BRAIN_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new TrashBagInventoryCapability(access), TRASH_BAG.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), ACID_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), BRAIN_FLUID_BUCKET.get());
 	}
 }

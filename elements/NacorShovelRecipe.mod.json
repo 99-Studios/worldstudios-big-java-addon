@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:NacorPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "CUSTOM:NacorPlanks",
+      "",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:NacorShovel"
-    },
+    "recipeReturnStack": "CUSTOM:NacorShovel",
     "name": "nacor_shovel_recipe",
     "namespace": "mod"
   }

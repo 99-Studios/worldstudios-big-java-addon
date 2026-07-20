@@ -5,11 +5,11 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 public class RepeatingCommandBlockShovelItem extends ShovelItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 6280, 24f, 0, 140, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:repeating_command_block_shovel_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 6280, 24f, 0, 140, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:repeating_command_block_shovel_repair_items")));
 
 	public RepeatingCommandBlockShovelItem(Item.Properties properties) {
 		super(TOOL_MATERIAL, 39f, 26f, properties);

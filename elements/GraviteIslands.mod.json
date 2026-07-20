@@ -1,34 +1,18 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Gravite Plains",
-    "groundBlock": {
-      "value": "CUSTOM:Gravite"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:Semite"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:Semite"
-    },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "groundBlock": "CUSTOM:Gravite",
+    "undergroundBlock": "CUSTOM:Semite",
+    "underwaterBlock": "CUSTOM:Semite",
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:AcidParticle"
-    },
+    "particleToSpawn": "CUSTOM:AcidParticle",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -63,18 +47,10 @@
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 5,
-    "treeStem": {
-      "value": "CUSTOM:AndorLog"
-    },
-    "treeBranch": {
-      "value": "CUSTOM:AndorLeaves"
-    },
-    "treeVines": {
-      "value": "Blocks.AIR"
-    },
-    "treeFruits": {
-      "value": "Blocks.AIR"
-    },
+    "treeStem": "CUSTOM:AndorLog",
+    "treeBranch": "CUSTOM:AndorLeaves",
+    "treeVines": "Blocks.AIR",
+    "treeFruits": "Blocks.AIR",
     "defaultFeatures": [
       "Caves",
       "Ores"
@@ -101,9 +77,7 @@
     "spawnRuinedPortal": "NONE",
     "spawnEntries": [
       {
-        "entity": {
-          "value": "CUSTOM:LongZombie"
-        },
+        "entity": "CUSTOM:LongZombie",
         "minGroup": 1,
         "maxGroup": 4,
         "weight": 80,

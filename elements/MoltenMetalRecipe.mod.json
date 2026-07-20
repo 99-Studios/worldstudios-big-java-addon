@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 3600,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Steel"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:MoltenMetal"
-    },
+    "smeltingInputStack": "CUSTOM:Steel",
+    "smeltingReturnStack": "CUSTOM:MoltenMetal",
     "name": "molten_metal_recipe",
     "namespace": "mod"
   }

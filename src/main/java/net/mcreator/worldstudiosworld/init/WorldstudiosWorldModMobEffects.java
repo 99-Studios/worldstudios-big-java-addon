@@ -21,14 +21,14 @@ import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;
 @EventBusSubscriber
 public class WorldstudiosWorldModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, WorldstudiosWorldMod.MODID);
-	public static final DeferredHolder<MobEffect, MobEffect> ACID_EFFECT = REGISTRY.register("acid_effect", () -> new AcidEffectMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> FAIRY_BLESSING = REGISTRY.register("fairy_blessing", () -> new FairyBlessingMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> FAIRY_BREW_EFFECT = REGISTRY.register("fairy_brew_effect", () -> new FairyBrewEffectMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> ICING = REGISTRY.register("icing", () -> new IcingMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> RADIATION = REGISTRY.register("radiation", () -> new RadiationMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> DARK_EFFECT = REGISTRY.register("dark_effect", () -> new DarkEffectMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> BLEEDING = REGISTRY.register("bleeding", () -> new BleedingMobEffect());
-	public static final DeferredHolder<MobEffect, MobEffect> SMART = REGISTRY.register("smart", () -> new SmartMobEffect());
+	public static final DeferredHolder<MobEffect, MobEffect> ACID_EFFECT = REGISTRY.register("acid_effect", AcidEffectMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> FAIRY_BLESSING = REGISTRY.register("fairy_blessing", FairyBlessingMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> FAIRY_BREW_EFFECT = REGISTRY.register("fairy_brew_effect", FairyBrewEffectMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> ICING = REGISTRY.register("icing", IcingMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> RADIATION = REGISTRY.register("radiation", RadiationMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> DARK_EFFECT = REGISTRY.register("dark_effect", DarkEffectMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> BLEEDING = REGISTRY.register("bleeding", BleedingMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> SMART = REGISTRY.register("smart", SmartMobEffect::new);
 
 	@SubscribeEvent
 	public static void onEffectRemoved(MobEffectEvent.Remove event) {
@@ -47,7 +47,7 @@ public class WorldstudiosWorldModMobEffects {
 	}
 
 	private static void expireEffects(Entity entity, MobEffectInstance effectInstance) {
-		if (effectInstance.getEffect().is(SMART)) {
+		if (effectInstance.is(SMART)) {
 			SmartEffectExpiresProcedure.execute(entity);
 		}
 	}

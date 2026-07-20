@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Blocks.DIRT#0",
+      "Blocks.DIRT#0",
+      "Blocks.DIRT#0",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DirtToolPickaxe"
-    },
+    "recipeReturnStack": "CUSTOM:DirtToolPickaxe",
     "name": "dirt_tool_pickaxe_recipe",
     "namespace": "mod"
   }

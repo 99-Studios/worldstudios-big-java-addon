@@ -9,6 +9,6 @@ import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModWoodTypes;
 
 public class SouldustHangingSignBlock extends CeilingHangingSignBlock {
 	public SouldustHangingSignBlock(BlockBehaviour.Properties properties) {
-		super(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE, properties.sound(SoundType.HANGING_SIGN).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE, properties.sound(SoundType.HANGING_SIGN).strength(1f).noCollision().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 }

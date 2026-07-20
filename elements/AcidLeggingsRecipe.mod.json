@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EMERALD"
-      }
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "",
+      "Items.EMERALD"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AcidArmor.legs"
-    },
+    "recipeReturnStack": "CUSTOM:AcidArmor.legs",
     "name": "acid_leggings_recipe",
     "namespace": "mod"
   }

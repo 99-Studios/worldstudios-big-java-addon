@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      }
+      "",
+      "",
+      "",
+      "Blocks.COBBLESTONE",
+      "",
+      "Blocks.COBBLESTONE",
+      "Blocks.COBBLESTONE",
+      "",
+      "Blocks.COBBLESTONE"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:StoneArmor.boots"
-    },
+    "recipeReturnStack": "CUSTOM:StoneArmor.boots",
     "name": "stone_armor_boots_recipe",
     "namespace": "mod"
   }

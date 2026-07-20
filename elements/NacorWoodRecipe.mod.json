@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:NacorLog"
-      },
-      {
-        "value": "CUSTOM:NacorLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:NacorLog"
-      },
-      {
-        "value": "CUSTOM:NacorLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:NacorLog",
+      "CUSTOM:NacorLog",
+      "",
+      "CUSTOM:NacorLog",
+      "CUSTOM:NacorLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:NacorWood"
-    },
+    "recipeReturnStack": "CUSTOM:NacorWood",
     "name": "nacor_wood_recipe",
     "namespace": "mod"
   }

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "i_think_you_dont_like_metal_0": {
+    "i_think_you_dont_like_metal_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

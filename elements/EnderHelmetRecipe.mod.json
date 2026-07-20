@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.END_STONE"
-      },
-      {
-        "value": "Items.ENDER_EYE"
-      },
-      {
-        "value": "Blocks.END_STONE"
-      },
-      {
-        "value": "Blocks.END_STONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.END_STONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.END_STONE",
+      "Items.ENDER_EYE",
+      "Blocks.END_STONE",
+      "Blocks.END_STONE",
+      "",
+      "Blocks.END_STONE",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:EnderHelmet.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:EnderHelmet.helmet",
     "name": "ender_helmet_recipe",
     "namespace": "mod"
   }

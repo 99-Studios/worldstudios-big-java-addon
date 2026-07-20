@@ -12,8 +12,8 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.worldstudiosworld.procedures.EnderHelmetHelmetTickEventProcedure;
@@ -24,8 +24,8 @@ import java.util.Map;
 
 public abstract class EnderHelmetItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(15, Map.of(ArmorType.BOOTS, 4, ArmorType.LEGGINGS, 5, ArmorType.CHESTPLATE, 6, ArmorType.HELMET, 4, ArmorType.BODY, 6), 9,
-			DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("block.beacon.activate")), 3f, 0.2f, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:ender_helmet_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("worldstudios_world:ender_helmet")));
+			DeferredHolder.create(Registries.SOUND_EVENT, Identifier.parse("block.beacon.activate")), 3f, 0.2f, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:ender_helmet_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("worldstudios_world:ender_helmet")));
 
 	private EnderHelmetItem(Item.Properties properties) {
 		super(properties);

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Fairy",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": ""
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 0,
@@ -101,24 +87,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "CUSTOM:FairyHeart"
-    },
-    "livingSound": {
-      "value": "CUSTOM:fairy.ambient"
-    },
-    "hurtSound": {
-      "value": "entity.allay.hurt"
-    },
-    "deathSound": {
-      "value": "CUSTOM:fairy.ambient"
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "CUSTOM:FairyHeart",
+    "livingSound": "CUSTOM:fairy.ambient",
+    "hurtSound": "entity.allay.hurt",
+    "deathSound": "CUSTOM:fairy.ambient",
+    "stepSound": "",
+    "raidCelebrationSound": "",
     "entityDataEntries": [
       {
         "name": "FairyBrew",
@@ -126,12 +100,8 @@
         "value": false
       }
     ],
-    "onRightClickedOn": {
-      "name": "FairyGive"
-    },
-    "onMobTickUpdate": {
-      "name": "FairyActiveTick"
-    },
+    "onRightClickedOn": "FairyGive",
+    "onMobTickUpdate": "FairyActiveTick",
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
@@ -139,9 +109,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
@@ -152,9 +120,7 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:GraviteIslands"
-      }
+      "CUSTOM:GraviteIslands"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

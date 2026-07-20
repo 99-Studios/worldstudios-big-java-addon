@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/andor_log_side",
     "particle": "worldstudios_world:block/andor_log_side"
-  },
-  "render_type": "solid"
+  }
 }

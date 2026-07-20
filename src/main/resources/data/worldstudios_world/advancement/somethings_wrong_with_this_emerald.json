@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "somethings_wrong_with_this_emerald_0": {
+    "somethings_wrong_with_this_emerald_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

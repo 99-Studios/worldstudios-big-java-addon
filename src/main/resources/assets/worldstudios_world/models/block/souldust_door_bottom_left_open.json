@@ -4,6 +4,5 @@
     "particle": "worldstudios_world:block/souldust_door_bottom",
     "bottom": "worldstudios_world:block/souldust_door_bottom",
     "top": "worldstudios_world:block/souldust_door_top"
-  },
-  "render_type": "cutout"
+  }
 }

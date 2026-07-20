@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "POTION:POISON"
-    },
-    "brewingIngredientStack": {
-      "value": "Items.EMERALD"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:Acid"
-    },
+    "brewingInputStack": "POTION:POISON",
+    "brewingIngredientStack": "Items.EMERALD",
+    "brewingReturnStack": "POTION:CUSTOM:Acid",
     "name": "acid_potion_recipe",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "CUSTOM:GyruleCrystal"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": ""
-      }
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "CUSTOM:GyruleCrystal",
+      "Blocks.PLANKS",
+      "",
+      "Blocks.PLANKS",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:EnergyDetector"
-    },
+    "recipeReturnStack": "CUSTOM:EnergyDetector",
     "name": "energy_detector_recipe",
     "namespace": "mod"
   }

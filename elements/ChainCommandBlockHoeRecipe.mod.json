@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.CHAIN_COMMAND_BLOCK"
-      },
-      {
-        "value": "Blocks.CHAIN_COMMAND_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Blocks.CHAIN_COMMAND_BLOCK",
+      "Blocks.CHAIN_COMMAND_BLOCK",
+      "",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:ChainCommandBlockHoe"
-    },
+    "recipeReturnStack": "CUSTOM:ChainCommandBlockHoe",
     "name": "chain_command_block_hoe_recipe",
     "namespace": "mod"
   }

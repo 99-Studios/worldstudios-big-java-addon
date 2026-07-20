@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "dark_droplets_0": {
+    "dark_droplets_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

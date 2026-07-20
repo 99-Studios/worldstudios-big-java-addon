@@ -27,12 +27,13 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerBossEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -40,7 +41,7 @@ import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModItems;
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
 
 public class IceDragonEntity extends Monster implements RangedAttackMob {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
+	private final ServerBossEvent bossInfo = new ServerBossEvent(Mth.createInsecureUUID(this.random), this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public IceDragonEntity(EntityType<IceDragonEntity> type, Level world) {
 		super(type, world);
@@ -91,22 +92,22 @@ public class IceDragonEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ender_dragon.ambient"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.flap")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ender_dragon.flap")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ender_dragon.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ender_dragon.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ender_dragon.death"));
 	}
 
 	@Override
@@ -138,11 +139,6 @@ public class IceDragonEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public void travel(Vec3 dir) {
-		this.travelFlying(dir, (float) this.getAttributeValue(Attributes.FLYING_SPEED));
-	}
-
-	@Override
 	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
 	}
 
@@ -151,9 +147,15 @@ public class IceDragonEntity extends Monster implements RangedAttackMob {
 		super.setNoGravity(true);
 	}
 
+	@Override
 	public void aiStep() {
 		super.aiStep();
 		this.setNoGravity(true);
+	}
+
+	@Override
+	protected float getFlyingSpeed() {
+		return (float) this.getAttributeValue(Attributes.FLYING_SPEED);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

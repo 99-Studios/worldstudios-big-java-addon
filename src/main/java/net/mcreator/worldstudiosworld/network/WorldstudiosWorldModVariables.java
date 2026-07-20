@@ -18,7 +18,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.protocol.PacketFlow;
 import net.minecraft.network.codec.StreamCodec;
@@ -76,11 +76,11 @@ public class WorldstudiosWorldModVariables {
 	}
 
 	public static class WorldVariables extends SavedData {
-		public static final SavedDataType<WorldVariables> TYPE = new SavedDataType<>("worldstudios_world_worldvars", ctx -> new WorldVariables(), ctx -> CompoundTag.CODEC.xmap(tag -> {
+		public static final SavedDataType<WorldVariables> TYPE = new SavedDataType<>(Identifier.parse("worldstudios_world:worldvars"), level -> new WorldVariables(), level -> CompoundTag.CODEC.xmap(tag -> {
 			WorldVariables instance = new WorldVariables();
-			instance.read(tag, ctx.levelOrThrow().registryAccess());
+			instance.read(tag, level.registryAccess());
 			return instance;
-		}, instance -> instance.save(new CompoundTag(), ctx.levelOrThrow().registryAccess())));
+		}, instance -> instance.save(new CompoundTag(), level.registryAccess())));
 		boolean _syncDirty = false;
 
 		public void read(CompoundTag nbt, HolderLookup.Provider lookupProvider) {
@@ -107,11 +107,11 @@ public class WorldstudiosWorldModVariables {
 	}
 
 	public static class MapVariables extends SavedData {
-		public static final SavedDataType<MapVariables> TYPE = new SavedDataType<>("worldstudios_world_mapvars", ctx -> new MapVariables(), ctx -> CompoundTag.CODEC.xmap(tag -> {
+		public static final SavedDataType<MapVariables> TYPE = new SavedDataType<>(Identifier.parse("worldstudios_world:mapvars"), level -> new MapVariables(), level -> CompoundTag.CODEC.xmap(tag -> {
 			MapVariables instance = new MapVariables();
-			instance.read(tag, ctx.levelOrThrow().registryAccess());
+			instance.read(tag, level.registryAccess());
 			return instance;
-		}, instance -> instance.save(new CompoundTag(), ctx.levelOrThrow().registryAccess())));
+		}, instance -> instance.save(new CompoundTag(), level.registryAccess())));
 		boolean _syncDirty = false;
 		public boolean ReboundedFireVariable = false;
 
@@ -141,7 +141,7 @@ public class WorldstudiosWorldModVariables {
 	}
 
 	public record SavedDataSyncMessage(int dataType, SavedData data) implements CustomPacketPayload {
-		public static final Type<SavedDataSyncMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(WorldstudiosWorldMod.MODID, "saved_data_sync"));
+		public static final Type<SavedDataSyncMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(WorldstudiosWorldMod.MODID, "saved_data_sync"));
 		public static final StreamCodec<RegistryFriendlyByteBuf, SavedDataSyncMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, SavedDataSyncMessage message) -> {
 			buffer.writeInt(message.dataType);
 			if (message.data instanceof MapVariables mapVariables)

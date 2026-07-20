@@ -3,9 +3,11 @@
   "height": 2,
   "width": 3,
   "title": {
+    "color": "yellow",
     "translate": "painting.worldstudios_world.world_studios.title"
   },
   "author": {
+    "color": "gray",
     "translate": "painting.worldstudios_world.world_studios.author"
   }
 }

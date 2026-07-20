@@ -10,6 +10,6 @@ import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModFluids;
 
 public class BrainFluidBlock extends LiquidBlock {
 	public BrainFluidBlock(BlockBehaviour.Properties properties) {
-		super(WorldstudiosWorldModFluids.BRAIN_FLUID.get(), properties.mapColor(MapColor.COLOR_PINK).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(WorldstudiosWorldModFluids.BRAIN_FLUID.get(), properties.mapColor(MapColor.COLOR_PINK).strength(100f).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 }

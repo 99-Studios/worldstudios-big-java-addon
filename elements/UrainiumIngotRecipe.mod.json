@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "CUSTOM:UrainiumPeice"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:UrainiumIngot"
-    },
+    "blastingInputStack": "CUSTOM:UrainiumPeice",
+    "blastingReturnStack": "CUSTOM:UrainiumIngot",
     "name": "urainium_ingot_recipe",
     "namespace": "mod"
   }

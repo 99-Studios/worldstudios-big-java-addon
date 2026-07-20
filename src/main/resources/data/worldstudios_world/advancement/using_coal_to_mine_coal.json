@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "using_coal_to_mine_coal_0": {
+    "using_coal_to_mine_coal_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

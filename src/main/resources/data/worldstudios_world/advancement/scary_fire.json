@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "scary_fire_0": {
+    "scary_fire_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

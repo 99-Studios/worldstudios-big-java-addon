@@ -1,29 +1,17 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.DEEPSLATE"
-      },
-      {
-        "value": "Blocks.TUFF"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      }
+      "Blocks.STONE#0",
+      "Blocks.STONE#1",
+      "Blocks.DEEPSLATE",
+      "Blocks.TUFF",
+      "Blocks.STONE#5",
+      "Blocks.STONE#3"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -31,37 +19,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.DEEPSLATE"
-      },
-      {
-        "value": "Blocks.STONE#3"
-      },
-      {
-        "value": "Blocks.STONE#5"
-      },
-      {
-        "value": "Blocks.TUFF"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.STONE#0",
+      "Blocks.STONE#1",
+      "Blocks.DEEPSLATE",
+      "Blocks.STONE#3",
+      "Blocks.STONE#5",
+      "Blocks.TUFF",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Graystone"
-    },
+    "recipeReturnStack": "CUSTOM:Graystone",
     "name": "graystone_recipe",
     "namespace": "mod"
   }

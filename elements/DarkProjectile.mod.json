@@ -1,14 +1,10 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "projectile",
   "definition": {
-    "projectileItem": {
-      "value": "CUSTOM:DarkParticleItem"
-    },
+    "projectileItem": "CUSTOM:DarkParticleItem",
     "showParticles": false,
-    "actionSound": {
-      "value": "entity.generic.explode"
-    },
+    "actionSound": "entity.generic.explode",
     "igniteFire": false,
     "disableGravity": false,
     "disableDiscarding": false,
@@ -19,8 +15,6 @@
     "customModelTexture": "",
     "modelWidth": 0.5,
     "modelHeight": 0.5,
-    "onHitsEntity": {
-      "name": "GivePlayerDarkEffect"
-    }
+    "onHitsEntity": "GivePlayerDarkEffect"
   }
 }

@@ -1,6 +1,8 @@
 # Build output
 build/
 run/
+
+# Logs
 logs/
 crash-reports/
 
@@ -8,11 +10,18 @@ crash-reports/
 .gradle/
 
 # IDE files
-.eclipse/
 .idea/
 .vscode/
+.eclipse/
 *.iml
 
 # Operating system files
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Java
+*.class
+
+# MCreator
+.mcreator/

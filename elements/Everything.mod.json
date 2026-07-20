@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Everything",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Everything",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:AcidEffect"
-        },
+        "effect": "CUSTOM:AcidEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -18,9 +16,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:FairyBlessing"
-        },
+        "effect": "CUSTOM:FairyBlessing",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -28,9 +24,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:FairyBrewEffect"
-        },
+        "effect": "CUSTOM:FairyBrewEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -38,9 +32,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:Icing"
-        },
+        "effect": "CUSTOM:Icing",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -48,9 +40,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:Radiation"
-        },
+        "effect": "CUSTOM:Radiation",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -58,9 +48,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:DarkEffect"
-        },
+        "effect": "CUSTOM:DarkEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -68,9 +56,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "ABSORPTION"
-        },
+        "effect": "ABSORPTION",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -78,9 +64,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "BAD_OMEN"
-        },
+        "effect": "BAD_OMEN",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -88,9 +72,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "BLINDNESS"
-        },
+        "effect": "BLINDNESS",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -98,9 +80,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CONDUIT_POWER"
-        },
+        "effect": "CONDUIT_POWER",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -108,9 +88,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "DARKNESS"
-        },
+        "effect": "DARKNESS",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -118,9 +96,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "DOLPHINS_GRACE"
-        },
+        "effect": "DOLPHINS_GRACE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -128,9 +104,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "FIRE_RESISTANCE"
-        },
+        "effect": "FIRE_RESISTANCE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -138,9 +112,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "GLOWING"
-        },
+        "effect": "GLOWING",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -148,9 +120,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "HASTE"
-        },
+        "effect": "HASTE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -158,9 +128,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "HEALTH_BOOST"
-        },
+        "effect": "HEALTH_BOOST",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -168,9 +136,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "HERO_OF_THE_VILLAGE"
-        },
+        "effect": "HERO_OF_THE_VILLAGE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -178,9 +144,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "HUNGER"
-        },
+        "effect": "HUNGER",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -188,9 +152,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "INFESTED"
-        },
+        "effect": "INFESTED",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -198,9 +160,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "INSTANT_DAMAGE"
-        },
+        "effect": "INSTANT_DAMAGE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -208,9 +168,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "INSTANT_HEALTH"
-        },
+        "effect": "INSTANT_HEALTH",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -218,9 +176,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "INVISIBILITY"
-        },
+        "effect": "INVISIBILITY",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -228,9 +184,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "JUMP_BOOST"
-        },
+        "effect": "JUMP_BOOST",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -238,9 +192,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "LEVITATION"
-        },
+        "effect": "LEVITATION",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -248,9 +200,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "LUCK"
-        },
+        "effect": "LUCK",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -258,9 +208,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "MINING_FATIGUE"
-        },
+        "effect": "MINING_FATIGUE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -268,9 +216,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "NAUSEA"
-        },
+        "effect": "NAUSEA",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -278,9 +224,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "NIGHT_VISION"
-        },
+        "effect": "NIGHT_VISION",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -288,9 +232,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "OOZING"
-        },
+        "effect": "OOZING",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -298,9 +240,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "POISON"
-        },
+        "effect": "POISON",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -308,9 +248,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "RAID_OMEN"
-        },
+        "effect": "RAID_OMEN",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -318,9 +256,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "REGENERATION"
-        },
+        "effect": "REGENERATION",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -328,9 +264,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "RESISTANCE"
-        },
+        "effect": "RESISTANCE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -338,9 +272,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "SATURATION"
-        },
+        "effect": "SATURATION",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -348,9 +280,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "SLOW_FALLING"
-        },
+        "effect": "SLOW_FALLING",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -358,9 +288,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "SLOWNESS"
-        },
+        "effect": "SLOWNESS",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -368,9 +296,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "SPEED"
-        },
+        "effect": "SPEED",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -378,9 +304,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "STRENGTH"
-        },
+        "effect": "STRENGTH",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -388,9 +312,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "TRIAL_OMEN"
-        },
+        "effect": "TRIAL_OMEN",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -398,9 +320,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "UNLUCK"
-        },
+        "effect": "UNLUCK",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -408,9 +328,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "WATER_BREATHING"
-        },
+        "effect": "WATER_BREATHING",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -418,9 +336,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "WEAKNESS"
-        },
+        "effect": "WEAKNESS",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -428,9 +344,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "WEAVING"
-        },
+        "effect": "WEAVING",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -438,9 +352,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "WIND_CHARGED"
-        },
+        "effect": "WIND_CHARGED",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -448,9 +360,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "WITHER"
-        },
+        "effect": "WITHER",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -458,9 +368,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:Bleeding"
-        },
+        "effect": "CUSTOM:Bleeding",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -468,9 +376,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "CUSTOM:Smart"
-        },
+        "effect": "CUSTOM:Smart",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

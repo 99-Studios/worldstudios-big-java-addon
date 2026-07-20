@@ -60,6 +60,7 @@ public class WorldstudiosWorldMod {
 		WorldstudiosWorldModMenus.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModParticleTypes.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModVillagerProfessions.PROFESSIONS.register(modEventBus);
+		WorldstudiosWorldModGameRules.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModFluids.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModFluidTypes.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModAttributes.REGISTRY.register(modEventBus);
@@ -113,7 +114,7 @@ public class WorldstudiosWorldMod {
 
 	@Nullable
 	public static Player clientPlayer() {
-		if (FMLEnvironment.dist.isClient()) {
+		if (FMLEnvironment.getDist().isClient()) {
 			try {
 				if (minecraft == null || playerHandle == null) {
 					Class<?> minecraftClass = Class.forName("net.minecraft.client.Minecraft");

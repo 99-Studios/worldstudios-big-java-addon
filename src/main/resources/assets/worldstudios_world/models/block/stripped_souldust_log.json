@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/stripped_souldust_log",
     "west": "worldstudios_world:block/stripped_souldust_log",
     "particle": "worldstudios_world:block/stripped_souldust_log"
-  },
-  "render_type": "solid"
+  }
 }

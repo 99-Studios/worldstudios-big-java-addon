@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": "Items.COAL#0"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Items.COAL#0",
+      "Items.COAL#0",
+      "Items.COAL#0",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CoalPickaxe"
-    },
+    "recipeReturnStack": "CUSTOM:CoalPickaxe",
     "name": "coal_pickaxe_recipe",
     "namespace": "mod"
   }

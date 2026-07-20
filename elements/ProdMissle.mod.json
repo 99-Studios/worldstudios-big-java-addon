@@ -1,14 +1,10 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "projectile",
   "definition": {
-    "projectileItem": {
-      "value": "CUSTOM:ProdMissleItem"
-    },
+    "projectileItem": "CUSTOM:ProdMissleItem",
     "showParticles": false,
-    "actionSound": {
-      "value": "entity.ghast.shoot"
-    },
+    "actionSound": "entity.ghast.shoot",
     "igniteFire": false,
     "disableGravity": false,
     "disableDiscarding": false,

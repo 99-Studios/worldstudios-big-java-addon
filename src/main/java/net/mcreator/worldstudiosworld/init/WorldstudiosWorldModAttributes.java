@@ -18,7 +18,7 @@ import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;
 @EventBusSubscriber
 public class WorldstudiosWorldModAttributes {
 	public static final DeferredRegister<Attribute> REGISTRY = DeferredRegister.create(BuiltInRegistries.ATTRIBUTE, WorldstudiosWorldMod.MODID);
-	public static final DeferredHolder<Attribute, Attribute> HIGHLY_INTELEGENT = REGISTRY.register("highly_intelegent", () -> new RangedAttribute("attribute.worldstudios_world.highly_intelegent", 0, 0, 1).setSyncable(true));
+	public static final DeferredHolder<Attribute, Attribute> HIGHLY_INTELEGENT = REGISTRY.register("highly_intelegent", () -> new RangedAttribute("attribute.worldstudios_world.highly_intelegent", 0d, 0d, 1d).setSyncable(true));
 
 	@SubscribeEvent
 	public static void addAttributes(EntityAttributeModificationEvent event) {

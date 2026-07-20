@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:UrainiumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:UrainiumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:UrainiumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "CUSTOM:UrainiumIngot",
+      "",
+      "CUSTOM:UrainiumIngot",
+      "",
+      "CUSTOM:UrainiumIngot",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:UrainiumBlade"
-    },
+    "recipeReturnStack": "CUSTOM:UrainiumBlade",
     "name": "urainium_blade_recipe",
     "namespace": "mod"
   }

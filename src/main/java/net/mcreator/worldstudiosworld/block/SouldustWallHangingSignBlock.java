@@ -10,7 +10,7 @@ import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModBlocks;
 
 public class SouldustWallHangingSignBlock extends WallHangingSignBlock {
 	public SouldustWallHangingSignBlock(BlockBehaviour.Properties properties) {
-		super(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE, properties.sound(SoundType.HANGING_SIGN).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn()
+		super(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE, properties.sound(SoundType.HANGING_SIGN).strength(1f).noCollision().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn()
 				.overrideLootTable(WorldstudiosWorldModBlocks.SOULDUST_HANGING_SIGN.get().getLootTable()).overrideDescription(WorldstudiosWorldModBlocks.SOULDUST_HANGING_SIGN.get().getDescriptionId()));
 	}
 }

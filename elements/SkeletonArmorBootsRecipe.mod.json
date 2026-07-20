@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.BONE"
-      }
+      "",
+      "",
+      "",
+      "Items.BONE",
+      "",
+      "Items.BONE",
+      "Items.BONE",
+      "",
+      "Items.BONE"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SkeletonArmor.boots"
-    },
+    "recipeReturnStack": "CUSTOM:SkeletonArmor.boots",
     "name": "skeleton_armor_boots_recipe",
     "namespace": "mod"
   }

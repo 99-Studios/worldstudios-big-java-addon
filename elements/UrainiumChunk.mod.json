@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "urainium_chunk",
@@ -51,14 +51,10 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [
-      {
-        "value": "DECORATIONS"
-      }
+      "DECORATIONS"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": "CUSTOM:UrainiumPeice"
-    },
+    "customDrop": "CUSTOM:UrainiumPeice",
     "dropAmount": 8,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,9 +74,7 @@
     },
     "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "basedrum",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "ignitedByLava": false,
@@ -92,25 +86,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "STONE",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "STONE"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -137,14 +119,10 @@
     "fluidRestrictions": [],
     "generateFeature": true,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:Wastes"
-      }
+      "CUSTOM:Wastes"
     ],
     "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
+      "TAG:stone_ore_replaceables"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 1,

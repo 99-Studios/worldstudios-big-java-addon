@@ -6,8 +6,8 @@ import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -15,8 +15,8 @@ import java.util.Map;
 
 public abstract class RepeatingCommandBlockArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(150, Map.of(ArmorType.BOOTS, 20, ArmorType.LEGGINGS, 50, ArmorType.CHESTPLATE, 60, ArmorType.HELMET, 20, ArmorType.BODY, 60), 90,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:repeating_command_block_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("worldstudios_world:repeating_command_block_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:repeating_command_block_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("worldstudios_world:repeating_command_block_armor")));
 
 	private RepeatingCommandBlockArmorItem(Item.Properties properties) {
 		super(properties);

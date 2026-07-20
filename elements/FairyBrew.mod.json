@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Fairy Brew",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Fairy Brew",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:FairyBrewEffect"
-        },
+        "effect": "CUSTOM:FairyBrewEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

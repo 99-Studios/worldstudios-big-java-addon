@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "POTION:CUSTOM:RadiatedPotion"
-    },
-    "brewingIngredientStack": {
-      "value": "CUSTOM:GreenSand"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:ExtremelyRadiatedPotion"
-    },
+    "brewingInputStack": "POTION:CUSTOM:RadiatedPotion",
+    "brewingIngredientStack": "CUSTOM:GreenSand",
+    "brewingReturnStack": "POTION:CUSTOM:ExtremelyRadiatedPotion",
     "name": "extremely_radiated_potion_recipe",
     "namespace": "mod"
   }

@@ -3,6 +3,5 @@
   "textures": {
     "cross": "worldstudios_world:block/dark_flower",
     "particle": "worldstudios_world:block/dark_flower"
-  },
-  "render_type": "cutout"
+  }
 }

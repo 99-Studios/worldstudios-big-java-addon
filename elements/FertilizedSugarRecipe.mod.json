@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Campfire cooking",
@@ -11,12 +11,8 @@
     "cookingTime": 60,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "campfireCookingInputStack": {
-      "value": "Items.SUGAR"
-    },
-    "campfireCookingReturnStack": {
-      "value": "CUSTOM:FertilizedSugar"
-    },
+    "campfireCookingInputStack": "Items.SUGAR",
+    "campfireCookingReturnStack": "CUSTOM:FertilizedSugar",
     "name": "fertilized_sugar_recipe",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Bull",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": ""
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 4,
@@ -101,28 +87,14 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "Items.BEEF"
-    },
-    "livingSound": {
-      "value": "entity.cow.ambient"
-    },
-    "hurtSound": {
-      "value": "entity.cow.hurt"
-    },
-    "deathSound": {
-      "value": "entity.cow.death"
-    },
-    "stepSound": {
-      "value": "entity.cow.step"
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "Items.BEEF",
+    "livingSound": "entity.cow.ambient",
+    "hurtSound": "entity.cow.hurt",
+    "deathSound": "entity.cow.death",
+    "stepSound": "entity.cow.step",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
-    "whenMobDies": {
-      "name": "BullEntityDies"
-    },
+    "whenMobDies": "BullEntityDies",
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.BANNER#1</field></block></value><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -130,9 +102,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
@@ -143,9 +113,7 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 6,
     "restrictionBiomes": [
-      {
-        "value": "#minecraft:is_overworld"
-      }
+      "#minecraft:is_overworld"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

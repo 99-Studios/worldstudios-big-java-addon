@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Items.LAVA_BUCKET"
-      },
-      {
-        "value": "Blocks.GLASS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      },
-      {
-        "value": "Blocks.PLANKS"
-      }
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.GLASS",
+      "Items.LAVA_BUCKET",
+      "Blocks.GLASS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Moldeler"
-    },
+    "recipeReturnStack": "CUSTOM:Moldeler",
     "name": "moldeler_recipe",
     "namespace": "mod"
   }

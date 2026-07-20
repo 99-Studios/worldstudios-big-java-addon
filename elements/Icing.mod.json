@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Icing",
@@ -8,12 +8,8 @@
       "value": -13382401,
       "falpha": 0.0
     },
-    "particle": {
-      "value": "CUSTOM:IcingParticle"
-    },
-    "onAddedSound": {
-      "value": ""
-    },
+    "particle": "CUSTOM:IcingParticle",
+    "onAddedSound": "",
     "isInstant": false,
     "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
@@ -22,41 +18,31 @@
     "modifiers": [
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "MOVEMENT_SPEED"
-        },
+        "attribute": "MOVEMENT_SPEED",
         "amount": -0.25,
         "operation": "ADD_VALUE"
       },
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "ATTACK_SPEED"
-        },
+        "attribute": "ATTACK_SPEED",
         "amount": -0.25,
         "operation": "ADD_VALUE"
       },
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "FLYING_SPEED"
-        },
+        "attribute": "FLYING_SPEED",
         "amount": -0.25,
         "operation": "ADD_VALUE"
       },
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "SNEAKING_SPEED"
-        },
+        "attribute": "SNEAKING_SPEED",
         "amount": -0.25,
         "operation": "ADD_VALUE"
       },
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "JUMP_STRENGTH"
-        },
+        "attribute": "JUMP_STRENGTH",
         "amount": -0.25,
         "operation": "ADD_VALUE"
       }

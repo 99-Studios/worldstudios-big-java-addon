@@ -29,7 +29,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -121,17 +121,17 @@ public class ProdEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ghast.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ghast.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ghast.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ghast.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.ghast.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.ghast.death"));
 	}
 
 	@Override
@@ -145,11 +145,6 @@ public class ProdEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public void travel(Vec3 dir) {
-		this.travelFlying(dir, (float) this.getAttributeValue(Attributes.FLYING_SPEED));
-	}
-
-	@Override
 	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
 	}
 
@@ -158,9 +153,15 @@ public class ProdEntity extends Monster implements RangedAttackMob {
 		super.setNoGravity(true);
 	}
 
+	@Override
 	public void aiStep() {
 		super.aiStep();
 		this.setNoGravity(true);
+	}
+
+	@Override
+	protected float getFlyingSpeed() {
+		return (float) this.getAttributeValue(Attributes.FLYING_SPEED);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

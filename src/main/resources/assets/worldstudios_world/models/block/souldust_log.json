@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/souldust_log",
     "west": "worldstudios_world:block/souldust_log",
     "particle": "worldstudios_world:block/souldust_log"
-  },
-  "render_type": "solid"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:UrainiumIngot"
-      },
-      {
-        "value": "CUSTOM:UrainiumIngot"
-      },
-      {
-        "value": "CUSTOM:UrainiumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:UrainiumIngot",
+      "CUSTOM:UrainiumIngot",
+      "CUSTOM:UrainiumIngot",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:UrainiumPickaxe"
-    },
+    "recipeReturnStack": "CUSTOM:UrainiumPickaxe",
     "name": "urainium_pickaxe_recipe",
     "namespace": "mod"
   }

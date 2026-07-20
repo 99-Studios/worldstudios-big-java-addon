@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/nacor_log",
     "west": "worldstudios_world:block/nacor_log",
     "particle": "worldstudios_world:block/nacor_log_top"
-  },
-  "render_type": "solid"
+  }
 }

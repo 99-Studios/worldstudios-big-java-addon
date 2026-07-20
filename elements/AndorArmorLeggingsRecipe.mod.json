@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      }
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks",
+      "",
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks",
+      "",
+      "CUSTOM:AndorPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AndorArmor.legs"
-    },
+    "recipeReturnStack": "CUSTOM:AndorArmor.legs",
     "name": "andor_armor_leggings_recipe",
     "namespace": "mod"
   }

@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "worldstudios_world:world_studios",
-    "worldstudios_world:the_human_skeleton",
     "worldstudios_world:a_minecraft_movie_villager",
+    "worldstudios_world:the_human_skeleton",
+    "worldstudios_world:the_hidden_one",
     "worldstudios_world:deep_in_the_dark",
-    "worldstudios_world:the_hidden_one"
+    "worldstudios_world:world_studios"
   ]
 }

@@ -5,6 +5,5 @@
     "bottom": "worldstudios_world:block/nacor_planks",
     "top": "worldstudios_world:block/nacor_planks",
     "side": "worldstudios_world:block/nacor_planks"
-  },
-  "render_type": "solid"
+  }
 }

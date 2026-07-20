@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Radiant Zombie",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": ""
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEAD",
     "attackStrength": 3,
@@ -101,24 +87,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": ""
-    },
-    "livingSound": {
-      "value": "entity.zombie.ambient"
-    },
-    "hurtSound": {
-      "value": "entity.zombie.hurt"
-    },
-    "deathSound": {
-      "value": "entity.zombie.death"
-    },
-    "stepSound": {
-      "value": "entity.zombie.step"
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "",
+    "livingSound": "entity.zombie.ambient",
+    "hurtSound": "entity.zombie.hurt",
+    "deathSound": "entity.zombie.death",
+    "stepSound": "entity.zombie.step",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "Zombie",
@@ -127,9 +101,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,

@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:nether_wart",
+    "count": 4
+  },
+  "gives": {
+    "id": "worldstudios_world:warted_emerald",
+    "count": 2
+  },
+  "max_uses": 32,
+  "xp": 4,
+  "reputation_discount": 0.05
+}

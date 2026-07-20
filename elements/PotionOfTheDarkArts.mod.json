@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of The Dark Arts",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of The Dark Arts",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:DarkEffect"
-        },
+        "effect": "CUSTOM:DarkEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

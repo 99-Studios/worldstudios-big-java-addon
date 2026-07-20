@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "and_a_site_0": {
+    "and_a_site_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "and_a_site_1": {
+    "and_a_site_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "and_a_site_2": {
+    "and_a_site_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "and_a_site_3": {
+    "and_a_site_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -71,7 +71,7 @@
         ]
       }
     },
-    "and_a_site_4": {
+    "and_a_site_9": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

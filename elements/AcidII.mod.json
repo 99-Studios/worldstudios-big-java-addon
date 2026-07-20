@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Acid II",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Acid II",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:AcidEffect"
-        },
+        "effect": "CUSTOM:AcidEffect",
         "duration": 3600,
         "infinite": false,
         "amplifier": 1,

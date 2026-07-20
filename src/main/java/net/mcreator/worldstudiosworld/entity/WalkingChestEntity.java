@@ -15,7 +15,7 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
@@ -37,12 +37,12 @@ public class WalkingChestEntity extends PathfinderMob {
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.chest.close"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("block.chest.close"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.chest.open"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("block.chest.open"));
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

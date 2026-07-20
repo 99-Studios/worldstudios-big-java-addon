@@ -5,7 +5,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.AdvancementHolder;
 
@@ -17,7 +17,7 @@ public class SemiteOreProcedureProcedure {
 			return;
 		if (hasEntityInInventory(entity, new ItemStack(WorldstudiosWorldModBlocks.FORGIUM_ORE.get()))) {
 			if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _level) {
-				AdvancementHolder _adv = _level.getServer().getAdvancements().get(ResourceLocation.parse("worldstudios_world:gravite_ore"));
+				AdvancementHolder _adv = _level.getServer().getAdvancements().get(Identifier.parse("worldstudios_world:gravite_ore"));
 				if (_adv != null) {
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {

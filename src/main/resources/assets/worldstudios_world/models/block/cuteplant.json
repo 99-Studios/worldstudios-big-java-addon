@@ -3,6 +3,5 @@
   "textures": {
     "crop": "worldstudios_world:block/cuteplant",
     "particle": "worldstudios_world:block/cuteplant"
-  },
-  "render_type": "cutout"
+  }
 }

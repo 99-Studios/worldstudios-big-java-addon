@@ -3,6 +3,5 @@
   "textures": {
     "texture": "worldstudios_world:block/souldust_trapdoor",
     "particle": "worldstudios_world:block/souldust_trapdoor"
-  },
-  "render_type": "cutout"
+  }
 }

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "gran_granite_0": {
+    "gran_granite_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "gran_granite_1": {
+    "gran_granite_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "gran_granite_2": {
+    "gran_granite_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "gran_granite_3": {
+    "gran_granite_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

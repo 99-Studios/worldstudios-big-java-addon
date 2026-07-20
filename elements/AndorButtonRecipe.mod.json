@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:AndorPlanks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AndorButton"
-    },
+    "recipeReturnStack": "CUSTOM:AndorButton",
     "name": "andor_button_recipe",
     "namespace": "mod"
   }

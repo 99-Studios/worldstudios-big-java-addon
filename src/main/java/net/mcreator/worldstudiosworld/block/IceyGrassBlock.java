@@ -16,7 +16,7 @@ import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModBlocks;
 
 public class IceyGrassBlock extends FlowerBlock {
 	public IceyGrassBlock(BlockBehaviour.Properties properties) {
-		super(WorldstudiosWorldModMobEffects.ICING, 100, properties.mapColor(MapColor.ICE).sound(SoundType.GRASS).instabreak().noCollission().pushReaction(PushReaction.DESTROY));
+		super(WorldstudiosWorldModMobEffects.ICING, 100, properties.mapColor(MapColor.ICE).sound(SoundType.GRASS).instabreak().noCollision().pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:AmethesiumIngot"
-      }
+      "CUSTOM:AmethesiumIngot"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:AmethesiumIngot"
-      },
-      {
-        "value": "CUSTOM:AmethesiumIngot"
-      },
-      {
-        "value": "CUSTOM:AmethesiumIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:AmethesiumIngot",
+      "CUSTOM:AmethesiumIngot",
+      "CUSTOM:AmethesiumIngot",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AmethesiumPickaxe"
-    },
+    "recipeReturnStack": "CUSTOM:AmethesiumPickaxe",
     "name": "amethesium_pickaxe_recipe",
     "namespace": "mod"
   }

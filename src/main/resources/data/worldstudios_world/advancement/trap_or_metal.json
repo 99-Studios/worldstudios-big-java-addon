@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "trap_or_metal_0": {
+    "trap_or_metal_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

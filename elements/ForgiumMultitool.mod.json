@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "MultiTool",
@@ -14,9 +14,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "efficiency": 16.0,
     "attackSpeed": 1.6,
@@ -27,9 +25,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:Forgium"
-      }
+      "CUSTOM:Forgium"
     ],
     "immuneToFire": false,
     "blockDropsTier": "NETHERITE",
@@ -37,11 +33,7 @@
     "attributeModifiers": [],
     "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "FogiumMultitoolProcedure"
-    },
-    "onBlockDestroyedWithTool": {
-      "name": "FogiumMultitoolProcedure"
-    }
+    "onEntityHitWith": "FogiumMultitoolProcedure",
+    "onBlockDestroyedWithTool": "FogiumMultitoolProcedure"
   }
 }

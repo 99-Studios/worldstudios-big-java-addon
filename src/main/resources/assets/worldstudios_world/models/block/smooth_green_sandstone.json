@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/green_sandstone_top",
     "particle": "worldstudios_world:block/green_sandstone_top"
-  },
-  "render_type": "cutout_mipped"
+  }
 }

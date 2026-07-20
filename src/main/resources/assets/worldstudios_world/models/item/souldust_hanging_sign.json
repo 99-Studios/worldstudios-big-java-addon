@@ -2,6 +2,5 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "worldstudios_world:item/souldust_hanging_sign"
-  },
-  "render_type": "translucent"
+  }
 }

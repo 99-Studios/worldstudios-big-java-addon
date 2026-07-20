@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -14,9 +14,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "efficiency": 20.0,
     "attackSpeed": 1.6,
@@ -27,9 +25,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:TitanIngot"
-      }
+      "CUSTOM:TitanIngot"
     ],
     "immuneToFire": false,
     "blockDropsTier": "NETHERITE",

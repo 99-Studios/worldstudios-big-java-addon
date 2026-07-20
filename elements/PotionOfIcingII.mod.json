@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Icing II",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Icing II",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:Icing"
-        },
+        "effect": "CUSTOM:Icing",
         "duration": 3600,
         "infinite": false,
         "amplifier": 1,

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "plant",
   "definition": {
     "renderType": 13,
@@ -45,9 +45,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "DECORATIONS"
-      }
+      "DECORATIONS"
     ],
     "hardness": 0.0,
     "resistance": 0.0,
@@ -59,29 +57,15 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
+    "soundOnStep": "PLANT",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "PLANT"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "stepSound": "",
+    "placeSound": "",
+    "hitSound": "",
+    "fallSound": "",
     "useLootTableForDrops": false,
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 1,
     "xpAmountMax": 5,
@@ -90,14 +74,10 @@
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 100,
     "fireSpreadSpeed": 60,
@@ -108,9 +88,7 @@
     "frequencyOnChunks": 5,
     "generateFeature": true,
     "restrictionBiomes": [
-      {
-        "value": "#minecraft:is_overworld"
-      }
+      "#minecraft:is_overworld"
     ],
     "generationType": "Grass",
     "patchSize": 64,

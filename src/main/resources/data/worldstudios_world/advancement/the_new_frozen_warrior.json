@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "the_new_frozen_warrior_0": {
+    "the_new_frozen_warrior_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

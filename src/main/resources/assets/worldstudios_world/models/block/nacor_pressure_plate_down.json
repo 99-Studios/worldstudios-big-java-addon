@@ -3,6 +3,5 @@
   "textures": {
     "texture": "worldstudios_world:block/nacor_planks",
     "particle": "worldstudios_world:block/nacor_planks"
-  },
-  "render_type": "solid"
+  }
 }

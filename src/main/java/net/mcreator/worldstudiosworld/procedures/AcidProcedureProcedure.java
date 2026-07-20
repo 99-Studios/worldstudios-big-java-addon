@@ -6,8 +6,9 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModMobEffects;
@@ -34,8 +35,13 @@ public class AcidProcedureProcedure {
 		if (AcidArmor == false) {
 			WorldstudiosWorldMod.queueServerWork(
 					(int) (30 / (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WorldstudiosWorldModMobEffects.ACID_EFFECT) ? _livEnt.getEffect(WorldstudiosWorldModMobEffects.ACID_EFFECT).getAmplifier() : 0) + 1) / 1.5)), () -> {
-						entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("worldstudios_world:acid_damage")))),
-								1 * ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WorldstudiosWorldModMobEffects.ACID_EFFECT) ? _livEnt.getEffect(WorldstudiosWorldModMobEffects.ACID_EFFECT).getAmplifier() : 0) + 1));
+						{
+							Entity _ent = entity;
+							if (_ent.level() instanceof ServerLevel _serverLevel) {
+								_ent.hurtServer(_serverLevel, new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, Identifier.parse("worldstudios_world:acid_damage")))),
+										1 * ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WorldstudiosWorldModMobEffects.ACID_EFFECT) ? _livEnt.getEffect(WorldstudiosWorldModMobEffects.ACID_EFFECT).getAmplifier() : 0) + 1));
+							}
+						}
 					});
 		}
 	}

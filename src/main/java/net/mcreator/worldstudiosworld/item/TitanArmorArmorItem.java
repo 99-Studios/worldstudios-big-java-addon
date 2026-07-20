@@ -6,8 +6,8 @@ import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -15,8 +15,8 @@ import java.util.Map;
 
 public abstract class TitanArmorArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(75, Map.of(ArmorType.BOOTS, 10, ArmorType.LEGGINGS, 15, ArmorType.CHESTPLATE, 25, ArmorType.HELMET, 10, ArmorType.BODY, 25), 35,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0.5f, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:titan_armor_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("worldstudios_world:titan_armor_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0.5f, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:titan_armor_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("worldstudios_world:titan_armor_armor")));
 
 	private TitanArmorArmorItem(Item.Properties properties) {
 		super(properties);

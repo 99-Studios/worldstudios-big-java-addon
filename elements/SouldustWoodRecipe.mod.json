@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
     "group": "bark",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SouldustLog"
-      }
+      "CUSTOM:SouldustLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:SouldustLog"
-      },
-      {
-        "value": "CUSTOM:SouldustLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SouldustLog"
-      },
-      {
-        "value": "CUSTOM:SouldustLog"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:SouldustLog",
+      "CUSTOM:SouldustLog",
+      "",
+      "CUSTOM:SouldustLog",
+      "CUSTOM:SouldustLog",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SouldustWood"
-    },
+    "recipeReturnStack": "CUSTOM:SouldustWood",
     "name": "souldust_wood_recipe",
     "namespace": "mod"
   }

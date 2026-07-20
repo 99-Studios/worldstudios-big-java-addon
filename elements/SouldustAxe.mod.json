@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -15,9 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "efficiency": 5.0,
     "attackSpeed": 1.0,
@@ -28,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      }
+      "CUSTOM:SouldustPlanks"
     ],
     "immuneToFire": false,
     "blockDropsTier": "STONE",
@@ -38,8 +34,6 @@
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntitySwing": {
-      "name": "DragonProcedure"
-    }
+    "onEntitySwing": "DragonProcedure"
   }
 }

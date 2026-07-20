@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Radiated Potion",
@@ -8,9 +8,7 @@
     "arrowName": "Radiated Arrow",
     "effects": [
       {
-        "effect": {
-          "value": "CUSTOM:Radiation"
-        },
+        "effect": "CUSTOM:Radiation",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,
@@ -18,9 +16,7 @@
         "showParticles": true
       },
       {
-        "effect": {
-          "value": "NAUSEA"
-        },
+        "effect": "NAUSEA",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

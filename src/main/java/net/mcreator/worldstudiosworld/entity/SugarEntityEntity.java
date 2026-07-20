@@ -22,7 +22,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -58,12 +58,12 @@ public class SugarEntityEntity extends Monster {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.bamboo_sapling.place")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("block.bamboo_sapling.place")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("block.bamboo.hit"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("block.bamboo.hit"));
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

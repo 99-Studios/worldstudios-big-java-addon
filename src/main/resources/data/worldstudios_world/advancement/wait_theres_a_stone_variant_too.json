@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "wait_theres_a_stone_variant_too_0": {
+    "wait_theres_a_stone_variant_too_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

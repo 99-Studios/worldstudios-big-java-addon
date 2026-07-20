@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "ready_for_acid_0": {
+    "ready_for_acid_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "ready_for_acid_1": {
+    "ready_for_acid_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "ready_for_acid_2": {
+    "ready_for_acid_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "ready_for_acid_3": {
+    "ready_for_acid_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

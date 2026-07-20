@@ -23,7 +23,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -59,22 +59,22 @@ public class CrawlpingEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.creaking.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.creaking.ambient"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.creaking.step")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.creaking.step")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.creaking.freeze"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.creaking.freeze"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.creaking.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.creaking.death"));
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

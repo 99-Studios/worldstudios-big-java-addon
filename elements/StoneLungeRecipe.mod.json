@@ -1,17 +1,13 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "Blocks.STONE"
-      }
+      "Items.STICK",
+      "Blocks.STONE"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -19,37 +15,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "Blocks.STONE",
+      "",
+      "Items.STICK",
+      "",
+      "Items.STICK",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:StoneLunge"
-    },
+    "recipeReturnStack": "CUSTOM:StoneLunge",
     "name": "stone_lunge_recipe",
     "namespace": "mod"
   }

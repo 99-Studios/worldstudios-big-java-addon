@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:NacorPlanks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:NacorPlanks"
-      },
-      {
-        "value": "Items.STICK"
-      }
+      "",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:NacorPlanks",
+      "Items.STICK",
+      "Items.STICK",
+      "CUSTOM:NacorPlanks",
+      "Items.STICK"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:NacorFenceGate"
-    },
+    "recipeReturnStack": "CUSTOM:NacorFenceGate",
     "name": "nacor_fence_gate_recipe",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Brain Fluid",
@@ -20,9 +20,7 @@
     "levelDecrease": 1,
     "slopeFindDistance": 4,
     "spawnParticles": false,
-    "dripParticle": {
-      "value": "CUSTOM:BrainFluidParticle"
-    },
+    "dripParticle": "CUSTOM:BrainFluidParticle",
     "flowStrength": 1.0,
     "luminosity": 0,
     "density": 1000,
@@ -32,13 +30,9 @@
     "generateBucket": true,
     "textureBucket": "brain_fluid_bucket",
     "creativeTabs": [
-      {
-        "value": "FOOD"
-      }
+      "FOOD"
     ],
-    "emptySound": {
-      "value": ""
-    },
+    "emptySound": "",
     "rarity": "UNCOMMON",
     "specialInformation": {
       "fixedValue": []

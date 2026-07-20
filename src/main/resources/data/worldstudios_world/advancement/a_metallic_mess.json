@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "a_metallic_mess_0": {
+    "a_metallic_mess_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

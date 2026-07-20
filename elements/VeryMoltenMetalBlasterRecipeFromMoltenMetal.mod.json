@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
@@ -11,12 +11,8 @@
     "cookingTime": 900,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "CUSTOM:MoltenMetal"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:VeryMoltenMetal"
-    },
+    "blastingInputStack": "CUSTOM:MoltenMetal",
+    "blastingReturnStack": "CUSTOM:VeryMoltenMetal",
     "name": "very_molten_metal_blaster_recipe_from_molten_metal",
     "namespace": "mod"
   }

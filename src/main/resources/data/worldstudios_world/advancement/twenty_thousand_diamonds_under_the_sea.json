@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "twenty_thousand_diamonds_under_the_sea_0": {
+    "twenty_thousand_diamonds_under_the_sea_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

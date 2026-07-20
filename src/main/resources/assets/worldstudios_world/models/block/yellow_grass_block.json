@@ -6,6 +6,5 @@
     "side": "worldstudios_world:block/yellow_dirt",
     "overlay": "worldstudios_world:block/yellow_dirt",
     "particle": "worldstudios_world:block/yellow_dirt"
-  },
-  "render_type": "cutout_mipped"
+  }
 }

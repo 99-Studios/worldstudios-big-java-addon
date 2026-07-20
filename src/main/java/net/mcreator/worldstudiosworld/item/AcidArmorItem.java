@@ -7,16 +7,16 @@ import net.minecraft.world.item.equipment.ArmorType;
 import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import java.util.Map;
 
 public abstract class AcidArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(42, Map.of(ArmorType.BOOTS, 2, ArmorType.LEGGINGS, 5, ArmorType.CHESTPLATE, 9, ArmorType.HELMET, 3, ArmorType.BODY, 9), 10,
-			DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_leather")), 0f, 0.15f, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:acid_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("worldstudios_world:acid_armor")));
+			DeferredHolder.create(Registries.SOUND_EVENT, Identifier.parse("item.armor.equip_leather")), 0f, 0.15f, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:acid_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("worldstudios_world:acid_armor")));
 
 	private AcidArmorItem(Item.Properties properties) {
 		super(properties);

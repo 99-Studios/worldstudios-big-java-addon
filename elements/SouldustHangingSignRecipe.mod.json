@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "hanging_sign",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      }
+      "CUSTOM:StrippedSouldustLog"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.CHAIN"
-      },
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSouldustLog"
-      }
+      "Blocks.CHAIN",
+      "",
+      "Blocks.CHAIN",
+      "CUSTOM:StrippedSouldustLog",
+      "CUSTOM:StrippedSouldustLog",
+      "CUSTOM:StrippedSouldustLog",
+      "CUSTOM:StrippedSouldustLog",
+      "CUSTOM:StrippedSouldustLog",
+      "CUSTOM:StrippedSouldustLog"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SouldustHangingSign"
-    },
+    "recipeReturnStack": "CUSTOM:SouldustHangingSign",
     "name": "souldust_hanging_sign_recipe",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "enchantment",
   "definition": {
     "name": "Spike",
@@ -9,30 +9,19 @@
     "maxLevel": 5,
     "damageModifier": 0,
     "incompatibleEnchantments": [
-      {
-        "value": "IMPALING"
-      },
-      {
-        "value": "PIERCING"
-      },
-      {
-        "value": "THORNS"
-      }
+      "IMPALING",
+      "PIERCING",
+      "THORNS"
     ],
     "supportedItems": [
-      {
-        "value": "CUSTOM:BraniteLunge"
-      },
-      {
-        "value": "CUSTOM:StoneLunge"
-      },
-      {
-        "value": "CUSTOM:AmethesiumLunge"
-      }
+      "CUSTOM:BraniteLunge",
+      "CUSTOM:StoneLunge",
+      "CUSTOM:AmethesiumLunge"
     ],
     "isTreasureEnchantment": false,
     "isCurse": false,
     "canGenerateInLootTables": true,
-    "canVillagerTrade": false
+    "canVillagerTrade": false,
+    "effectsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"enchantment_effects_start\" deletable=\"false\" x=\"40\" y=\"80\"></block></xml>"
   }
 }

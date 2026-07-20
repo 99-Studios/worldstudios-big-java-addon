@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.util.RandomSource;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -27,7 +27,7 @@ public class GraviteIslandsFruitDecorator extends CocoaDecorator {
 
 	@SubscribeEvent
 	public static void registerTreeDecorator(RegisterEvent event) {
-		event.register(Registries.TREE_DECORATOR_TYPE, ResourceLocation.parse("worldstudios_world:gravite_islands_tree_fruit_decorator"), () -> DECORATOR_TYPE);
+		event.register(Registries.TREE_DECORATOR_TYPE, Identifier.parse("worldstudios_world:gravite_islands_tree_fruit_decorator"), () -> DECORATOR_TYPE);
 	}
 
 	public GraviteIslandsFruitDecorator() {
@@ -41,18 +41,18 @@ public class GraviteIslandsFruitDecorator extends CocoaDecorator {
 
 	@Override
 	public void place(TreeDecorator.Context context) {
-		RandomSource randomsource = context.random();
-		if (!(randomsource.nextFloat() >= 0.2F)) {
-			List<BlockPos> list = context.logs();
-			if (!list.isEmpty()) {
-				int i = list.getFirst().getY();
-				list.stream().filter(p_69980_ -> p_69980_.getY() - i <= 2).forEach(p_226026_ -> {
+		RandomSource random = context.random();
+		if (!(random.nextFloat() >= 0.2F)) {
+			List<BlockPos> logs = context.logs();
+			if (!logs.isEmpty()) {
+				int treeY = logs.getFirst().getY();
+				logs.stream().filter(pos -> pos.getY() - treeY <= 2).forEach(pos -> {
 					for (Direction direction : Direction.Plane.HORIZONTAL) {
-						if (randomsource.nextFloat() <= 0.25F) {
-							Direction direction1 = direction.getOpposite();
-							BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
-							if (context.isAir(blockpos)) {
-								context.setBlock(blockpos, oriented(Blocks.AIR.defaultBlockState(), direction1));
+						if (random.nextFloat() <= 0.25F) {
+							Direction opposite = direction.getOpposite();
+							BlockPos cocoaPos = pos.offset(opposite.getStepX(), 0, opposite.getStepZ());
+							if (context.isAir(cocoaPos)) {
+								context.setBlock(cocoaPos, oriented(Blocks.AIR.defaultBlockState(), opposite));
 							}
 						}
 					}

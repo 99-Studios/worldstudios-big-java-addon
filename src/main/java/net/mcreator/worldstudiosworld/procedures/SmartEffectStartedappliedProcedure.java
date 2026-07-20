@@ -3,7 +3,7 @@ package net.mcreator.worldstudiosworld.procedures;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.AdvancementHolder;
 
@@ -12,7 +12,7 @@ public class SmartEffectStartedappliedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _level) {
-			AdvancementHolder _adv = _level.getServer().getAdvancements().get(ResourceLocation.parse("worldstudios_world:get_smart"));
+			AdvancementHolder _adv = _level.getServer().getAdvancements().get(Identifier.parse("worldstudios_world:get_smart"));
 			if (_adv != null) {
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 				if (!_ap.isDone()) {

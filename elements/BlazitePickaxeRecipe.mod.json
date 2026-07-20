@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BlazitePickaxe"
-    },
+    "recipeReturnStack": "CUSTOM:BlazitePickaxe",
     "name": "blazite_pickaxe_recipe",
     "namespace": "mod"
   }

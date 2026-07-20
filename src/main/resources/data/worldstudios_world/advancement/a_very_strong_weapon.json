@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "a_very_strong_weapon_0": {
+    "a_very_strong_weapon_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

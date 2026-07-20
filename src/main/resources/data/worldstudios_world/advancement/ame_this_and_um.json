@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "ame_this_and_um_0": {
+    "ame_this_and_um_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

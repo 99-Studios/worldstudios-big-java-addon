@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SAND"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.GUNPOWDER"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.SAND"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "Blocks.SAND",
+      "",
+      "",
+      "Items.GUNPOWDER",
+      "",
+      "",
+      "Blocks.SAND",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Dinamite"
-    },
+    "recipeReturnStack": "CUSTOM:Dinamite",
     "name": "dinamite_recipe",
     "namespace": "mod"
   }

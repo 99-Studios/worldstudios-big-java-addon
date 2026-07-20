@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/forgium_ore",
     "particle": "worldstudios_world:block/forgium_ore"
-  },
-  "render_type": "solid"
+  }
 }

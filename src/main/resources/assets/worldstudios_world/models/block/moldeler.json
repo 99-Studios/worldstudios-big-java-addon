@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/modeler_base",
     "west": "worldstudios_world:block/modeler_right",
     "particle": "worldstudios_world:block/modeler_base"
-  },
-  "render_type": "solid"
+  }
 }

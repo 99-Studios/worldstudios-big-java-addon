@@ -1,0 +1,11 @@
+{
+  "wants": {
+    "id": "worldstudios_world:refined_flint_and_steel"
+  },
+  "gives": {
+    "id": "worldstudios_world:titan_tool_sword"
+  },
+  "max_uses": 3,
+  "xp": 32,
+  "reputation_discount": 0.14
+}

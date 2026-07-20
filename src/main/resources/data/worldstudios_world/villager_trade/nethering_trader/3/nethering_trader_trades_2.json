@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "worldstudios_world:warted_emerald",
+    "count": 5
+  },
+  "gives": {
+    "id": "minecraft:netherite_ingot",
+    "count": 2
+  },
+  "max_uses": 32,
+  "xp": 11,
+  "reputation_discount": 0.1
+}

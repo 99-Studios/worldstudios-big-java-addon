@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/capsuled_redstone_block",
     "particle": "worldstudios_world:block/capsuled_redstone_block"
-  },
-  "render_type": "solid"
+  }
 }

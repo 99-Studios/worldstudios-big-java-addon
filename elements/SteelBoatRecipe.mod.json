@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Steel"
-      }
+      "CUSTOM:Steel"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": "CUSTOM:Steel"
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:Steel",
+      "",
+      "CUSTOM:Steel",
+      "CUSTOM:Steel",
+      "CUSTOM:Steel",
+      "CUSTOM:Steel"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SteelBoat"
-    },
+    "recipeReturnStack": "CUSTOM:SteelBoat",
     "name": "steel_boat_recipe",
     "namespace": "mod"
   }

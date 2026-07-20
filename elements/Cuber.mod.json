@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Cuber",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": ""
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 5,
@@ -101,24 +87,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "CUSTOM:CubeEssence"
-    },
-    "livingSound": {
-      "value": ""
-    },
-    "hurtSound": {
-      "value": "entity.generic.hurt"
-    },
-    "deathSound": {
-      "value": "entity.generic.death"
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "CUSTOM:CubeEssence",
+    "livingSound": "",
+    "hurtSound": "entity.generic.hurt",
+    "deathSound": "entity.generic.death",
+    "stepSound": "",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
@@ -127,9 +101,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
@@ -140,9 +112,7 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 8,
     "restrictionBiomes": [
-      {
-        "value": "#minecraft:is_overworld"
-      }
+      "#minecraft:is_overworld"
     ],
     "spawnInDungeons": true,
     "raidSpawnsCount": [

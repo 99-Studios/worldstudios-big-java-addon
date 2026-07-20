@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Yeti",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": true,
     "bossBarColor": "WHITE",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": "CUSTOM:SwordOfTheFrozenWarrior"
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "CUSTOM:SwordOfTheFrozenWarrior",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 11,
@@ -101,24 +87,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "CUSTOM:YetiHeart"
-    },
-    "livingSound": {
-      "value": "entity.polar_bear.ambient"
-    },
-    "hurtSound": {
-      "value": "entity.polar_bear.hurt"
-    },
-    "deathSound": {
-      "value": "entity.polar_bear.death"
-    },
-    "stepSound": {
-      "value": "entity.polar_bear.step"
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "CUSTOM:YetiHeart",
+    "livingSound": "entity.polar_bear.ambient",
+    "hurtSound": "entity.polar_bear.hurt",
+    "deathSound": "entity.polar_bear.death",
+    "stepSound": "entity.polar_bear.step",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
@@ -127,9 +101,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,

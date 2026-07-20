@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Smart",
@@ -8,12 +8,8 @@
       "value": -13108,
       "falpha": 0.0
     },
-    "particle": {
-      "value": "CUSTOM:SmartParticles"
-    },
-    "onAddedSound": {
-      "value": ""
-    },
+    "particle": "CUSTOM:SmartParticles",
+    "onAddedSound": "",
     "isInstant": false,
     "mobEffectCategory": "NEUTRAL",
     "renderStatusInInventory": true,
@@ -22,18 +18,12 @@
     "modifiers": [
       {
         "equipmentSlot": "any",
-        "attribute": {
-          "value": "CUSTOM:HighlyIntelegent"
-        },
+        "attribute": "CUSTOM:HighlyIntelegent",
         "amount": 1.0,
         "operation": "ADD_VALUE"
       }
     ],
-    "onStarted": {
-      "name": "SmartEffectStartedapplied"
-    },
-    "onExpired": {
-      "name": "SmartEffectExpires"
-    }
+    "onStarted": "SmartEffectStartedapplied",
+    "onExpired": "SmartEffectExpires"
   }
 }

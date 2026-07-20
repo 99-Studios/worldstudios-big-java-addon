@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.DIRT"
-      },
-      {
-        "value": "Blocks.DIRT"
-      },
-      {
-        "value": "Blocks.DIRT"
-      },
-      {
-        "value": "Blocks.DIRT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DIRT"
-      },
-      {
-        "value": "Blocks.DIRT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DIRT"
-      }
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "",
+      "Blocks.DIRT"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DirtArmor.legs"
-    },
+    "recipeReturnStack": "CUSTOM:DirtArmor.legs",
     "name": "dirt_leggings_recipe",
     "namespace": "mod"
   }

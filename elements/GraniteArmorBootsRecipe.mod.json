@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.STONE#1"
-      }
+      "",
+      "",
+      "",
+      "Blocks.STONE#1",
+      "",
+      "Blocks.STONE#1",
+      "Blocks.STONE#1",
+      "",
+      "Blocks.STONE#1"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:GraniteArmor.boots"
-    },
+    "recipeReturnStack": "CUSTOM:GraniteArmor.boots",
     "name": "granite_armor_boots_recipe",
     "namespace": "mod"
   }

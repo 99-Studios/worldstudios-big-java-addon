@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Acid",
@@ -13,9 +13,7 @@
     "levelDecrease": 3,
     "slopeFindDistance": 4,
     "spawnParticles": false,
-    "dripParticle": {
-      "value": "CUSTOM:AcidParticle"
-    },
+    "dripParticle": "CUSTOM:AcidParticle",
     "flowStrength": 1.5,
     "luminosity": 0,
     "density": 1000,
@@ -25,13 +23,9 @@
     "generateBucket": true,
     "textureBucket": "acid_bucket",
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
-    "emptySound": {
-      "value": "item.bucket.empty_lava"
-    },
+    "emptySound": "item.bucket.empty_lava",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -45,8 +39,6 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "GREEN",
-    "onEntityCollides": {
-      "name": "AcidProcedure"
-    }
+    "onEntityCollides": "AcidProcedure"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Ice Dragon",
@@ -37,31 +37,17 @@
       "falpha": 0.0
     },
     "creativeTabs": [
-      {
-        "value": "MISC"
-      }
+      "MISC"
     ],
     "isBoss": true,
     "bossBarColor": "WHITE",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": ""
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 14,
@@ -101,24 +87,12 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "CUSTOM:IceDragonHeart"
-    },
-    "livingSound": {
-      "value": "entity.enderdragon.ambient"
-    },
-    "hurtSound": {
-      "value": "entity.enderdragon.hurt"
-    },
-    "deathSound": {
-      "value": "entity.enderdragon.death"
-    },
-    "stepSound": {
-      "value": "entity.enderdragon.flap"
-    },
-    "raidCelebrationSound": {
-      "value": ""
-    },
+    "mobDrop": "CUSTOM:IceDragonHeart",
+    "livingSound": "entity.enderdragon.ambient",
+    "hurtSound": "entity.enderdragon.hurt",
+    "deathSound": "entity.enderdragon.death",
+    "stepSound": "entity.enderdragon.flap",
+    "raidCelebrationSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
@@ -127,9 +101,7 @@
     "tameable": false,
     "breedTriggerItems": [],
     "ranged": true,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "IceDragonProjectile",
     "rangedAttackInterval": 90,
     "rangedAttackRadius": 10.0,
@@ -140,9 +112,7 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
-      {
-        "value": "CUSTOM:FrozenBiome"
-      }
+      "CUSTOM:FrozenBiome"
     ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [

@@ -3,6 +3,5 @@
   "textures": {
     "cross": "worldstudios_world:block/icey_grass",
     "particle": "worldstudios_world:block/icey_grass"
-  },
-  "render_type": "cutout"
+  }
 }

@@ -1,17 +1,11 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "biome",
   "definition": {
     "name": "Alones",
-    "groundBlock": {
-      "value": "CUSTOM:SouldustPlanks"
-    },
-    "undergroundBlock": {
-      "value": "CUSTOM:Semite"
-    },
-    "underwaterBlock": {
-      "value": "CUSTOM:SouldustPlanks"
-    },
+    "groundBlock": "CUSTOM:SouldustPlanks",
+    "undergroundBlock": "CUSTOM:Semite",
+    "underwaterBlock": "CUSTOM:SouldustPlanks",
     "airColor": {
       "value": -16770791,
       "falpha": 0.0
@@ -28,23 +22,13 @@
       "value": -13421773,
       "falpha": 0.0
     },
-    "ambientSound": {
-      "value": ""
-    },
-    "additionsSound": {
-      "value": ""
-    },
-    "music": {
-      "value": ""
-    },
-    "moodSound": {
-      "value": ""
-    },
+    "ambientSound": "",
+    "additionsSound": "",
+    "music": "",
+    "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "CUSTOM:AcidParticle"
-    },
+    "particleToSpawn": "CUSTOM:AcidParticle",
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,
     "temperature": 0.5,
@@ -79,18 +63,10 @@
     "vanillaTreeType": "Savanna trees",
     "treeType": 1,
     "minHeight": 7,
-    "treeStem": {
-      "value": "CUSTOM:SouldustLog"
-    },
-    "treeBranch": {
-      "value": "CUSTOM:SouldustLog"
-    },
-    "treeVines": {
-      "value": "Blocks.GLOW_LICHEN"
-    },
-    "treeFruits": {
-      "value": ""
-    },
+    "treeStem": "CUSTOM:SouldustLog",
+    "treeBranch": "CUSTOM:SouldustLog",
+    "treeVines": "Blocks.GLOW_LICHEN",
+    "treeFruits": "",
     "defaultFeatures": [
       "Caves",
       "Ores"

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -11,9 +11,7 @@
     "enableBoots": true,
     "textureBoots": "andor_boots",
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "armorTextureFile": "andor",
     "helmetName": "Andor Helmet",
@@ -96,14 +94,11 @@
     "enchantability": 7,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
-    "equipSound": {
-      "value": ""
-    },
+    "equipSound": "",
     "repairItems": [
-      {
-        "value": "CUSTOM:AndorPlanks"
-      }
+      "CUSTOM:AndorPlanks"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

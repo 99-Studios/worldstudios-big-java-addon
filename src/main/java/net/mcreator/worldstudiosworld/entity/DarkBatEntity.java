@@ -28,7 +28,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -115,27 +115,22 @@ public class DarkBatEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.bat.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.bat.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.bat.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.bat.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.bat.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.bat.death"));
 	}
 
 	@Override
 	public boolean causeFallDamage(double l, float d, DamageSource source) {
 		return false;
-	}
-
-	@Override
-	public void travel(Vec3 dir) {
-		this.travelFlying(dir, (float) this.getAttributeValue(Attributes.FLYING_SPEED));
 	}
 
 	@Override
@@ -147,9 +142,15 @@ public class DarkBatEntity extends Monster {
 		super.setNoGravity(true);
 	}
 
+	@Override
 	public void aiStep() {
 		super.aiStep();
 		this.setNoGravity(true);
+	}
+
+	@Override
+	protected float getFlyingSpeed() {
+		return (float) this.getAttributeValue(Attributes.FLYING_SPEED);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

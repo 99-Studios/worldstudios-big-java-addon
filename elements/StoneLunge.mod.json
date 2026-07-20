@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
@@ -15,12 +15,8 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      },
-      {
-        "value": "COMBAT"
-      }
+      "TOOLS",
+      "COMBAT"
     ],
     "efficiency": 4.0,
     "attackSpeed": 0.3,
@@ -37,8 +33,6 @@
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onEntityHitWith": {
-      "name": "BraniteLungeLivingEntityIsHitWithTool"
-    }
+    "onEntityHitWith": "BraniteLungeLivingEntityIsHitWithTool"
   }
 }

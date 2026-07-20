@@ -3,6 +3,5 @@
   "textures": {
     "texture": "worldstudios_world:block/souldust_planks",
     "particle": "worldstudios_world:block/souldust_planks"
-  },
-  "render_type": "solid"
+  }
 }

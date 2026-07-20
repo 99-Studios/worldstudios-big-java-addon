@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
@@ -15,9 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "efficiency": 14.0,
     "attackSpeed": 5.0,
@@ -28,9 +26,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:AmethesiumIngot"
-      }
+      "CUSTOM:AmethesiumIngot"
     ],
     "immuneToFire": true,
     "blockDropsTier": "DIAMOND",

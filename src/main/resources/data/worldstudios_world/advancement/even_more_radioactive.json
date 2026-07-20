@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "even_more_radioactive_0": {
+    "even_more_radioactive_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "even_more_radioactive_1": {
+    "even_more_radioactive_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "even_more_radioactive_2": {
+    "even_more_radioactive_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

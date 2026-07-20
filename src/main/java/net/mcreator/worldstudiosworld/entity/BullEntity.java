@@ -4,6 +4,7 @@ import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
@@ -25,7 +26,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -50,7 +51,7 @@ public class BullEntity extends Monster {
 		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new TemptGoal(this, 1, Ingredient.of(Items.RED_BANNER), false));
+		this.goalSelector.addGoal(4, new TemptGoal(this, 1, (Ingredient.of(Blocks.AIR.asItem())), false));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
@@ -62,22 +63,22 @@ public class BullEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.cow.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.cow.ambient"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.cow.step")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.cow.step")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.cow.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.cow.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.cow.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.cow.death"));
 	}
 
 	@Override

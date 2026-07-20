@@ -1,38 +1,20 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:GraviteIslands"
-      },
-      {
-        "value": "CUSTOM:Wastes"
-      },
-      {
-        "value": "CUSTOM:TitanGrounds"
-      },
-      {
-        "value": "CUSTOM:YellowFields"
-      },
-      {
-        "value": "CUSTOM:GreenDesert"
-      },
-      {
-        "value": "CUSTOM:FrozenBiome"
-      },
-      {
-        "value": "CUSTOM:Alones"
-      }
+      "CUSTOM:GraviteIslands",
+      "CUSTOM:Wastes",
+      "CUSTOM:TitanGrounds",
+      "CUSTOM:YellowFields",
+      "CUSTOM:GreenDesert",
+      "CUSTOM:FrozenBiome",
+      "CUSTOM:Alones"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
-    "mainFillerBlock": {
-      "value": "CUSTOM:Semite"
-    },
-    "fluidBlock": {
-      "value": "CUSTOM:AcidFluid"
-    },
+    "mainFillerBlock": "CUSTOM:Semite",
+    "fluidBlock": "CUSTOM:AcidFluid",
     "seaLevel": 63,
     "generateOreVeins": true,
     "generateAquifers": true,
@@ -56,6 +38,8 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
     "bedWorks": true,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
@@ -64,16 +48,10 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": {
-      "value": "Blocks.END_STONE"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "portalFrame": "Blocks.END_STONE",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "Lither",
     "igniterRarity": "COMMON",
@@ -81,9 +59,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "texture": "lither",
     "portalTexture": "oracle_portal",

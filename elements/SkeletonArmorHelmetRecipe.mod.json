@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.BONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Items.BONE",
+      "Items.BONE",
+      "Items.BONE",
+      "Items.BONE",
+      "",
+      "Items.BONE",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SkeletonArmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:SkeletonArmor.helmet",
     "name": "skeleton_armor_helmet_recipe",
     "namespace": "mod"
   }

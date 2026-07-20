@@ -20,18 +20,19 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerBossEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModItems;
 
 public class YetiEntity extends Monster {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
+	private final ServerBossEvent bossInfo = new ServerBossEvent(Mth.createInsecureUUID(this.random), this.getDisplayName(), ServerBossEvent.BossBarColor.WHITE, ServerBossEvent.BossBarOverlay.PROGRESS);
 
 	public YetiEntity(EntityType<YetiEntity> type, Level world) {
 		super(type, world);
@@ -63,22 +64,22 @@ public class YetiEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.polar_bear.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.polar_bear.ambient"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.polar_bear.step")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.polar_bear.step")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.polar_bear.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.polar_bear.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.polar_bear.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.polar_bear.death"));
 	}
 
 	@Override

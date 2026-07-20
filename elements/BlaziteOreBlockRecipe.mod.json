@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      }
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BlaziteBlock"
-    },
+    "recipeReturnStack": "CUSTOM:BlaziteBlock",
     "name": "blazite_ore_block_recipe",
     "namespace": "mod"
   }

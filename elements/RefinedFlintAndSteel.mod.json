@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
@@ -14,9 +14,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.0,
@@ -33,8 +31,6 @@
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedOnBlock": {
-      "name": "LightRefinedFlintAndSteel"
-    }
+    "onRightClickedOnBlock": "LightRefinedFlintAndSteel"
   }
 }

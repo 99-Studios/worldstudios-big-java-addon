@@ -1,7 +1,5 @@
 package net.mcreator.worldstudiosworld.command;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.common.util.FakePlayerFactory;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -19,7 +17,7 @@ import net.mcreator.worldstudiosworld.procedures.TeleportToOracleProcedure;
 public class OracleCommandCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("oracle").requires(s -> s.hasPermission(3)).executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("oracle").requires(Commands.hasPermission(Commands.LEVEL_ADMINS)).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();

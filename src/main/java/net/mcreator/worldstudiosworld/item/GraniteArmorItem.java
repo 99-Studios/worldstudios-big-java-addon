@@ -6,8 +6,8 @@ import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -15,8 +15,8 @@ import java.util.Map;
 
 public abstract class GraniteArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(6, Map.of(ArmorType.BOOTS, 1, ArmorType.LEGGINGS, 2, ArmorType.CHESTPLATE, 2, ArmorType.HELMET, 1, ArmorType.BODY, 2), 4,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:granite_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("worldstudios_world:granite_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:granite_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("worldstudios_world:granite_armor")));
 
 	private GraniteArmorItem(Item.Properties properties) {
 		super(properties);

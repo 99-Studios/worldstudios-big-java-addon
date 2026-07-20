@@ -9,6 +9,6 @@ import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModWoodTypes;
 
 public class SouldustSignBlock extends StandingSignBlock {
 	public SouldustSignBlock(BlockBehaviour.Properties properties) {
-		super(WorldstudiosWorldModWoodTypes.SOULDUST_SIGN_WOOD_TYPE, properties.sound(SoundType.WOOD).strength(1f).noCollission().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
+		super(WorldstudiosWorldModWoodTypes.SOULDUST_SIGN_WOOD_TYPE, properties.sound(SoundType.WOOD).strength(1f).noCollision().ignitedByLava().instrument(NoteBlockInstrument.BASS).forceSolidOn());
 	}
 }

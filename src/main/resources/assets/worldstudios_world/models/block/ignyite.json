@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/ignyite",
     "particle": "worldstudios_world:block/ignyite"
-  },
-  "render_type": "solid"
+  }
 }

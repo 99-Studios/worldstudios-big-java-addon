@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "Items.FLINT"
-      },
-      {
-        "value": "Blocks.END_ROD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Items.FLINT",
+      "Blocks.END_ROD",
+      "",
+      "Items.IRON_INGOT",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Oracle"
-    },
+    "recipeReturnStack": "CUSTOM:Oracle",
     "name": "lither_recipe",
     "namespace": "mod"
   }

@@ -11,11 +11,13 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.entity.npc.VillagerProfession;
+import net.minecraft.world.item.trading.TradeSet;
+import net.minecraft.world.entity.npc.villager.VillagerProfession;
 import net.minecraft.world.entity.ai.village.poi.PoiTypes;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -29,6 +31,8 @@ import java.util.Optional;
 import java.util.Map;
 import java.util.HashMap;
 
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+
 import com.google.common.collect.ImmutableSet;
 
 @EventBusSubscriber
@@ -36,16 +40,22 @@ public class WorldstudiosWorldModVillagerProfessions {
 	private static final Map<String, ProfessionPoiType> POI_TYPES = new HashMap<>();
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(Registries.VILLAGER_PROFESSION, WorldstudiosWorldMod.MODID);
 	public static final DeferredHolder<VillagerProfession, VillagerProfession> MOLDELER_PROFESSION = registerProfession("moldeler_profession", () -> WorldstudiosWorldModBlocks.MOLDELER.get(),
-			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.villager.work_leatherworker")));
+			() -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.villager.work_leatherworker")));
 	public static final DeferredHolder<VillagerProfession, VillagerProfession> NETHERING_TRADER = registerProfession("nethering_trader", () -> Blocks.ANCIENT_DEBRIS,
-			() -> BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.wandering_trader.reappeared")));
+			() -> BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.wandering_trader.reappeared")));
 
 	private static DeferredHolder<VillagerProfession, VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));
 		return PROFESSIONS.register(name, () -> {
 			Predicate<Holder<PoiType>> poiPredicate = poiTypeHolder -> (POI_TYPES.get(name).poiType != null) && (poiTypeHolder.value() == POI_TYPES.get(name).poiType.value());
-			return new VillagerProfession(Component.translatable("entity.villager." + WorldstudiosWorldMod.MODID + "." + name), poiPredicate, poiPredicate, ImmutableSet.of(), ImmutableSet.of(), soundEvent.get());
+			return new VillagerProfession(Component.translatable("entity.villager." + WorldstudiosWorldMod.MODID + "." + name), poiPredicate, poiPredicate, ImmutableSet.of(), ImmutableSet.of(), soundEvent.get(),
+					Int2ObjectMap.ofEntries(Int2ObjectMap.entry(1, tradeSetResourceKey(name, 1)), Int2ObjectMap.entry(2, tradeSetResourceKey(name, 2)), Int2ObjectMap.entry(3, tradeSetResourceKey(name, 3)),
+							Int2ObjectMap.entry(4, tradeSetResourceKey(name, 4)), Int2ObjectMap.entry(5, tradeSetResourceKey(name, 5))));
 		});
+	}
+
+	private static ResourceKey<TradeSet> tradeSetResourceKey(String name, int level) {
+		return ResourceKey.create(Registries.TRADE_SET, Identifier.fromNamespaceAndPath("worldstudios_world", name + "/level_" + level));
 	}
 
 	@SubscribeEvent
@@ -60,7 +70,7 @@ public class WorldstudiosWorldModVillagerProfessions {
 					continue;
 				}
 				PoiType poiType = new PoiType(ImmutableSet.copyOf(block.getStateDefinition().getPossibleStates()), 1, 1);
-				registerHelper.register(ResourceLocation.fromNamespaceAndPath("worldstudios_world", name), poiType);
+				registerHelper.register(Identifier.fromNamespaceAndPath("worldstudios_world", name), poiType);
 				entry.getValue().poiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.wrapAsHolder(poiType);
 			}
 		});

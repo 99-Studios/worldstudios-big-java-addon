@@ -1,0 +1,17 @@
+{
+  "wants": {
+    "id": "worldstudios_world:capsule",
+    "count": 4
+  },
+  "additional_wants": {
+    "id": "minecraft:smooth_stone",
+    "count": 3
+  },
+  "gives": {
+    "id": "minecraft:ender_pearl",
+    "count": 6
+  },
+  "max_uses": 5,
+  "xp": 25,
+  "reputation_discount": 0.25
+}

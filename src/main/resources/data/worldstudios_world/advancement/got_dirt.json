@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "got_dirt_0": {
+    "got_dirt_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

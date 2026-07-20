@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.REPEATING_COMMAND_BLOCK"
-      },
-      {
-        "value": "Blocks.REPEATING_COMMAND_BLOCK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.REPEATING_COMMAND_BLOCK"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Blocks.REPEATING_COMMAND_BLOCK",
+      "Blocks.REPEATING_COMMAND_BLOCK",
+      "",
+      "Blocks.REPEATING_COMMAND_BLOCK",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:RepeatingCommandBlockAxe"
-    },
+    "recipeReturnStack": "CUSTOM:RepeatingCommandBlockAxe",
     "name": "repeating_command_block_axe_recipe",
     "namespace": "mod"
   }

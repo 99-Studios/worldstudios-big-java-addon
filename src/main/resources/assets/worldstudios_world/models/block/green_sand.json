@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/green_sand",
     "particle": "worldstudios_world:block/green_sand"
-  },
-  "render_type": "solid"
+  }
 }

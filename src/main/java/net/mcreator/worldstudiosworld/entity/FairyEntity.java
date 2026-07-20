@@ -30,7 +30,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
@@ -88,17 +88,17 @@ public class FairyEntity extends PathfinderMob {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("worldstudios_world:fairy.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("worldstudios_world:fairy.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.allay.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.allay.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("worldstudios_world:fairy.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("worldstudios_world:fairy.ambient"));
 	}
 
 	@Override
@@ -140,11 +140,6 @@ public class FairyEntity extends PathfinderMob {
 	}
 
 	@Override
-	public void travel(Vec3 dir) {
-		this.travelFlying(dir, (float) this.getAttributeValue(Attributes.FLYING_SPEED));
-	}
-
-	@Override
 	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
 	}
 
@@ -153,9 +148,15 @@ public class FairyEntity extends PathfinderMob {
 		super.setNoGravity(true);
 	}
 
+	@Override
 	public void aiStep() {
 		super.aiStep();
 		this.setNoGravity(true);
+	}
+
+	@Override
+	protected float getFlyingSpeed() {
+		return (float) this.getAttributeValue(Attributes.FLYING_SPEED);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

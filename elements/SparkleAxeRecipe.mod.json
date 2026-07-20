@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Sparkles"
-      },
-      {
-        "value": "CUSTOM:Sparkles"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Sparkles"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Sparkles",
+      "CUSTOM:Sparkles",
+      "",
+      "CUSTOM:Sparkles",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SparkleAxe"
-    },
+    "recipeReturnStack": "CUSTOM:SparkleAxe",
     "name": "sparkle_axe_recipe",
     "namespace": "mod"
   }

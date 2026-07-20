@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "dirt_simulator_3_0": {
+    "dirt_simulator_3_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "dirt_simulator_3_1": {
+    "dirt_simulator_3_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "dirt_simulator_3_2": {
+    "dirt_simulator_3_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "dirt_simulator_3_3": {
+    "dirt_simulator_3_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -71,7 +71,7 @@
         ]
       }
     },
-    "dirt_simulator_3_4": {
+    "dirt_simulator_3_9": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

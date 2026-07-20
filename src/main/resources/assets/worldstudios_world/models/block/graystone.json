@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/graystone",
     "particle": "worldstudios_world:block/graystone"
-  },
-  "render_type": "solid"
+  }
 }

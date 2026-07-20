@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.InsideBlockEffectApplier;
@@ -28,7 +29,7 @@ import net.mcreator.worldstudiosworld.procedures.ReboundedFireEntityCollidesInTh
 
 public class ReboundedFireBlock extends Block {
 	public ReboundedFireBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_RED).sound(SoundType.EMPTY).strength(1f, 10f).noCollission().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
+		super(properties.mapColor(MapColor.COLOR_RED).sound(SoundType.EMPTY).strength(1f, 10f).noCollision().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -37,7 +38,7 @@ public class ReboundedFireBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return 0;
 	}
 
@@ -48,7 +49,7 @@ public class ReboundedFireBlock extends Block {
 
 	@Override
 	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.DANGER_FIRE;
+		return PathType.FIRE_IN_NEIGHBOR;
 	}
 
 	@Override
@@ -58,8 +59,8 @@ public class ReboundedFireBlock extends Block {
 	}
 
 	@Override
-	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
-		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, ItemStack toolStack, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, toolStack, willHarvest, fluid);
 		ReboundedFireRemoveProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return retval;
 	}
@@ -71,8 +72,8 @@ public class ReboundedFireBlock extends Block {
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		ReboundedFireEntityCollidesInTheBlockProcedure.execute(world, entity);
 	}
 }

@@ -1,13 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "specialentity",
   "definition": {
     "entityType": "Boat",
     "name": "Steel Boat",
+    "rarity": "COMMON",
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "entityTexture": "steel_boat",
     "itemTexture": "steel_boat"

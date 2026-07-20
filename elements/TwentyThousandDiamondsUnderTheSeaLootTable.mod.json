@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "loottable",
   "definition": {
     "type": "Advancement reward",
@@ -13,9 +13,7 @@
         "entries": [
           {
             "type": "item",
-            "item": {
-              "value": "CUSTOM:HeroicDiamond"
-            },
+            "item": "CUSTOM:HeroicDiamond",
             "weight": 1,
             "minCount": 1,
             "maxCount": 1,

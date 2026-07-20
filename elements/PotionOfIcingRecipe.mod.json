@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "POTION:AWKWARD"
-    },
-    "brewingIngredientStack": {
-      "value": "Blocks.ICE"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:PotionOfIcing"
-    },
+    "brewingInputStack": "POTION:AWKWARD",
+    "brewingIngredientStack": "Blocks.ICE",
+    "brewingReturnStack": "POTION:CUSTOM:PotionOfIcing",
     "name": "potion_of_icing_recipe",
     "namespace": "mod"
   }

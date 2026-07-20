@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 6,
     "group": "wooden_slab",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      }
+      "CUSTOM:SouldustPlanks"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      },
-      {
-        "value": "CUSTOM:SouldustPlanks"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:SouldustPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SouldustSlab"
-    },
+    "recipeReturnStack": "CUSTOM:SouldustSlab",
     "name": "souldust_slab_recipe",
     "namespace": "mod"
   }

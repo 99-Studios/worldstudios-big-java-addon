@@ -3,6 +3,5 @@
   "textures": {
     "cross": "worldstudios_world:block/dual_weed_bottom",
     "particle": "worldstudios_world:block/dual_weed_top"
-  },
-  "render_type": "cutout"
+  }
 }

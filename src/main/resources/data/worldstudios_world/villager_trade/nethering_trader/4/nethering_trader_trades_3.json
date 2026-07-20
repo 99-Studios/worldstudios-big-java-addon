@@ -1,0 +1,17 @@
+{
+  "wants": {
+    "id": "worldstudios_world:capsteel",
+    "count": 5
+  },
+  "additional_wants": {
+    "id": "minecraft:netherite_scrap",
+    "count": 3
+  },
+  "gives": {
+    "id": "worldstudios_world:ignyite",
+    "count": 4
+  },
+  "max_uses": 32,
+  "xp": 20,
+  "reputation_discount": 0.03
+}

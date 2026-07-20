@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.COBBLESTONE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.COBBLESTONE",
+      "Blocks.COBBLESTONE",
+      "Blocks.COBBLESTONE",
+      "Blocks.COBBLESTONE",
+      "",
+      "Blocks.COBBLESTONE",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:StoneArmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:StoneArmor.helmet",
     "name": "stone_armor_helmet_recipe",
     "namespace": "mod"
   }

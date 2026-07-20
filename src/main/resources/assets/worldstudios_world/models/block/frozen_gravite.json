@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/frozen_gravite",
     "west": "worldstudios_world:block/frozen_gravite",
     "particle": "worldstudios_world:block/gravite"
-  },
-  "render_type": "solid"
+  }
 }

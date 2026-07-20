@@ -8,6 +8,5 @@
     "south": "worldstudios_world:block/andor_log_side",
     "west": "worldstudios_world:block/andor_log_side",
     "particle": "worldstudios_world:block/andor_log_top"
-  },
-  "render_type": "solid"
+  }
 }

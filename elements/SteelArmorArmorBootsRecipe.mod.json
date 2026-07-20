@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": "CUSTOM:Steel"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Steel"
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:Steel",
+      "",
+      "CUSTOM:Steel",
+      "CUSTOM:Steel",
+      "",
+      "CUSTOM:Steel"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SteelArmorArmor.boots"
-    },
+    "recipeReturnStack": "CUSTOM:SteelArmorArmor.boots",
     "name": "steel_armor_armor_boots_recipe",
     "namespace": "mod"
   }

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "ninty_gravel_down_the_drain_0": {
+    "ninty_gravel_down_the_drain_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

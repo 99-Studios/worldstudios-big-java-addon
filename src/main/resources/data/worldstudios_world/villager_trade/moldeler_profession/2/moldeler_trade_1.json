@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 10
+  },
+  "gives": {
+    "id": "worldstudios_world:capsule"
+  },
+  "max_uses": 10,
+  "xp": 10,
+  "reputation_discount": 0.1
+}

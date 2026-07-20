@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Spade",
@@ -14,9 +14,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "efficiency": 20.0,
     "attackSpeed": 23.0,
@@ -27,9 +25,7 @@
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "Blocks.CHAIN_COMMAND_BLOCK"
-      }
+      "Blocks.CHAIN_COMMAND_BLOCK"
     ],
     "immuneToFire": false,
     "blockDropsTier": "DIAMOND",

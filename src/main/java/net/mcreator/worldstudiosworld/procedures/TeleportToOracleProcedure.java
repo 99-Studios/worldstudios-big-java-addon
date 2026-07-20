@@ -5,8 +5,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
 import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
 import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
@@ -21,7 +21,7 @@ public class TeleportToOracleProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof ServerPlayer _player && _player.level() instanceof ServerLevel _serverLevel) {
-			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse("worldstudios_world:oracle"));
+			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, Identifier.parse("worldstudios_world:oracle"));
 			if (_player.level().dimension() == destinationType)
 				return;
 			ServerLevel nextLevel = _serverLevel.getServer().getLevel(destinationType);

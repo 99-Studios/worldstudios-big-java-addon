@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "amethesium_madness_0": {
+    "amethesium_madness_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "amethesium_madness_1": {
+    "amethesium_madness_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "amethesium_madness_2": {
+    "amethesium_madness_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "amethesium_madness_3": {
+    "amethesium_madness_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -71,7 +71,7 @@
         ]
       }
     },
-    "amethesium_madness_4": {
+    "amethesium_madness_9": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -85,7 +85,7 @@
         ]
       }
     },
-    "amethesium_madness_5": {
+    "amethesium_madness_11": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -99,7 +99,7 @@
         ]
       }
     },
-    "amethesium_madness_6": {
+    "amethesium_madness_13": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -113,7 +113,7 @@
         ]
       }
     },
-    "amethesium_madness_7": {
+    "amethesium_madness_15": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -127,7 +127,7 @@
         ]
       }
     },
-    "amethesium_madness_8": {
+    "amethesium_madness_17": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -141,7 +141,7 @@
         ]
       }
     },
-    "amethesium_madness_9": {
+    "amethesium_madness_19": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

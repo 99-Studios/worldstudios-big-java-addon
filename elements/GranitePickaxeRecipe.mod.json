@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": "Blocks.STONE#1"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Blocks.STONE#1",
+      "Blocks.STONE#1",
+      "Blocks.STONE#1",
+      "",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:GranitePickaxe"
-    },
+    "recipeReturnStack": "CUSTOM:GranitePickaxe",
     "name": "granite_pickaxe_recipe",
     "namespace": "mod"
   }

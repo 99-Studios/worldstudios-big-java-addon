@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Capsteel"
-      },
-      {
-        "value": "Items.FLINT"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Capsteel",
+      "Items.FLINT",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:RefinedFlintAndSteel"
-    },
+    "recipeReturnStack": "CUSTOM:RefinedFlintAndSteel",
     "name": "refined_flint_and_steel_recipe",
     "namespace": "mod"
   }

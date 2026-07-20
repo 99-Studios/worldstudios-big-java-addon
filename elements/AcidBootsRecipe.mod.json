@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": "Items.EMERALD"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.EMERALD"
-      }
+      "",
+      "",
+      "",
+      "Items.EMERALD",
+      "",
+      "Items.EMERALD",
+      "Items.EMERALD",
+      "",
+      "Items.EMERALD"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AcidArmor.boots"
-    },
+    "recipeReturnStack": "CUSTOM:AcidArmor.boots",
     "name": "acid_boots_recipe",
     "namespace": "mod"
   }

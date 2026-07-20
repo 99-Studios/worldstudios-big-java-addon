@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Campfire cooking",
@@ -11,12 +11,8 @@
     "cookingTime": 600,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "campfireCookingInputStack": {
-      "value": "Items.COOKIE"
-    },
-    "campfireCookingReturnStack": {
-      "value": "CUSTOM:Cookie"
-    },
+    "campfireCookingInputStack": "Items.COOKIE",
+    "campfireCookingReturnStack": "CUSTOM:Cookie",
     "name": "cookie_recipe",
     "namespace": "mod"
   }

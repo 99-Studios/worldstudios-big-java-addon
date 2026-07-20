@@ -1,20 +1,14 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      {
-        "value": "CUSTOM:BedrockLands"
-      }
+      "CUSTOM:BedrockLands"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
-    "mainFillerBlock": {
-      "value": "Blocks.BEDROCK"
-    },
-    "fluidBlock": {
-      "value": "Blocks.AIR"
-    },
+    "mainFillerBlock": "Blocks.BEDROCK",
+    "fluidBlock": "Blocks.AIR",
     "seaLevel": 0,
     "generateOreVeins": false,
     "generateAquifers": false,
@@ -34,6 +28,8 @@
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
+    "enableCustomSkyboxTextures": false,
+    "enableCustomSunMoonTextures": false,
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
@@ -42,16 +38,10 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": {
-      "value": "CUSTOM:Graystone"
-    },
-    "portalParticles": {
-      "value": "PORTAL"
-    },
+    "portalFrame": "CUSTOM:Graystone",
+    "portalParticles": "PORTAL",
     "portalLuminance": 0,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
+    "portalSound": "block.portal.ambient",
     "enableIgniter": true,
     "igniterName": "Flint and Urainium",
     "igniterRarity": "UNCOMMON",
@@ -59,9 +49,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      }
+      "TOOLS"
     ],
     "texture": "skip_lighter",
     "portalTexture": "skip_portal",

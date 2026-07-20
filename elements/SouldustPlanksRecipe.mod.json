@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
     "group": "planks",
     "unlockingItems": [
-      {
-        "value": "TAG:worldstudios_world:souldust_logs"
-      }
+      "TAG:worldstudios_world:souldust_logs"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "TAG:worldstudios_world:souldust_logs"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "",
+      "TAG:worldstudios_world:souldust_logs",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SouldustPlanks"
-    },
+    "recipeReturnStack": "CUSTOM:SouldustPlanks",
     "name": "souldust_planks_recipe",
     "namespace": "mod"
   }

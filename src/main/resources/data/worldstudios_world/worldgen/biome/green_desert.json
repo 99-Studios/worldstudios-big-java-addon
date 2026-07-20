@@ -3,18 +3,22 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "particle": {
-      "options": {
-        "type": "worldstudios_world:radiation_particles"
-      },
-      "probability": 0.005
-    },
     "foliage_color": 10387789,
     "grass_color": 9470285,
-    "sky_color": -16724992,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4159204
+  },
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "worldstudios_world:radiation_particles"
+        },
+        "probability": 0.005
+      }
+    ],
+    "minecraft:visual/sky_color": -16724992,
+    "minecraft:visual/fog_color": 12638463,
+    "minecraft:visual/water_fog_color": 329011
   },
   "spawners": {
     "monster": [],

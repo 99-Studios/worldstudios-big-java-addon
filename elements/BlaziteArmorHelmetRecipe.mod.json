@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Blazite"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "CUSTOM:Blazite",
+      "",
+      "CUSTOM:Blazite",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BlaziteArmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:BlaziteArmor.helmet",
     "name": "blazite_armor_helmet_recipe",
     "namespace": "mod"
   }

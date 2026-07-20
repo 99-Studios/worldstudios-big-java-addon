@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      },
-      {
-        "value": "CUSTOM:AndorPlanks"
-      }
+      "CUSTOM:AndorPlanks",
+      "",
+      "",
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks",
+      "",
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks",
+      "CUSTOM:AndorPlanks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:AndorStairs"
-    },
+    "recipeReturnStack": "CUSTOM:AndorStairs",
     "name": "andor_stairs_recipe",
     "namespace": "mod"
   }

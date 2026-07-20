@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Radiation",
@@ -8,20 +8,14 @@
       "value": -16737997,
       "falpha": 0.0
     },
-    "particle": {
-      "value": "CUSTOM:RadiationParticles"
-    },
-    "onAddedSound": {
-      "value": ""
-    },
+    "particle": "CUSTOM:RadiationParticles",
+    "onAddedSound": "",
     "isInstant": false,
     "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "isCuredbyHoney": false,
     "modifiers": [],
-    "onActiveTick": {
-      "name": "RadiationOnEffectActiveTick"
-    }
+    "onActiveTick": "RadiationOnEffectActiveTick"
   }
 }

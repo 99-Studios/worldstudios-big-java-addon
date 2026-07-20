@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "amethesium_ore",
@@ -51,14 +51,10 @@
     "rarity": "UNCOMMON",
     "immuneToFire": true,
     "creativeTabs": [
-      {
-        "value": "DECORATIONS"
-      }
+      "DECORATIONS"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -78,9 +74,7 @@
     },
     "colorOnMap": "SILVER",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
     "beaconColorModifier": {
@@ -96,25 +90,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
+    "soundOnStep": "AMETHYST_BLOCK",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "AMETHYST_BLOCK"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -145,9 +127,7 @@
     "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
-      {
-        "value": "Blocks.AMETHYST_BLOCK"
-      }
+      "Blocks.AMETHYST_BLOCK"
     ],
     "generationShape": "TRIANGLE",
     "frequencyPerChunks": 10,

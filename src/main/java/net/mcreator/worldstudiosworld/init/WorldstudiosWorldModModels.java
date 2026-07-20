@@ -8,31 +8,31 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
+import net.minecraft.client.model.object.boat.BoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
-import net.minecraft.client.model.BoatModel;
 
 import net.mcreator.worldstudiosworld.client.model.*;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class WorldstudiosWorldModModels {
-	public static final ModelLayerLocation STEEL_BOAT_LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.parse("worldstudios_world:boat/steel_boat"), "main");
-	public static final ModelLayerLocation SOULDUST_BOAT_LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.parse("worldstudios_world:boat/souldust_boat"), "main");
-	public static final ModelLayerLocation SOULDUST_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.parse("worldstudios_world:chest_boat/souldust_chest_boat"), "main");
+	public static final ModelLayerLocation STEEL_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/steel_boat"), "main");
+	public static final ModelLayerLocation SOULDUST_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/souldust_chest_boat"), "main");
+	public static final ModelLayerLocation SOULDUST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/souldust_boat"), "main");
 
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelJumper.LAYER_LOCATION, ModelJumper::createBodyLayer);
-		event.registerLayerDefinition(Modelwalkingchest.LAYER_LOCATION, Modelwalkingchest::createBodyLayer);
 		event.registerLayerDefinition(Modeltitan.LAYER_LOCATION, Modeltitan::createBodyLayer);
+		event.registerLayerDefinition(Modelwalkingchest.LAYER_LOCATION, Modelwalkingchest::createBodyLayer);
 		event.registerLayerDefinition(Modeltallzombie.LAYER_LOCATION, Modeltallzombie::createBodyLayer);
 		event.registerLayerDefinition(Modelradiatedzombie.LAYER_LOCATION, Modelradiatedzombie::createBodyLayer);
 		event.registerLayerDefinition(Modelmasterofthedarkarts.LAYER_LOCATION, Modelmasterofthedarkarts::createBodyLayer);
 		event.registerLayerDefinition(Modelsawping.LAYER_LOCATION, Modelsawping::createBodyLayer);
 		event.registerLayerDefinition(Modeldarkbat.LAYER_LOCATION, Modeldarkbat::createBodyLayer);
+		event.registerLayerDefinition(Modelwalking_pig.LAYER_LOCATION, Modelwalking_pig::createBodyLayer);
 		event.registerLayerDefinition(Modeldarksoul.LAYER_LOCATION, Modeldarksoul::createBodyLayer);
 		event.registerLayerDefinition(Modelyeti.LAYER_LOCATION, Modelyeti::createBodyLayer);
-		event.registerLayerDefinition(Modelwalking_pig.LAYER_LOCATION, Modelwalking_pig::createBodyLayer);
 		event.registerLayerDefinition(Modelbirdbrain.LAYER_LOCATION, Modelbirdbrain::createBodyLayer);
 		event.registerLayerDefinition(ModelProd.LAYER_LOCATION, ModelProd::createBodyLayer);
 		event.registerLayerDefinition(Modelcuber.LAYER_LOCATION, Modelcuber::createBodyLayer);
@@ -45,7 +45,7 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(ModelNethering_Trader.LAYER_LOCATION, ModelNethering_Trader::createBodyLayer);
 		event.registerLayerDefinition(Modelicedragon.LAYER_LOCATION, Modelicedragon::createBodyLayer);
 		event.registerLayerDefinition(STEEL_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
-		event.registerLayerDefinition(SOULDUST_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 		event.registerLayerDefinition(SOULDUST_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
+		event.registerLayerDefinition(SOULDUST_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 	}
 }

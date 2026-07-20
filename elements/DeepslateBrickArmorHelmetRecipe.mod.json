@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.DEEPSLATE_BRICKS"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_BRICKS"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_BRICKS"
-      },
-      {
-        "value": "Blocks.DEEPSLATE_BRICKS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.DEEPSLATE_BRICKS"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "Blocks.DEEPSLATE_BRICKS",
+      "",
+      "Blocks.DEEPSLATE_BRICKS",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:DeepslateBrickArmor.helmet"
-    },
+    "recipeReturnStack": "CUSTOM:DeepslateBrickArmor.helmet",
     "name": "deepslate_brick_armor_helmet_recipe",
     "namespace": "mod"
   }

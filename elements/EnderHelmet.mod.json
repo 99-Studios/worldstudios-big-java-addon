@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,13 +10,9 @@
     "textureLeggings": "",
     "enableBoots": false,
     "textureBoots": "",
-    "onHelmetTick": {
-      "name": "EnderHelmetHelmetTickEvent"
-    },
+    "onHelmetTick": "EnderHelmetHelmetTickEvent",
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "armorTextureFile": "enderhelmet",
     "helmetName": "Ender Helmet",
@@ -87,14 +83,11 @@
     "enchantability": 9,
     "toughness": 3.0,
     "knockbackResistance": 0.2,
-    "equipSound": {
-      "value": "block.beacon.activate"
-    },
+    "equipSound": "block.beacon.activate",
     "repairItems": [
-      {
-        "value": "Items.ENDER_EYE"
-      }
+      "Items.ENDER_EYE"
     ],
-    "rarity": "COMMON"
+    "rarity": "COMMON",
+    "attributeModifiers": []
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      },
-      {
-        "value": "CUSTOM:TitanIngot"
-      }
+      "CUSTOM:TitanIngot",
+      "",
+      "CUSTOM:TitanIngot",
+      "CUSTOM:TitanIngot",
+      "CUSTOM:TitanIngot",
+      "CUSTOM:TitanIngot",
+      "CUSTOM:TitanIngot",
+      "CUSTOM:TitanIngot",
+      "CUSTOM:TitanIngot"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:TitanArmorArmor.body"
-    },
+    "recipeReturnStack": "CUSTOM:TitanArmorArmor.body",
     "name": "titan_armor_armor_chestplate_recipe",
     "namespace": "mod"
   }

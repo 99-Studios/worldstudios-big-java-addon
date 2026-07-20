@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "why_is_this_a_thing_0": {
+    "why_is_this_a_thing_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

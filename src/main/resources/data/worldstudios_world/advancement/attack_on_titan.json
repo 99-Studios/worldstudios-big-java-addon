@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "attack_on_titan_0": {
+    "attack_on_titan_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

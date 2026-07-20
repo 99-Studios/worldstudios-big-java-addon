@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "CUSTOM:Branite"
-      }
+      "CUSTOM:Branite"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Branite"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "CUSTOM:Branite",
+      "",
+      "Items.STICK",
+      "",
+      "Items.STICK",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BraniteLunge"
-    },
+    "recipeReturnStack": "CUSTOM:BraniteLunge",
     "name": "branite_lunge_recipe",
     "namespace": "mod"
   }

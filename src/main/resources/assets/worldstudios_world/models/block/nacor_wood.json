@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/nacor_log_side",
     "particle": "worldstudios_world:block/nacor_log_side"
-  },
-  "render_type": "solid"
+  }
 }

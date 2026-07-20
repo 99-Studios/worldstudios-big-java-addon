@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "flint_and_steel_0": {
+    "flint_and_steel_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -11,8 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -24,8 +24,8 @@ import java.util.Map;
 
 public abstract class DirtArmorItem extends Item {
 	public static ArmorMaterial ARMOR_MATERIAL = new ArmorMaterial(2, Map.of(ArmorType.BOOTS, 1, ArmorType.LEGGINGS, 4, ArmorType.CHESTPLATE, 4, ArmorType.HELMET, 1, ArmorType.BODY, 4), 5,
-			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0.1f, 0f, TagKey.create(Registries.ITEM, ResourceLocation.parse("worldstudios_world:dirt_armor_repair_items")),
-			ResourceKey.create(EquipmentAssets.ROOT_ID, ResourceLocation.parse("worldstudios_world:dirt_armor")));
+			BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), 0.1f, 0f, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:dirt_armor_repair_items")),
+			ResourceKey.create(EquipmentAssets.ROOT_ID, Identifier.parse("worldstudios_world:dirt_armor")));
 
 	private DirtArmorItem(Item.Properties properties) {
 		super(properties);

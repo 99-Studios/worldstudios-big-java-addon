@@ -7,7 +7,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.projectile.arrow.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
@@ -30,7 +30,7 @@ import net.minecraft.world.Difficulty;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
@@ -123,17 +123,17 @@ public class DarkPhantomEntity extends Monster {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.phantom.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.phantom.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.phantom.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.phantom.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.phantom.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.phantom.death"));
 	}
 
 	@Override
@@ -157,11 +157,6 @@ public class DarkPhantomEntity extends Monster {
 	}
 
 	@Override
-	public void travel(Vec3 dir) {
-		this.travelFlying(dir, (float) this.getAttributeValue(Attributes.FLYING_SPEED));
-	}
-
-	@Override
 	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
 	}
 
@@ -170,9 +165,15 @@ public class DarkPhantomEntity extends Monster {
 		super.setNoGravity(true);
 	}
 
+	@Override
 	public void aiStep() {
 		super.aiStep();
 		this.setNoGravity(true);
+	}
+
+	@Override
+	protected float getFlyingSpeed() {
+		return (float) this.getAttributeValue(Attributes.FLYING_SPEED);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

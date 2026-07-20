@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -12,18 +12,14 @@
     "name": "Cube Essence",
     "rarity": "COMMON",
     "creativeTabs": [
-      {
-        "value": "FOOD"
-      }
+      "FOOD"
     ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
-    "recipeRemainder": {
-      "value": ""
-    },
+    "recipeRemainder": "",
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "isPiglinCurrency": false,
@@ -47,23 +43,17 @@
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
-    "projectile": {
-      "value": "CUSTOM:DinamiteProjectile"
-    },
+    "projectile": "CUSTOM:DinamiteProjectile",
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 1,
     "saturation": 0.3,
-    "eatResultItem": {
-      "value": ""
-    },
+    "eatResultItem": "",
     "isMeat": false,
     "isAlwaysEdible": true,
     "animation": "eat",
     "isMusicDisc": false,
-    "musicDiscMusic": {
-      "value": ""
-    },
+    "musicDiscMusic": "",
     "musicDiscDescription": "",
     "musicDiscLengthInTicks": 100,
     "musicDiscAnalogOutput": 0,

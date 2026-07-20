@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
@@ -11,12 +11,8 @@
     "cookingTime": 167,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "Items.IRON_INGOT"
-    },
-    "blastingReturnStack": {
-      "value": "CUSTOM:Steel"
-    },
+    "blastingInputStack": "Items.IRON_INGOT",
+    "blastingReturnStack": "CUSTOM:Steel",
     "name": "steel_blasting_recipe",
     "namespace": "mod"
   }

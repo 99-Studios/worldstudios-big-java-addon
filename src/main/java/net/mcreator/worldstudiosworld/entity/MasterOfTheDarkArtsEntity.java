@@ -23,7 +23,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
@@ -71,22 +71,22 @@ public class MasterOfTheDarkArtsEntity extends Raider implements RangedAttackMob
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.evoker.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.evoker.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.evoker.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.evoker.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.evoker.death"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.evoker.death"));
 	}
 
 	@Override
 	public SoundEvent getCelebrateSound() {
-		return BuiltInRegistries.SOUND_EVENT.getValue(ResourceLocation.parse("entity.evoker.celebrate"));
+		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.evoker.celebrate"));
 	}
 
 	@Override

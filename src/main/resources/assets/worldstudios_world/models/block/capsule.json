@@ -3,6 +3,5 @@
   "textures": {
     "all": "worldstudios_world:block/capsule",
     "particle": "worldstudios_world:block/capsule"
-  },
-  "render_type": "translucent"
+  }
 }

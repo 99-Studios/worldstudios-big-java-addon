@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "and_or_armor_advancement_0": {
+    "and_or_armor_advancement_1": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,7 +29,7 @@
         ]
       }
     },
-    "and_or_armor_advancement_1": {
+    "and_or_armor_advancement_3": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -43,7 +43,7 @@
         ]
       }
     },
-    "and_or_armor_advancement_2": {
+    "and_or_armor_advancement_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "and_or_armor_advancement_3": {
+    "and_or_armor_advancement_7": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
