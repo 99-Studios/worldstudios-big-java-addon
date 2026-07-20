@@ -1003,5 +1003,7 @@
   "item.worldstudios_world.skip": "Flint and Urainium",
   "item.worldstudios_world.dual_weed": "Dual Weed",
   "gamerule.worldstudios_world.enderHelmetTeleport.description": "Deactivates teleporting with the Ender Helmet when false.",
-  "gamerule.worldstudios_world.enderHelmetTeleport": "Ender Helmet Teleport"
+  "gamerule.worldstudios_world.enderHelmetTeleport": "Ender Helmet Teleport",
+  "entity.worldstudios_world.dirt_boat": "Dirt Boat",
+  "item.worldstudios_world.dirt_boat": "Dirt Boat"
 }

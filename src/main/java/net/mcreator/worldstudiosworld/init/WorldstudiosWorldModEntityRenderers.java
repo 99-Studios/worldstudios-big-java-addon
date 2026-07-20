@@ -42,5 +42,6 @@ public class WorldstudiosWorldModEntityRenderers {
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.SAWPING.get(), SawpingRenderer::new);
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.SOULDUST_BOAT.get(), context -> new BoatRenderer(context, WorldstudiosWorldModModels.SOULDUST_BOAT_LAYER_LOCATION));
 		event.registerEntityRenderer(WorldstudiosWorldModEntities.SOULDUST_CHEST_BOAT.get(), context -> new BoatRenderer(context, WorldstudiosWorldModModels.SOULDUST_CHEST_BOAT_LAYER_LOCATION));
+		event.registerEntityRenderer(WorldstudiosWorldModEntities.DIRT_BOAT.get(), context -> new BoatRenderer(context, WorldstudiosWorldModModels.DIRT_BOAT_LAYER_LOCATION));
 	}
 }

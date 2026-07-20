@@ -332,6 +332,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> GRAYSTONE;
 	public static final DeferredItem<Item> SKIP;
 	public static final DeferredItem<Item> DUAL_WEED;
+	public static final DeferredItem<Item> DIRT_BOAT;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -641,6 +642,7 @@ public class WorldstudiosWorldModItems {
 		GRAYSTONE = block(WorldstudiosWorldModBlocks.GRAYSTONE, new Item.Properties().rarity(Rarity.UNCOMMON));
 		SKIP = register("skip", SkipItem::new);
 		DUAL_WEED = doubleBlock(WorldstudiosWorldModBlocks.DUAL_WEED);
+		DIRT_BOAT = register("dirt_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.DIRT_BOAT.get(), properties.stacksTo(1)));
 	}
 
 	// Start of user code block custom items

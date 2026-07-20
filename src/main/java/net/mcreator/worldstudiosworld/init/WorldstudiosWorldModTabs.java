@@ -115,6 +115,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.SOULDUST_SHOVEL.get());
 			tabData.accept(WorldstudiosWorldModItems.SOULDUST_HOE.get());
 			tabData.accept(WorldstudiosWorldModItems.SKIP.get());
+			tabData.accept(WorldstudiosWorldModItems.DIRT_BOAT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());

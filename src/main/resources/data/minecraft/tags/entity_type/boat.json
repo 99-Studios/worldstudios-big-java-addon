@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "worldstudios_world:steel_boat",
+    "worldstudios_world:dirt_boat",
     "worldstudios_world:souldust_boat"
   ]
 }

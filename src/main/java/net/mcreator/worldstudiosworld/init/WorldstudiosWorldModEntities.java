@@ -109,6 +109,8 @@ public class WorldstudiosWorldModEntities {
 			EntityType.Builder.<SouldustBoatEntity>of(SouldustBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 	public static final DeferredHolder<EntityType<?>, EntityType<SouldustChestBoatEntity>> SOULDUST_CHEST_BOAT = register("souldust_chest_boat",
 			EntityType.Builder.<SouldustChestBoatEntity>of(SouldustChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
+	public static final DeferredHolder<EntityType<?>, EntityType<DirtBoatEntity>> DIRT_BOAT = register("dirt_boat",
+			EntityType.Builder.<DirtBoatEntity>of(DirtBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

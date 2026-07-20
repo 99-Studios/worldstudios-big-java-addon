@@ -19,6 +19,7 @@ public class WorldstudiosWorldModModels {
 	public static final ModelLayerLocation STEEL_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/steel_boat"), "main");
 	public static final ModelLayerLocation SOULDUST_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/souldust_chest_boat"), "main");
 	public static final ModelLayerLocation SOULDUST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/souldust_boat"), "main");
+	public static final ModelLayerLocation DIRT_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/dirt_boat"), "main");
 
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
@@ -47,5 +48,6 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(STEEL_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 		event.registerLayerDefinition(SOULDUST_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
 		event.registerLayerDefinition(SOULDUST_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
+		event.registerLayerDefinition(DIRT_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 	}
 }

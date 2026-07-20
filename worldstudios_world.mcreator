@@ -9704,6 +9704,45 @@
           "src/main/java/net/mcreator/worldstudiosworld/command/SkipCommandCommand.java"
         ]
       }
+    },
+    {
+      "name": "DirtBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_boat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/entity/DirtBoatEntity.java",
+          "src/main/resources/assets/worldstudios_world/items/dirt_boat.json",
+          "src/main/resources/assets/worldstudios_world/models/item/dirt_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/dirt_boat_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/dirt_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AtLeastItFloats",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "at_least_it_floats",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/at_least_it_floats.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10459,10 +10498,12 @@
       "~BraniteOre@CUSTOM:BraniteOre"
     ],
     "ENTITIES:minecraft:boat": [
+      "~DirtBoat@CUSTOM:DirtBoat",
       "~SouldustBoat@CUSTOM:SouldustBoat",
       "~SteelBoat@CUSTOM:SteelBoat"
     ],
     "ITEMS:minecraft:boats": [
+      "~DirtBoat@CUSTOM:DirtBoat",
       "~SouldustBoat@CUSTOM:SouldustBoat",
       "~SteelBoat@CUSTOM:SteelBoat"
     ],
@@ -11504,7 +11545,11 @@
       "item.worldstudios_world.skip": "Flint and Urainium",
       "item.worldstudios_world.dual_weed": "Dual Weed",
       "gamerule.worldstudios_world.enderHelmetTeleport.description": "Deactivates teleporting with the Ender Helmet when false.",
-      "gamerule.worldstudios_world.enderHelmetTeleport": "Ender Helmet Teleport"
+      "gamerule.worldstudios_world.enderHelmetTeleport": "Ender Helmet Teleport",
+      "entity.worldstudios_world.dirt_boat": "Dirt Boat",
+      "item.worldstudios_world.dirt_boat": "Dirt Boat",
+      "advancements.at_least_it_floats.descr": "Craft a dirt boat.",
+      "advancements.at_least_it_floats.title": "At Least It Floats"
     }
   },
   "metadata": {
