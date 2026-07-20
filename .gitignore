@@ -1,31 +1,18 @@
-# Gradle
-.gradle/
+# Build output
 build/
-
-# Minecraft run folders
 run/
 logs/
 crash-reports/
 
-# Generated files
-classes/
-generated/
-out/
+# Gradle cache
+.gradle/
 
 # IDE files
+.eclipse/
 .idea/
-*.iml
 .vscode/
+*.iml
 
 # Operating system files
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# MCreator files
-*.mcreator.backup
-*.mcreator.bak
-
-# Java build files
-*.class
-*.jar
