@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "worldstudios_world:blocks/souldust_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldstudios_world:souldust_door",
+          "conditions": [
+            {
+              "block": "worldstudios_world:souldust_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

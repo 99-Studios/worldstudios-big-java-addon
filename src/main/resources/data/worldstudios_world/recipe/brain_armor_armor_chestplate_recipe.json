@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "worldstudios_world:brain"
+  },
+  "result": {
+    "id": "worldstudios_world:brain_armor_armor_chestplate",
+    "count": 1
+  }
+}

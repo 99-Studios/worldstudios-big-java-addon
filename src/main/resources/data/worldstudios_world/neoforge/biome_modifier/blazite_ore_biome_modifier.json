@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:yellow_fields",
+  "features": "worldstudios_world:blazite_ore",
+  "step": "underground_ores"
+}

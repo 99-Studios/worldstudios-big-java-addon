@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/modeler_base",
+    "up": "worldstudios_world:block/modeler_base",
+    "north": "worldstudios_world:block/modeler_front",
+    "east": "worldstudios_world:block/modeler_left",
+    "south": "worldstudios_world:block/modeler_base",
+    "west": "worldstudios_world:block/modeler_right",
+    "particle": "worldstudios_world:block/modeler_base"
+  },
+  "render_type": "solid"
+}

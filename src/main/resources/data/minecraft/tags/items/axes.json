@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:wool_axe",
+    "big_addon:granite_axe",
+    "big_addon:blazite_axe",
+    "big_addon:andesite_axe",
+    "big_addon:dirt_tool_axe",
+    "big_addon:andor_axe",
+    "big_addon:sparkle_axe",
+    "big_addon:titan_tool_axe",
+    "big_addon:forgium_multitool"
+  ]
+}

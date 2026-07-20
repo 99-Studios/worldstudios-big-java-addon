@@ -1,0 +1,11 @@
+{
+  "asset_id": "worldstudios_world:deep_in_the_dark",
+  "height": 2,
+  "width": 4,
+  "title": {
+    "translate": "painting.worldstudios_world.deep_in_the_dark.title"
+  },
+  "author": {
+    "translate": "painting.worldstudios_world.deep_in_the_dark.author"
+  }
+}

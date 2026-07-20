@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "Explosives",
+    "icon": {
+      "value": "Blocks.TNT"
+    },
+    "showSearch": true
+  }
+}

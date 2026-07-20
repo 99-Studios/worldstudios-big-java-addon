@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "worldstudios_world:block/semite",
+    "particle": "worldstudios_world:block/semite"
+  },
+  "render_type": "solid"
+}

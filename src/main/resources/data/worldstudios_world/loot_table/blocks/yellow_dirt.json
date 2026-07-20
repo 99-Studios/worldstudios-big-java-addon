@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "worldstudios_world:blocks/yellow_dirt",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldstudios_world:yellow_dirt"
+        }
+      ]
+    }
+  ]
+}

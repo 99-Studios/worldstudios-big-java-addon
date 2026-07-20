@@ -1,0 +1,11 @@
+{
+  "asset_id": "worldstudios_world:the_hidden_one",
+  "height": 3,
+  "width": 3,
+  "title": {
+    "translate": "painting.worldstudios_world.the_hidden_one.title"
+  },
+  "author": {
+    "translate": "painting.worldstudios_world.the_hidden_one.author"
+  }
+}

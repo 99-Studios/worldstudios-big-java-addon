@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gunpowder",
+    "b": "worldstudios_world:block_of_flint"
+  },
+  "result": {
+    "id": "worldstudios_world:ignyite",
+    "count": 1
+  }
+}

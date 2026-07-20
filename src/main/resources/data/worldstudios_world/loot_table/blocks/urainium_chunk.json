@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "worldstudios_world:blocks/urainium_chunk",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldstudios_world:urainium_peice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

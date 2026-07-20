@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:granite_armor_boots",
+    "worldstudios_world:stone_armor_boots",
+    "worldstudios_world:brain_armor_armor_boots",
+    "worldstudios_world:blazite_armor_boots",
+    "worldstudios_world:command_block_armor_boots",
+    "worldstudios_world:wool_armor_boots",
+    "worldstudios_world:repeating_command_block_armor_boots",
+    "worldstudios_world:andor_armor_boots",
+    "worldstudios_world:chain_command_block_armor_boots",
+    "worldstudios_world:steel_armor_armor_boots",
+    "worldstudios_world:acid_armor_boots",
+    "worldstudios_world:dirt_armor_boots",
+    "worldstudios_world:ignightium_armor_boots",
+    "worldstudios_world:andesite_armor_boots",
+    "worldstudios_world:resin_brick_armor_boots",
+    "worldstudios_world:brick_armor_boots",
+    "worldstudios_world:amethesium_armor_boots",
+    "worldstudios_world:skeleton_armor_boots",
+    "worldstudios_world:titan_armor_armor_boots",
+    "worldstudios_world:deepslate_brick_armor_boots"
+  ]
+}

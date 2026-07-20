@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "worldstudios_world:andor_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "worldstudios_world:andor_armor"
+      }
+    ]
+  }
+}

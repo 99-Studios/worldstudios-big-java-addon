@@ -1,0 +1,37 @@
+{
+  "_fv": 85,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "sword_of_the_frozen_warrior",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Sword Of The Frozen Warrior",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 15.0,
+    "attackSpeed": 1.6,
+    "enchantability": 22,
+    "damageVsEntity": 16.0,
+    "usageCount": 4086,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

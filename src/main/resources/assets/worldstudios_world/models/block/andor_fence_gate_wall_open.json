@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall_open",
+  "textures": {
+    "texture": "worldstudios_world:block/andor_planks",
+    "particle": "worldstudios_world:block/andor_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "worldstudios_world:frozen_biome",
+  "spawners": {
+    "type": "worldstudios_world:ice_dragon",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

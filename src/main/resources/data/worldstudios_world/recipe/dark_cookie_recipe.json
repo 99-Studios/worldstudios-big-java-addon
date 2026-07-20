@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldstudios_world:cookie",
+    "worldstudios_world:dark_splatter"
+  ],
+  "result": {
+    "id": "worldstudios_world:dark_cookie",
+    "count": 1
+  }
+}

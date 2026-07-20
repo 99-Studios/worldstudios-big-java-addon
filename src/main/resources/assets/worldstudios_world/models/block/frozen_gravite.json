@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/gravite",
+    "up": "worldstudios_world:block/frozen_gravite_top",
+    "north": "worldstudios_world:block/frozen_gravite",
+    "east": "worldstudios_world:block/frozen_gravite",
+    "south": "worldstudios_world:block/frozen_gravite",
+    "west": "worldstudios_world:block/frozen_gravite",
+    "particle": "worldstudios_world:block/gravite"
+  },
+  "render_type": "solid"
+}

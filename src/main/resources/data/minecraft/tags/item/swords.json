@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:skeleton_sword",
+    "worldstudios_world:souldust_sword",
+    "worldstudios_world:wool_sword",
+    "worldstudios_world:chain_command_block_sword",
+    "worldstudios_world:amethesium_sword",
+    "worldstudios_world:andor_sword",
+    "worldstudios_world:ignightium_sword",
+    "worldstudios_world:forgium_multitool",
+    "worldstudios_world:andesite_sword",
+    "worldstudios_world:command_block_sword",
+    "worldstudios_world:blazite_sword",
+    "worldstudios_world:repeating_command_block_sword",
+    "worldstudios_world:dirt_tool_sword",
+    "worldstudios_world:steel_tool_sword",
+    "worldstudios_world:nacor_sword",
+    "worldstudios_world:sparkle_sword",
+    "worldstudios_world:titan_tool_sword",
+    "worldstudios_world:sword_of_the_frozen_warrior",
+    "worldstudios_world:granite_sword"
+  ]
+}

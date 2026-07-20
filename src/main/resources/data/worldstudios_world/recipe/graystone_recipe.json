@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:deepslate",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff"
+  ],
+  "result": {
+    "id": "worldstudios_world:graystone",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "worldstudios_world:block/dual_weed"
+    },
+    "half=lower": {
+      "model": "worldstudios_world:block/dual_weed_bottom"
+    }
+  }
+}

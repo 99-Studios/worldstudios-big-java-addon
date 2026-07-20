@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:wool_pickaxe",
+    "big_addon:granite_pickaxe",
+    "big_addon:blazite_pickaxe",
+    "big_addon:andesite_pickaxe",
+    "big_addon:dirt_tool_pickaxe",
+    "big_addon:andor_pickaxe",
+    "big_addon:sparkle_pickaxe",
+    "big_addon:titan_tool_pickaxe",
+    "big_addon:forgium_multitool",
+    "big_addon:urainium_pickaxe",
+    "big_addon:urainium_blade",
+    "big_addon:coal_pickaxe"
+  ]
+}

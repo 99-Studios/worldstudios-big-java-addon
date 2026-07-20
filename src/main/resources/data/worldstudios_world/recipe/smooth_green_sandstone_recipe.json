@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "worldstudios_world:green_sandstone",
+  "result": {
+    "id": "worldstudios_world:smooth_green_sandstone",
+    "count": 3
+  }
+}

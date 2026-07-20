@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "worldstudios_world:block/yellow_dirt",
+    "top": "worldstudios_world:block/yellow_grass_block",
+    "side": "worldstudios_world:block/yellow_dirt",
+    "overlay": "worldstudios_world:block/yellow_dirt",
+    "particle": "worldstudios_world:block/yellow_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

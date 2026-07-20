@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:command_block_shovel",
+    "worldstudios_world:amethesium_shovel",
+    "worldstudios_world:skeleton_shovel",
+    "worldstudios_world:chain_command_block_shovel",
+    "worldstudios_world:repeating_command_block_shovel",
+    "worldstudios_world:nacor_shovel",
+    "worldstudios_world:blazite_shovel",
+    "worldstudios_world:steel_tool_shovel",
+    "worldstudios_world:wool_shovel",
+    "worldstudios_world:dirt_tool_shovel",
+    "worldstudios_world:souldust_shovel",
+    "worldstudios_world:ignightium_shovel",
+    "worldstudios_world:andor_shovel",
+    "worldstudios_world:andesite_shovel",
+    "worldstudios_world:granite_shovel"
+  ]
+}

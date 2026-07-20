@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/ice_pillar_top",
+    "up": "worldstudios_world:block/ice_pillar_top",
+    "north": "worldstudios_world:block/ice_pillar",
+    "east": "worldstudios_world:block/ice_pillar",
+    "south": "worldstudios_world:block/ice_pillar",
+    "west": "worldstudios_world:block/ice_pillar",
+    "particle": "worldstudios_world:block/ice_pillar_top"
+  },
+  "render_type": "cutout_mipped"
+}

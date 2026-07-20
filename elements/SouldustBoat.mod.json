@@ -1,0 +1,15 @@
+{
+  "_fv": 85,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Souldust Boat",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "entityTexture": "souldust_boat",
+    "itemTexture": "souldust_boat"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "worldstudios_world:item/repeatingcommandblock_axe"
+  }
+}

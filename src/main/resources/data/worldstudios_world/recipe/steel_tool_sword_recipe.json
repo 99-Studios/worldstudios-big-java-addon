@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "worldstudios_world:steel",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "worldstudios_world:steel_tool_sword",
+    "count": 1
+  }
+}

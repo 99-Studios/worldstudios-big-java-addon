@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "worldstudios_world:nacor_wood"
+  ],
+  "result": {
+    "id": "worldstudios_world:nacor_planks",
+    "count": 4
+  }
+}

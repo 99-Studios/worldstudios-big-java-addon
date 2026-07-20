@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldstudios_world:ignightium_block"
+  ],
+  "result": {
+    "id": "worldstudios_world:ignightium_ingot",
+    "count": 9
+  }
+}

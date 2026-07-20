@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:block/stone",
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "advancements.top_tier_challenges.title"
+    },
+    "description": {
+      "translate": "advancements.top_tier_challenges.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "top_tier_challenges_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

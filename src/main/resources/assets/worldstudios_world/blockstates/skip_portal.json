@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "worldstudios_world:block/skip_portal_ew"
+    },
+    "axis=x": {
+      "model": "worldstudios_world:block/skip_portal_ns"
+    }
+  }
+}

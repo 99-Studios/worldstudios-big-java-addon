@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_door",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SouldustDoor"
+    },
+    "name": "souldust_door_recipe",
+    "namespace": "mod"
+  }
+}

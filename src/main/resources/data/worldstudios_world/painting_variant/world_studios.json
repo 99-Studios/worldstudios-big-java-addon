@@ -1,0 +1,11 @@
+{
+  "asset_id": "worldstudios_world:world_studios",
+  "height": 2,
+  "width": 3,
+  "title": {
+    "translate": "painting.worldstudios_world.world_studios.title"
+  },
+  "author": {
+    "translate": "painting.worldstudios_world.world_studios.author"
+  }
+}

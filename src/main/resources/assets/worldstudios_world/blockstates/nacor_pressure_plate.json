@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "worldstudios_world:block/nacor_pressure_plate"
+    },
+    "powered=true": {
+      "model": "worldstudios_world:block/nacor_pressure_plate_down"
+    }
+  }
+}

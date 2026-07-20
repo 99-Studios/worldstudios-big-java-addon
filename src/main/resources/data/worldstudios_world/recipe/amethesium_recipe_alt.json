@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 300,
+  "ingredient": "worldstudios_world:amethesium_ore",
+  "result": {
+    "id": "worldstudios_world:amethesium_ingot"
+  }
+}

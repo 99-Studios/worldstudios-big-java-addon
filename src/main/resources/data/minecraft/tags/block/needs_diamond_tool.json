@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:ignightium_block",
+    "worldstudios_world:frozen_gravite",
+    "worldstudios_world:semite",
+    "worldstudios_world:gravite",
+    "worldstudios_world:blazite_ore",
+    "worldstudios_world:urainium_chunk",
+    "worldstudios_world:blazite_block",
+    "worldstudios_world:hevore",
+    "worldstudios_world:ignightium_ore",
+    "worldstudios_world:gyrule_ore"
+  ]
+}

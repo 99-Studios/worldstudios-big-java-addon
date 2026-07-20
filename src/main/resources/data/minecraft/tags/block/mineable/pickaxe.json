@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:semite",
+    "worldstudios_world:blazite_ore",
+    "worldstudios_world:smooth_green_sandstone",
+    "worldstudios_world:capsuled_redstone_block",
+    "worldstudios_world:ignightium_ore",
+    "worldstudios_world:branite_ore",
+    "worldstudios_world:gyrule_ore",
+    "worldstudios_world:amethesium_ore",
+    "worldstudios_world:ignightium_block",
+    "worldstudios_world:frozen_gravite",
+    "worldstudios_world:gravite",
+    "worldstudios_world:graystone",
+    "worldstudios_world:urainium_chunk",
+    "worldstudios_world:blazite_block",
+    "worldstudios_world:hevore",
+    "worldstudios_world:green_sandstone",
+    "worldstudios_world:moldeler",
+    "worldstudios_world:forgium_ore"
+  ]
+}

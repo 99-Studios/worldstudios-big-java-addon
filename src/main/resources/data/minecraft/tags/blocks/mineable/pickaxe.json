@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "big_addon:blazite_block",
+    "big_addon:blazite_ore",
+    "big_addon:gyrule_ore",
+    "big_addon:hevore",
+    "big_addon:capsuled_redstone_block",
+    "big_addon:moldeler",
+    "big_addon:forgium_ore",
+    "big_addon:semite",
+    "big_addon:gravite",
+    "big_addon:urainium_chunk"
+  ]
+}

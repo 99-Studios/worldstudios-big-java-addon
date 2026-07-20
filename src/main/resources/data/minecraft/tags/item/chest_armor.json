@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:blazite_armor_chestplate",
+    "worldstudios_world:titan_armor_armor_chestplate",
+    "worldstudios_world:deepslate_brick_armor_chestplate",
+    "worldstudios_world:brain_armor_armor_chestplate",
+    "worldstudios_world:skeleton_armor_chestplate",
+    "worldstudios_world:brick_armor_chestplate",
+    "worldstudios_world:command_block_armor_chestplate",
+    "worldstudios_world:wool_armor_chestplate",
+    "worldstudios_world:stone_armor_chestplate",
+    "worldstudios_world:resin_brick_armor_chestplate",
+    "worldstudios_world:chain_command_block_armor_chestplate",
+    "worldstudios_world:repeating_command_block_armor_chestplate",
+    "worldstudios_world:andor_armor_chestplate",
+    "worldstudios_world:dirt_armor_chestplate",
+    "worldstudios_world:acid_armor_chestplate",
+    "worldstudios_world:andesite_armor_chestplate",
+    "worldstudios_world:amethesium_armor_chestplate",
+    "worldstudios_world:steel_armor_armor_chestplate",
+    "worldstudios_world:ignightium_armor_chestplate",
+    "worldstudios_world:granite_armor_chestplate"
+  ]
+}

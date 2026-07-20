@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 60,
+  "ingredient": "minecraft:sugar",
+  "result": {
+    "id": "worldstudios_world:fertilized_sugar"
+  }
+}

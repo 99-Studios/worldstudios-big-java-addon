@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "worldstudios_world:yellow_fields",
+  "spawners": {
+    "type": "worldstudios_world:bird_brain",
+    "weight": 80,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

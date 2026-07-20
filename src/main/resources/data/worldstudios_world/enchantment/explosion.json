@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.worldstudios_world.explosion"
+  },
+  "supported_items": "worldstudios_world:dinamite",
+  "weight": 5,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": []
+}

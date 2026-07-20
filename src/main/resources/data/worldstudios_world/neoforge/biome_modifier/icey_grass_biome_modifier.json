@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:frozen_biome",
+  "features": "worldstudios_world:icey_grass",
+  "step": "vegetal_decoration"
+}

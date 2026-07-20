@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "worldstudios_world:titan_ingot"
+  },
+  "result": {
+    "id": "worldstudios_world:titan_armor_armor_helmet",
+    "count": 1
+  }
+}

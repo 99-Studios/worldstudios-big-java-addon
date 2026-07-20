@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "worldstudios_world:brain_armor_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "worldstudios_world:brain_armor_armor"
+      }
+    ]
+  }
+}

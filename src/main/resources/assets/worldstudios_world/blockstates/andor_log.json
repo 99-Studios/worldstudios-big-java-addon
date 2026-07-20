@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "worldstudios_world:block/andor_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "worldstudios_world:block/andor_log"
+    },
+    "axis=z": {
+      "model": "worldstudios_world:block/andor_log",
+      "x": 90
+    }
+  }
+}

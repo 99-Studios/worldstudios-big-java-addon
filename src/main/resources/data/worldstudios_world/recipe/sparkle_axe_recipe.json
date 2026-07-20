@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "worldstudios_world:sparkles",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "worldstudios_world:sparkle_axe",
+    "count": 1
+  }
+}

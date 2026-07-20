@@ -1,0 +1,16 @@
+{
+  "values": {
+    "worldstudios_world:long_zombie": {
+      "weight": 100
+    },
+    "worldstudios_world:dark_bat": {
+      "weight": 100
+    },
+    "worldstudios_world:master_of_the_dark_arts": {
+      "weight": 100
+    },
+    "worldstudios_world:cuber": {
+      "weight": 100
+    }
+  }
+}

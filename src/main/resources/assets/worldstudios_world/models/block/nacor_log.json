@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/nacor_log_top",
+    "up": "worldstudios_world:block/nacor_log_top",
+    "north": "worldstudios_world:block/nacor_log",
+    "east": "worldstudios_world:block/nacor_log",
+    "south": "worldstudios_world:block/nacor_log",
+    "west": "worldstudios_world:block/nacor_log",
+    "particle": "worldstudios_world:block/nacor_log_top"
+  },
+  "render_type": "solid"
+}

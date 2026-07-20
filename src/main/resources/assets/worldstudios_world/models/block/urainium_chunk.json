@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/urainium_chunk",
+    "up": "worldstudios_world:block/urainium_chunk",
+    "north": "worldstudios_world:block/urainium_chunk",
+    "east": "worldstudios_world:block/urainium_chunk",
+    "south": "worldstudios_world:block/urainium_chunk",
+    "west": "worldstudios_world:block/urainium_chunk",
+    "particle": "worldstudios_world:block/urainium_chunk"
+  },
+  "render_type": "translucent"
+}

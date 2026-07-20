@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:titan_grounds",
+  "features": "worldstudios_world:gyrule_ore",
+  "step": "underground_ores"
+}

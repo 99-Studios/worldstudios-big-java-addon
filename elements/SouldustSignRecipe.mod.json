@@ -1,0 +1,53 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_sign",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": "CUSTOM:SouldustPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SouldustSign"
+    },
+    "name": "souldust_sign_recipe",
+    "namespace": "mod"
+  }
+}

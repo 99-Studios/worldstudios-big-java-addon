@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:stripped_souldust_wood",
+    "worldstudios_world:souldust_wood",
+    "worldstudios_world:nacor_log",
+    "worldstudios_world:andor_log",
+    "worldstudios_world:souldust_trapdoor",
+    "worldstudios_world:souldust_planks",
+    "worldstudios_world:nacor_planks",
+    "worldstudios_world:souldust_hanging_sign",
+    "worldstudios_world:souldust_pressure_plate",
+    "worldstudios_world:souldust_wall_hanging_sign",
+    "worldstudios_world:andor_wood",
+    "worldstudios_world:souldust_fence",
+    "worldstudios_world:stripped_souldust_log",
+    "worldstudios_world:souldust_log",
+    "worldstudios_world:nacor_wood",
+    "worldstudios_world:souldust_door",
+    "worldstudios_world:souldust_slab",
+    "worldstudios_world:souldust_stairs",
+    "worldstudios_world:souldust_sign",
+    "worldstudios_world:souldust_wall_sign",
+    "worldstudios_world:souldust_fence_gate",
+    "worldstudios_world:souldust_button",
+    "worldstudios_world:andor_planks"
+  ]
+}

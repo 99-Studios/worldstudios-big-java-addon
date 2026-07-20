@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "worldstudios_world:urainium_peice",
+    "b": "worldstudios_world:refined_flint_and_steel"
+  },
+  "result": {
+    "id": "worldstudios_world:skip",
+    "count": 1
+  }
+}

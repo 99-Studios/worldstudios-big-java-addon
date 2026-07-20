@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:chain_command_block_pickaxe",
+    "worldstudios_world:command_block_pickaxe",
+    "worldstudios_world:ignightium_pickaxe",
+    "worldstudios_world:refined_flint_and_steel",
+    "worldstudios_world:sparkle_pickaxe",
+    "worldstudios_world:coal_pickaxe",
+    "worldstudios_world:repeating_command_block_pickaxe",
+    "worldstudios_world:nacor_pickaxe",
+    "worldstudios_world:amethesium_lunge",
+    "worldstudios_world:skeleton_pickaxe",
+    "worldstudios_world:wool_pickaxe",
+    "worldstudios_world:dirt_tool_pickaxe",
+    "worldstudios_world:souldust_pickaxe",
+    "worldstudios_world:urainium_blade",
+    "worldstudios_world:stone_lunge",
+    "worldstudios_world:titan_tool_pickaxe",
+    "worldstudios_world:steel_tool_pickaxe",
+    "worldstudios_world:andor_pickaxe",
+    "worldstudios_world:forgium_multitool",
+    "worldstudios_world:urainium_pickaxe",
+    "worldstudios_world:branite_lunge",
+    "worldstudios_world:amethesium_pickaxe",
+    "worldstudios_world:granite_pickaxe",
+    "worldstudios_world:andesite_pickaxe",
+    "worldstudios_world:blazite_pickaxe"
+  ]
+}

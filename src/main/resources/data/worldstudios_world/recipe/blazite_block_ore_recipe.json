@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldstudios_world:blazite_block"
+  ],
+  "result": {
+    "id": "worldstudios_world:blazite",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "worldstudios_world:block/souldust_planks",
+    "bottom": "worldstudios_world:block/souldust_planks",
+    "top": "worldstudios_world:block/souldust_planks",
+    "side": "worldstudios_world:block/souldust_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "worldstudios_world:gravite_islands",
+  "spawners": {
+    "type": "worldstudios_world:fairy",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

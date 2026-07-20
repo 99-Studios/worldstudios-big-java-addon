@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:resin_brick_armor_helmet",
+    "worldstudios_world:stone_armor_helmet",
+    "worldstudios_world:granite_armor_helmet",
+    "worldstudios_world:chain_command_block_armor_helmet",
+    "worldstudios_world:blazite_armor_helmet",
+    "worldstudios_world:dirt_armor_helmet",
+    "worldstudios_world:titan_armor_armor_helmet",
+    "worldstudios_world:ender_helmet_helmet",
+    "worldstudios_world:skeleton_armor_helmet",
+    "worldstudios_world:brick_armor_helmet",
+    "worldstudios_world:brain_armor_armor_helmet",
+    "worldstudios_world:deepslate_brick_armor_helmet",
+    "worldstudios_world:steel_armor_armor_helmet",
+    "worldstudios_world:repeating_command_block_armor_helmet",
+    "worldstudios_world:command_block_armor_helmet",
+    "worldstudios_world:acid_armor_helmet",
+    "worldstudios_world:wool_armor_helmet",
+    "worldstudios_world:amethesium_armor_helmet",
+    "worldstudios_world:andor_armor_helmet",
+    "worldstudios_world:andesite_armor_helmet",
+    "worldstudios_world:ignightium_armor_helmet"
+  ]
+}

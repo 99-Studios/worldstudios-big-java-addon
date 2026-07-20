@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "worldstudios_world:block/urainium_chunk",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "worldstudios_world:block/urainium_chunk"
+    },
+    "axis=z": {
+      "model": "worldstudios_world:block/urainium_chunk",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/waste_leaves",
+    "up": "worldstudios_world:block/waste_leaves",
+    "north": "worldstudios_world:block/waste_leaves",
+    "east": "worldstudios_world:block/waste_leaves",
+    "south": "worldstudios_world:block/waste_leaves",
+    "west": "worldstudios_world:block/waste_leaves",
+    "particle": "worldstudios_world:block/waste_leaves"
+  },
+  "render_type": "solid"
+}

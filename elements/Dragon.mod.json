@@ -1,0 +1,34 @@
+{
+  "_fv": 85,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Dragon",
+    "supportedSlots": "mainhand",
+    "weight": 1,
+    "anvilCost": 1,
+    "maxLevel": 4,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:SouldustPickaxe"
+      },
+      {
+        "value": "CUSTOM:SouldustAxe"
+      },
+      {
+        "value": "CUSTOM:SouldustSword"
+      },
+      {
+        "value": "CUSTOM:SouldustShovel"
+      },
+      {
+        "value": "CUSTOM:SouldustHoe"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "worldstudios_world:blocks/dual_weed",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldstudios_world:dual_weed",
+          "conditions": [
+            {
+              "block": "worldstudios_world:dual_weed",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

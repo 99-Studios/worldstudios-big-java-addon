@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "worldstudios_world:block/hevore",
+    "up": "worldstudios_world:block/hevore",
+    "north": "worldstudios_world:block/hevore_front",
+    "east": "worldstudios_world:block/hevore",
+    "south": "worldstudios_world:block/hevore",
+    "west": "worldstudios_world:block/hevore",
+    "particle": "worldstudios_world:block/hevore"
+  },
+  "render_type": "solid"
+}

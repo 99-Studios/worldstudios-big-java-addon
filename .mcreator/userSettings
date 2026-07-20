@@ -1,0 +1,24 @@
+{
+  "workspacePanelIconSize": "MEDIUM",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, WorldStudios\u0027 Big Java Addon]",
+      "[, WorldStudios\u0027 Big Java Addon, Source (Gradle)]",
+      "[, WorldStudios\u0027 Big Java Addon, Resources (Gradle)]"
+    ]
+  },
+  "leftDockState": {
+    "dockSizes": {
+      "project_browser": 280
+    }
+  },
+  "bottomDockState": {
+    "dockSizes": {
+      "console": 300,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}

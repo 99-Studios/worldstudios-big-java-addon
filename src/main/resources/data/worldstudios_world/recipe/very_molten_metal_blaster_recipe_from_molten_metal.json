@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 25,
+  "cookingtime": 900,
+  "ingredient": "worldstudios_world:molten_metal",
+  "result": {
+    "id": "worldstudios_world:very_molten_metal"
+  }
+}

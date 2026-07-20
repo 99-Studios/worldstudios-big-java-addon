@@ -1,0 +1,7 @@
+{
+  "parent": "worldstudios_world:custom/darkbatsheild",
+  "textures": {
+    "0": "worldstudios_world:block/shield",
+    "particle": "worldstudios_world:item/shield"
+  }
+}

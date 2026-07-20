@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence_gate",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "worldstudios_world:souldust_planks"
+  },
+  "result": {
+    "id": "worldstudios_world:souldust_fence_gate",
+    "count": 1
+  }
+}

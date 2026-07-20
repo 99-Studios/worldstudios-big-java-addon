@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "worldstudios_world:dark_bat_wing",
+    "minecraft:shield",
+    "worldstudios_world:dark_bat_wing"
+  ],
+  "result": {
+    "id": "worldstudios_world:dark_bat_sheild",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "chest_boat",
+  "category": "misc",
+  "ingredients": [
+    "worldstudios_world:souldust_boat",
+    "minecraft:chest"
+  ],
+  "result": {
+    "id": "worldstudios_world:souldust_chest_boat",
+    "count": 1
+  }
+}

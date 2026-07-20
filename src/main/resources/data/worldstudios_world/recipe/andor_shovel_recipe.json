@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "worldstudios_world:andor_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "worldstudios_world:andor_shovel",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "worldstudios_world:blocks/souldust_sign",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldstudios_world:souldust_sign"
+        }
+      ]
+    }
+  ]
+}

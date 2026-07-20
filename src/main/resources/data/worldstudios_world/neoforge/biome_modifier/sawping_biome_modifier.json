@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "worldstudios_world:alones",
+  "spawners": {
+    "type": "worldstudios_world:sawping",
+    "weight": 33,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

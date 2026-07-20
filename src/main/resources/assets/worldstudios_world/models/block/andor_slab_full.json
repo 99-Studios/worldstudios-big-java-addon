@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "worldstudios_world:block/andor_planks",
+    "bottom": "worldstudios_world:block/andor_planks",
+    "top": "worldstudios_world:block/andor_planks",
+    "side": "worldstudios_world:block/andor_planks"
+  },
+  "render_type": "solid"
+}

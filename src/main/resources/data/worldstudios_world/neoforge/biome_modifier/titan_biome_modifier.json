@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "worldstudios_world:gravite_islands",
+    "worldstudios_world:wastes"
+  ],
+  "spawners": {
+    "type": "worldstudios_world:titan",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

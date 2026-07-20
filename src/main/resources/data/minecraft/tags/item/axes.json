@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:granite_axe",
+    "worldstudios_world:command_block_axe",
+    "worldstudios_world:andesite_axe",
+    "worldstudios_world:ignightium_axe",
+    "worldstudios_world:forgium_multitool",
+    "worldstudios_world:sparkle_axe",
+    "worldstudios_world:andor_axe",
+    "worldstudios_world:blazite_axe",
+    "worldstudios_world:steel_tool_axe",
+    "worldstudios_world:repeating_command_block_axe",
+    "worldstudios_world:chain_command_block_axe",
+    "worldstudios_world:titan_tool_axe",
+    "worldstudios_world:wool_axe",
+    "worldstudios_world:dirt_tool_axe",
+    "worldstudios_world:souldust_axe",
+    "worldstudios_world:amethesium_axe",
+    "worldstudios_world:skeleton_axe",
+    "worldstudios_world:nacor_axe"
+  ]
+}

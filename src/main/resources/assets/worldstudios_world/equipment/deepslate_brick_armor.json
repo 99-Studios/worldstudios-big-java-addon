@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "worldstudios_world:deepslate_brick_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "worldstudios_world:deepslate_brick_armor"
+      }
+    ]
+  }
+}

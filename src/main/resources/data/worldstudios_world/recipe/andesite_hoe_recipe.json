@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "minecraft:andesite",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "worldstudios_world:andesite_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "worldstudios_world:block/nacor_slab"
+    },
+    "type=top": {
+      "model": "worldstudios_world:block/nacor_slab_top"
+    },
+    "type=double": {
+      "model": "worldstudios_world:block/nacor_slab_full"
+    }
+  }
+}
