@@ -9808,6 +9808,23 @@
           "src/main/resources/data/worldstudios_world/advancement/am_i_supposed_to_do_that.json"
         ]
       }
+    },
+    {
+      "name": "Eyeflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyeflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/eyeflower.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/eyeflower.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/eyeflower.json",
+          "src/main/resources/assets/worldstudios_world/models/block/eyeflower.json",
+          "src/main/resources/assets/worldstudios_world/models/item/eyeflower.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/EyeflowerBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11625,7 +11642,8 @@
       "advancements.skip_this_world.descr": "Enter the Skip dimension.",
       "advancements.skip_this_world.title": "Skip This World",
       "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
-      "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock."
+      "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock.",
+      "item.worldstudios_world.eyeflower": "Eyeflower"
     }
   },
   "metadata": {

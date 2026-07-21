@@ -1014,5 +1014,7 @@
   "advancements.stone_collector.title": "Stone Collector",
   "advancements.stone_collector.descr": "Obtain Graystone.",
   "advancements.skip_this_world.descr": "Enter the Skip dimension.",
-  "advancements.skip_this_world.title": "Skip This World"
+  "advancements.skip_this_world.title": "Skip This World",
+  "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
+  "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock."
 }

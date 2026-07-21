@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "worldstudios_world:block/eyeflower",
+    "particle": "worldstudios_world:block/eyeflower"
+  }
+}

@@ -288,6 +288,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.GRAYSTONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.DUAL_WEED.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.BREAKABLE_BEDROCK.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.EYEFLOWER.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());
