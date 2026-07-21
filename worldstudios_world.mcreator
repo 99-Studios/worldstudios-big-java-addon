@@ -9843,6 +9843,40 @@
           "src/main/resources/data/worldstudios_world/worldgen/biome/broken_lands.json"
         ]
       }
+    },
+    {
+      "name": "Gambling",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gambling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/enchantment/gambling.json"
+        ]
+      }
+    },
+    {
+      "name": "GamblingProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gambling_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/GamblingProcedureProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10275,11 +10309,13 @@
       "~EnderHelmet@CUSTOM:EnderHelmet.helmet"
     ],
     "ENCHANTMENTS:minecraft:tradeable": [
+      "~Gambling@CUSTOM:Gambling",
       "~Dirt@CUSTOM:Dirt",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~Gambling@CUSTOM:Gambling",
       "~Dragon@CUSTOM:Dragon",
       "~Spike@CUSTOM:Spike",
       "~Dirt@CUSTOM:Dirt",
@@ -10287,6 +10323,7 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
+      "~Gambling@CUSTOM:Gambling",
       "~Dragon@CUSTOM:Dragon",
       "~Spike@CUSTOM:Spike",
       "~Explosion@CUSTOM:Explosion",
@@ -10639,6 +10676,9 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~Graystone@CUSTOM:Graystone"
+    ],
+    "ENCHANTMENTS:minecraft:curse": [
+      "~Gambling@CUSTOM:Gambling"
     ]
   },
   "tab_element_order": {},
@@ -11663,7 +11703,8 @@
       "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
       "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock.",
       "item.worldstudios_world.eyeflower": "Eyeflower",
-      "biome.worldstudios_world.broken_lands": "Broken Lands"
+      "biome.worldstudios_world.broken_lands": "Broken Lands",
+      "enchantment.worldstudios_world.gambling": "Gambling"
     }
   },
   "metadata": {
