@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:breakable_bedrock"
+    },
+    "title": {
+      "translate": "advancements.am_i_supposed_to_do_that.title"
+    },
+    "description": {
+      "translate": "advancements.am_i_supposed_to_do_that.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "am_i_supposed_to_do_that_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "worldstudios_world:breakable_bedrock",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "worldstudios_world:skip_advancement"
+}

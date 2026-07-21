@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:breakable_bedrock",
     "worldstudios_world:branite_ore"
   ]
 }

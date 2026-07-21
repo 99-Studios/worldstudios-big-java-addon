@@ -102,6 +102,7 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> GRAYSTONE;
 	public static final DeferredBlock<Block> SKIP_PORTAL;
 	public static final DeferredBlock<Block> DUAL_WEED;
+	public static final DeferredBlock<Block> BREAKABLE_BEDROCK;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -181,6 +182,7 @@ public class WorldstudiosWorldModBlocks {
 		GRAYSTONE = register("graystone", GraystoneBlock::new);
 		SKIP_PORTAL = register("skip_portal", SkipPortalBlock::new);
 		DUAL_WEED = register("dual_weed", DualWeedBlock::new);
+		BREAKABLE_BEDROCK = register("breakable_bedrock", BreakableBedrockBlock::new);
 	}
 
 	// Start of user code block custom blocks

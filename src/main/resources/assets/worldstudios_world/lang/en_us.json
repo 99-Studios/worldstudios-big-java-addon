@@ -1005,5 +1005,14 @@
   "gamerule.worldstudios_world.enderHelmetTeleport.description": "Deactivates teleporting with the Ender Helmet when false.",
   "gamerule.worldstudios_world.enderHelmetTeleport": "Ender Helmet Teleport",
   "entity.worldstudios_world.dirt_boat": "Dirt Boat",
-  "item.worldstudios_world.dirt_boat": "Dirt Boat"
+  "item.worldstudios_world.dirt_boat": "Dirt Boat",
+  "advancements.at_least_it_floats.descr": "Craft a dirt boat.",
+  "advancements.at_least_it_floats.title": "At Least It Floats",
+  "item.worldstudios_world.breakable_bedrock": "Breakable Bedrock",
+  "advancements.skip_advancement.descr": "Advancements for the Skip.",
+  "advancements.skip_advancement.title": "Skip",
+  "advancements.stone_collector.title": "Stone Collector",
+  "advancements.stone_collector.descr": "Obtain Graystone.",
+  "advancements.skip_this_world.descr": "Enter the Skip dimension.",
+  "advancements.skip_this_world.title": "Skip This World"
 }

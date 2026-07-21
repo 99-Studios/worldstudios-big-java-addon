@@ -9743,6 +9743,71 @@
           "src/main/resources/data/worldstudios_world/advancement/at_least_it_floats.json"
         ]
       }
+    },
+    {
+      "name": "BreakableBedrock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breakable_bedrock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/BreakableBedrockBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/item/breakable_bedrock.json",
+          "src/main/resources/assets/worldstudios_world/items/breakable_bedrock.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/breakable_bedrock.json",
+          "src/main/resources/assets/worldstudios_world/models/block/breakable_bedrock.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/breakable_bedrock.json"
+        ]
+      }
+    },
+    {
+      "name": "SkipAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skip_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/skip_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneCollector",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_collector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/stone_collector.json"
+        ]
+      }
+    },
+    {
+      "name": "SkipThisWorld",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skip_this_world",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/skip_this_world.json"
+        ]
+      }
+    },
+    {
+      "name": "AmISupposedToDoThat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "am_i_supposed_to_do_that",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/am_i_supposed_to_do_that.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10263,6 +10328,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~Graystone@CUSTOM:Graystone",
       "~AmethesiumOre@CUSTOM:AmethesiumOre",
       "~BraniteOre@CUSTOM:BraniteOre",
@@ -10495,6 +10561,7 @@
       "~NetheringTraderTrades@nethering_trader_trades_4"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~BraniteOre@CUSTOM:BraniteOre"
     ],
     "ENTITIES:minecraft:boat": [
@@ -11549,7 +11616,16 @@
       "entity.worldstudios_world.dirt_boat": "Dirt Boat",
       "item.worldstudios_world.dirt_boat": "Dirt Boat",
       "advancements.at_least_it_floats.descr": "Craft a dirt boat.",
-      "advancements.at_least_it_floats.title": "At Least It Floats"
+      "advancements.at_least_it_floats.title": "At Least It Floats",
+      "item.worldstudios_world.breakable_bedrock": "Breakable Bedrock",
+      "advancements.skip_advancement.descr": "Advancements for the Skip.",
+      "advancements.skip_advancement.title": "Skip",
+      "advancements.stone_collector.title": "Stone Collector",
+      "advancements.stone_collector.descr": "Obtain Graystone.",
+      "advancements.skip_this_world.descr": "Enter the Skip dimension.",
+      "advancements.skip_this_world.title": "Skip This World",
+      "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
+      "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock."
     }
   },
   "metadata": {

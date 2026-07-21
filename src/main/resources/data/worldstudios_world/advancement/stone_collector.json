@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:graystone"
+    },
+    "title": {
+      "translate": "advancements.stone_collector.title"
+    },
+    "description": {
+      "translate": "advancements.stone_collector.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stone_collector_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "worldstudios_world:graystone",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "worldstudios_world:world_studios_big_java_advancements"
+}

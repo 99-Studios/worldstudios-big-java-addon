@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:skip"
+    },
+    "title": {
+      "translate": "advancements.skip_this_world.title"
+    },
+    "description": {
+      "translate": "advancements.skip_this_world.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skip_this_world_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "worldstudios_world:skip"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "worldstudios_world:stone_collector"
+}
