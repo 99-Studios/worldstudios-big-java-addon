@@ -338,6 +338,15 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> SOULDUST_GRAVITE;
 	public static final DeferredItem<Item> OBSERVEER_SPAWN_EGG;
 	public static final DeferredItem<Item> WOPPER_INGOT;
+	public static final DeferredItem<Item> WOPPER_PICKAXE;
+	public static final DeferredItem<Item> WOPPER_AXE;
+	public static final DeferredItem<Item> WOPPER_SWORD;
+	public static final DeferredItem<Item> WOPPER_SHOVEL;
+	public static final DeferredItem<Item> WOPPER_HOE;
+	public static final DeferredItem<Item> WOPPER_ARMOR_HELMET;
+	public static final DeferredItem<Item> WOPPER_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> WOPPER_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> WOPPER_ARMOR_BOOTS;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -653,6 +662,15 @@ public class WorldstudiosWorldModItems {
 		SOULDUST_GRAVITE = block(WorldstudiosWorldModBlocks.SOULDUST_GRAVITE);
 		OBSERVEER_SPAWN_EGG = register("observeer_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.OBSERVEER.get())));
 		WOPPER_INGOT = register("wopper_ingot", WopperIngotItem::new);
+		WOPPER_PICKAXE = register("wopper_pickaxe", WopperPickaxeItem::new);
+		WOPPER_AXE = register("wopper_axe", WopperAxeItem::new);
+		WOPPER_SWORD = register("wopper_sword", WopperSwordItem::new);
+		WOPPER_SHOVEL = register("wopper_shovel", WopperShovelItem::new);
+		WOPPER_HOE = register("wopper_hoe", WopperHoeItem::new);
+		WOPPER_ARMOR_HELMET = register("wopper_armor_helmet", WopperArmorItem.Helmet::new);
+		WOPPER_ARMOR_CHESTPLATE = register("wopper_armor_chestplate", WopperArmorItem.Chestplate::new);
+		WOPPER_ARMOR_LEGGINGS = register("wopper_armor_leggings", WopperArmorItem.Leggings::new);
+		WOPPER_ARMOR_BOOTS = register("wopper_armor_boots", WopperArmorItem.Boots::new);
 	}
 
 	// Start of user code block custom items

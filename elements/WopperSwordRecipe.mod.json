@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:WopperIngot"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:WopperIngot",
+      "",
+      "",
+      "CUSTOM:WopperIngot",
+      "",
+      "",
+      "Items.STICK",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:WopperSword",
+    "name": "wopper_sword_recipe",
+    "namespace": "mod"
+  }
+}

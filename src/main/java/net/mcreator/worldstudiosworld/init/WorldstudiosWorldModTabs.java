@@ -116,6 +116,10 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.SOULDUST_HOE.get());
 			tabData.accept(WorldstudiosWorldModItems.SKIP.get());
 			tabData.accept(WorldstudiosWorldModItems.DIRT_BOAT.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_PICKAXE.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_AXE.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_SHOVEL.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_HOE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -220,6 +224,11 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.AMETHESIUM_ARMOR_BOOTS.get());
 			tabData.accept(WorldstudiosWorldModItems.AMETHESIUM_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.SOULDUST_SWORD.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_SWORD.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_HELMET.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_CHESTPLATE.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_LEGGINGS.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());

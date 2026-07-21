@@ -1,0 +1,38 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "wopper_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Wopper Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 3.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 278,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      "CUSTOM:WopperIngot"
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

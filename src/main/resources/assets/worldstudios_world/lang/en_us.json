@@ -1022,5 +1022,11 @@
   "item.worldstudios_world.souldust_gravite": "Souldust Gravite",
   "biome.worldstudios_world.alone_delta": "Alone Delta",
   "item.worldstudios_world.observeer_spawn_egg": "Observeer Spawn Egg",
-  "entity.worldstudios_world.observeer": "Observeer"
+  "entity.worldstudios_world.observeer": "Observeer",
+  "item.worldstudios_world.wopper_ingot": "Wopper Ingot",
+  "item.worldstudios_world.wopper_pickaxe": "Wopper Pickaxe",
+  "item.worldstudios_world.wopper_axe": "Wopper Axe",
+  "item.worldstudios_world.wopper_sword": "Wopper Sword",
+  "item.worldstudios_world.wopper_shovel": "Wopper Shovel",
+  "item.worldstudios_world.wopper_hoe": "Wopper Hoe"
 }

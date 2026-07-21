@@ -9902,6 +9902,215 @@
           "src/main/resources/assets/worldstudios_world/models/item/wopper_ingot.json"
         ]
       }
+    },
+    {
+      "name": "WopperPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperPickaxeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/wopper_pickaxe.json",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/wopper_axe.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperAxeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperSwordItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_sword.json",
+          "src/main/resources/assets/worldstudios_world/items/wopper_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_shovel.json",
+          "src/main/resources/assets/worldstudios_world/items/wopper_shovel.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WopperHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/wopper_hoe.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperHoeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_pickaxe_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wopper_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/wopper_axe_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_sword_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wopper_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/wopper_shovel_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/wopper_hoe_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_armor_helmet.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperArmorItem.java",
+          "src/main/resources/assets/worldstudios_world/items/wopper_armor_leggings.json",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_armor_chestplate.json",
+          "src/main/resources/assets/worldstudios_world/items/wopper_armor_helmet.json",
+          "src/main/resources/assets/worldstudios_world/items/wopper_armor_boots.json",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_armor_boots.json",
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/item/WopperArmorArmor.java",
+          "src/main/resources/assets/worldstudios_world/equipment/wopper_armor.json",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_armor_leggings.json",
+          "src/main/resources/assets/worldstudios_world/items/wopper_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_armor_helmet_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wopper_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_armor_chestplate_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wopper_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/wopper_armor_leggings_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_armor_boots_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wopper_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10277,6 +10486,7 @@
       "~SouldustHoe@CUSTOM:SouldustPlanks"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~WopperPickaxe@CUSTOM:WopperPickaxe",
       "~SouldustPickaxe@CUSTOM:SouldustPickaxe",
       "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
       "~AmethesiumPickaxe@CUSTOM:AmethesiumPickaxe",
@@ -10311,6 +10521,7 @@
       "~WorldStudios@CUSTOM:WorldStudios"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~WopperArmor@CUSTOM:WopperArmor.helmet",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.helmet",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.helmet",
       "~DeepslateBrickArmor@CUSTOM:DeepslateBrickArmor.helmet",
@@ -10352,6 +10563,7 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~WopperArmor@CUSTOM:WopperArmor.body",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.body",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.body",
       "~DeepslateBrickArmor@CUSTOM:DeepslateBrickArmor.body",
@@ -10374,6 +10586,7 @@
       "~AcidArmor@CUSTOM:AcidArmor.body"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~WopperArmor@CUSTOM:WopperArmor.legs",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.legs",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.legs",
       "~DeepslateBrickArmor@CUSTOM:DeepslateBrickArmor.legs",
@@ -10396,6 +10609,7 @@
       "~AcidArmor@CUSTOM:AcidArmor.legs"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~WopperArmor@CUSTOM:WopperArmor.boots",
       "~AmethesiumArmor@CUSTOM:AmethesiumArmor.boots",
       "~SteelArmorArmor@CUSTOM:SteelArmorArmor.boots",
       "~DeepslateBrickArmor@CUSTOM:DeepslateBrickArmor.boots",
@@ -10475,6 +10689,7 @@
       "~Oracle@CUSTOM:FrozenGravite"
     ],
     "ITEMS:minecraft:axes": [
+      "~WopperAxe@CUSTOM:WopperAxe",
       "~SouldustAxe@CUSTOM:SouldustAxe",
       "~AmethesiumAxe@CUSTOM:AmethesiumAxe",
       "~SteelToolAxe@CUSTOM:SteelToolAxe",
@@ -10495,6 +10710,7 @@
       "~ForgiumMultitool@CUSTOM:ForgiumMultitool"
     ],
     "ITEMS:minecraft:swords": [
+      "~WopperSword@CUSTOM:WopperSword",
       "~SouldustSword@CUSTOM:SouldustSword",
       "~AmethesiumSword@CUSTOM:AmethesiumSword",
       "~SteelToolSword@CUSTOM:SteelToolSword",
@@ -10595,6 +10811,7 @@
       "~AndorButton@CUSTOM:AndorButton"
     ],
     "ITEMS:minecraft:shovels": [
+      "~WopperShovel@CUSTOM:WopperShovel",
       "~SouldustShovel@CUSTOM:SouldustShovel",
       "~AmethesiumShovel@CUSTOM:AmethesiumShovel",
       "~SteelToolShovel@CUSTOM:SteelToolShovel",
@@ -10612,6 +10829,7 @@
       "~AndorShovel@CUSTOM:AndorShovel"
     ],
     "ITEMS:minecraft:hoes": [
+      "~WopperHoe@CUSTOM:WopperHoe",
       "~SouldustHoe@CUSTOM:SouldustHoe",
       "~AmethesiumHoe@CUSTOM:AmethesiumHoe",
       "~SteelToolHoe@CUSTOM:SteelToolHoe",
@@ -10701,6 +10919,24 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~Graystone@CUSTOM:Graystone"
+    ],
+    "ITEMS:worldstudios_world:wopper_pickaxe_repair_items": [
+      "~WopperPickaxe@CUSTOM:WopperIngot"
+    ],
+    "ITEMS:worldstudios_world:wopper_axe_repair_items": [
+      "~WopperAxe@CUSTOM:WopperIngot"
+    ],
+    "ITEMS:worldstudios_world:wopper_sword_repair_items": [
+      "~WopperSword@CUSTOM:WopperIngot"
+    ],
+    "ITEMS:worldstudios_world:wopper_shovel_repair_items": [
+      "~WopperShovel@CUSTOM:WopperIngot"
+    ],
+    "ITEMS:worldstudios_world:wopper_hoe_repair_items": [
+      "~WopperHoe@CUSTOM:WopperIngot"
+    ],
+    "ITEMS:worldstudios_world:wopper_armor_repair_items": [
+      "~WopperArmor@CUSTOM:WopperIngot"
     ]
   },
   "tab_element_order": {},
@@ -11730,7 +11966,16 @@
       "biome.worldstudios_world.alone_delta": "Alone Delta",
       "item.worldstudios_world.observeer_spawn_egg": "Observeer Spawn Egg",
       "entity.worldstudios_world.observeer": "Observeer",
-      "item.worldstudios_world.wopper_ingot": "Wopper Ingot"
+      "item.worldstudios_world.wopper_ingot": "Wopper Ingot",
+      "item.worldstudios_world.wopper_pickaxe": "Wopper Pickaxe",
+      "item.worldstudios_world.wopper_axe": "Wopper Axe",
+      "item.worldstudios_world.wopper_sword": "Wopper Sword",
+      "item.worldstudios_world.wopper_shovel": "Wopper Shovel",
+      "item.worldstudios_world.wopper_hoe": "Wopper Hoe",
+      "item.worldstudios_world.wopper_armor_boots": "Wopper Boots",
+      "item.worldstudios_world.wopper_armor_helmet": "Wopper Helmet",
+      "item.worldstudios_world.wopper_armor_leggings": "Wopper Leggings",
+      "item.worldstudios_world.wopper_armor_chestplate": "Wopper Chestplate"
     }
   },
   "metadata": {
