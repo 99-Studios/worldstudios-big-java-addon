@@ -10135,6 +10135,30 @@
           "src/main/resources/data/worldstudios_world/advancement/copper_alternative.json"
         ]
       }
+    },
+    {
+      "name": "Soulless",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulless",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/soulless.json"
+        ]
+      }
+    },
+    {
+      "name": "HarnessTheDragon",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harness_the_dragon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/harness_the_dragon.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12001,7 +12025,11 @@
       "item.worldstudios_world.wopper_armor_leggings": "Wopper Leggings",
       "item.worldstudios_world.wopper_armor_chestplate": "Wopper Chestplate",
       "advancements.copper_alternative.title": "Copper Alternative",
-      "advancements.copper_alternative.descr": "Obtain Wopper."
+      "advancements.copper_alternative.descr": "Obtain Wopper.",
+      "advancements.soulless.title": "Soulless",
+      "advancements.soulless.descr": "Obtain the full Souldust set.",
+      "advancements.harness_the_dragon.descr": "Have all Souldust tools enchanted with Dragon.",
+      "advancements.harness_the_dragon.title": "Harness The Dragon"
     }
   },
   "metadata": {

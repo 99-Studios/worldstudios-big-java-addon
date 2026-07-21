@@ -1,0 +1,138 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:souldust_sword"
+    },
+    "title": {
+      "translate": "advancements.harness_the_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.harness_the_dragon.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "harness_the_dragon_3": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "worldstudios_world:souldust_sword",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "worldstudios_world:dragon": {
+                  "levels": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "levels": {
+          "min": 0
+        }
+      }
+    },
+    "harness_the_dragon_7": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "worldstudios_world:souldust_pickaxe",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "worldstudios_world:dragon": {
+                  "levels": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "levels": {
+          "min": 0
+        }
+      }
+    },
+    "harness_the_dragon_11": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "worldstudios_world:souldust_axe",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "worldstudios_world:dragon": {
+                  "levels": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "levels": {
+          "min": 0
+        }
+      }
+    },
+    "harness_the_dragon_15": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "worldstudios_world:souldust_shovel",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "worldstudios_world:dragon": {
+                  "levels": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "levels": {
+          "min": 0
+        }
+      }
+    },
+    "harness_the_dragon_19": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "worldstudios_world:souldust_hoe",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "worldstudios_world:dragon": {
+                  "levels": {
+                    "min": 1,
+                    "max": 5
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "levels": {
+          "min": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "worldstudios_world:soulless"
+}

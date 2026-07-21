@@ -1035,5 +1035,6 @@
   "item.worldstudios_world.wopper_armor_chestplate": "Wopper Chestplate",
   "advancements.copper_alternative.title": "Copper Alternative",
   "advancements.copper_alternative.descr": "Obtain Wopper.",
-  "item_group.worldstudios_world.dimensions": "Dimensions"
+  "advancements.soulless.title": "Soulless",
+  "advancements.soulless.descr": "Obtain the full Souldust set."
 }
