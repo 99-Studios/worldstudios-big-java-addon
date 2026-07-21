@@ -9602,7 +9602,10 @@
           "src/main/resources/assets/worldstudios_world/items/graystone.json",
           "src/main/resources/assets/worldstudios_world/models/block/graystone.json",
           "src/main/resources/data/worldstudios_world/loot_table/blocks/graystone.json",
-          "src/main/java/net/mcreator/worldstudiosworld/block/GraystoneBlock.java"
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/graystone_biome_modifier.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GraystoneBlock.java",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/graystone.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/graystone.json"
         ]
       }
     },
@@ -10360,8 +10363,8 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~Graystone@CUSTOM:Graystone",
+      "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~AmethesiumOre@CUSTOM:AmethesiumOre",
       "~BraniteOre@CUSTOM:BraniteOre",
       "~IgnightiumBlock@CUSTOM:IgnightiumBlock",
