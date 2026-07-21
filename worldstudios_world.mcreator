@@ -9817,12 +9817,27 @@
       "registry_name": "eyeflower",
       "metadata": {
         "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/eyeflower.json",
           "src/main/resources/assets/worldstudios_world/items/eyeflower.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/eyeflower_biome_modifier.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/eyeflower.json",
           "src/main/resources/data/worldstudios_world/loot_table/blocks/eyeflower.json",
           "src/main/resources/assets/worldstudios_world/blockstates/eyeflower.json",
           "src/main/resources/assets/worldstudios_world/models/block/eyeflower.json",
           "src/main/resources/assets/worldstudios_world/models/item/eyeflower.json",
           "src/main/java/net/mcreator/worldstudiosworld/block/EyeflowerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BrokenLands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_lands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/biome/broken_lands.json"
         ]
       }
     }
@@ -10382,6 +10397,7 @@
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Skip@Blocks.BEDROCK",
+      "~Skip@CUSTOM:BreakableBedrock",
       "~Oracle@CUSTOM:YellowDirt",
       "~Oracle@CUSTOM:WasteStone",
       "~Oracle@CUSTOM:GreenSandstone",
@@ -11643,7 +11659,8 @@
       "advancements.skip_this_world.title": "Skip This World",
       "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
       "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock.",
-      "item.worldstudios_world.eyeflower": "Eyeflower"
+      "item.worldstudios_world.eyeflower": "Eyeflower",
+      "biome.worldstudios_world.broken_lands": "Broken Lands"
     }
   },
   "metadata": {

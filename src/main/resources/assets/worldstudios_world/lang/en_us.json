@@ -1016,5 +1016,7 @@
   "advancements.skip_this_world.descr": "Enter the Skip dimension.",
   "advancements.skip_this_world.title": "Skip This World",
   "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
-  "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock."
+  "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock.",
+  "item.worldstudios_world.eyeflower": "Eyeflower",
+  "biome.worldstudios_world.broken_lands": "Broken Lands"
 }

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:broken_lands",
+  "features": "worldstudios_world:eyeflower",
+  "step": "vegetal_decoration"
+}

@@ -3,7 +3,8 @@
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
-      "CUSTOM:BedrockLands"
+      "CUSTOM:BedrockLands",
+      "CUSTOM:BrokenLands"
     ],
     "biomesInDimensionCaves": [],
     "worldGenType": "Normal world gen",
@@ -29,7 +30,15 @@
     "coordinateScale": 1.0,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "enableCustomSkyboxTextures": false,
+    "skyboxTextureUp": "",
+    "skyboxTextureDown": "",
+    "skyboxTextureNorth": "",
+    "skyboxTextureSouth": "",
+    "skyboxTextureWest": "",
+    "skyboxTextureEast": "",
     "enableCustomSunMoonTextures": false,
+    "sunTexture": "",
+    "moonTexture": "",
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,

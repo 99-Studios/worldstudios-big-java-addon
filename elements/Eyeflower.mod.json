@@ -88,10 +88,12 @@
     ],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      "CUSTOM:BrokenLands"
+    ],
     "generationType": "Flower",
-    "patchSize": 64,
-    "generateAtAnyHeight": false
+    "patchSize": 128,
+    "generateAtAnyHeight": true
   }
 }
