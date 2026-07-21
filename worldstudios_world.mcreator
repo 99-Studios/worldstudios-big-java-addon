@@ -10123,6 +10123,18 @@
           "src/main/resources/data/worldstudios_world/loot_table/entities/observeer.json"
         ]
       }
+    },
+    {
+      "name": "CopperAlternative",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_alternative",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/copper_alternative.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11987,7 +11999,9 @@
       "item.worldstudios_world.wopper_armor_boots": "Wopper Boots",
       "item.worldstudios_world.wopper_armor_helmet": "Wopper Helmet",
       "item.worldstudios_world.wopper_armor_leggings": "Wopper Leggings",
-      "item.worldstudios_world.wopper_armor_chestplate": "Wopper Chestplate"
+      "item.worldstudios_world.wopper_armor_chestplate": "Wopper Chestplate",
+      "advancements.copper_alternative.title": "Copper Alternative",
+      "advancements.copper_alternative.descr": "Obtain Wopper."
     }
   },
   "metadata": {

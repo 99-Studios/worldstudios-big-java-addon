@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:wopper_ingot"
+    },
+    "title": {
+      "translate": "advancements.copper_alternative.title"
+    },
+    "description": {
+      "translate": "advancements.copper_alternative.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "copper_alternative_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "worldstudios_world:wopper_ingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "worldstudios_world:the_oracle"
+}
