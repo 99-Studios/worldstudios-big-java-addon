@@ -36,7 +36,7 @@ public class DinamiteItem extends Item {
 	}
 
 	@Override
-	public boolean releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+	public void onUseTick(Level world, LivingEntity entity, ItemStack itemstack, int time) {
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
 			ItemStack stack = findAmmo(player);
 			if (player.getAbilities().instabuild || stack != ItemStack.EMPTY) {
@@ -53,8 +53,8 @@ public class DinamiteItem extends Item {
 					}
 				}
 			}
+			entity.releaseUsingItem();
 		}
-		return super.releaseUsing(itemstack, world, entity, time);
 	}
 
 	private ItemStack findAmmo(Player player) {
