@@ -111,6 +111,10 @@ public class WorldstudiosWorldModEntities {
 			EntityType.Builder.<SouldustChestBoatEntity>of(SouldustChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 	public static final DeferredHolder<EntityType<?>, EntityType<DirtBoatEntity>> DIRT_BOAT = register("dirt_boat",
 			EntityType.Builder.<DirtBoatEntity>of(DirtBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
+	public static final DeferredHolder<EntityType<?>, EntityType<ObserveerEntity>> OBSERVEER = register("observeer",
+			EntityType.Builder.<ObserveerEntity>of(ObserveerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+
+					.notInPeaceful().sized(0.6f, 0.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -138,6 +142,7 @@ public class WorldstudiosWorldModEntities {
 		CuberEntity.init(event);
 		CrawlpingEntity.init(event);
 		SawpingEntity.init(event);
+		ObserveerEntity.init(event);
 	}
 
 	@SubscribeEvent
@@ -160,5 +165,6 @@ public class WorldstudiosWorldModEntities {
 		event.put(CUBER.get(), CuberEntity.createAttributes().build());
 		event.put(CRAWLPING.get(), CrawlpingEntity.createAttributes().build());
 		event.put(SAWPING.get(), SawpingEntity.createAttributes().build());
+		event.put(OBSERVEER.get(), ObserveerEntity.createAttributes().build());
 	}
 }

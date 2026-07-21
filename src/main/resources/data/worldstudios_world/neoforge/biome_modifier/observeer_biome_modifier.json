@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "worldstudios_world:alones",
+    "worldstudios_world:alone_delta"
+  ],
+  "spawners": {
+    "type": "worldstudios_world:observeer",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

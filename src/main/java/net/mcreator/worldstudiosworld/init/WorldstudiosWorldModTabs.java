@@ -352,6 +352,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.CUBER_SPAWN_EGG.get());
 			tabData.accept(WorldstudiosWorldModItems.CRAWLPING_SPAWN_EGG.get());
 			tabData.accept(WorldstudiosWorldModItems.SAWPING_SPAWN_EGG.get());
+			tabData.accept(WorldstudiosWorldModItems.OBSERVEER_SPAWN_EGG.get());
 		}
 	}
 }

@@ -9872,6 +9872,22 @@
           "src/main/resources/data/worldstudios_world/worldgen/biome/alone_delta.json"
         ]
       }
+    },
+    {
+      "name": "Observeer",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observeer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/observeer_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/ObserveerRenderer.java",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/ObserveerEntity.java",
+          "src/main/resources/assets/worldstudios_world/items/observeer_spawn_egg.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/observeer_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11697,7 +11713,9 @@
       "item.worldstudios_world.eyeflower": "Eyeflower",
       "biome.worldstudios_world.broken_lands": "Broken Lands",
       "item.worldstudios_world.souldust_gravite": "Souldust Gravite",
-      "biome.worldstudios_world.alone_delta": "Alone Delta"
+      "biome.worldstudios_world.alone_delta": "Alone Delta",
+      "item.worldstudios_world.observeer_spawn_egg": "Observeer Spawn Egg",
+      "entity.worldstudios_world.observeer": "Observeer"
     }
   },
   "metadata": {
