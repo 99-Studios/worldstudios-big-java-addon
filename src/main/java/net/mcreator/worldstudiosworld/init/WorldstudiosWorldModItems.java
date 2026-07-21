@@ -337,6 +337,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> EYEFLOWER;
 	public static final DeferredItem<Item> SOULDUST_GRAVITE;
 	public static final DeferredItem<Item> OBSERVEER_SPAWN_EGG;
+	public static final DeferredItem<Item> WOPPER_INGOT;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -651,6 +652,7 @@ public class WorldstudiosWorldModItems {
 		EYEFLOWER = block(WorldstudiosWorldModBlocks.EYEFLOWER, new Item.Properties().rarity(Rarity.RARE));
 		SOULDUST_GRAVITE = block(WorldstudiosWorldModBlocks.SOULDUST_GRAVITE);
 		OBSERVEER_SPAWN_EGG = register("observeer_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.OBSERVEER.get())));
+		WOPPER_INGOT = register("wopper_ingot", WopperIngotItem::new);
 	}
 
 	// Start of user code block custom items

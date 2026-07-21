@@ -1020,5 +1020,7 @@
   "item.worldstudios_world.eyeflower": "Eyeflower",
   "biome.worldstudios_world.broken_lands": "Broken Lands",
   "item.worldstudios_world.souldust_gravite": "Souldust Gravite",
-  "biome.worldstudios_world.alone_delta": "Alone Delta"
+  "biome.worldstudios_world.alone_delta": "Alone Delta",
+  "item.worldstudios_world.observeer_spawn_egg": "Observeer Spawn Egg",
+  "entity.worldstudios_world.observeer": "Observeer"
 }

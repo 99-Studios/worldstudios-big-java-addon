@@ -9888,6 +9888,20 @@
           "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/observeer_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "WopperIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperIngotItem.java",
+          "src/main/resources/assets/worldstudios_world/items/wopper_ingot.json",
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_ingot.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11715,7 +11729,8 @@
       "item.worldstudios_world.souldust_gravite": "Souldust Gravite",
       "biome.worldstudios_world.alone_delta": "Alone Delta",
       "item.worldstudios_world.observeer_spawn_egg": "Observeer Spawn Egg",
-      "entity.worldstudios_world.observeer": "Observeer"
+      "entity.worldstudios_world.observeer": "Observeer",
+      "item.worldstudios_world.wopper_ingot": "Wopper Ingot"
     }
   },
   "metadata": {

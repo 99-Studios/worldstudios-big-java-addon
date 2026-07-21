@@ -326,6 +326,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.BRANITE.get());
 			tabData.accept(WorldstudiosWorldModItems.AMETHESIUM_INGOT.get());
 			tabData.accept(WorldstudiosWorldModBlocks.GRAYSTONE.get().asItem());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_INGOT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.MOLDELER.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.IGNYITE.get().asItem());
