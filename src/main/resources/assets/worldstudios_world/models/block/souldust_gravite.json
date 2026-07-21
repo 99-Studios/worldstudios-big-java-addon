@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "worldstudios_world:block/souldust_gravite",
+    "particle": "worldstudios_world:block/souldust_gravite"
+  }
+}

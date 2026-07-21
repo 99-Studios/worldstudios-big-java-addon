@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "worldstudios_world:breakable_bedrock",
-    "worldstudios_world:branite_ore"
+    "worldstudios_world:branite_ore",
+    "worldstudios_world:souldust_gravite"
   ]
 }

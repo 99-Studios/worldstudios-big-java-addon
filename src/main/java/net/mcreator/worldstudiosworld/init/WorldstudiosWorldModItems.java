@@ -335,6 +335,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> DIRT_BOAT;
 	public static final DeferredItem<Item> BREAKABLE_BEDROCK;
 	public static final DeferredItem<Item> EYEFLOWER;
+	public static final DeferredItem<Item> SOULDUST_GRAVITE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -647,6 +648,7 @@ public class WorldstudiosWorldModItems {
 		DIRT_BOAT = register("dirt_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.DIRT_BOAT.get(), properties.stacksTo(1)));
 		BREAKABLE_BEDROCK = block(WorldstudiosWorldModBlocks.BREAKABLE_BEDROCK, new Item.Properties().rarity(Rarity.RARE));
 		EYEFLOWER = block(WorldstudiosWorldModBlocks.EYEFLOWER, new Item.Properties().rarity(Rarity.RARE));
+		SOULDUST_GRAVITE = block(WorldstudiosWorldModBlocks.SOULDUST_GRAVITE);
 	}
 
 	// Start of user code block custom items

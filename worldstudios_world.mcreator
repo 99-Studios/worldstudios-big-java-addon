@@ -9843,6 +9843,35 @@
           "src/main/resources/data/worldstudios_world/worldgen/biome/broken_lands.json"
         ]
       }
+    },
+    {
+      "name": "SouldustGravite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souldust_gravite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/souldust_gravite.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/souldust_gravite.json",
+          "src/main/resources/assets/worldstudios_world/models/block/souldust_gravite.json",
+          "src/main/resources/assets/worldstudios_world/items/souldust_gravite.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/SouldustGraviteBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/item/souldust_gravite.json"
+        ]
+      }
+    },
+    {
+      "name": "AloneDelta",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alone_delta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/biome/alone_delta.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10363,6 +10392,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~SouldustGravite@CUSTOM:SouldustGravite",
       "~Graystone@CUSTOM:Graystone",
       "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~AmethesiumOre@CUSTOM:AmethesiumOre",
@@ -10402,6 +10432,7 @@
       "~Skip@Blocks.BEDROCK",
       "~Skip@CUSTOM:BreakableBedrock",
       "~Oracle@CUSTOM:YellowDirt",
+      "~Oracle@CUSTOM:SouldustGravite",
       "~Oracle@CUSTOM:WasteStone",
       "~Oracle@CUSTOM:GreenSandstone",
       "~Oracle@CUSTOM:GreenSand",
@@ -10597,6 +10628,7 @@
       "~NetheringTraderTrades@nethering_trader_trades_4"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~SouldustGravite@CUSTOM:SouldustGravite",
       "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~BraniteOre@CUSTOM:BraniteOre"
     ],
@@ -11663,7 +11695,9 @@
       "advancements.am_i_supposed_to_do_that.title": "Am I Supposed To Do That",
       "advancements.am_i_supposed_to_do_that.descr": "Obtain Breakable Bedrock.",
       "item.worldstudios_world.eyeflower": "Eyeflower",
-      "biome.worldstudios_world.broken_lands": "Broken Lands"
+      "biome.worldstudios_world.broken_lands": "Broken Lands",
+      "item.worldstudios_world.souldust_gravite": "Souldust Gravite",
+      "biome.worldstudios_world.alone_delta": "Alone Delta"
     }
   },
   "metadata": {
