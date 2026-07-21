@@ -10111,6 +10111,18 @@
           "src/main/resources/data/worldstudios_world/recipe/wopper_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "ObserveerLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observeer_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/entities/observeer.json"
+        ]
+      }
     }
   ],
   "variable_elements": [

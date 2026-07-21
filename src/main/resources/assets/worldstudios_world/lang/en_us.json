@@ -1028,5 +1028,9 @@
   "item.worldstudios_world.wopper_axe": "Wopper Axe",
   "item.worldstudios_world.wopper_sword": "Wopper Sword",
   "item.worldstudios_world.wopper_shovel": "Wopper Shovel",
-  "item.worldstudios_world.wopper_hoe": "Wopper Hoe"
+  "item.worldstudios_world.wopper_hoe": "Wopper Hoe",
+  "item.worldstudios_world.wopper_armor_boots": "Wopper Boots",
+  "item.worldstudios_world.wopper_armor_helmet": "Wopper Helmet",
+  "item.worldstudios_world.wopper_armor_leggings": "Wopper Leggings",
+  "item.worldstudios_world.wopper_armor_chestplate": "Wopper Chestplate"
 }
