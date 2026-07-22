@@ -341,6 +341,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.IGNYITE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_SIGN.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_HANGING_SIGN.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.DIRT_CHEST.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULED_REDSTONE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {

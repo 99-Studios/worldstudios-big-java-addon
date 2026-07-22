@@ -9,12 +9,14 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.worldstudiosworld.client.gui.TrashBagInventoryScreen;
+import net.mcreator.worldstudiosworld.client.gui.DirtChestGUIScreen;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class WorldstudiosWorldModScreens {
 	@SubscribeEvent
 	public static void clientLoad(RegisterMenuScreensEvent event) {
 		event.register(WorldstudiosWorldModMenus.TRASH_BAG_INVENTORY.get(), TrashBagInventoryScreen::new);
+		event.register(WorldstudiosWorldModMenus.DIRT_CHEST_GUI.get(), DirtChestGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {

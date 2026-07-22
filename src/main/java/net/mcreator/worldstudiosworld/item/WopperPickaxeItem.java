@@ -11,6 +11,6 @@ public class WopperPickaxeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 278, 6f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:wopper_pickaxe_repair_items")));
 
 	public WopperPickaxeItem(Item.Properties properties) {
-		super(properties.pickaxe(TOOL_MATERIAL, 3f, -3f));
+		super(properties.pickaxe(TOOL_MATERIAL, 3f, -1f));
 	}
 }

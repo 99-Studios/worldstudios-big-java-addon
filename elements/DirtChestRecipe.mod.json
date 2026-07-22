@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.DIRT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT",
+      "Blocks.DIRT"
+    ],
+    "recipeReturnStack": "CUSTOM:DirtChest",
+    "name": "dirt_chest_recipe",
+    "namespace": "mod"
+  }
+}

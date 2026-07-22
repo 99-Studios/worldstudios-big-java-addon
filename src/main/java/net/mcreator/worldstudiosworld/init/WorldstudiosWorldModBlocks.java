@@ -105,6 +105,7 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> BREAKABLE_BEDROCK;
 	public static final DeferredBlock<Block> EYEFLOWER;
 	public static final DeferredBlock<Block> SOULDUST_GRAVITE;
+	public static final DeferredBlock<Block> DIRT_CHEST;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -187,6 +188,7 @@ public class WorldstudiosWorldModBlocks {
 		BREAKABLE_BEDROCK = register("breakable_bedrock", BreakableBedrockBlock::new);
 		EYEFLOWER = register("eyeflower", EyeflowerBlock::new);
 		SOULDUST_GRAVITE = register("souldust_gravite", SouldustGraviteBlock::new);
+		DIRT_CHEST = register("dirt_chest", DirtChestBlock::new);
 	}
 
 	// Start of user code block custom blocks

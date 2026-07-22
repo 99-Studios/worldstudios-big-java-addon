@@ -1,0 +1,76 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "dirt_chest",
+		"particle": "dirt_chest"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 0],
+			"to": [14, 10, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 7]},
+			"faces": {
+				"north": {"uv": [3.5, 8.25, 7, 10.75], "texture": "#1"},
+				"east": {"uv": [0, 8.25, 3.5, 10.75], "texture": "#1"},
+				"south": {"uv": [10.5, 8.25, 14, 10.75], "texture": "#1"},
+				"west": {"uv": [7, 8.25, 10.5, 10.75], "texture": "#1"},
+				"up": {"uv": [7, 8.25, 3.5, 4.75], "texture": "#1"},
+				"down": {"uv": [10.5, 4.75, 7, 8.25], "texture": "#1"}
+			}
+		},
+		{
+			"name": "lid",
+			"from": [0, 10, 0],
+			"to": [14, 15, 14],
+			"rotation": {"x": -180, "y": 0, "z": 0, "origin": [7, 12.5, 7]},
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 7, 4.75], "texture": "#1"},
+				"east": {"uv": [0, 3.5, 3.5, 4.75], "texture": "#1"},
+				"south": {"uv": [10.5, 3.5, 14, 4.75], "texture": "#1"},
+				"west": {"uv": [7, 3.5, 10.5, 4.75], "texture": "#1"},
+				"up": {"uv": [7, 3.5, 3.5, 0], "texture": "#1"},
+				"down": {"uv": [10.5, 0, 7, 3.5], "texture": "#1"}
+			}
+		},
+		{
+			"name": "knob",
+			"from": [6, 8, -1],
+			"to": [8, 12, 0],
+			"rotation": {"x": -180, "y": 0, "z": 0, "origin": [7, 10, -0.5]},
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 0.75, 1.25], "texture": "#1"},
+				"east": {"uv": [0, 0.25, 0.25, 1.25], "texture": "#1"},
+				"south": {"uv": [1, 0.25, 1.5, 1.25], "texture": "#1"},
+				"west": {"uv": [0.75, 0.25, 1, 1.25], "texture": "#1"},
+				"up": {"uv": [0.75, 0.25, 0.25, 0], "texture": "#1"},
+				"down": {"uv": [1.25, 0, 0.75, 0.25], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "base",
+			"origin": [16, 0, 16],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "lid",
+			"origin": [16, 9, 15],
+			"scope": 0,
+			"color": 0,
+			"children": [1]
+		},
+		{
+			"name": "knob",
+			"origin": [16, 9, 15],
+			"scope": 0,
+			"color": 0,
+			"children": [2]
+		}
+	]
+}

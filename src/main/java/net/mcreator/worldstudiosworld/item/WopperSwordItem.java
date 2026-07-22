@@ -11,6 +11,6 @@ public class WopperSwordItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 278, 6f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:wopper_sword_repair_items")));
 
 	public WopperSwordItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 5f, -2f));
+		super(properties.sword(TOOL_MATERIAL, 3f, -1f));
 	}
 }

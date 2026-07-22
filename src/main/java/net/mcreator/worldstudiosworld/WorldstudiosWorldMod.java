@@ -51,6 +51,7 @@ public class WorldstudiosWorldMod {
 		modEventBus.addListener(this::registerNetworking);
 		WorldstudiosWorldModSounds.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModBlocks.REGISTRY.register(modEventBus);
+		WorldstudiosWorldModBlockEntities.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModItems.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModEntities.REGISTRY.register(modEventBus);
 		WorldstudiosWorldModTabs.REGISTRY.register(modEventBus);

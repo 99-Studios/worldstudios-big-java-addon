@@ -17,6 +17,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.worldstudiosworld.world.inventory.TrashBagInventoryMenu;
+import net.mcreator.worldstudiosworld.world.inventory.DirtChestGUIMenu;
 import net.mcreator.worldstudiosworld.network.MenuStateUpdateMessage;
 import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;
 
@@ -25,6 +26,7 @@ import java.util.Map;
 public class WorldstudiosWorldModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, WorldstudiosWorldMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<TrashBagInventoryMenu>> TRASH_BAG_INVENTORY = REGISTRY.register("trash_bag_inventory", () -> IMenuTypeExtension.create(TrashBagInventoryMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<DirtChestGUIMenu>> DIRT_CHEST_GUI = REGISTRY.register("dirt_chest_gui", () -> IMenuTypeExtension.create(DirtChestGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

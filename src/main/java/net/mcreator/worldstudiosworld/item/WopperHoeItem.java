@@ -12,6 +12,6 @@ public class WopperHoeItem extends HoeItem {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 278, 6f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("worldstudios_world:wopper_hoe_repair_items")));
 
 	public WopperHoeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 0f, -1f, properties);
+		super(TOOL_MATERIAL, 3f, -1f, properties);
 	}
 }

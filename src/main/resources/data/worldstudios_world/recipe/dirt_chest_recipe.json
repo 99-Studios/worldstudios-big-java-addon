@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "#minecraft:dirt"
+  },
+  "result": {
+    "id": "worldstudios_world:dirt_chest",
+    "count": 1
+  }
+}

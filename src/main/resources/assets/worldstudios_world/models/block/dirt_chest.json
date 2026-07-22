@@ -1,0 +1,8 @@
+{
+  "parent": "worldstudios_world:custom/dirt_chest",
+  "textures": {
+    "all": "worldstudios_world:block/dirt_chest",
+    "particle": "worldstudios_world:block/dirt_chest",
+    "1": "worldstudios_world:block/dirt_chest"
+  }
+}
