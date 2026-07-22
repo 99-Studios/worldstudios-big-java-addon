@@ -968,7 +968,8 @@
       "registry_name": "lither_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/worldstudios_world/recipe/lither_recipe.json"
+          "src/main/resources/data/worldstudios_world/recipe/lither_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/lither_recipe.json"
         ]
       }
     },
