@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "states": [],
     "animations": [],
-    "itemTexture": "",
+    "itemTexture": "dirt_chest",
     "particleTexture": "",
     "blockSetType": "OAK",
     "leavesParticleChance": 0.0,
