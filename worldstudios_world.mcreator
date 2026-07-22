@@ -10203,6 +10203,44 @@
           "src/main/resources/data/worldstudios_world/recipe/dirt_chest_recipe.json"
         ]
       }
+    },
+    {
+      "name": "CopperPower",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/enchantment/copper_power.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPowerProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_power_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/CopperPowerProcedureProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10685,11 +10723,13 @@
       "~EnderHelmet@CUSTOM:EnderHelmet.helmet"
     ],
     "ENCHANTMENTS:minecraft:tradeable": [
+      "~CopperPower@CUSTOM:CopperPower",
       "~Dirt@CUSTOM:Dirt",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
       "~Spike@CUSTOM:Spike",
       "~Dirt@CUSTOM:Dirt",
@@ -10697,6 +10737,7 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
       "~Spike@CUSTOM:Spike",
       "~Explosion@CUSTOM:Explosion",
@@ -12074,7 +12115,8 @@
       "advancements.soulless.descr": "Obtain the full Souldust set.",
       "advancements.harness_the_dragon.descr": "Have all Souldust tools enchanted with Dragon.",
       "advancements.harness_the_dragon.title": "Harness The Dragon",
-      "item.worldstudios_world.dirt_chest": "Dirt Chest"
+      "item.worldstudios_world.dirt_chest": "Dirt Chest",
+      "enchantment.worldstudios_world.copper_power": "Copper Power"
     }
   },
   "metadata": {

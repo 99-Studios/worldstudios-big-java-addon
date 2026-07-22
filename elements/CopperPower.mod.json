@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Copper Power",
+    "supportedSlots": "any",
+    "weight": 2,
+    "anvilCost": 2,
+    "maxLevel": 9,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      "CUSTOM:CommandBlockPickaxe"
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true,
+    "effectsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"enchantment_effects_start\" deletable=\"false\" x=\"40\" y=\"80\"></block></xml>"
+  }
+}

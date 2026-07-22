@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.worldstudios_world.copper_power"
+  },
+  "supported_items": "worldstudios_world:command_block_pickaxe",
+  "weight": 2,
+  "max_level": 9,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}
