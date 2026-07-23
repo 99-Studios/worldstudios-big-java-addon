@@ -348,6 +348,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> WOPPER_ARMOR_LEGGINGS;
 	public static final DeferredItem<Item> WOPPER_ARMOR_BOOTS;
 	public static final DeferredItem<Item> DIRT_CHEST;
+	public static final DeferredItem<Item> DARKENED_SAND;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -673,6 +674,7 @@ public class WorldstudiosWorldModItems {
 		WOPPER_ARMOR_LEGGINGS = register("wopper_armor_leggings", WopperArmorItem.Leggings::new);
 		WOPPER_ARMOR_BOOTS = register("wopper_armor_boots", WopperArmorItem.Boots::new);
 		DIRT_CHEST = block(WorldstudiosWorldModBlocks.DIRT_CHEST);
+		DARKENED_SAND = block(WorldstudiosWorldModBlocks.DARKENED_SAND);
 	}
 
 	// Start of user code block custom items
