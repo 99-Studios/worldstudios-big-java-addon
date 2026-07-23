@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hanging_sign",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": "minecraft:iron_chain",
+    "b": "worldstudios_world:stripped_girtree_log"
+  },
+  "result": {
+    "id": "worldstudios_world:girtree_hanging_sign",
+    "count": 6
+  }
+}

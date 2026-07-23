@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:girtree_log",
+    "worldstudios_world:stripped_girtree_wood",
+    "worldstudios_world:girtree_wood",
+    "worldstudios_world:stripped_girtree_log"
+  ]
+}

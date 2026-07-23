@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_sign",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    " b "
+  ],
+  "key": {
+    "a": "worldstudios_world:girtree_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "worldstudios_world:girtree_sign",
+    "count": 3
+  }
+}

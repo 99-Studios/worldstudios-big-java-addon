@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:girtree_button",
     "worldstudios_world:andor_button",
     "worldstudios_world:souldust_button",
     "worldstudios_world:nacor_button"

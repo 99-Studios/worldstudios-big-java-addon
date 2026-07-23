@@ -120,6 +120,8 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_AXE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_SHOVEL.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_HOE.get());
+			tabData.accept(WorldstudiosWorldModItems.GIRTREE_BOAT.get());
+			tabData.accept(WorldstudiosWorldModItems.GIRTREE_CHEST_BOAT.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -269,6 +271,19 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_TRAPDOOR.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_PRESSURE_PLATE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_BUTTON.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_LOG.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_WOOD.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.STRIPPED_GIRTREE_LOG.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.STRIPPED_GIRTREE_WOOD.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_PLANKS.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_STAIRS.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_SLAB.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_FENCE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_FENCE_GATE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_DOOR.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_TRAPDOOR.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_PRESSURE_PLATE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_STONE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_LOG.get().asItem());
@@ -300,6 +315,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.EYEFLOWER.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_GRAVITE.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.DARKENED_SAND.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_LEAVES.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());
@@ -343,6 +359,8 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_SIGN.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOULDUST_HANGING_SIGN.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.DIRT_CHEST.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_SIGN.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_HANGING_SIGN.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULED_REDSTONE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {

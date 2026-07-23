@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "worldstudios_world:souldust_trapdoor"
+    "worldstudios_world:souldust_trapdoor",
+    "worldstudios_world:girtree_trapdoor"
   ]
 }

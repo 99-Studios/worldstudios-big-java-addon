@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "worldstudios_world:block/girtree_planks",
+    "particle": "worldstudios_world:block/girtree_planks"
+  }
+}

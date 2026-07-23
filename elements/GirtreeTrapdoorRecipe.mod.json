@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "wooden_trapdoor",
+    "unlockingItems": [
+      "CUSTOM:GirtreePlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:GirtreeTrapdoor",
+    "name": "girtree_trapdoor_recipe",
+    "namespace": "mod"
+  }
+}

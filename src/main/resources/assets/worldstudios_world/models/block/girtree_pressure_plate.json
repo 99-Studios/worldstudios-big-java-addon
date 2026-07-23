@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "worldstudios_world:block/girtree_planks",
+    "particle": "worldstudios_world:block/girtree_planks"
+  }
+}

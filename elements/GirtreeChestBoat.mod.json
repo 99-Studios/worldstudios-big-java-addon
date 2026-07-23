@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "ChestBoat",
+    "name": "Girtree Boat with Chest",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "entityTexture": "girtree_chest_boat",
+    "itemTexture": "girtree_chest_boat"
+  }
+}

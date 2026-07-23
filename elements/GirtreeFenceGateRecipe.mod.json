@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "wooden_fence_gate",
+    "unlockingItems": [
+      "CUSTOM:GirtreePlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "Items.STICK",
+      "CUSTOM:GirtreePlanks",
+      "Items.STICK",
+      "Items.STICK",
+      "CUSTOM:GirtreePlanks",
+      "Items.STICK"
+    ],
+    "recipeReturnStack": "CUSTOM:GirtreeFenceGate",
+    "name": "girtree_fence_gate_recipe",
+    "namespace": "mod"
+  }
+}

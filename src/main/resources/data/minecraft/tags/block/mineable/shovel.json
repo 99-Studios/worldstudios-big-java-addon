@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:darkened_sand",
     "worldstudios_world:ignyite",
     "worldstudios_world:green_sand"
   ]

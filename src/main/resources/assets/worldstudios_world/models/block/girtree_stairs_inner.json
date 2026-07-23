@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "worldstudios_world:block/girtree_planks",
+    "bottom": "worldstudios_world:block/girtree_planks",
+    "top": "worldstudios_world:block/girtree_planks",
+    "side": "worldstudios_world:block/girtree_planks"
+  }
+}

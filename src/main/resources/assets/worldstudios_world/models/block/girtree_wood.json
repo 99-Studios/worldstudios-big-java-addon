@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "worldstudios_world:block/girtree_log",
+    "particle": "worldstudios_world:block/girtree_log"
+  }
+}

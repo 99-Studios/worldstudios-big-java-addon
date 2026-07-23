@@ -10259,6 +10259,550 @@
           "src/main/resources/data/worldstudios_world/loot_table/blocks/darkened_sand.json"
         ]
       }
+    },
+    {
+      "name": "DarkenedSands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_sands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/biome/darkened_sands.json",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/darkened_sands_tree.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/darkened_sands_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_log.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_log.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeLogBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_log.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_log.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_log.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_wood.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_wood.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_wood.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_wood.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_wood.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StrippedGirtreeLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_girtree_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/stripped_girtree_log.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/StrippedGirtreeLogBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/stripped_girtree_log.json",
+          "src/main/resources/assets/worldstudios_world/items/stripped_girtree_log.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/stripped_girtree_log.json",
+          "src/main/resources/assets/worldstudios_world/models/item/stripped_girtree_log.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedGirtreeWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_girtree_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/stripped_girtree_wood.json",
+          "src/main/resources/assets/worldstudios_world/items/stripped_girtree_wood.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/stripped_girtree_wood.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/StrippedGirtreeWoodBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/stripped_girtree_wood.json",
+          "src/main/resources/assets/worldstudios_world/models/item/stripped_girtree_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_planks.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_planks.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_planks.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreePlanksBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_planks.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/girtree_leaves.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_leaves.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_leaves.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_leaves.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeLeavesBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_stairs.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_stairs_outer.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_stairs.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_stairs.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_stairs.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeStairsBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_stairs_inner.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_slab_full.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_slab.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_slab.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_slab_top.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_slab.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeSlabBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/girtree_slab.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_fence.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence_post.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_fence.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence_inventory.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_fence.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_fence.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence_gate_wall.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_fence_gate.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeFenceGateBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/girtree_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence_gate_wall_open.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_fence_gate.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_fence_gate_open.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeDoorBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_bottom_left.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_bottom_right.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_top_right.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_door.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_top_left_open.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_bottom_right_open.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_door.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_door.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_top_right_open.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_door.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_top_left.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_door_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_trapdoor.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeTrapdoorBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_trapdoor.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_trapdoor.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_trapdoor_top.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_trapdoor.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_trapdoor.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_trapdoor_open.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_pressure_plate.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_pressure_plate.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_pressure_plate_down.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_pressure_plate.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_pressure_plate.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_pressure_plate.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreePressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_button_pressed.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_button_inventory.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeButtonBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_button.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_button.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_button.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_button.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_button.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_sign",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_sign.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_wall_sign.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeSignBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_sign.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_sign.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_sign.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_sign.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeWallSignBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeHangingSign",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_hanging_sign",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeWallHangingSignBlock.java",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_hanging_sign.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girtree_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girtree_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_hanging_sign.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirtreeHangingSignBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_wall_hanging_sign.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/girtree_hanging_sign.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_boat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_boat.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/GirtreeBoatEntity.java",
+          "src/main/resources/assets/worldstudios_world/items/girtree_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeChestBoat",
+      "type": "specialentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_chest_boat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/entity/GirtreeChestBoatEntity.java",
+          "src/main/resources/assets/worldstudios_world/models/item/girtree_chest_boat.json",
+          "src/main/resources/assets/worldstudios_world/items/girtree_chest_boat.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeLeavesComposting",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_leaves_composting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GirtreeWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_wood_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StrippedGirtreeWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_girtree_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/stripped_girtree_wood_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/stripped_girtree_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreePlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_planks_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_planks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/girtree_stairs_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_slab_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/girtree_fence_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_fence_gate_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/girtree_door_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_door_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_trapdoor_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_trapdoor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreePressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_pressure_plate_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_button_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/girtree_sign_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeHangingSignRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_hanging_sign_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_hanging_sign_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_hanging_sign_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/girtree_boat_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_boat_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GirtreeChestBoatRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girtree_chest_boat_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/girtree_chest_boat_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/girtree_chest_boat_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10601,10 +11145,12 @@
       "CUSTOM:StrippedSouldustWood"
     ],
     "BLOCKS:minecraft:logs_that_burn": [
-      "TAG:mod:souldust_logs"
+      "TAG:mod:souldust_logs",
+      "TAG:mod:girtree_logs"
     ],
     "BLOCKS:minecraft:planks": [
-      "CUSTOM:SouldustPlanks"
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:GirtreePlanks"
     ],
     "ITEMS:mod:souldust_logs": [
       "CUSTOM:SouldustLog",
@@ -10613,10 +11159,12 @@
       "CUSTOM:StrippedSouldustWood"
     ],
     "ITEMS:minecraft:logs_that_burn": [
-      "TAG:mod:souldust_logs"
+      "TAG:mod:souldust_logs",
+      "TAG:mod:girtree_logs"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:SouldustPlanks"
+      "CUSTOM:SouldustPlanks",
+      "CUSTOM:GirtreePlanks"
     ],
     "ITEMS:worldstudios_world:souldust_pickaxe_repair_items": [
       "~SouldustPickaxe@CUSTOM:SouldustPlanks"
@@ -10940,6 +11488,23 @@
       "~LongZombie@CUSTOM:LongZombie"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign",
+      "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign.wall",
+      "~GirtreeSign@CUSTOM:GirtreeSign",
+      "~GirtreeSign@CUSTOM:GirtreeSign.wall",
+      "~GirtreeButton@CUSTOM:GirtreeButton",
+      "~GirtreePressurePlate@CUSTOM:GirtreePressurePlate",
+      "~GirtreeTrapdoor@CUSTOM:GirtreeTrapdoor",
+      "~GirtreeDoor@CUSTOM:GirtreeDoor",
+      "~GirtreeFenceGate@CUSTOM:GirtreeFenceGate",
+      "~GirtreeFence@CUSTOM:GirtreeFence",
+      "~GirtreeSlab@CUSTOM:GirtreeSlab",
+      "~GirtreeStairs@CUSTOM:GirtreeStairs",
+      "~GirtreePlanks@CUSTOM:GirtreePlanks",
+      "~StrippedGirtreeWood@CUSTOM:StrippedGirtreeWood",
+      "~StrippedGirtreeLog@CUSTOM:StrippedGirtreeLog",
+      "~GirtreeWood@CUSTOM:GirtreeWood",
+      "~GirtreeLog@CUSTOM:GirtreeLog",
       "~SouldustHangingSign@CUSTOM:SouldustHangingSign.wall",
       "~SouldustHangingSign@CUSTOM:SouldustHangingSign",
       "~SouldustSign@CUSTOM:SouldustSign.wall",
@@ -10965,31 +11530,37 @@
       "~AndorWood@CUSTOM:AndorWood"
     ],
     "BLOCKS:minecraft:leaves": [
+      "~GirtreeLeaves@CUSTOM:GirtreeLeaves",
       "~SouldustLeaves@CUSTOM:SouldustLeaves",
       "~NacorLeaves@CUSTOM:NacorLeaves",
       "~AndorLeaves@CUSTOM:AndorLeaves"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~GirtreeStairs@CUSTOM:GirtreeStairs",
       "~SouldustStairs@CUSTOM:SouldustStairs",
       "~NacorStairs@CUSTOM:NacorStairs",
       "~AndorStairs@CUSTOM:AndorStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~GirtreeSlab@CUSTOM:GirtreeSlab",
       "~SouldustSlab@CUSTOM:SouldustSlab",
       "~NacorSlab@CUSTOM:NacorSlab",
       "~AndorSlab@CUSTOM:AndorSlab"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~GirtreeFence@CUSTOM:GirtreeFence",
       "~SouldustFence@CUSTOM:SouldustFence",
       "~NacorFence@CUSTOM:NacorFence",
       "~AndorFence@CUSTOM:AndorFence"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~GirtreePressurePlate@CUSTOM:GirtreePressurePlate",
       "~SouldustPressurePlate@CUSTOM:SouldustPressurePlate",
       "~NacorPressurePlate@CUSTOM:NacorPressurePlate",
       "~AndorPressurePlate@CUSTOM:AndorPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~GirtreeButton@CUSTOM:GirtreeButton",
       "~SouldustButton@CUSTOM:SouldustButton",
       "~NacorButton@CUSTOM:NacorButton",
       "~AndorButton@CUSTOM:AndorButton"
@@ -11051,44 +11622,82 @@
       "~BraniteOre@CUSTOM:BraniteOre"
     ],
     "ENTITIES:minecraft:boat": [
+      "~GirtreeBoat@CUSTOM:GirtreeBoat",
       "~DirtBoat@CUSTOM:DirtBoat",
       "~SouldustBoat@CUSTOM:SouldustBoat",
       "~SteelBoat@CUSTOM:SteelBoat"
     ],
     "ITEMS:minecraft:boats": [
+      "~GirtreeBoat@CUSTOM:GirtreeBoat",
       "~DirtBoat@CUSTOM:DirtBoat",
       "~SouldustBoat@CUSTOM:SouldustBoat",
       "~SteelBoat@CUSTOM:SteelBoat"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~GirtreeLeaves@CUSTOM:GirtreeLeaves",
       "~SouldustLeaves@CUSTOM:SouldustLeaves"
     ],
     "BLOCKS:minecraft:wooden_doors": [
+      "~GirtreeDoor@CUSTOM:GirtreeDoor",
       "~SouldustDoor@CUSTOM:SouldustDoor"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
+      "~GirtreeTrapdoor@CUSTOM:GirtreeTrapdoor",
       "~SouldustTrapdoor@CUSTOM:SouldustTrapdoor"
     ],
     "BLOCKS:minecraft:standing_signs": [
+      "~GirtreeSign@CUSTOM:GirtreeSign",
       "~SouldustSign@CUSTOM:SouldustSign"
     ],
     "BLOCKS:minecraft:wall_signs": [
+      "~GirtreeSign@CUSTOM:GirtreeSign.wall",
       "~SouldustSign@CUSTOM:SouldustSign.wall"
     ],
     "BLOCKS:minecraft:ceiling_hanging_signs": [
+      "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign",
       "~SouldustHangingSign@CUSTOM:SouldustHangingSign"
     ],
     "BLOCKS:minecraft:wall_hanging_signs": [
+      "~GirtreeHangingSign@CUSTOM:GirtreeHangingSign.wall",
       "~SouldustHangingSign@CUSTOM:SouldustHangingSign.wall"
     ],
     "ENTITIES:c:boats": [
+      "~GirtreeChestBoat@CUSTOM:GirtreeChestBoat",
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
     "ITEMS:minecraft:chest_boats": [
+      "~GirtreeChestBoat@CUSTOM:GirtreeChestBoat",
       "~SouldustChestBoat@CUSTOM:SouldustChestBoat"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~Graystone@CUSTOM:Graystone"
+    ],
+    "BLOCKS:mod:girtree_logs": [
+      "CUSTOM:GirtreeLog",
+      "CUSTOM:GirtreeWood",
+      "CUSTOM:StrippedGirtreeLog",
+      "CUSTOM:StrippedGirtreeWood"
+    ],
+    "ITEMS:mod:girtree_logs": [
+      "CUSTOM:GirtreeLog",
+      "CUSTOM:GirtreeWood",
+      "CUSTOM:StrippedGirtreeLog",
+      "CUSTOM:StrippedGirtreeWood"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~DarkenedSands@CUSTOM:DarkenedSands"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~DarkenedSands@CUSTOM:DarkenedSands"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~DarkenedSands@CUSTOM:DarkenedSands"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~DarkenedSands@CUSTOM:DarkenedSands"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~DarkenedSands@CUSTOM:DarkenedSands"
     ]
   },
   "tab_element_order": {},
@@ -12136,12 +12745,37 @@
       "advancements.harness_the_dragon.title": "Harness The Dragon",
       "item.worldstudios_world.dirt_chest": "Dirt Chest",
       "enchantment.worldstudios_world.copper_power": "Copper Power",
-      "item.worldstudios_world.darkened_sand": "Darkened Sand"
+      "item.worldstudios_world.darkened_sand": "Darkened Sand",
+      "biome.worldstudios_world.darkened_sands": "Darkened Sands",
+      "item.worldstudios_world.girtree_log": "Girtree Log",
+      "item.worldstudios_world.girtree_wood": "Girtree Wood",
+      "item.worldstudios_world.stripped_girtree_log": "Stripped Girtree Log",
+      "item.worldstudios_world.stripped_girtree_wood": "Stripped Girtree Wood",
+      "item.worldstudios_world.girtree_planks": "Girtree Planks",
+      "item.worldstudios_world.girtree_leaves": "Girtree Leaves",
+      "item.worldstudios_world.girtree_stairs": "Girtree Stairs",
+      "item.worldstudios_world.girtree_slab": "Girtree Slab",
+      "item.worldstudios_world.girtree_fence": "Girtree Fence",
+      "item.worldstudios_world.girtree_fence_gate": "Girtree Fence Gate",
+      "item.worldstudios_world.girtree_door": "Girtree Door",
+      "item.worldstudios_world.girtree_trapdoor": "Girtree Trapdoor",
+      "item.worldstudios_world.girtree_pressure_plate": "Girtree Pressure Plate",
+      "item.worldstudios_world.girtree_button": "Girtree Button",
+      "item.worldstudios_world.girtree_sign": "Girtree Sign",
+      "item.worldstudios_world.girtree_hanging_sign": "Girtree Hanging Sign",
+      "entity.worldstudios_world.girtree_boat": "Girtree Boat",
+      "item.worldstudios_world.girtree_boat": "Girtree Boat",
+      "entity.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest",
+      "item.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModAttributes.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/BiomeSourcePresetMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModBiomes.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/LevelStorageSourceMixin.java",
+      "src/main/java/net/mcreator/worldstudiosworld/mixin/NoiseGeneratorSettingsMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModWoodTypes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluidTypes.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModFluids.java",
@@ -12171,6 +12805,7 @@
       "src/main/resources/META-INF/enumextensions.json",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModSounds.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModDispenseBehaviors.java",
+      "src/main/resources/worldstudios_world.mixins.json",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModModels.java",
       "src/main/resources/assets/worldstudios_world/sounds.json"
     ]

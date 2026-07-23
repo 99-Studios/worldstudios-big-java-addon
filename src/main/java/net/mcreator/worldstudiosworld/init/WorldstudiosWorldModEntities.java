@@ -115,6 +115,10 @@ public class WorldstudiosWorldModEntities {
 			EntityType.Builder.<ObserveerEntity>of(ObserveerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.notInPeaceful().sized(0.6f, 0.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<GirtreeBoatEntity>> GIRTREE_BOAT = register("girtree_boat",
+			EntityType.Builder.<GirtreeBoatEntity>of(GirtreeBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
+	public static final DeferredHolder<EntityType<?>, EntityType<GirtreeChestBoatEntity>> GIRTREE_CHEST_BOAT = register("girtree_chest_boat",
+			EntityType.Builder.<GirtreeChestBoatEntity>of(GirtreeChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities

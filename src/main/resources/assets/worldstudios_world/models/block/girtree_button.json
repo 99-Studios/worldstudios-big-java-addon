@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "worldstudios_world:block/girtree_planks",
+    "particle": "worldstudios_world:block/girtree_planks"
+  }
+}

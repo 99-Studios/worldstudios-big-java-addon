@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "worldstudios_world:souldust_sign"
+    "worldstudios_world:souldust_sign",
+    "worldstudios_world:girtree_sign"
   ]
 }

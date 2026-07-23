@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:girtree_pressure_plate",
     "worldstudios_world:nacor_pressure_plate",
     "worldstudios_world:souldust_pressure_plate",
     "worldstudios_world:andor_pressure_plate"

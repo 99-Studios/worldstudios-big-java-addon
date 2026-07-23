@@ -107,6 +107,24 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> SOULDUST_GRAVITE;
 	public static final DeferredBlock<Block> DIRT_CHEST;
 	public static final DeferredBlock<Block> DARKENED_SAND;
+	public static final DeferredBlock<Block> GIRTREE_LOG;
+	public static final DeferredBlock<Block> GIRTREE_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_GIRTREE_LOG;
+	public static final DeferredBlock<Block> STRIPPED_GIRTREE_WOOD;
+	public static final DeferredBlock<Block> GIRTREE_PLANKS;
+	public static final DeferredBlock<Block> GIRTREE_LEAVES;
+	public static final DeferredBlock<Block> GIRTREE_STAIRS;
+	public static final DeferredBlock<Block> GIRTREE_SLAB;
+	public static final DeferredBlock<Block> GIRTREE_FENCE;
+	public static final DeferredBlock<Block> GIRTREE_FENCE_GATE;
+	public static final DeferredBlock<Block> GIRTREE_DOOR;
+	public static final DeferredBlock<Block> GIRTREE_TRAPDOOR;
+	public static final DeferredBlock<Block> GIRTREE_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> GIRTREE_BUTTON;
+	public static final DeferredBlock<Block> GIRTREE_SIGN;
+	public static final DeferredBlock<Block> GIRTREE_WALL_SIGN;
+	public static final DeferredBlock<Block> GIRTREE_HANGING_SIGN;
+	public static final DeferredBlock<Block> GIRTREE_WALL_HANGING_SIGN;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -191,6 +209,24 @@ public class WorldstudiosWorldModBlocks {
 		SOULDUST_GRAVITE = register("souldust_gravite", SouldustGraviteBlock::new);
 		DIRT_CHEST = register("dirt_chest", DirtChestBlock::new);
 		DARKENED_SAND = register("darkened_sand", DarkenedSandBlock::new);
+		GIRTREE_LOG = register("girtree_log", GirtreeLogBlock::new);
+		GIRTREE_WOOD = register("girtree_wood", GirtreeWoodBlock::new);
+		STRIPPED_GIRTREE_LOG = register("stripped_girtree_log", StrippedGirtreeLogBlock::new);
+		STRIPPED_GIRTREE_WOOD = register("stripped_girtree_wood", StrippedGirtreeWoodBlock::new);
+		GIRTREE_PLANKS = register("girtree_planks", GirtreePlanksBlock::new);
+		GIRTREE_LEAVES = register("girtree_leaves", GirtreeLeavesBlock::new);
+		GIRTREE_STAIRS = register("girtree_stairs", GirtreeStairsBlock::new);
+		GIRTREE_SLAB = register("girtree_slab", GirtreeSlabBlock::new);
+		GIRTREE_FENCE = register("girtree_fence", GirtreeFenceBlock::new);
+		GIRTREE_FENCE_GATE = register("girtree_fence_gate", GirtreeFenceGateBlock::new);
+		GIRTREE_DOOR = register("girtree_door", GirtreeDoorBlock::new);
+		GIRTREE_TRAPDOOR = register("girtree_trapdoor", GirtreeTrapdoorBlock::new);
+		GIRTREE_PRESSURE_PLATE = register("girtree_pressure_plate", GirtreePressurePlateBlock::new);
+		GIRTREE_BUTTON = register("girtree_button", GirtreeButtonBlock::new);
+		GIRTREE_SIGN = register("girtree_sign", GirtreeSignBlock::new);
+		GIRTREE_WALL_SIGN = register("girtree_wall_sign", GirtreeWallSignBlock::new);
+		GIRTREE_HANGING_SIGN = register("girtree_hanging_sign", GirtreeHangingSignBlock::new);
+		GIRTREE_WALL_HANGING_SIGN = register("girtree_wall_hanging_sign", GirtreeWallHangingSignBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -204,13 +240,17 @@ public class WorldstudiosWorldModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.SOULDUST_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_SIGN_WOOD_TYPE);
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_HANGING_SIGN_WOOD_TYPE);
 		}
 	}
 
 	@SubscribeEvent
 	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
 		event.modify(BlockEntityType.SIGN, SOULDUST_SIGN.get(), SOULDUST_WALL_SIGN.get());
+		event.modify(BlockEntityType.SIGN, GIRTREE_SIGN.get(), GIRTREE_WALL_SIGN.get());
 		event.modify(BlockEntityType.HANGING_SIGN, SOULDUST_HANGING_SIGN.get(), SOULDUST_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityType.HANGING_SIGN, GIRTREE_HANGING_SIGN.get(), GIRTREE_WALL_HANGING_SIGN.get());
 	}
 }

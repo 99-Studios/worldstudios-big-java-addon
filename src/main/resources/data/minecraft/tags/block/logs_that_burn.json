@@ -4,6 +4,10 @@
     {
       "id": "#worldstudios_world:souldust_logs",
       "required": false
+    },
+    {
+      "id": "#worldstudios_world:girtree_logs",
+      "required": false
     }
   ]
 }

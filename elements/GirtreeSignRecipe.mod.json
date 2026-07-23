@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "wooden_sign",
+    "unlockingItems": [
+      "CUSTOM:GirtreePlanks"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "CUSTOM:GirtreePlanks",
+      "",
+      "Items.STICK",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:GirtreeSign",
+    "name": "girtree_sign_recipe",
+    "namespace": "mod"
+  }
+}

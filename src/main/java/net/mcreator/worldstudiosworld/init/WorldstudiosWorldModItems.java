@@ -349,6 +349,24 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> WOPPER_ARMOR_BOOTS;
 	public static final DeferredItem<Item> DIRT_CHEST;
 	public static final DeferredItem<Item> DARKENED_SAND;
+	public static final DeferredItem<Item> GIRTREE_LOG;
+	public static final DeferredItem<Item> GIRTREE_WOOD;
+	public static final DeferredItem<Item> STRIPPED_GIRTREE_LOG;
+	public static final DeferredItem<Item> STRIPPED_GIRTREE_WOOD;
+	public static final DeferredItem<Item> GIRTREE_PLANKS;
+	public static final DeferredItem<Item> GIRTREE_LEAVES;
+	public static final DeferredItem<Item> GIRTREE_STAIRS;
+	public static final DeferredItem<Item> GIRTREE_SLAB;
+	public static final DeferredItem<Item> GIRTREE_FENCE;
+	public static final DeferredItem<Item> GIRTREE_FENCE_GATE;
+	public static final DeferredItem<Item> GIRTREE_DOOR;
+	public static final DeferredItem<Item> GIRTREE_TRAPDOOR;
+	public static final DeferredItem<Item> GIRTREE_PRESSURE_PLATE;
+	public static final DeferredItem<Item> GIRTREE_BUTTON;
+	public static final DeferredItem<Item> GIRTREE_SIGN;
+	public static final DeferredItem<Item> GIRTREE_HANGING_SIGN;
+	public static final DeferredItem<Item> GIRTREE_BOAT;
+	public static final DeferredItem<Item> GIRTREE_CHEST_BOAT;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -675,6 +693,24 @@ public class WorldstudiosWorldModItems {
 		WOPPER_ARMOR_BOOTS = register("wopper_armor_boots", WopperArmorItem.Boots::new);
 		DIRT_CHEST = block(WorldstudiosWorldModBlocks.DIRT_CHEST);
 		DARKENED_SAND = block(WorldstudiosWorldModBlocks.DARKENED_SAND);
+		GIRTREE_LOG = block(WorldstudiosWorldModBlocks.GIRTREE_LOG);
+		GIRTREE_WOOD = block(WorldstudiosWorldModBlocks.GIRTREE_WOOD);
+		STRIPPED_GIRTREE_LOG = block(WorldstudiosWorldModBlocks.STRIPPED_GIRTREE_LOG);
+		STRIPPED_GIRTREE_WOOD = block(WorldstudiosWorldModBlocks.STRIPPED_GIRTREE_WOOD);
+		GIRTREE_PLANKS = block(WorldstudiosWorldModBlocks.GIRTREE_PLANKS);
+		GIRTREE_LEAVES = block(WorldstudiosWorldModBlocks.GIRTREE_LEAVES);
+		GIRTREE_STAIRS = block(WorldstudiosWorldModBlocks.GIRTREE_STAIRS);
+		GIRTREE_SLAB = block(WorldstudiosWorldModBlocks.GIRTREE_SLAB);
+		GIRTREE_FENCE = block(WorldstudiosWorldModBlocks.GIRTREE_FENCE);
+		GIRTREE_FENCE_GATE = block(WorldstudiosWorldModBlocks.GIRTREE_FENCE_GATE);
+		GIRTREE_DOOR = doubleBlock(WorldstudiosWorldModBlocks.GIRTREE_DOOR);
+		GIRTREE_TRAPDOOR = block(WorldstudiosWorldModBlocks.GIRTREE_TRAPDOOR);
+		GIRTREE_PRESSURE_PLATE = block(WorldstudiosWorldModBlocks.GIRTREE_PRESSURE_PLATE);
+		GIRTREE_BUTTON = block(WorldstudiosWorldModBlocks.GIRTREE_BUTTON);
+		GIRTREE_SIGN = signBlock(WorldstudiosWorldModBlocks.GIRTREE_SIGN, WorldstudiosWorldModBlocks.GIRTREE_WALL_SIGN, new Item.Properties().stacksTo(16));
+		GIRTREE_HANGING_SIGN = hangingSignBlock(WorldstudiosWorldModBlocks.GIRTREE_HANGING_SIGN, WorldstudiosWorldModBlocks.GIRTREE_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
+		GIRTREE_BOAT = register("girtree_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.GIRTREE_BOAT.get(), properties.stacksTo(1)));
+		GIRTREE_CHEST_BOAT = register("girtree_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.GIRTREE_CHEST_BOAT.get(), properties.stacksTo(1)));
 	}
 
 	// Start of user code block custom items

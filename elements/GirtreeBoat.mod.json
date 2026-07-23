@@ -1,0 +1,14 @@
+{
+  "_fv": 89,
+  "_type": "specialentity",
+  "definition": {
+    "entityType": "Boat",
+    "name": "Girtree Boat",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      "TOOLS"
+    ],
+    "entityTexture": "girtree_boat",
+    "itemTexture": "girtree_boat"
+  }
+}

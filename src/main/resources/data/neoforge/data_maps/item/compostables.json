@@ -2,6 +2,9 @@
   "values": {
     "worldstudios_world:souldust_leaves": {
       "chance": 0.3
+    },
+    "worldstudios_world:girtree_leaves": {
+      "chance": 0.3
     }
   }
 }

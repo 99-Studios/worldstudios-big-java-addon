@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:girtree_wall_hanging_sign",
     "worldstudios_world:souldust_wall_hanging_sign"
   ]
 }
