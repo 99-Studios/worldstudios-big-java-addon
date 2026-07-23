@@ -122,6 +122,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_HOE.get());
 			tabData.accept(WorldstudiosWorldModItems.GIRTREE_BOAT.get());
 			tabData.accept(WorldstudiosWorldModItems.GIRTREE_CHEST_BOAT.get());
+			tabData.accept(WorldstudiosWorldModItems.DIRTY_WATER_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());

@@ -20,4 +20,6 @@ public class WorldstudiosWorldModFluids {
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_ACID_FLUID = REGISTRY.register("flowing_acid_fluid", AcidFluidFluid.Flowing::new);
 	public static final DeferredHolder<Fluid, FlowingFluid> BRAIN_FLUID = REGISTRY.register("brain_fluid", BrainFluidFluid.Source::new);
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_BRAIN_FLUID = REGISTRY.register("flowing_brain_fluid", BrainFluidFluid.Flowing::new);
+	public static final DeferredHolder<Fluid, FlowingFluid> DIRTY_WATER = REGISTRY.register("dirty_water", DirtyWaterFluid.Source::new);
+	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_DIRTY_WATER = REGISTRY.register("flowing_dirty_water", DirtyWaterFluid.Flowing::new);
 }

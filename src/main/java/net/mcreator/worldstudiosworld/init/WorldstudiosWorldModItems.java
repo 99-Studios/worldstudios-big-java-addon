@@ -367,6 +367,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> GIRTREE_HANGING_SIGN;
 	public static final DeferredItem<Item> GIRTREE_BOAT;
 	public static final DeferredItem<Item> GIRTREE_CHEST_BOAT;
+	public static final DeferredItem<Item> DIRTY_WATER_BUCKET;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -711,6 +712,7 @@ public class WorldstudiosWorldModItems {
 		GIRTREE_HANGING_SIGN = hangingSignBlock(WorldstudiosWorldModBlocks.GIRTREE_HANGING_SIGN, WorldstudiosWorldModBlocks.GIRTREE_WALL_HANGING_SIGN, new Item.Properties().stacksTo(16));
 		GIRTREE_BOAT = register("girtree_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.GIRTREE_BOAT.get(), properties.stacksTo(1)));
 		GIRTREE_CHEST_BOAT = register("girtree_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.GIRTREE_CHEST_BOAT.get(), properties.stacksTo(1)));
+		DIRTY_WATER_BUCKET = register("dirty_water_bucket", DirtyWaterItem::new);
 	}
 
 	// Start of user code block custom items
@@ -755,6 +757,7 @@ public class WorldstudiosWorldModItems {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new TrashBagInventoryCapability(access), TRASH_BAG.get());
 		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), ACID_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), DIRTY_WATER_BUCKET.get());
 		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), BRAIN_FLUID_BUCKET.get());
 	}
 }

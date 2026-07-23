@@ -125,6 +125,7 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> GIRTREE_WALL_SIGN;
 	public static final DeferredBlock<Block> GIRTREE_HANGING_SIGN;
 	public static final DeferredBlock<Block> GIRTREE_WALL_HANGING_SIGN;
+	public static final DeferredBlock<Block> DIRTY_WATER;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -227,6 +228,7 @@ public class WorldstudiosWorldModBlocks {
 		GIRTREE_WALL_SIGN = register("girtree_wall_sign", GirtreeWallSignBlock::new);
 		GIRTREE_HANGING_SIGN = register("girtree_hanging_sign", GirtreeHangingSignBlock::new);
 		GIRTREE_WALL_HANGING_SIGN = register("girtree_wall_hanging_sign", GirtreeWallHangingSignBlock::new);
+		DIRTY_WATER = register("dirty_water", DirtyWaterBlock::new);
 	}
 
 	// Start of user code block custom blocks

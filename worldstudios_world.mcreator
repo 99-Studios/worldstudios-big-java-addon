@@ -10803,6 +10803,25 @@
           "src/main/resources/data/worldstudios_world/recipe/girtree_chest_boat_recipe.json"
         ]
       }
+    },
+    {
+      "name": "DirtyWater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/fluid/DirtyWaterFluid.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/dirty_water.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/DirtyWaterBlock.java",
+          "src/main/java/net/mcreator/worldstudiosworld/client/fluid/DirtyWaterFluidExtension.java",
+          "src/main/java/net/mcreator/worldstudiosworld/item/DirtyWaterItem.java",
+          "src/main/resources/assets/worldstudios_world/models/block/dirty_water.json",
+          "src/main/java/net/mcreator/worldstudiosworld/fluid/types/DirtyWaterFluidType.java",
+          "src/main/resources/assets/worldstudios_world/items/dirty_water_bucket.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11379,6 +11398,7 @@
       "~AcidArmor@CUSTOM:AcidArmor.boots"
     ],
     "BLOCKS:minecraft:replaceable": [
+      "~DirtyWater@CUSTOM:DirtyWater",
       "~BrainFluid@CUSTOM:BrainFluid",
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
@@ -12766,7 +12786,11 @@
       "entity.worldstudios_world.girtree_boat": "Girtree Boat",
       "item.worldstudios_world.girtree_boat": "Girtree Boat",
       "entity.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest",
-      "item.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest"
+      "item.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest",
+      "fluid.worldstudios_world.dirty_water": "Dirty Water",
+      "item.worldstudios_world.dirty_water_bucket": "Dirty Water Bucket",
+      "fluid_type.worldstudios_world.dirty_water": "Dirty Water",
+      "block.worldstudios_world.dirty_water": "Dirty Water"
     }
   },
   "metadata": {
