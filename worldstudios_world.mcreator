@@ -10863,7 +10863,57 @@
       "type": "feature",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dirty_water_source"
+      "registry_name": "dirty_water_source",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/dirty_water_source_biome_modifier.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/dirty_water_source.json",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/dirty_water_source.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkenedSandNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_sand_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/DarkenedSandNeighbourBlockChangesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DarkenedSandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkened_sand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/darkened_sand_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/darkened_sand_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11668,8 +11718,8 @@
       "~Carefree@CUSTOM:Carefree"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
-      "~SoggyDarkenedSand@CUSTOM:SoggyDarkenedSand",
       "~DarkenedSand@CUSTOM:DarkenedSand",
+      "~SoggyDarkenedSand@CUSTOM:SoggyDarkenedSand",
       "~Ignyite@CUSTOM:Ignyite",
       "~GreenSand@CUSTOM:GreenSand"
     ],
