@@ -49,6 +49,7 @@
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "colorOnMap": "CYAN"
+    "colorOnMap": "CYAN",
+    "onEntityCollides": "DirtyWaterMobplayerCollidesBlock"
   }
 }

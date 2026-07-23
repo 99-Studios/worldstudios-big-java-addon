@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.fluids.FluidType;
 
+import net.mcreator.worldstudiosworld.fluid.types.DirtyWaterFluidType;
 import net.mcreator.worldstudiosworld.fluid.types.BrainFluidFluidType;
 import net.mcreator.worldstudiosworld.fluid.types.AcidFluidFluidType;
 import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;

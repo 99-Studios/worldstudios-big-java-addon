@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "worldstudios_world:darkened_sands",
+  "features": "worldstudios_world:dirty_water_source",
+  "step": "lakes"
+}

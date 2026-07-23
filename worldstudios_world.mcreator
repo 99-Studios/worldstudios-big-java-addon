@@ -10822,6 +10822,48 @@
           "src/main/resources/assets/worldstudios_world/items/dirty_water_bucket.json"
         ]
       }
+    },
+    {
+      "name": "DirtyWaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/DirtyWaterMobplayerCollidesBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SoggyDarkenedSand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soggy_darkened_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/block/soggy_darkened_sand.json",
+          "src/main/resources/assets/worldstudios_world/items/soggy_darkened_sand.json",
+          "src/main/resources/assets/worldstudios_world/models/item/soggy_darkened_sand.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/soggy_darkened_sand.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/SoggyDarkenedSandBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/soggy_darkened_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtyWaterSource",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_water_source"
     }
   ],
   "variable_elements": [
@@ -11626,6 +11668,7 @@
       "~Carefree@CUSTOM:Carefree"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~SoggyDarkenedSand@CUSTOM:SoggyDarkenedSand",
       "~DarkenedSand@CUSTOM:DarkenedSand",
       "~Ignyite@CUSTOM:Ignyite",
       "~GreenSand@CUSTOM:GreenSand"
@@ -12790,7 +12833,8 @@
       "fluid.worldstudios_world.dirty_water": "Dirty Water",
       "item.worldstudios_world.dirty_water_bucket": "Dirty Water Bucket",
       "fluid_type.worldstudios_world.dirty_water": "Dirty Water",
-      "block.worldstudios_world.dirty_water": "Dirty Water"
+      "block.worldstudios_world.dirty_water": "Dirty Water",
+      "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand"
     }
   },
   "metadata": {

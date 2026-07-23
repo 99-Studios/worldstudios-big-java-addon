@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:dirty_water",
     "worldstudios_world:acid_fluid",
     "worldstudios_world:brain_fluid"
   ]

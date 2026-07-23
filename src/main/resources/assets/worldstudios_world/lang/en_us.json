@@ -1062,5 +1062,10 @@
   "entity.worldstudios_world.girtree_boat": "Girtree Boat",
   "item.worldstudios_world.girtree_boat": "Girtree Boat",
   "entity.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest",
-  "item.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest"
+  "item.worldstudios_world.girtree_chest_boat": "Girtree Boat with Chest",
+  "fluid.worldstudios_world.dirty_water": "Dirty Water",
+  "item.worldstudios_world.dirty_water_bucket": "Dirty Water Bucket",
+  "fluid_type.worldstudios_world.dirty_water": "Dirty Water",
+  "block.worldstudios_world.dirty_water": "Dirty Water",
+  "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand"
 }

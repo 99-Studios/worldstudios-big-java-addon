@@ -10,6 +10,7 @@ import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.worldstudiosworld.fluid.DirtyWaterFluid;
 import net.mcreator.worldstudiosworld.fluid.BrainFluidFluid;
 import net.mcreator.worldstudiosworld.fluid.AcidFluidFluid;
 import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;

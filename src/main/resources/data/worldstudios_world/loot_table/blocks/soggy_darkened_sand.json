@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "worldstudios_world:blocks/soggy_darkened_sand",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "worldstudios_world:soggy_darkened_sand"
+        }
+      ]
+    }
+  ]
+}
