@@ -1092,5 +1092,7 @@
   "item.worldstudios_world.travertine": "Travertine",
   "item.worldstudios_world.tallmoss": "Tallmoss",
   "item.worldstudios_world.cheap_point": "Cheap Point",
-  "item.worldstudios_world.plant_food": "Plant Food"
+  "item.worldstudios_world.plant_food": "Plant Food",
+  "item.worldstudios_world.dirt_shield": "Dirt Shield",
+  "item.worldstudios_world.repairer": "Repairer"
 }

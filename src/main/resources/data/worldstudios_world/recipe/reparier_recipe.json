@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "worldstudios_world:blazite",
+    "b": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "worldstudios_world:repairer",
+    "count": 1
+  }
+}

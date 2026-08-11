@@ -123,6 +123,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.DIRTY_WATER_BUCKET.get());
 			tabData.accept(WorldstudiosWorldModItems.IRON_UPGRADE_SMITHING_TEMPLATE.get());
 			tabData.accept(WorldstudiosWorldModItems.DIRT_SHIELD.get());
+			tabData.accept(WorldstudiosWorldModItems.REPAIRER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());

@@ -11291,6 +11291,59 @@
           "src/main/resources/assets/worldstudios_world/models/item/dirt_shield_blocking.json"
         ]
       }
+    },
+    {
+      "name": "RepairerEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repairer_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/RepairerEntitySwingsItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Repairer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repairer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/repairer.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/RepairerItem.java",
+          "src/main/resources/assets/worldstudios_world/items/repairer.json"
+        ]
+      }
+    },
+    {
+      "name": "ReparierRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reparier_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/reparier_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/reparier_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11714,6 +11767,7 @@
       "CUSTOM:StrippedGirtreeWood"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~Repairer@CUSTOM:Repairer",
       "~WopperPickaxe@CUSTOM:WopperPickaxe",
       "~SouldustPickaxe@CUSTOM:SouldustPickaxe",
       "~AmethesiumLunge@CUSTOM:AmethesiumLunge",
@@ -12174,6 +12228,9 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
       "~DarkenedSands@CUSTOM:DarkenedSands"
+    ],
+    "ITEMS:worldstudios_world:repairer_repair_items": [
+      "~Repairer@CUSTOM:Blazite"
     ]
   },
   "tab_element_order": {},
@@ -13273,7 +13330,8 @@
       "item.worldstudios_world.tallmoss": "Tallmoss",
       "item.worldstudios_world.cheap_point": "Cheap Point",
       "item.worldstudios_world.plant_food": "Plant Food",
-      "item.worldstudios_world.dirt_shield": "Dirt Shield"
+      "item.worldstudios_world.dirt_shield": "Dirt Shield",
+      "item.worldstudios_world.repairer": "Repairer"
     }
   },
   "metadata": {

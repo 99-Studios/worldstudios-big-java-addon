@@ -376,6 +376,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> CHEAP_POINT;
 	public static final DeferredItem<Item> PLANT_FOOD;
 	public static final DeferredItem<Item> DIRT_SHIELD;
+	public static final DeferredItem<Item> REPAIRER;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -729,6 +730,7 @@ public class WorldstudiosWorldModItems {
 		CHEAP_POINT = block(WorldstudiosWorldModBlocks.CHEAP_POINT);
 		PLANT_FOOD = register("plant_food", PlantFoodItem::new);
 		DIRT_SHIELD = register("dirt_shield", DirtShieldItem::new);
+		REPAIRER = register("repairer", RepairerItem::new);
 	}
 
 	// Start of user code block custom items
