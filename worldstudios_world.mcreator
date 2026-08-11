@@ -10914,6 +10914,22 @@
           "src/main/resources/data/worldstudios_world/recipe/darkened_sand_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Wanderer",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/wanderer_biome_modifier.json",
+          "src/main/java/net/mcreator/worldstudiosworld/client/renderer/WandererRenderer.java",
+          "src/main/resources/assets/worldstudios_world/items/wanderer_spawn_egg.json",
+          "src/main/java/net/mcreator/worldstudiosworld/entity/WandererEntity.java",
+          "src/main/resources/assets/worldstudios_world/models/item/wanderer_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11607,6 +11623,7 @@
       "~MoldelerProfession@CUSTOM:MoldelerProfession"
     ],
     "ENTITIES:minecraft:undead": [
+      "~Wanderer@CUSTOM:Wanderer",
       "~RadiantZombie@CUSTOM:RadiantZombie",
       "~Titan@CUSTOM:Titan",
       "~LongZombie@CUSTOM:LongZombie"
@@ -12886,7 +12903,9 @@
       "block.worldstudios_world.dirty_water": "Dirty Water",
       "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand",
       "gamerule.worldstudios_world.ender_helmet_teleport.description": "Deactivates teleporting with the Ender Helmet when false.",
-      "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport"
+      "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport",
+      "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
+      "entity.worldstudios_world.wanderer": "Wanderer"
     }
   },
   "metadata": {

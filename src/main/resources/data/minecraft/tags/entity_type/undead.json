@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "worldstudios_world:long_zombie",
+    "worldstudios_world:wanderer",
     "worldstudios_world:radiant_zombie",
     "worldstudios_world:titan"
   ]

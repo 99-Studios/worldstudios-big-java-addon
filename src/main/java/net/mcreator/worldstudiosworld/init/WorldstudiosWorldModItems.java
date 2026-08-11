@@ -369,6 +369,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> GIRTREE_CHEST_BOAT;
 	public static final DeferredItem<Item> DIRTY_WATER_BUCKET;
 	public static final DeferredItem<Item> SOGGY_DARKENED_SAND;
+	public static final DeferredItem<Item> WANDERER_SPAWN_EGG;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -715,6 +716,7 @@ public class WorldstudiosWorldModItems {
 		GIRTREE_CHEST_BOAT = register("girtree_chest_boat", properties -> new BoatItem(WorldstudiosWorldModEntities.GIRTREE_CHEST_BOAT.get(), properties.stacksTo(1)));
 		DIRTY_WATER_BUCKET = register("dirty_water_bucket", DirtyWaterItem::new);
 		SOGGY_DARKENED_SAND = block(WorldstudiosWorldModBlocks.SOGGY_DARKENED_SAND);
+		WANDERER_SPAWN_EGG = register("wanderer_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.WANDERER.get())));
 	}
 
 	// Start of user code block custom items

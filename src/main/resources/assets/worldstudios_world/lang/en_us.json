@@ -1069,5 +1069,7 @@
   "block.worldstudios_world.dirty_water": "Dirty Water",
   "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand",
   "gamerule.worldstudios_world.ender_helmet_teleport.description": "Deactivates teleporting with the Ender Helmet when false.",
-  "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport"
+  "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport",
+  "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
+  "entity.worldstudios_world.wanderer": "Wanderer"
 }

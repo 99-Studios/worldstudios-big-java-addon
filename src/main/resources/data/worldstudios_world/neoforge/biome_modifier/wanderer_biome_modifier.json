@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "worldstudios_world:darkened_sands",
+  "spawners": {
+    "type": "worldstudios_world:wanderer",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
