@@ -15,6 +15,7 @@ import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.dimension.BuiltinDimensionTypes;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.resources.ResourceKey;
@@ -70,7 +71,7 @@ public class WorldstudiosWorldModBiomes {
 	private static SurfaceRules.RuleSource injectOverworldSurfaceRules(SurfaceRules.RuleSource currentRuleSource) {
 		List<SurfaceRules.RuleSource> customSurfaceRules = new ArrayList<>();
 		customSurfaceRules.add(preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")), WorldstudiosWorldModBlocks.DARKENED_SAND.get().defaultBlockState(),
-				WorldstudiosWorldModBlocks.GIRSTONE.get().defaultBlockState(), WorldstudiosWorldModBlocks.GIRSTONE.get().defaultBlockState()));
+				WorldstudiosWorldModBlocks.GIRSTONE.get().defaultBlockState(), Blocks.SAND.defaultBlockState()));
 		if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 			customSurfaceRules.addAll(sequenceRuleSource.sequence());
 			return SurfaceRules.sequence(customSurfaceRules.toArray(SurfaceRules.RuleSource[]::new));
@@ -82,9 +83,9 @@ public class WorldstudiosWorldModBiomes {
 
 	public static <T> Climate.ParameterList<T> modifyOverworldParameterPoints(Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
 		List<Pair<Climate.ParameterPoint, T>> parameters = new ArrayList<>(originalList.values());
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.25f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.25f, 1f), Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.point(0.0f),
 				Climate.Parameter.span(-0.5f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")))));
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.25f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.25f, 1f), Climate.Parameter.span(-0.5f, 0.6f), Climate.Parameter.point(1.0f),
 				Climate.Parameter.span(-0.5f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")))));
 		return new Climate.ParameterList<>(parameters);
 	}

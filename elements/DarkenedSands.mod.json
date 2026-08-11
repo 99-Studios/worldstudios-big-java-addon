@@ -5,7 +5,7 @@
     "name": "Darkened Sands",
     "groundBlock": "CUSTOM:DarkenedSand",
     "undergroundBlock": "CUSTOM:Girstone",
-    "underwaterBlock": "",
+    "underwaterBlock": "Blocks.SAND#0",
     "ambientSound": "",
     "additionsSound": "",
     "music": "",
@@ -33,7 +33,7 @@
     },
     "genErosion": {
       "min": -0.5,
-      "max": 0.5
+      "max": 0.6
     },
     "genWeirdness": {
       "min": -0.5,
@@ -46,7 +46,7 @@
     "treesPerChunk": 3,
     "vanillaTreeType": "Savanna trees",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 10,
     "treeStem": "CUSTOM:GirtreeLog",
     "treeBranch": "CUSTOM:GirtreeLeaves",
     "treeVines": "",
@@ -77,6 +77,14 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "DESERT",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": "EntityHusk",
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 30,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
