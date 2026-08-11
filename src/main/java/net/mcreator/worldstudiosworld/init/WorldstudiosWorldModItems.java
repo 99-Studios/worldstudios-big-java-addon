@@ -373,6 +373,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> DRIED_FLESH;
 	public static final DeferredItem<Item> GIRSTONE;
 	public static final DeferredItem<Item> IRON_UPGRADE_SMITHING_TEMPLATE;
+	public static final DeferredItem<Item> TRAVERTINE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -723,6 +724,7 @@ public class WorldstudiosWorldModItems {
 		DRIED_FLESH = register("dried_flesh", DriedFleshItem::new);
 		GIRSTONE = block(WorldstudiosWorldModBlocks.GIRSTONE);
 		IRON_UPGRADE_SMITHING_TEMPLATE = register("iron_upgrade_smithing_template", IronUpgradeSmithingTemplateItem::new);
+		TRAVERTINE = block(WorldstudiosWorldModBlocks.TRAVERTINE);
 	}
 
 	// Start of user code block custom items

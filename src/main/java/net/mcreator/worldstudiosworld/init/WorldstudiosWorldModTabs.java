@@ -320,6 +320,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_LEAVES.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.SOGGY_DARKENED_SAND.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.GIRSTONE.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.TRAVERTINE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(WorldstudiosWorldModItems.WASTE.get());
 			tabData.accept(WorldstudiosWorldModItems.FERTILIZED_SUGAR.get());

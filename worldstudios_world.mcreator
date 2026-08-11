@@ -11196,6 +11196,26 @@
           "src/main/java/net/mcreator/worldstudiosworld/procedures/CuberNaturalEntitySpawningConditionProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Travertine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/TravertineBlock.java",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/travertine.json",
+          "src/main/resources/assets/worldstudios_world/items/travertine.json",
+          "src/main/resources/assets/worldstudios_world/models/block/travertine.json",
+          "src/main/resources/assets/worldstudios_world/models/item/travertine.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/travertine_biome_modifier.json",
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/travertine.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/travertine.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/travertine.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11789,6 +11809,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Travertine@CUSTOM:Travertine",
       "~Girstone@CUSTOM:Girstone",
       "~SouldustGravite@CUSTOM:SouldustGravite",
       "~BreakableBedrock@CUSTOM:BreakableBedrock",
@@ -13196,7 +13217,8 @@
       "advancements.is_it_iron.title": "Is It Iron",
       "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template.",
       "gamerule.worldstudios_world.cuber_spawn.description": "Allow Cuber to spawn during the night.",
-      "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber"
+      "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber",
+      "item.worldstudios_world.travertine": "Travertine"
     }
   },
   "metadata": {
