@@ -15,7 +15,8 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "TOOLS"
+      "TOOLS",
+      "COMBAT"
     ],
     "efficiency": 11.0,
     "attackSpeed": 3.0,

@@ -127,7 +127,8 @@
     ],
     "blocksToReplace": [
       "TAG:minecraft:stone",
-      "Blocks.STONE"
+      "Blocks.STONE",
+      "Blocks.DEEPSLATE"
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 8,

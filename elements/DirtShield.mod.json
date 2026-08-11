@@ -4,10 +4,10 @@
   "definition": {
     "toolType": "Shield",
     "renderType": 1,
-    "blockingRenderType": 0,
+    "blockingRenderType": 1,
     "texture": "dirt_shield",
     "customModelName": "dirt_shield:default",
-    "blockingModelName": "Normal blocking",
+    "blockingModelName": "dirt_shield:default",
     "guiTexture": "",
     "name": "Dirt Shield",
     "rarity": "COMMON",

@@ -86,12 +86,12 @@
       "CUSTOM:Travertine"
     ],
     "isBonemealable": false,
-    "frequencyOnChunks": 8,
+    "frequencyOnChunks": 10,
     "generateFeature": true,
     "restrictionBiomes": [
       "#minecraft:is_overworld"
     ],
-    "generationType": "Flower",
+    "generationType": "Grass",
     "patchSize": 32,
     "generateAtAnyHeight": true
   }

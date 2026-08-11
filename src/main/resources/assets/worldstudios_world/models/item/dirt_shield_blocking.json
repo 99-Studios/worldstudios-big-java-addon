@@ -1,46 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "worldstudios_world:custom/dirt_shield",
   "textures": {
-    "layer0": "worldstudios_world:item/dirt_shield"
-  },
-  "display": {
-    "thirdperson_righthand": {
-      "rotation": [
-        45,
-        -35,
-        0
-      ]
-    },
-    "thirdperson_lefthand": {
-      "rotation": [
-        45,
-        -35,
-        0
-      ]
-    },
-    "firstperson_righthand": {
-      "rotation": [
-        0,
-        0,
-        5
-      ],
-      "translation": [
-        -5,
-        2,
-        -1
-      ]
-    },
-    "firstperson_lefthand": {
-      "rotation": [
-        0,
-        0,
-        5
-      ],
-      "translation": [
-        -5,
-        2,
-        -1
-      ]
-    }
+    "1": "worldstudios_world:block/dirt_shield",
+    "particle": "worldstudios_world:item/dirt_shield"
   }
 }
