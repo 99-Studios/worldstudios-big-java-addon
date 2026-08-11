@@ -21,6 +21,7 @@ import com.mojang.brigadier.arguments.BoolArgumentType;
 public class WorldstudiosWorldModGameRules {
 	public static final DeferredRegister<GameRule<?>> REGISTRY = DeferredRegister.create(Registries.GAME_RULE, WorldstudiosWorldMod.MODID);
 	public static DeferredHolder<GameRule<?>, GameRule<Boolean>> ENDER_HELMET_TELEPORT = registerBoolean("ender_helmet_teleport", GameRuleCategory.PLAYER, true);
+	public static DeferredHolder<GameRule<?>, GameRule<Boolean>> CUBER_SPAWN = registerBoolean("cuber_spawn", GameRuleCategory.SPAWNING, true);
 
 	private static DeferredHolder<GameRule<?>, GameRule<Boolean>> registerBoolean(String registryname, GameRuleCategory category, boolean value) {
 		return REGISTRY.register(registryname, () -> new GameRule<>(category, GameRuleType.BOOL, BoolArgumentType.bool(), GameRuleTypeVisitor::visitBoolean, Codec.BOOL, b -> b ? 1 : 0, value, FeatureFlagSet.of()));

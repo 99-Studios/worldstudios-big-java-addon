@@ -1090,5 +1090,7 @@
   "trim_pattern.worldstudios_world.ironhide": "Ironhide",
   "item.worldstudios_world.iron_upgrade_smithing_template": "Iron Upgrade Smithing Template",
   "advancements.is_it_iron.title": "Is It Iron",
-  "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template."
+  "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template.",
+  "gamerule.worldstudios_world.cuber_spawn.description": "Allow Cuber to spawn during the night.",
+  "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber"
 }

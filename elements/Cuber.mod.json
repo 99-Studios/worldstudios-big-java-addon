@@ -36,6 +36,7 @@
       "value": -13312,
       "falpha": 0.0
     },
+    "spawnEggTexture": "",
     "creativeTabs": [
       "MISC"
     ],
@@ -107,6 +108,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
+    "spawningCondition": "CuberNaturalEntitySpawningCondition",
     "spawningProbability": 45,
     "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,

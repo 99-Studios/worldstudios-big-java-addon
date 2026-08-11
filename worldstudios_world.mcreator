@@ -11166,6 +11166,36 @@
           "src/main/java/net/mcreator/worldstudiosworld/procedures/DarkPhantomNaturalEntitySpawningConditionProcedure.java"
         ]
       }
+    },
+    {
+      "name": "CuberSpawn",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuber_spawn",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      }
+    },
+    {
+      "name": "CuberNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuber_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/CuberNaturalEntitySpawningConditionProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13164,7 +13194,9 @@
       "trim_pattern.worldstudios_world.ironhide": "Ironhide",
       "item.worldstudios_world.iron_upgrade_smithing_template": "Iron Upgrade Smithing Template",
       "advancements.is_it_iron.title": "Is It Iron",
-      "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template."
+      "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template.",
+      "gamerule.worldstudios_world.cuber_spawn.description": "Allow Cuber to spawn during the night.",
+      "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber"
     }
   },
   "metadata": {

@@ -27,6 +27,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.worldstudiosworld.procedures.CuberNaturalEntitySpawningConditionProcedure;
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModItems;
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
 
@@ -78,7 +79,12 @@ public class CuberEntity extends Monster {
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {
-		event.register(WorldstudiosWorldModEntities.CUBER.get(), SpawnPlacementTypes.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
+		event.register(WorldstudiosWorldModEntities.CUBER.get(), SpawnPlacementTypes.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos, random) -> {
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			return CuberNaturalEntitySpawningConditionProcedure.execute(world);
+		}, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
