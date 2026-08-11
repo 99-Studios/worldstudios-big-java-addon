@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "worldstudios_world:travertine",
     "worldstudios_world:semite",
     "worldstudios_world:blazite_ore",
     "worldstudios_world:girstone",

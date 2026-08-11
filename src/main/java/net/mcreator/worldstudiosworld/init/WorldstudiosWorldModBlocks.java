@@ -129,6 +129,7 @@ public class WorldstudiosWorldModBlocks {
 	public static final DeferredBlock<Block> SOGGY_DARKENED_SAND;
 	public static final DeferredBlock<Block> GIRSTONE;
 	public static final DeferredBlock<Block> TRAVERTINE;
+	public static final DeferredBlock<Block> TALLMOSS;
 	static {
 		ACID_FLUID = register("acid_fluid", AcidFluidBlock::new);
 		WASTE_BLOCK = register("waste_block", WasteBlockBlock::new);
@@ -235,6 +236,7 @@ public class WorldstudiosWorldModBlocks {
 		SOGGY_DARKENED_SAND = register("soggy_darkened_sand", SoggyDarkenedSandBlock::new);
 		GIRSTONE = register("girstone", GirstoneBlock::new);
 		TRAVERTINE = register("travertine", TravertineBlock::new);
+		TALLMOSS = register("tallmoss", TallmossBlock::new);
 	}
 
 	// Start of user code block custom blocks

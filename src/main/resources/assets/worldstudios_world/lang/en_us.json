@@ -1092,5 +1092,6 @@
   "advancements.is_it_iron.title": "Is It Iron",
   "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template.",
   "gamerule.worldstudios_world.cuber_spawn.description": "Allow Cuber to spawn during the night.",
-  "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber"
+  "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber",
+  "item.worldstudios_world.travertine": "Travertine"
 }

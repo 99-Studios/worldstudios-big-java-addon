@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "worldstudios_world:block/tallmoss_top",
+    "particle": "worldstudios_world:block/tallmoss_top"
+  }
+}

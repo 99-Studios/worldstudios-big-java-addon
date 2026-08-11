@@ -1,0 +1,98 @@
+{
+  "_fv": 89,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "tallmoss_top",
+    "customModelName": "Cross model",
+    "itemTexture": "tallmoss_top",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "growapable",
+    "suspiciousStewDuration": 0,
+    "secondaryTreeChance": 0.1,
+    "trees": [
+      null,
+      null
+    ],
+    "flowerTrees": [
+      null,
+      null
+    ],
+    "megaTrees": [
+      null,
+      null
+    ],
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 14,
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Tallmoss",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "DECORATIONS"
+    ],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "soundOnStep": "PLANT",
+    "isCustomSoundType": false,
+    "breakSound": "",
+    "stepSound": "",
+    "placeSound": "",
+    "hitSound": "",
+    "fallSound": "",
+    "useLootTableForDrops": false,
+    "customDrop": "",
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "GREEN",
+    "creativePickItem": "",
+    "offsetType": "XZ",
+    "aiPathNodeType": "BLOCKED",
+    "strippingResult": "",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 5,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      "CUSTOM:Travertine"
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 8,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      "#minecraft:is_overworld"
+    ],
+    "generationType": "Flower",
+    "patchSize": 32,
+    "generateAtAnyHeight": true
+  }
+}

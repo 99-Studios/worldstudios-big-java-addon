@@ -11216,6 +11216,26 @@
           "src/main/resources/assets/worldstudios_world/blockstates/travertine.json"
         ]
       }
+    },
+    {
+      "name": "Tallmoss",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tallmoss",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/configured_feature/tallmoss.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/tallmoss.json",
+          "src/main/resources/assets/worldstudios_world/models/block/tallmoss.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/TallmossBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/tallmoss.json",
+          "src/main/resources/data/worldstudios_world/neoforge/biome_modifier/tallmoss_biome_modifier.json",
+          "src/main/resources/data/worldstudios_world/worldgen/placed_feature/tallmoss.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/tallmoss.json",
+          "src/main/resources/assets/worldstudios_world/models/item/tallmoss.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13218,7 +13238,8 @@
       "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template.",
       "gamerule.worldstudios_world.cuber_spawn.description": "Allow Cuber to spawn during the night.",
       "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber",
-      "item.worldstudios_world.travertine": "Travertine"
+      "item.worldstudios_world.travertine": "Travertine",
+      "item.worldstudios_world.tallmoss": "Tallmoss"
     }
   },
   "metadata": {
