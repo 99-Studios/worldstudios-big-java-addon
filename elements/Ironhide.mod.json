@@ -1,0 +1,9 @@
+{
+  "_fv": 89,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Ironhide",
+    "item": "Items.IRON_INGOT",
+    "armorTextureFile": "ironhide"
+  }
+}

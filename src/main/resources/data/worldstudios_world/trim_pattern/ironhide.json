@@ -1,0 +1,7 @@
+{
+  "asset_id": "worldstudios_world:ironhide",
+  "description": {
+    "translate": "trim_pattern.worldstudios_world.ironhide"
+  },
+  "template_item": "minecraft:iron_ingot"
+}

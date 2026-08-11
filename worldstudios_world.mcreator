@@ -11095,6 +11095,19 @@
           "src/main/java/net/mcreator/worldstudiosworld/procedures/GiveSuperHungerToPlayerProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Ironhide",
+      "type": "armortrim",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhide",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/ironhide_armor_trim_smithing_template_smithing_trim.json",
+          "src/main/resources/data/worldstudios_world/trim_pattern/ironhide.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13089,11 +13102,13 @@
       "item.minecraft.splash_potion.effect.thirst_ii": "Splash Potion of Thirst II",
       "item.minecraft.lingering_potion.effect.thirst_ii": "Lingering Potion of Thirst II",
       "item.minecraft.tipped_arrow.effect.thirst_ii": "Arrow of Thirst II",
-      "item.minecraft.potion.effect.thirst_ii": "Potion of Thirst II"
+      "item.minecraft.potion.effect.thirst_ii": "Potion of Thirst II",
+      "trim_pattern.worldstudios_world.ironhide": "Ironhide"
     }
   },
   "metadata": {
     "files": [
+      "src/main/resources/assets/minecraft/atlases/armor_trims.json",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModAttributes.java",
       "src/main/java/net/mcreator/worldstudiosworld/mixin/BiomeSourcePresetMixin.java",
       "src/main/java/net/mcreator/worldstudiosworld/init/WorldstudiosWorldModBiomes.java",
