@@ -1,0 +1,7 @@
+{
+  "parent": "worldstudios_world:custom/dirt_shield",
+  "textures": {
+    "1": "worldstudios_world:block/dirt_shield",
+    "particle": "worldstudios_world:item/dirt_shield"
+  }
+}

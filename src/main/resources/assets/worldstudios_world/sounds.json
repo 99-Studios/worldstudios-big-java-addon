@@ -1,25 +1,9 @@
 {
-  "carefree": {
-    "sounds": [
-      {
-        "name": "worldstudios_world:carefree",
-        "stream": true
-      }
-    ]
-  },
   "fairy.ambient": {
     "sounds": [
       {
         "name": "worldstudios_world:glitter",
         "stream": false
-      }
-    ]
-  },
-  "the_will_of_rights": {
-    "sounds": [
-      {
-        "name": "worldstudios_world:fadr.com_the_will_of_rights",
-        "stream": true
       }
     ]
   }

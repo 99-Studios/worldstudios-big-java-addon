@@ -11276,6 +11276,21 @@
           "src/main/resources/data/worldstudios_world/recipe/plant_food_recipe.json"
         ]
       }
+    },
+    {
+      "name": "DirtShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_shield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/dirt_shield.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/DirtShieldItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/dirt_shield.json",
+          "src/main/resources/assets/worldstudios_world/models/item/dirt_shield_blocking.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13257,7 +13272,8 @@
       "item.worldstudios_world.travertine": "Travertine",
       "item.worldstudios_world.tallmoss": "Tallmoss",
       "item.worldstudios_world.cheap_point": "Cheap Point",
-      "item.worldstudios_world.plant_food": "Plant Food"
+      "item.worldstudios_world.plant_food": "Plant Food",
+      "item.worldstudios_world.dirt_shield": "Dirt Shield"
     }
   },
   "metadata": {

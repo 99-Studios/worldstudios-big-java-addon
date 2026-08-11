@@ -14,7 +14,5 @@ import net.mcreator.worldstudiosworld.WorldstudiosWorldMod;
 
 public class WorldstudiosWorldModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, WorldstudiosWorldMod.MODID);
-	public static final DeferredHolder<SoundEvent, SoundEvent> CAREFREE = REGISTRY.register("carefree", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("worldstudios_world", "carefree")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> FAIRY_AMBIENT = REGISTRY.register("fairy.ambient", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("worldstudios_world", "fairy.ambient")));
-	public static final DeferredHolder<SoundEvent, SoundEvent> THE_WILL_OF_RIGHTS = REGISTRY.register("the_will_of_rights", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("worldstudios_world", "the_will_of_rights")));
 }

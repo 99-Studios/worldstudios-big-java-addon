@@ -122,6 +122,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.GIRTREE_CHEST_BOAT.get());
 			tabData.accept(WorldstudiosWorldModItems.DIRTY_WATER_BUCKET.get());
 			tabData.accept(WorldstudiosWorldModItems.IRON_UPGRADE_SMITHING_TEMPLATE.get());
+			tabData.accept(WorldstudiosWorldModItems.DIRT_SHIELD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -231,6 +232,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_CHESTPLATE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_LEGGINGS.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_BOOTS.get());
+			tabData.accept(WorldstudiosWorldModItems.DIRT_SHIELD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());
