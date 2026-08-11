@@ -1071,5 +1071,7 @@
   "gamerule.worldstudios_world.ender_helmet_teleport.description": "Deactivates teleporting with the Ender Helmet when false.",
   "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport",
   "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
-  "entity.worldstudios_world.wanderer": "Wanderer"
+  "entity.worldstudios_world.wanderer": "Wanderer",
+  "item.worldstudios_world.dried_flesh": "Dried Flesh",
+  "effect.worldstudios_world.super_hunger": "Super Hunger"
 }

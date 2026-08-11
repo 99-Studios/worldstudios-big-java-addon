@@ -29,6 +29,7 @@ public class WorldstudiosWorldModMobEffects {
 	public static final DeferredHolder<MobEffect, MobEffect> DARK_EFFECT = REGISTRY.register("dark_effect", DarkEffectMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> BLEEDING = REGISTRY.register("bleeding", BleedingMobEffect::new);
 	public static final DeferredHolder<MobEffect, MobEffect> SMART = REGISTRY.register("smart", SmartMobEffect::new);
+	public static final DeferredHolder<MobEffect, MobEffect> SUPER_HUNGER = REGISTRY.register("super_hunger", SuperHungerMobEffect::new);
 
 	@SubscribeEvent
 	public static void onEffectRemoved(MobEffectEvent.Remove event) {

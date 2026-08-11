@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Super Hunger",
+    "icon": "super_hunger",
+    "color": {
+      "value": -6711040,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": "SuperHungerOnEffectActiveTick"
+  }
+}

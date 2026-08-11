@@ -10944,6 +10944,54 @@
           "src/main/resources/assets/worldstudios_world/items/dried_flesh.json"
         ]
       }
+    },
+    {
+      "name": "SuperHungerOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_hunger_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/SuperHungerOnEffectActiveTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SuperHunger",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_hunger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/potion/SuperHungerMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "GiveSuperHunger",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_super_hunger",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/GiveSuperHungerProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12920,7 +12968,8 @@
       "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport",
       "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
       "entity.worldstudios_world.wanderer": "Wanderer",
-      "item.worldstudios_world.dried_flesh": "Dried Flesh"
+      "item.worldstudios_world.dried_flesh": "Dried Flesh",
+      "effect.worldstudios_world.super_hunger": "Super Hunger"
     }
   },
   "metadata": {
