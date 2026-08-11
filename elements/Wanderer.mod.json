@@ -88,7 +88,7 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": "",
+    "mobDrop": "CUSTOM:DriedFlesh",
     "livingSound": "entity.husk.ambient",
     "hurtSound": "entity.husk.hurt",
     "deathSound": "entity.husk.death",

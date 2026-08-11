@@ -11890,6 +11890,9 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
       "~DarkenedSands@CUSTOM:DarkenedSands"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~DriedFlesh@CUSTOM:DriedFlesh"
     ]
   },
   "tab_element_order": {},
