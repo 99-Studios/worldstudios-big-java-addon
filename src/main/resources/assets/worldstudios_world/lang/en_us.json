@@ -1095,5 +1095,6 @@
   "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber",
   "item.worldstudios_world.travertine": "Travertine",
   "item.worldstudios_world.tallmoss": "Tallmoss",
-  "item.worldstudios_world.cheap_point": "Cheap Point"
+  "item.worldstudios_world.cheap_point": "Cheap Point",
+  "item.worldstudios_world.plant_food": "Plant Food"
 }

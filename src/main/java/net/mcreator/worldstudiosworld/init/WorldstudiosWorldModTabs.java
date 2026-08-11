@@ -333,6 +333,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.DARK_COOKIE.get());
 			tabData.accept(WorldstudiosWorldModItems.CUBE_ESSENCE.get());
 			tabData.accept(WorldstudiosWorldModItems.DRIED_FLESH.get());
+			tabData.accept(WorldstudiosWorldModItems.PLANT_FOOD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(WorldstudiosWorldModItems.URAINIUM_PEICE.get());
 			tabData.accept(WorldstudiosWorldModItems.URAINIUM_INGOT.get());

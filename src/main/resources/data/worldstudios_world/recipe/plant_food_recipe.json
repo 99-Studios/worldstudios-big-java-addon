@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldstudios_world:cuteplant",
+    "worldstudios_world:cuteplant",
+    "worldstudios_world:cuteplant",
+    "worldstudios_world:cuteplant"
+  ],
+  "result": {
+    "id": "worldstudios_world:plant_food",
+    "count": 1
+  }
+}

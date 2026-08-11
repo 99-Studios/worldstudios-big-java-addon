@@ -11279,6 +11279,33 @@
           "src/main/resources/data/worldstudios_world/recipe/balanced_cheap_point_recipe.json"
         ]
       }
+    },
+    {
+      "name": "PlantFood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_food",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/plant_food.json",
+          "src/main/resources/assets/worldstudios_world/items/plant_food.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/PlantFoodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PlantFoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plant_food_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/plant_food_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/plant_food_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13283,7 +13310,8 @@
       "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber",
       "item.worldstudios_world.travertine": "Travertine",
       "item.worldstudios_world.tallmoss": "Tallmoss",
-      "item.worldstudios_world.cheap_point": "Cheap Point"
+      "item.worldstudios_world.cheap_point": "Cheap Point",
+      "item.worldstudios_world.plant_food": "Plant Food"
     }
   },
   "metadata": {
