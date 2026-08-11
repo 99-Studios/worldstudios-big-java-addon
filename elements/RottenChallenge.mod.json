@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Rotten Challenge",
+    "achievementDescription": "Eat Rotten Flesh and Dried Flesh.",
+    "achievementIcon": "CUSTOM:DriedFlesh",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 20,
+    "achievementType": "challenge",
+    "parent": "CUSTOM:ItsDarkerThanNormal",
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_consumed\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.ROTTEN_FLESH</field></block></value><next><block type=\"item_consumed\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:DriedFlesh</field></block></value></block></next></block><shadow type=\"custom_trigger\"></shadow></next></block></xml>"
+  }
+}

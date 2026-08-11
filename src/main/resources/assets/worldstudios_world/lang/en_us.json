@@ -1074,5 +1074,9 @@
   "entity.worldstudios_world.wanderer": "Wanderer",
   "item.worldstudios_world.dried_flesh": "Dried Flesh",
   "effect.worldstudios_world.super_hunger": "Super Hunger",
-  "item.worldstudios_world.girstone": "Girstone"
+  "item.worldstudios_world.girstone": "Girstone",
+  "advancements.rotten_challenge.descr": "Eat Rotten Flesh and Dried Flesh.",
+  "advancements.rotten_challenge.title": "Rotten Challenge",
+  "advancements.its_darker_than_normal.title": "Its Darker Than Normal",
+  "advancements.its_darker_than_normal.descr": "Enter the Darkened Sands biome."
 }

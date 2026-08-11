@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "worldstudios_world:darkened_sand"
+    },
+    "title": {
+      "translate": "advancements.its_darker_than_normal.title"
+    },
+    "description": {
+      "translate": "advancements.its_darker_than_normal.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "its_darker_than_normal_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "worldstudios_world:darkened_sands"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "worldstudios_world:world_studios_big_java_advancements"
+}

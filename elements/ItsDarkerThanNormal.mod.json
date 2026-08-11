@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Its Darker Than Normal",
+    "achievementDescription": "Enter the Darkened Sands biome.",
+    "achievementIcon": "CUSTOM:DarkenedSand",
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 10,
+    "achievementType": "goal",
+    "parent": "CUSTOM:WorldStudiosBigJavaAdvancements",
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:DarkenedSands</field></block><shadow type=\"custom_trigger\"></shadow></next></block></xml>"
+  }
+}
