@@ -43,14 +43,14 @@
       "min": 0.2,
       "max": 0.9
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 7,
     "vanillaTreeType": "Savanna trees",
     "treeType": 1,
     "minHeight": 10,
     "treeStem": "CUSTOM:GirtreeLog",
     "treeBranch": "CUSTOM:GirtreeLeaves",
-    "treeVines": "",
-    "treeFruits": "",
+    "treeVines": "Blocks.AIR",
+    "treeFruits": "Blocks.AIR",
     "defaultFeatures": [
       "Caves",
       "Ores",

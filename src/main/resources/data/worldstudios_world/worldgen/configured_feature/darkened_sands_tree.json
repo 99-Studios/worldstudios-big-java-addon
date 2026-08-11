@@ -59,6 +59,16 @@
       "radius": 2,
       "offset": 0
     },
-    "decorators": []
+    "decorators": [
+      {
+        "type": "worldstudios_world:darkened_sands_tree_fruit_decorator"
+      },
+      {
+        "type": "worldstudios_world:darkened_sands_tree_trunk_decorator"
+      },
+      {
+        "type": "worldstudios_world:darkened_sands_tree_leave_decorator"
+      }
+    ]
   }
 }
