@@ -82,10 +82,10 @@ public class WorldstudiosWorldModBiomes {
 
 	public static <T> Climate.ParameterList<T> modifyOverworldParameterPoints(Climate.ParameterList<T> originalList, Function<ResourceKey<Biome>, T> lookup) {
 		List<Pair<Climate.ParameterPoint, T>> parameters = new ArrayList<>(originalList.values());
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.45f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.1f, 1f), Climate.Parameter.span(0.05f, 0.45f), Climate.Parameter.point(0.0f),
-				Climate.Parameter.span(0.03f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")))));
-		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.45f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.1f, 1f), Climate.Parameter.span(0.05f, 0.45f), Climate.Parameter.point(1.0f),
-				Climate.Parameter.span(0.03f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")))));
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.25f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(0.0f),
+				Climate.Parameter.span(-0.5f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")))));
+		parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, -0.2f), Climate.Parameter.span(-0.25f, 1f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
+				Climate.Parameter.span(-0.5f, 1f), 0), lookup.apply(ResourceKey.create(Registries.BIOME, Identifier.fromNamespaceAndPath("worldstudios_world", "darkened_sands")))));
 		return new Climate.ParameterList<>(parameters);
 	}
 
