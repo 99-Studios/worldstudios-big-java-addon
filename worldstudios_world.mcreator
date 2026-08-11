@@ -11344,6 +11344,174 @@
           "src/main/resources/data/worldstudios_world/recipe/reparier_recipe.json"
         ]
       }
+    },
+    {
+      "name": "IronLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_lunge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/IronLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/iron_lunge.json",
+          "src/main/resources/assets/worldstudios_world/items/iron_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/diamond_lunge.json",
+          "src/main/resources/assets/worldstudios_world/models/item/diamond_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/DiamondLungeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_lunge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/NetheriteLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/netherite_lunge.json",
+          "src/main/resources/assets/worldstudios_world/items/netherite_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/urainium_lunge.json",
+          "src/main/resources/assets/worldstudios_world/items/urainium_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/UrainiumLungeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TitanLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/titan_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/TitanLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/titan_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "SparkleLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkle_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/sparkle_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/SparkleLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/sparkle_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "BlaziteLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazite_lunge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/BlaziteLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/blazite_lunge.json",
+          "src/main/resources/assets/worldstudios_world/models/item/blazite_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/wool_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/WoolLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/wool_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "IgnightiumLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignightium_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/ignightium_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/IgnightiumLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/ignightium_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "RepeatingCommandBlockLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repeating_command_block_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/repeating_command_block_lunge.json",
+          "src/main/resources/assets/worldstudios_world/items/repeating_command_block_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/RepeatingCommandBlockLungeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/steel_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/SteelLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/steel_lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperLunge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/models/item/wopper_lunge.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/WopperLungeItem.java",
+          "src/main/resources/assets/worldstudios_world/items/wopper_lunge.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11767,6 +11935,18 @@
       "CUSTOM:StrippedGirtreeWood"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~WopperLunge@CUSTOM:WopperLunge",
+      "~SteelLunge@CUSTOM:SteelLunge",
+      "~RepeatingCommandBlockLunge@CUSTOM:RepeatingCommandBlockLunge",
+      "~IgnightiumLunge@CUSTOM:IgnightiumLunge",
+      "~WoolLunge@CUSTOM:WoolLunge",
+      "~BlaziteLunge@CUSTOM:BlaziteLunge",
+      "~SparkleLunge@CUSTOM:SparkleLunge",
+      "~TitanLunge@CUSTOM:TitanLunge",
+      "~UrainiumLunge@CUSTOM:UrainiumLunge",
+      "~NetheriteLunge@CUSTOM:NetheriteLunge",
+      "~DiamondLunge@CUSTOM:DiamondLunge",
+      "~IronLunge@CUSTOM:IronLunge",
       "~Repairer@CUSTOM:Repairer",
       "~WopperPickaxe@CUSTOM:WopperPickaxe",
       "~SouldustPickaxe@CUSTOM:SouldustPickaxe",
@@ -13331,7 +13511,19 @@
       "item.worldstudios_world.cheap_point": "Cheap Point",
       "item.worldstudios_world.plant_food": "Plant Food",
       "item.worldstudios_world.dirt_shield": "Dirt Shield",
-      "item.worldstudios_world.repairer": "Repairer"
+      "item.worldstudios_world.repairer": "Repairer",
+      "item.worldstudios_world.iron_lunge": "Iron Lunge",
+      "item.worldstudios_world.diamond_lunge": "Diamond Lunge",
+      "item.worldstudios_world.netherite_lunge": "Netherite Lunge",
+      "item.worldstudios_world.urainium_lunge": "Urainium Lunge",
+      "item.worldstudios_world.titan_lunge": "Titan Lunge",
+      "item.worldstudios_world.sparkle_lunge": "Sparkle Lunge",
+      "item.worldstudios_world.blazite_lunge": "Blazite Lunge",
+      "item.worldstudios_world.wool_lunge": "Wool Lunge",
+      "item.worldstudios_world.ignightium_lunge": "Ignightium Lunge",
+      "item.worldstudios_world.repeating_command_block_lunge": "RepeatingCommandBlock Lunge",
+      "item.worldstudios_world.steel_lunge": "Steel Lunge",
+      "item.worldstudios_world.wopper_lunge": "Wopper Lunge"
     }
   },
   "metadata": {

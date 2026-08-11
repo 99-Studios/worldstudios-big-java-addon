@@ -1094,5 +1094,16 @@
   "item.worldstudios_world.cheap_point": "Cheap Point",
   "item.worldstudios_world.plant_food": "Plant Food",
   "item.worldstudios_world.dirt_shield": "Dirt Shield",
-  "item.worldstudios_world.repairer": "Repairer"
+  "item.worldstudios_world.repairer": "Repairer",
+  "item.worldstudios_world.iron_lunge": "Iron Lunge",
+  "item.worldstudios_world.diamond_lunge": "Diamond Lunge",
+  "item.worldstudios_world.netherite_lunge": "Netherite Lunge",
+  "item.worldstudios_world.urainium_lunge": "Urainium Lunge",
+  "item.worldstudios_world.titan_lunge": "Titan Lunge",
+  "item.worldstudios_world.sparkle_lunge": "Sparkle Lunge",
+  "item.worldstudios_world.blazite_lunge": "Blazite Lunge",
+  "item.worldstudios_world.wool_lunge": "Wool Lunge",
+  "item.worldstudios_world.ignightium_lunge": "Ignightium Lunge",
+  "item.worldstudios_world.repeating_command_block_lunge": "RepeatingCommandBlock Lunge",
+  "item.worldstudios_world.steel_lunge": "Steel Lunge"
 }

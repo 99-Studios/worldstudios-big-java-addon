@@ -377,6 +377,18 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> PLANT_FOOD;
 	public static final DeferredItem<Item> DIRT_SHIELD;
 	public static final DeferredItem<Item> REPAIRER;
+	public static final DeferredItem<Item> IRON_LUNGE;
+	public static final DeferredItem<Item> DIAMOND_LUNGE;
+	public static final DeferredItem<Item> NETHERITE_LUNGE;
+	public static final DeferredItem<Item> URAINIUM_LUNGE;
+	public static final DeferredItem<Item> TITAN_LUNGE;
+	public static final DeferredItem<Item> SPARKLE_LUNGE;
+	public static final DeferredItem<Item> BLAZITE_LUNGE;
+	public static final DeferredItem<Item> WOOL_LUNGE;
+	public static final DeferredItem<Item> IGNIGHTIUM_LUNGE;
+	public static final DeferredItem<Item> REPEATING_COMMAND_BLOCK_LUNGE;
+	public static final DeferredItem<Item> STEEL_LUNGE;
+	public static final DeferredItem<Item> WOPPER_LUNGE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -731,6 +743,18 @@ public class WorldstudiosWorldModItems {
 		PLANT_FOOD = register("plant_food", PlantFoodItem::new);
 		DIRT_SHIELD = register("dirt_shield", DirtShieldItem::new);
 		REPAIRER = register("repairer", RepairerItem::new);
+		IRON_LUNGE = register("iron_lunge", IronLungeItem::new);
+		DIAMOND_LUNGE = register("diamond_lunge", DiamondLungeItem::new);
+		NETHERITE_LUNGE = register("netherite_lunge", NetheriteLungeItem::new);
+		URAINIUM_LUNGE = register("urainium_lunge", UrainiumLungeItem::new);
+		TITAN_LUNGE = register("titan_lunge", TitanLungeItem::new);
+		SPARKLE_LUNGE = register("sparkle_lunge", SparkleLungeItem::new);
+		BLAZITE_LUNGE = register("blazite_lunge", BlaziteLungeItem::new);
+		WOOL_LUNGE = register("wool_lunge", WoolLungeItem::new);
+		IGNIGHTIUM_LUNGE = register("ignightium_lunge", IgnightiumLungeItem::new);
+		REPEATING_COMMAND_BLOCK_LUNGE = register("repeating_command_block_lunge", RepeatingCommandBlockLungeItem::new);
+		STEEL_LUNGE = register("steel_lunge", SteelLungeItem::new);
+		WOPPER_LUNGE = register("wopper_lunge", WopperLungeItem::new);
 	}
 
 	// Start of user code block custom items

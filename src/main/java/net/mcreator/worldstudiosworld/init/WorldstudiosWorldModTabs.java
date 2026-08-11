@@ -124,6 +124,18 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.IRON_UPGRADE_SMITHING_TEMPLATE.get());
 			tabData.accept(WorldstudiosWorldModItems.DIRT_SHIELD.get());
 			tabData.accept(WorldstudiosWorldModItems.REPAIRER.get());
+			tabData.accept(WorldstudiosWorldModItems.IRON_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.DIAMOND_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.NETHERITE_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.URAINIUM_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.TITAN_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.SPARKLE_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.BLAZITE_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.WOOL_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.IGNIGHTIUM_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.REPEATING_COMMAND_BLOCK_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.STEEL_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.WOPPER_LUNGE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -234,6 +246,8 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_LEGGINGS.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_ARMOR_BOOTS.get());
 			tabData.accept(WorldstudiosWorldModItems.DIRT_SHIELD.get());
+			tabData.accept(WorldstudiosWorldModItems.IRON_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.DIAMOND_LUNGE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());
