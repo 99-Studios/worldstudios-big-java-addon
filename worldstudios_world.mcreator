@@ -11033,6 +11033,45 @@
           "src/main/resources/data/worldstudios_world/advancement/its_darker_than_normal.json"
         ]
       }
+    },
+    {
+      "name": "Thirst",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thirst",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ThirstII",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thirst_ii",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ThirstRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thirst_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/recipe/brewing/ThirstRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "ThirstIIRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thirst_ii_recipe"
     }
   ],
   "variable_elements": [
@@ -13019,7 +13058,15 @@
       "advancements.rotten_challenge.descr": "Eat Rotten Flesh and Dried Flesh.",
       "advancements.rotten_challenge.title": "Rotten Challenge",
       "advancements.its_darker_than_normal.title": "Its Darker Than Normal",
-      "advancements.its_darker_than_normal.descr": "Enter the Darkened Sands biome."
+      "advancements.its_darker_than_normal.descr": "Enter the Darkened Sands biome.",
+      "item.minecraft.potion.effect.thirst": "Potion of Thirst",
+      "item.minecraft.tipped_arrow.effect.thirst": "Arrow of Thirst",
+      "item.minecraft.splash_potion.effect.thirst": "Splash Potion of Thirst",
+      "item.minecraft.lingering_potion.effect.thirst": "Lingering Potion of Thirst",
+      "item.minecraft.splash_potion.effect.thirst_ii": "Splash Potion of Thirst II",
+      "item.minecraft.lingering_potion.effect.thirst_ii": "Lingering Potion of Thirst II",
+      "item.minecraft.tipped_arrow.effect.thirst_ii": "Arrow of Thirst II",
+      "item.minecraft.potion.effect.thirst_ii": "Potion of Thirst II"
     }
   },
   "metadata": {

@@ -46,4 +46,6 @@ public class WorldstudiosWorldModPotions {
 			() -> new Potion("potion_of_the_dark_arts", new MobEffectInstance(WorldstudiosWorldModMobEffects.DARK_EFFECT, 3600, 0, false, true)));
 	public static final DeferredHolder<Potion, Potion> SHARP_POTION = REGISTRY.register("sharp_potion", () -> new Potion("sharp_potion", new MobEffectInstance(WorldstudiosWorldModMobEffects.BLEEDING, 3600, 0, false, true)));
 	public static final DeferredHolder<Potion, Potion> INTELLIGENCE = REGISTRY.register("intelligence", () -> new Potion("intelligence", new MobEffectInstance(WorldstudiosWorldModMobEffects.SMART, 3600, 0, false, true)));
+	public static final DeferredHolder<Potion, Potion> THIRST = REGISTRY.register("thirst", () -> new Potion("thirst", new MobEffectInstance(WorldstudiosWorldModMobEffects.SUPER_HUNGER, 3600, 0, false, true)));
+	public static final DeferredHolder<Potion, Potion> THIRST_II = REGISTRY.register("thirst_ii", () -> new Potion("thirst_ii", new MobEffectInstance(WorldstudiosWorldModMobEffects.SUPER_HUNGER, 7200, 1, false, true)));
 }

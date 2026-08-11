@@ -1,0 +1,20 @@
+{
+  "_fv": 89,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Thirst II",
+    "splashName": "Splash Potion of Thirst II",
+    "lingeringName": "Lingering Potion of Thirst II",
+    "arrowName": "Arrow of Thirst II",
+    "effects": [
+      {
+        "effect": "CUSTOM:SuperHunger",
+        "duration": 7200,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
