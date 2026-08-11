@@ -4,7 +4,7 @@
   "definition": {
     "name": "Darkened Sands",
     "groundBlock": "CUSTOM:DarkenedSand",
-    "undergroundBlock": "Blocks.SANDSTONE#0",
+    "undergroundBlock": "CUSTOM:Girstone",
     "underwaterBlock": "",
     "ambientSound": "",
     "additionsSound": "",
@@ -21,10 +21,10 @@
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": 0.3,
-      "max": 2.0
+      "max": 1.0
     },
     "genHumidity": {
-      "min": -2.0,
+      "min": -1.0,
       "max": -0.2
     },
     "genContinentalness": {

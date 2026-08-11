@@ -22,7 +22,7 @@
           "then": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:sandstone"
+              "Name": "worldstudios_world:girstone"
             }
           }
         }

@@ -1073,5 +1073,6 @@
   "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
   "entity.worldstudios_world.wanderer": "Wanderer",
   "item.worldstudios_world.dried_flesh": "Dried Flesh",
-  "effect.worldstudios_world.super_hunger": "Super Hunger"
+  "effect.worldstudios_world.super_hunger": "Super Hunger",
+  "item.worldstudios_world.girstone": "Girstone"
 }

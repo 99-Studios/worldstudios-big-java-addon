@@ -10992,6 +10992,23 @@
           "src/main/java/net/mcreator/worldstudiosworld/procedures/GiveSuperHungerProcedure.java"
         ]
       }
+    },
+    {
+      "name": "Girstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/girstone.json",
+          "src/main/java/net/mcreator/worldstudiosworld/block/GirstoneBlock.java",
+          "src/main/resources/assets/worldstudios_world/blockstates/girstone.json",
+          "src/main/resources/assets/worldstudios_world/models/item/girstone.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/girstone.json",
+          "src/main/resources/assets/worldstudios_world/models/block/girstone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11585,6 +11602,7 @@
       "~AcidFluid@CUSTOM:AcidFluid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Girstone@CUSTOM:Girstone",
       "~SouldustGravite@CUSTOM:SouldustGravite",
       "~BreakableBedrock@CUSTOM:BreakableBedrock",
       "~Graystone@CUSTOM:Graystone",
@@ -11876,6 +11894,9 @@
     "BLOCKS:minecraft:needs_stone_tool": [
       "~Graystone@CUSTOM:Graystone"
     ],
+    "ITEMS:minecraft:meat": [
+      "~DriedFlesh@CUSTOM:DriedFlesh"
+    ],
     "BIOMES:minecraft:has_structure/stronghold": [
       "~DarkenedSands@CUSTOM:DarkenedSands"
     ],
@@ -11890,9 +11911,6 @@
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
       "~DarkenedSands@CUSTOM:DarkenedSands"
-    ],
-    "ITEMS:minecraft:meat": [
-      "~DriedFlesh@CUSTOM:DriedFlesh"
     ]
   },
   "tab_element_order": {},
@@ -12972,7 +12990,8 @@
       "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
       "entity.worldstudios_world.wanderer": "Wanderer",
       "item.worldstudios_world.dried_flesh": "Dried Flesh",
-      "effect.worldstudios_world.super_hunger": "Super Hunger"
+      "effect.worldstudios_world.super_hunger": "Super Hunger",
+      "item.worldstudios_world.girstone": "Girstone"
     }
   },
   "metadata": {
