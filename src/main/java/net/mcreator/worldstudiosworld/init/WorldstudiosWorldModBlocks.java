@@ -244,8 +244,8 @@ public class WorldstudiosWorldModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.SOULDUST_SIGN_WOOD_TYPE);
-			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_SIGN_WOOD_TYPE);
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.SOULDUST_HANGING_SIGN_WOOD_TYPE);
+			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_SIGN_WOOD_TYPE);
 			Sheets.addWoodType(WorldstudiosWorldModWoodTypes.GIRTREE_HANGING_SIGN_WOOD_TYPE);
 		}
 	}
@@ -253,8 +253,8 @@ public class WorldstudiosWorldModBlocks {
 	@SubscribeEvent
 	public static void registerSigns(BlockEntityTypeAddBlocksEvent event) {
 		event.modify(BlockEntityType.SIGN, SOULDUST_SIGN.get(), SOULDUST_WALL_SIGN.get());
-		event.modify(BlockEntityType.SIGN, GIRTREE_SIGN.get(), GIRTREE_WALL_SIGN.get());
 		event.modify(BlockEntityType.HANGING_SIGN, SOULDUST_HANGING_SIGN.get(), SOULDUST_WALL_HANGING_SIGN.get());
+		event.modify(BlockEntityType.SIGN, GIRTREE_SIGN.get(), GIRTREE_WALL_SIGN.get());
 		event.modify(BlockEntityType.HANGING_SIGN, GIRTREE_HANGING_SIGN.get(), GIRTREE_WALL_HANGING_SIGN.get());
 	}
 }

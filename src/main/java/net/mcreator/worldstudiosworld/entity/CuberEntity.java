@@ -52,7 +52,7 @@ public class CuberEntity extends Monster {
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
 		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.goalSelector.addGoal(7, new OpenDoorGoal(this, true));
+		this.goalSelector.addGoal(7, new OpenDoorGoal(this, false));
 	}
 
 	protected void dropCustomDeathLoot(ServerLevel serverLevel, DamageSource source, boolean recentlyHitIn) {

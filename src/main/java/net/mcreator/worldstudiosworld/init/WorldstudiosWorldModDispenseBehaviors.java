@@ -16,10 +16,10 @@ public class WorldstudiosWorldModDispenseBehaviors {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.STEEL_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.STEEL_BOAT.get()));
-			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.GIRTREE_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.GIRTREE_BOAT.get()));
-			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.SOULDUST_CHEST_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.SOULDUST_CHEST_BOAT.get()));
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.SOULDUST_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.SOULDUST_BOAT.get()));
+			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.SOULDUST_CHEST_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.SOULDUST_CHEST_BOAT.get()));
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.DIRT_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.DIRT_BOAT.get()));
+			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.GIRTREE_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.GIRTREE_BOAT.get()));
 			DispenserBlock.registerBehavior(WorldstudiosWorldModItems.GIRTREE_CHEST_BOAT.get(), new BoatDispenseItemBehavior(WorldstudiosWorldModEntities.GIRTREE_CHEST_BOAT.get()));
 		});
 	}

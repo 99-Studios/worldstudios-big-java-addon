@@ -27,8 +27,6 @@
   "coordinate_scale": 1,
   "ambient_light": 0,
   "infiniburn": "#minecraft:infiniburn_overworld",
-  "timelines": "#minecraft:in_overworld",
-  "default_clock": "minecraft:overworld",
   "min_y": -64,
   "height": 384,
   "logical_height": 384,

@@ -759,7 +759,7 @@ public class WorldstudiosWorldModItems {
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new TrashBagInventoryCapability(access), TRASH_BAG.get());
 		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), ACID_FLUID_BUCKET.get());
-		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), DIRTY_WATER_BUCKET.get());
 		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), BRAIN_FLUID_BUCKET.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), DIRTY_WATER_BUCKET.get());
 	}
 }

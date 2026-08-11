@@ -3,6 +3,7 @@ package net.mcreator.worldstudiosworld.entity;
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 import net.neoforged.neoforge.event.EventHooks;
+import net.neoforged.neoforge.common.NeoForgeMod;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -173,6 +174,11 @@ public class BirdBrainEntity extends TamableAnimal {
 		Level world = this.level();
 		Entity entity = this;
 		return false;
+	}
+
+	@Override
+	public boolean canBreatheUnderwater() {
+		return !this.canDrownInFluidType(NeoForgeMod.WATER_TYPE.value());
 	}
 
 	@Override

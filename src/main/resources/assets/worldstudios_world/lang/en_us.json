@@ -1067,5 +1067,7 @@
   "item.worldstudios_world.dirty_water_bucket": "Dirty Water Bucket",
   "fluid_type.worldstudios_world.dirty_water": "Dirty Water",
   "block.worldstudios_world.dirty_water": "Dirty Water",
-  "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand"
+  "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand",
+  "gamerule.worldstudios_world.ender_helmet_teleport.description": "Deactivates teleporting with the Ender Helmet when false.",
+  "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport"
 }

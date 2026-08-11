@@ -11340,6 +11340,18 @@
     "ITEMS:worldstudios_world:wopper_armor_repair_items": [
       "~WopperArmor@CUSTOM:WopperIngot"
     ],
+    "BLOCKS:mod:girtree_logs": [
+      "CUSTOM:GirtreeLog",
+      "CUSTOM:GirtreeWood",
+      "CUSTOM:StrippedGirtreeLog",
+      "CUSTOM:StrippedGirtreeWood"
+    ],
+    "ITEMS:mod:girtree_logs": [
+      "CUSTOM:GirtreeLog",
+      "CUSTOM:GirtreeWood",
+      "CUSTOM:StrippedGirtreeLog",
+      "CUSTOM:StrippedGirtreeWood"
+    ],
     "ITEMS:minecraft:pickaxes": [
       "~WopperPickaxe@CUSTOM:WopperPickaxe",
       "~SouldustPickaxe@CUSTOM:SouldustPickaxe",
@@ -11718,8 +11730,8 @@
       "~Carefree@CUSTOM:Carefree"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
-      "~DarkenedSand@CUSTOM:DarkenedSand",
       "~SoggyDarkenedSand@CUSTOM:SoggyDarkenedSand",
+      "~DarkenedSand@CUSTOM:DarkenedSand",
       "~Ignyite@CUSTOM:Ignyite",
       "~GreenSand@CUSTOM:GreenSand"
     ],
@@ -11784,18 +11796,6 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~Graystone@CUSTOM:Graystone"
-    ],
-    "BLOCKS:mod:girtree_logs": [
-      "CUSTOM:GirtreeLog",
-      "CUSTOM:GirtreeWood",
-      "CUSTOM:StrippedGirtreeLog",
-      "CUSTOM:StrippedGirtreeWood"
-    ],
-    "ITEMS:mod:girtree_logs": [
-      "CUSTOM:GirtreeLog",
-      "CUSTOM:GirtreeWood",
-      "CUSTOM:StrippedGirtreeLog",
-      "CUSTOM:StrippedGirtreeWood"
     ],
     "BIOMES:minecraft:has_structure/stronghold": [
       "~DarkenedSands@CUSTOM:DarkenedSands"
@@ -12884,7 +12884,9 @@
       "item.worldstudios_world.dirty_water_bucket": "Dirty Water Bucket",
       "fluid_type.worldstudios_world.dirty_water": "Dirty Water",
       "block.worldstudios_world.dirty_water": "Dirty Water",
-      "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand"
+      "item.worldstudios_world.soggy_darkened_sand": "Soggy Darkened Sand",
+      "gamerule.worldstudios_world.ender_helmet_teleport.description": "Deactivates teleporting with the Ender Helmet when false.",
+      "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport"
     }
   },
   "metadata": {
@@ -12950,5 +12952,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.worldstudiosworld"
   },
-  "mcreatorVersion": 202600229418
+  "mcreatorVersion": 202600230420
 }

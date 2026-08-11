@@ -17,10 +17,10 @@ import net.mcreator.worldstudiosworld.client.model.*;
 @EventBusSubscriber(Dist.CLIENT)
 public class WorldstudiosWorldModModels {
 	public static final ModelLayerLocation STEEL_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/steel_boat"), "main");
-	public static final ModelLayerLocation GIRTREE_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/girtree_boat"), "main");
-	public static final ModelLayerLocation SOULDUST_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/souldust_chest_boat"), "main");
 	public static final ModelLayerLocation SOULDUST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/souldust_boat"), "main");
+	public static final ModelLayerLocation SOULDUST_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/souldust_chest_boat"), "main");
 	public static final ModelLayerLocation DIRT_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/dirt_boat"), "main");
+	public static final ModelLayerLocation GIRTREE_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:boat/girtree_boat"), "main");
 	public static final ModelLayerLocation GIRTREE_CHEST_BOAT_LAYER_LOCATION = new ModelLayerLocation(Identifier.parse("worldstudios_world:chest_boat/girtree_chest_boat"), "main");
 
 	@SubscribeEvent
@@ -49,10 +49,10 @@ public class WorldstudiosWorldModModels {
 		event.registerLayerDefinition(Modelsugar.LAYER_LOCATION, Modelsugar::createBodyLayer);
 		event.registerLayerDefinition(ModelNethering_Trader.LAYER_LOCATION, ModelNethering_Trader::createBodyLayer);
 		event.registerLayerDefinition(STEEL_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
-		event.registerLayerDefinition(GIRTREE_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
-		event.registerLayerDefinition(SOULDUST_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
 		event.registerLayerDefinition(SOULDUST_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
+		event.registerLayerDefinition(SOULDUST_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
 		event.registerLayerDefinition(DIRT_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
+		event.registerLayerDefinition(GIRTREE_BOAT_LAYER_LOCATION, BoatModel::createBoatModel);
 		event.registerLayerDefinition(GIRTREE_CHEST_BOAT_LAYER_LOCATION, BoatModel::createChestBoatModel);
 	}
 }

@@ -1,7 +1,6 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "force_dirt": false,
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
@@ -9,11 +8,25 @@
       "lower_size": 0,
       "upper_size": 1
     },
-    "dirt_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "worldstudios_world:semite"
-      }
+    "below_trunk_provider": {
+      "type": "minecraft:rule_based_state_provider",
+      "rules": [
+        {
+          "if_true": {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:cannot_replace_below_tree_trunk"
+            }
+          },
+          "then": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "worldstudios_world:semite"
+            }
+          }
+        }
+      ]
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
