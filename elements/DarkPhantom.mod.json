@@ -36,6 +36,7 @@
       "value": -16777216,
       "falpha": 0.0
     },
+    "spawnEggTexture": "",
     "creativeTabs": [
       "MISC"
     ],
@@ -108,6 +109,7 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
+    "spawningCondition": "DarkPhantomNaturalEntitySpawningCondition",
     "spawningProbability": 15,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 3,
@@ -126,6 +128,9 @@
       2
     ],
     "sensitiveToVibration": false,
-    "vibrationalEvents": []
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
   }
 }

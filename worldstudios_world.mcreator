@@ -11147,6 +11147,25 @@
           "src/main/resources/data/worldstudios_world/advancement/recipes/iron_upgrade_smithing_template_recipe.json"
         ]
       }
+    },
+    {
+      "name": "DarkPhantomNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_phantom_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/DarkPhantomNaturalEntitySpawningConditionProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
