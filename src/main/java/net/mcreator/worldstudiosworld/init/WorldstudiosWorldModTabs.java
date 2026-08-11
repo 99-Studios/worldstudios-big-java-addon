@@ -369,6 +369,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModBlocks.DIRT_CHEST.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_SIGN.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.GIRTREE_HANGING_SIGN.get().asItem());
+			tabData.accept(WorldstudiosWorldModBlocks.CHEAP_POINT.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULED_REDSTONE_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
@@ -392,6 +393,8 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.SAWPING_SPAWN_EGG.get());
 			tabData.accept(WorldstudiosWorldModItems.OBSERVEER_SPAWN_EGG.get());
 			tabData.accept(WorldstudiosWorldModItems.WANDERER_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COLORED_BLOCKS) {
+			tabData.accept(WorldstudiosWorldModBlocks.CHEAP_POINT.get().asItem());
 		}
 	}
 }

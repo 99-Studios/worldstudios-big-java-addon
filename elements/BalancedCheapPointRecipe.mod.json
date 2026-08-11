@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.DIRT",
+      "Items.DYE#19"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "",
+      "Items.DYE#19",
+      "",
+      "Items.DYE#19",
+      "Blocks.DIRT",
+      "Items.DYE#19",
+      "",
+      "Items.DYE#19",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:CheapPoint",
+    "name": "balanced_cheap_point_recipe",
+    "namespace": "mod"
+  }
+}

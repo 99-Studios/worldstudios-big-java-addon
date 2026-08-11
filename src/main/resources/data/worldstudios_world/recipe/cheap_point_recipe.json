@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "#minecraft:dirt"
+  ],
+  "result": {
+    "id": "worldstudios_world:cheap_point",
+    "count": 1
+  }
+}

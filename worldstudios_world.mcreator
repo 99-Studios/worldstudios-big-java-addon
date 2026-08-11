@@ -11236,6 +11236,49 @@
           "src/main/resources/assets/worldstudios_world/models/item/tallmoss.json"
         ]
       }
+    },
+    {
+      "name": "CheapPoint",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheap_point",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/block/CheapPointBlock.java",
+          "src/main/resources/assets/worldstudios_world/items/cheap_point.json",
+          "src/main/resources/assets/worldstudios_world/blockstates/cheap_point.json",
+          "src/main/resources/data/worldstudios_world/loot_table/blocks/cheap_point.json",
+          "src/main/resources/assets/worldstudios_world/models/block/cheap_point.json",
+          "src/main/resources/assets/worldstudios_world/models/item/cheap_point.json"
+        ]
+      }
+    },
+    {
+      "name": "CheapPointRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheap_point_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/cheap_point_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/cheap_point_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BalancedCheapPointRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balanced_cheap_point_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/balanced_cheap_point_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/balanced_cheap_point_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13239,7 +13282,8 @@
       "gamerule.worldstudios_world.cuber_spawn.description": "Allow Cuber to spawn during the night.",
       "gamerule.worldstudios_world.cuber_spawn": "Spawn Cuber",
       "item.worldstudios_world.travertine": "Travertine",
-      "item.worldstudios_world.tallmoss": "Tallmoss"
+      "item.worldstudios_world.tallmoss": "Tallmoss",
+      "item.worldstudios_world.cheap_point": "Cheap Point"
     }
   },
   "metadata": {
