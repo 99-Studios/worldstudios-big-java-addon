@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.Block;
 
 public class CheapPointBlock extends Block {
 	public CheapPointBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.SNOW).sound(SoundType.SNOW).strength(0f, 20f).instrument(NoteBlockInstrument.DRAGON));
+		super(properties.mapColor(MapColor.SNOW).sound(SoundType.SNOW).strength(0f, 20f).postProcess((bs, br, bp) -> bp).emissiveRendering((bs, br, bp) -> true).instrument(NoteBlockInstrument.DRAGON));
 	}
 
 	@Override

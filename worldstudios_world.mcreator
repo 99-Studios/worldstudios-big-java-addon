@@ -10239,6 +10239,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/worldstudios_world/worldgen/biome/darkened_sands.json",
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/DarkenedSandsFruitDecorator.java",
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/DarkenedSandsLeaveDecorator.java",
+          "src/main/java/net/mcreator/worldstudiosworld/world/features/treedecorators/DarkenedSandsTrunkDecorator.java",
           "src/main/resources/data/worldstudios_world/worldgen/configured_feature/darkened_sands_tree.json",
           "src/main/resources/data/worldstudios_world/worldgen/placed_feature/darkened_sands_tree.json"
         ]
