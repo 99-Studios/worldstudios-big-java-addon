@@ -26,6 +26,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.worldstudiosworld.procedures.GiveSuperHungerProcedure;
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModItems;
 import net.mcreator.worldstudiosworld.init.WorldstudiosWorldModEntities;
 
@@ -74,6 +75,12 @@ public class WandererEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("entity.husk.death"));
+	}
+
+	@Override
+	public void playerTouch(Player sourceentity) {
+		super.playerTouch(sourceentity);
+		GiveSuperHungerProcedure.execute(this);
 	}
 
 	public static void init(RegisterSpawnPlacementsEvent event) {

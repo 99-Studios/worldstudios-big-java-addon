@@ -11071,7 +11071,12 @@
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thirst_ii_recipe"
+      "registry_name": "thirst_ii_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/recipe/brewing/ThirstIIRecipeBrewingRecipe.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
