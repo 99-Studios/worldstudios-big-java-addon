@@ -20,7 +20,7 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.3,
+      "min": 0.45,
       "max": 1.0
     },
     "genHumidity": {
@@ -32,21 +32,21 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": -1.0,
-      "max": 0.1
+      "min": 0.05,
+      "max": 0.45
     },
     "genWeirdness": {
-      "min": -1.0,
+      "min": 0.03,
       "max": 1.0
     },
     "genDepth": {
       "min": 0.2,
       "max": 0.9
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 3,
     "vanillaTreeType": "Savanna trees",
     "treeType": 1,
-    "minHeight": 4,
+    "minHeight": 7,
     "treeStem": "CUSTOM:GirtreeLog",
     "treeBranch": "CUSTOM:GirtreeLeaves",
     "treeVines": "",

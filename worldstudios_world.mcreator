@@ -11077,6 +11077,24 @@
           "src/main/java/net/mcreator/worldstudiosworld/recipe/brewing/ThirstIIRecipeBrewingRecipe.java"
         ]
       }
+    },
+    {
+      "name": "GiveSuperHungerToPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_super_hunger_to_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/procedures/GiveSuperHungerToPlayerProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [

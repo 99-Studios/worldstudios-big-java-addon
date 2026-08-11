@@ -8,6 +8,6 @@ public class SuperHungerOnEffectActiveTickProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player)
-			_player.causeFoodExhaustion((float) 0.025);
+			_player.getFoodData().setFoodLevel((int) ((entity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) - 0.025));
 	}
 }

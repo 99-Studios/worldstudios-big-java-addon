@@ -120,7 +120,7 @@ public class WorldstudiosWorldModEntities {
 	public static final DeferredHolder<EntityType<?>, EntityType<GirtreeChestBoatEntity>> GIRTREE_CHEST_BOAT = register("girtree_chest_boat",
 			EntityType.Builder.<GirtreeChestBoatEntity>of(GirtreeChestBoatEntity::new, MobCategory.MISC).noLootTable().sized(1.375F, 0.5625F).eyeHeight(0.5625F).clientTrackingRange(10));
 	public static final DeferredHolder<EntityType<?>, EntityType<WandererEntity>> WANDERER = register("wanderer",
-			EntityType.Builder.<WandererEntity>of(WandererEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<WandererEntity>of(WandererEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.notInPeaceful().sized(0.6f, 1.8f));
 
