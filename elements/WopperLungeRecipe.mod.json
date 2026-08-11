@@ -6,7 +6,7 @@
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      "CUSTOM:Branite",
+      "CUSTOM:WopperIngot",
       "Items.STICK"
     ],
     "cookingBookCategory": "MISC",
@@ -15,7 +15,7 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "CUSTOM:Branite",
+      "CUSTOM:WopperIngot",
       "",
       "",
       "",
@@ -25,8 +25,8 @@
       "",
       "Items.STICK"
     ],
-    "recipeReturnStack": "CUSTOM:BraniteLunge",
-    "name": "branite_lunge_recipe",
+    "recipeReturnStack": "CUSTOM:WopperLunge",
+    "name": "wopper_lunge_recipe",
     "namespace": "mod"
   }
 }

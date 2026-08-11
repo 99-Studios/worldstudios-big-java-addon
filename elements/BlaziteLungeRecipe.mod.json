@@ -6,8 +6,8 @@
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      "CUSTOM:Branite",
-      "Items.STICK"
+      "Items.STICK",
+      "CUSTOM:Blazite"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,7 +15,7 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "CUSTOM:Branite",
+      "CUSTOM:Blazite",
       "",
       "",
       "",
@@ -25,8 +25,8 @@
       "",
       "Items.STICK"
     ],
-    "recipeReturnStack": "CUSTOM:BraniteLunge",
-    "name": "branite_lunge_recipe",
+    "recipeReturnStack": "CUSTOM:BlaziteLunge",
+    "name": "blazite_lunge_recipe",
     "namespace": "mod"
   }
 }

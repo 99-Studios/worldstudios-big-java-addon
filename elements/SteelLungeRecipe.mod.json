@@ -6,7 +6,7 @@
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      "CUSTOM:Branite",
+      "CUSTOM:Steel",
       "Items.STICK"
     ],
     "cookingBookCategory": "MISC",
@@ -15,7 +15,7 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "CUSTOM:Branite",
+      "CUSTOM:Steel",
       "",
       "",
       "",
@@ -25,8 +25,8 @@
       "",
       "Items.STICK"
     ],
-    "recipeReturnStack": "CUSTOM:BraniteLunge",
-    "name": "branite_lunge_recipe",
+    "recipeReturnStack": "CUSTOM:SteelLunge",
+    "name": "steel_lunge_recipe",
     "namespace": "mod"
   }
 }

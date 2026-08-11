@@ -11512,6 +11512,175 @@
           "src/main/resources/assets/worldstudios_world/items/wopper_lunge.json"
         ]
       }
+    },
+    {
+      "name": "AmethesiumLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethesium_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/amethesium_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/amethesium_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/iron_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/iron_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/diamond_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/diamond_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/netherite_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/netherite_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UrainiumLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urainium_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/urainium_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/urainium_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitanLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/titan_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/titan_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SparkleLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkle_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/sparkle_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/sparkle_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlaziteLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazite_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/blazite_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/blazite_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wool_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wool_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IgnightiumLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignightium_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/ignightium_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/ignightium_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RepeatingCommandBlockLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repeating_command_block_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/repeating_command_block_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/repeating_command_block_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/steel_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/steel_lunge_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WopperLungeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wopper_lunge_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/wopper_lunge_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/wopper_lunge_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [

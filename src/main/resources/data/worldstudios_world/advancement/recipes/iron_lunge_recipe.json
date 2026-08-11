@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "worldstudios_world:branite_lunge_recipe"
+        "recipe": "worldstudios_world:iron_lunge_recipe"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "worldstudios_world:branite"
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stick"
+            "items": "minecraft:iron_ingot"
           }
         ]
       },
@@ -37,7 +37,7 @@
   ],
   "rewards": {
     "recipes": [
-      "worldstudios_world:branite_lunge_recipe"
+      "worldstudios_world:iron_lunge_recipe"
     ]
   }
 }

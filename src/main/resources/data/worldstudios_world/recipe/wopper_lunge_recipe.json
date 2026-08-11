@@ -7,11 +7,11 @@
     "  b"
   ],
   "key": {
-    "a": "#c:stones",
+    "a": "worldstudios_world:wopper_ingot",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "worldstudios_world:stone_lunge",
+    "id": "worldstudios_world:wopper_lunge",
     "count": 1
   }
 }

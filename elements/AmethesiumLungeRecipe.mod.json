@@ -6,7 +6,7 @@
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      "CUSTOM:Branite",
+      "CUSTOM:AmethesiumIngot",
       "Items.STICK"
     ],
     "cookingBookCategory": "MISC",
@@ -15,7 +15,7 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "CUSTOM:Branite",
+      "CUSTOM:AmethesiumIngot",
       "",
       "",
       "",
@@ -25,8 +25,8 @@
       "",
       "Items.STICK"
     ],
-    "recipeReturnStack": "CUSTOM:BraniteLunge",
-    "name": "branite_lunge_recipe",
+    "recipeReturnStack": "CUSTOM:AmethesiumLunge",
+    "name": "amethesium_lunge_recipe",
     "namespace": "mod"
   }
 }

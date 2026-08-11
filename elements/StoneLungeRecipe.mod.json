@@ -15,15 +15,15 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "",
-      "",
       "Blocks.STONE",
       "",
-      "Items.STICK",
+      "",
       "",
       "Items.STICK",
       "",
-      ""
+      "",
+      "",
+      "Items.STICK"
     ],
     "recipeReturnStack": "CUSTOM:StoneLunge",
     "name": "stone_lunge_recipe",

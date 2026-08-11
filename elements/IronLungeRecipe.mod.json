@@ -6,8 +6,8 @@
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      "CUSTOM:Branite",
-      "Items.STICK"
+      "Items.STICK",
+      "Items.IRON_INGOT"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -15,7 +15,7 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      "CUSTOM:Branite",
+      "Items.IRON_INGOT",
       "",
       "",
       "",
@@ -25,8 +25,8 @@
       "",
       "Items.STICK"
     ],
-    "recipeReturnStack": "CUSTOM:BraniteLunge",
-    "name": "branite_lunge_recipe",
+    "recipeReturnStack": "CUSTOM:IronLunge",
+    "name": "iron_lunge_recipe",
     "namespace": "mod"
   }
 }

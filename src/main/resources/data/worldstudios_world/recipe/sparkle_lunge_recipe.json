@@ -7,11 +7,11 @@
     "  b"
   ],
   "key": {
-    "a": "#c:stones",
+    "a": "worldstudios_world:sparkles",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "worldstudios_world:stone_lunge",
+    "id": "worldstudios_world:sparkle_lunge",
     "count": 1
   }
 }
