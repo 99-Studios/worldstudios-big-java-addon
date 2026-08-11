@@ -3,5 +3,5 @@
   "description": {
     "translate": "trim_pattern.worldstudios_world.ironhide"
   },
-  "template_item": "minecraft:iron_ingot"
+  "template_item": "worldstudios_world:iron_upgrade_smithing_template"
 }

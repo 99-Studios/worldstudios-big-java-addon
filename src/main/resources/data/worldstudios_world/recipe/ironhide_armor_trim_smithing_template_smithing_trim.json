@@ -3,5 +3,5 @@
   "addition": "#minecraft:trim_materials",
   "base": "#minecraft:trimmable_armor",
   "pattern": "worldstudios_world:ironhide",
-  "template": "minecraft:iron_ingot"
+  "template": "worldstudios_world:iron_upgrade_smithing_template"
 }

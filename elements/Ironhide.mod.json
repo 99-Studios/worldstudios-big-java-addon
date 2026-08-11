@@ -3,7 +3,7 @@
   "_type": "armortrim",
   "definition": {
     "name": "Ironhide",
-    "item": "Items.IRON_INGOT",
+    "item": "CUSTOM:IronUpgradeSmithingTemplate",
     "armorTextureFile": "ironhide"
   }
 }

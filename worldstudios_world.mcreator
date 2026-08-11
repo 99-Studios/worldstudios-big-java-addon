@@ -11108,6 +11108,45 @@
           "src/main/resources/data/worldstudios_world/trim_pattern/ironhide.json"
         ]
       }
+    },
+    {
+      "name": "IronUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/worldstudios_world/items/iron_upgrade_smithing_template.json",
+          "src/main/resources/assets/worldstudios_world/models/item/iron_upgrade_smithing_template.json",
+          "src/main/java/net/mcreator/worldstudiosworld/item/IronUpgradeSmithingTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IsItIron",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_it_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/is_it_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "IronUpgradeSmithingTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_upgrade_smithing_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/iron_upgrade_smithing_template_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/iron_upgrade_smithing_template_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13103,7 +13142,10 @@
       "item.minecraft.lingering_potion.effect.thirst_ii": "Lingering Potion of Thirst II",
       "item.minecraft.tipped_arrow.effect.thirst_ii": "Arrow of Thirst II",
       "item.minecraft.potion.effect.thirst_ii": "Potion of Thirst II",
-      "trim_pattern.worldstudios_world.ironhide": "Ironhide"
+      "trim_pattern.worldstudios_world.ironhide": "Ironhide",
+      "item.worldstudios_world.iron_upgrade_smithing_template": "Iron Upgrade Smithing Template",
+      "advancements.is_it_iron.title": "Is It Iron",
+      "advancements.is_it_iron.descr": "Obtain the Iron Upgrade Smithing Template."
     }
   },
   "metadata": {
