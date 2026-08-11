@@ -159,7 +159,6 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> BRAIN_ARMOR_ARMOR_CHESTPLATE;
 	public static final DeferredItem<Item> BRAIN_ARMOR_ARMOR_LEGGINGS;
 	public static final DeferredItem<Item> BRAIN_ARMOR_ARMOR_BOOTS;
-	public static final DeferredItem<Item> CAREFREE;
 	public static final DeferredItem<Item> HEROIC_DIAMOND;
 	public static final DeferredItem<Item> TRASH_BAG;
 	public static final DeferredItem<Item> DARK_BAT_SPAWN_EGG;
@@ -281,7 +280,6 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> VERY_MOLTEN_METAL;
 	public static final DeferredItem<Item> BLOCK_OF_FLINT;
 	public static final DeferredItem<Item> WARTED_EMERALD;
-	public static final DeferredItem<Item> THE_WILL_OF_RIGHTS;
 	public static final DeferredItem<Item> WALKING_CHEST_SPAWN_EGG;
 	public static final DeferredItem<Item> BRANITE;
 	public static final DeferredItem<Item> BRANITE_ORE;
@@ -513,7 +511,6 @@ public class WorldstudiosWorldModItems {
 		BRAIN_ARMOR_ARMOR_CHESTPLATE = register("brain_armor_armor_chestplate", BrainArmorArmorItem.Chestplate::new);
 		BRAIN_ARMOR_ARMOR_LEGGINGS = register("brain_armor_armor_leggings", BrainArmorArmorItem.Leggings::new);
 		BRAIN_ARMOR_ARMOR_BOOTS = register("brain_armor_armor_boots", BrainArmorArmorItem.Boots::new);
-		CAREFREE = register("carefree", CarefreeItem::new);
 		HEROIC_DIAMOND = register("heroic_diamond", HeroicDiamondItem::new);
 		TRASH_BAG = register("trash_bag", TrashBagItem::new);
 		DARK_BAT_SPAWN_EGG = register("dark_bat_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.DARK_BAT.get())));
@@ -635,7 +632,6 @@ public class WorldstudiosWorldModItems {
 		VERY_MOLTEN_METAL = register("very_molten_metal", VeryMoltenMetalItem::new);
 		BLOCK_OF_FLINT = block(WorldstudiosWorldModBlocks.BLOCK_OF_FLINT);
 		WARTED_EMERALD = register("warted_emerald", WartedEmeraldItem::new);
-		THE_WILL_OF_RIGHTS = register("the_will_of_rights", TheWillOfRightsItem::new);
 		WALKING_CHEST_SPAWN_EGG = register("walking_chest_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(WorldstudiosWorldModEntities.WALKING_CHEST.get())));
 		BRANITE = register("branite", BraniteItem::new);
 		BRANITE_ORE = block(WorldstudiosWorldModBlocks.BRANITE_ORE, new Item.Properties().rarity(Rarity.UNCOMMON));

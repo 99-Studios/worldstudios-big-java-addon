@@ -66,7 +66,6 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.WOOL_AXE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOOL_SHOVEL.get());
 			tabData.accept(WorldstudiosWorldModItems.WOOL_HOE.get());
-			tabData.accept(WorldstudiosWorldModItems.CAREFREE.get());
 			tabData.accept(WorldstudiosWorldModItems.TRASH_BAG.get());
 			tabData.accept(WorldstudiosWorldModItems.DARK_BAT_SHEILD.get());
 			tabData.accept(WorldstudiosWorldModItems.NACOR_PICKAXE.get());
@@ -99,7 +98,6 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.STEEL_TOOL_SHOVEL.get());
 			tabData.accept(WorldstudiosWorldModItems.STEEL_TOOL_HOE.get());
 			tabData.accept(WorldstudiosWorldModItems.REFINED_FLINT_AND_STEEL.get());
-			tabData.accept(WorldstudiosWorldModItems.THE_WILL_OF_RIGHTS.get());
 			tabData.accept(WorldstudiosWorldModItems.BRANITE_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.STONE_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.AMETHESIUM_PICKAXE.get());

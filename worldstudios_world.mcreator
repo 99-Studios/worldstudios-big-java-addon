@@ -4021,21 +4021,6 @@
       }
     },
     {
-      "name": "Carefree",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "carefree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/worldstudios_world/jukebox_song/carefree.json",
-          "src/main/java/net/mcreator/worldstudiosworld/item/CarefreeItem.java",
-          "src/main/resources/assets/worldstudios_world/items/carefree.json",
-          "src/main/resources/assets/worldstudios_world/models/item/carefree.json"
-        ]
-      }
-    },
-    {
       "name": "Icing",
       "type": "potioneffect",
       "compiles": true,
@@ -7917,21 +7902,6 @@
       }
     },
     {
-      "name": "TheWillOfRights",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_will_of_rights",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/worldstudios_world/items/the_will_of_rights.json",
-          "src/main/java/net/mcreator/worldstudiosworld/item/TheWillOfRightsItem.java",
-          "src/main/resources/data/worldstudios_world/jukebox_song/the_will_of_rights.json",
-          "src/main/resources/assets/worldstudios_world/models/item/the_will_of_rights.json"
-        ]
-      }
-    },
-    {
       "name": "WalkingChest",
       "type": "livingentity",
       "compiles": true,
@@ -11318,27 +11288,11 @@
   ],
   "sound_elements": [
     {
-      "name": "carefree",
-      "files": [
-        "carefree"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
       "name": "fairy.ambient",
       "files": [
         "glitter"
       ],
       "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "the_will_of_rights",
-      "files": [
-        "fadr.com_the_will_of_rights"
-      ],
-      "category": "music",
       "subtitle": ""
     }
   ],
@@ -12119,10 +12073,6 @@
       "~AndesiteHoe@CUSTOM:AndesiteHoe",
       "~DirtToolHoe@CUSTOM:DirtToolHoe",
       "~AndorHoe@CUSTOM:AndorHoe"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~TheWillOfRights@CUSTOM:TheWillOfRights",
-      "~Carefree@CUSTOM:Carefree"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~SoggyDarkenedSand@CUSTOM:SoggyDarkenedSand",
@@ -13000,8 +12950,6 @@
       "item.worldstudios_world.brain_armor_armor_boots": "Brain Boots",
       "item.worldstudios_world.brain_armor_armor_leggings": "Brain Leggings",
       "item.worldstudios_world.brain_armor_armor_chestplate": "Brain Chestplate",
-      "item.worldstudios_world.carefree": "Custom Music Disk",
-      "item.worldstudios_world.carefree.desc": "Carefree - Kevin Macleod",
       "effect.worldstudios_world.icing": "Icing",
       "item.worldstudios_world.heroic_diamond": "Heroic Diamond",
       "item.worldstudios_world.trash_bag": "Trash Bag",
@@ -13150,8 +13098,6 @@
       "painting.worldstudios_world.the_hidden_one.title": "The Hidden One",
       "item.worldstudios_world.warted_emerald": "Warted Emerald",
       "entity.villager.worldstudios_world.nethering_trader": "Nethering Trader",
-      "item.worldstudios_world.the_will_of_rights.desc": "The Will Of Rights - WorldStudios",
-      "item.worldstudios_world.the_will_of_rights": "Custom Music Disk",
       "item.worldstudios_world.walking_chest_spawn_egg": "Walking Chest Spawn Egg",
       "entity.worldstudios_world.walking_chest": "Walking Chest",
       "item.worldstudios_world.branite": "Branite",
