@@ -328,6 +328,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.BRAIN_FLUID_BUCKET.get());
 			tabData.accept(WorldstudiosWorldModItems.DARK_COOKIE.get());
 			tabData.accept(WorldstudiosWorldModItems.CUBE_ESSENCE.get());
+			tabData.accept(WorldstudiosWorldModItems.DRIED_FLESH.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(WorldstudiosWorldModItems.URAINIUM_PEICE.get());
 			tabData.accept(WorldstudiosWorldModItems.URAINIUM_INGOT.get());

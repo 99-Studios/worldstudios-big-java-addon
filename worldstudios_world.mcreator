@@ -10930,6 +10930,20 @@
           "src/main/resources/assets/worldstudios_world/models/item/wanderer_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "DriedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/DriedFleshItem.java",
+          "src/main/resources/assets/worldstudios_world/models/item/dried_flesh.json",
+          "src/main/resources/assets/worldstudios_world/items/dried_flesh.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12905,7 +12919,8 @@
       "gamerule.worldstudios_world.ender_helmet_teleport.description": "Deactivates teleporting with the Ender Helmet when false.",
       "gamerule.worldstudios_world.ender_helmet_teleport": "Ender Helmet Teleport",
       "item.worldstudios_world.wanderer_spawn_egg": "Wanderer Spawn Egg",
-      "entity.worldstudios_world.wanderer": "Wanderer"
+      "entity.worldstudios_world.wanderer": "Wanderer",
+      "item.worldstudios_world.dried_flesh": "Dried Flesh"
     }
   },
   "metadata": {
