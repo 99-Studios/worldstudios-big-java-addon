@@ -25,7 +25,7 @@ enumExtensions="META-INF/enumextensions.json"
 [[dependencies.worldstudios_world]]
     modId="neoforge"
     type="required"
-    versionRange="[26.1.2.71,)"
+    versionRange="[26.1.2.95,)"
     ordering="AFTER"
     side="BOTH"
 

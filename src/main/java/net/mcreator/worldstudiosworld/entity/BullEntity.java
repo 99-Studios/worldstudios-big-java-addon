@@ -4,7 +4,6 @@ import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -53,7 +52,7 @@ public class BullEntity extends Monster {
 		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
 		this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(4, new TemptGoal(this, 1, (Ingredient.of(Blocks.AIR.asItem())), false));
+		this.goalSelector.addGoal(4, new TemptGoal(this, 1, (Ingredient.of(Items.RED_BANNER)), false));
 		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
