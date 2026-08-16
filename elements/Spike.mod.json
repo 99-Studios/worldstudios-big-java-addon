@@ -14,9 +14,7 @@
       "THORNS"
     ],
     "supportedItems": [
-      "CUSTOM:BraniteLunge",
-      "CUSTOM:StoneLunge",
-      "CUSTOM:AmethesiumLunge"
+      "TAG:mod:lunges"
     ],
     "isTreasureEnchantment": false,
     "isCurse": false,

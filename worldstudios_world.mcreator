@@ -11703,7 +11703,12 @@
       "type": "achievement",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lunge_life"
+      "registry_name": "lunge_life",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/lunge_life.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -13730,7 +13735,9 @@
       "item.worldstudios_world.ignightium_lunge": "Ignightium Lunge",
       "item.worldstudios_world.repeating_command_block_lunge": "RepeatingCommandBlock Lunge",
       "item.worldstudios_world.steel_lunge": "Steel Lunge",
-      "item.worldstudios_world.wopper_lunge": "Wopper Lunge"
+      "item.worldstudios_world.wopper_lunge": "Wopper Lunge",
+      "advancements.lunge_life.title": "Lunge Life",
+      "advancements.lunge_life.descr": "Obtain all Lunges."
     }
   },
   "metadata": {

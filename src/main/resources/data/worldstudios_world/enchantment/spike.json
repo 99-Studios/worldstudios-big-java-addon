@@ -2,11 +2,7 @@
   "description": {
     "translate": "enchantment.worldstudios_world.spike"
   },
-  "supported_items": [
-    "worldstudios_world:branite_lunge",
-    "worldstudios_world:stone_lunge",
-    "worldstudios_world:amethesium_lunge"
-  ],
+  "supported_items": "#worldstudios_world:lunges",
   "weight": 1,
   "max_level": 5,
   "min_cost": {
