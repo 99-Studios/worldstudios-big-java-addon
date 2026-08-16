@@ -12,7 +12,7 @@
     "restrictionBiomes": [
       "CUSTOM:DarkenedSands"
     ],
-    "terrainAdaptation": "none",
+    "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "WORLD_SURFACE_WG",
     "useStartHeight": false,
