@@ -11709,6 +11709,13 @@
           "src/main/resources/data/worldstudios_world/advancement/lunge_life.json"
         ]
       }
+    },
+    {
+      "name": "ChestTrove",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_trove"
     }
   ],
   "variable_elements": [
@@ -12211,17 +12218,17 @@
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~Spike@CUSTOM:Spike",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
-      "~Spike@CUSTOM:Spike",
       "~Dirt@CUSTOM:Dirt",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
+      "~Spike@CUSTOM:Spike",
       "~CopperPower@CUSTOM:CopperPower",
       "~Dragon@CUSTOM:Dragon",
-      "~Spike@CUSTOM:Spike",
       "~Explosion@CUSTOM:Explosion",
       "~FastTeleport@CUSTOM:FastTeleport"
     ],
