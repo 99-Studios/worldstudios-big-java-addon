@@ -11690,7 +11690,13 @@
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dir_shield_recipe"
+      "registry_name": "dir_shield_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/recipe/dirt_shield_recipe.json",
+          "src/main/resources/data/worldstudios_world/advancement/recipes/dir_shield_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
