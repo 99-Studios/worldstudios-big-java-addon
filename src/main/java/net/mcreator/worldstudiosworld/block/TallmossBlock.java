@@ -1,5 +1,7 @@
 package net.mcreator.worldstudiosworld.block;
 
+import net.neoforged.neoforge.common.ItemAbility;
+import net.neoforged.neoforge.common.ItemAbilities;
 import net.neoforged.neoforge.common.CommonHooks;
 
 import net.minecraft.world.level.pathfinder.PathType;
@@ -9,8 +11,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SugarCaneBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
@@ -32,6 +36,14 @@ public class TallmossBlock extends SugarCaneBlock {
 	@Override
 	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 5;
+	}
+
+	@Override
+	public BlockState getToolModifiedState(BlockState blockstate, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
+		if (ItemAbilities.AXE_STRIP == itemAbility && context.getItemInHand().canPerformAction(itemAbility)) {
+			return Blocks.MOSS_BLOCK.withPropertiesOf(blockstate);
+		}
+		return super.getToolModifiedState(blockstate, context, itemAbility, simulate);
 	}
 
 	@Override

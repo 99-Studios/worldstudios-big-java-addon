@@ -24,7 +24,7 @@
       null,
       null
     ],
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 14,
     "customBoundingBox": false,
     "disableOffset": false,
@@ -76,7 +76,7 @@
     "creativePickItem": "",
     "offsetType": "XZ",
     "aiPathNodeType": "BLOCKED",
-    "strippingResult": "",
+    "strippingResult": "Blocks.MOSS_BLOCK",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 5,
