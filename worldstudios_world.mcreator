@@ -11715,7 +11715,40 @@
       "type": "loottable",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chest_trove"
+      "registry_name": "chest_trove",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/chests/chest_trove.json"
+        ]
+      }
+    },
+    {
+      "name": "ChestTroveStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_trove_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/structure/chest_trove_structure.json",
+          "src/main/resources/data/worldstudios_world/worldgen/structure_set/chest_trove_structure.json",
+          "src/main/resources/data/worldstudios_world/worldgen/template_pool/chest_trove_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "ChestCity",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/structure/chest_city.json",
+          "src/main/resources/data/worldstudios_world/worldgen/structure_set/chest_city.json",
+          "src/main/resources/data/worldstudios_world/worldgen/template_pool/chest_city.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
