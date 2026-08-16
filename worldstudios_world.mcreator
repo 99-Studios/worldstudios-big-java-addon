@@ -11697,6 +11697,13 @@
           "src/main/resources/data/worldstudios_world/advancement/recipes/dir_shield_recipe.json"
         ]
       }
+    },
+    {
+      "name": "LungeLife",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunge_life"
     }
   ],
   "variable_elements": [
@@ -12594,6 +12601,23 @@
     ],
     "ITEMS:minecraft:meat": [
       "~DriedFlesh@CUSTOM:DriedFlesh"
+    ],
+    "ITEMS:mod:lunges": [
+      "CUSTOM:BraniteLunge",
+      "CUSTOM:StoneLunge",
+      "CUSTOM:AmethesiumLunge",
+      "CUSTOM:IronLunge",
+      "CUSTOM:DiamondLunge",
+      "CUSTOM:NetheriteLunge",
+      "CUSTOM:UrainiumLunge",
+      "CUSTOM:TitanLunge",
+      "CUSTOM:SparkleLunge",
+      "CUSTOM:BlaziteLunge",
+      "CUSTOM:WoolLunge",
+      "CUSTOM:IgnightiumLunge",
+      "CUSTOM:RepeatingCommandBlockLunge",
+      "CUSTOM:SteelLunge",
+      "CUSTOM:WopperLunge"
     ]
   },
   "tab_element_order": {},

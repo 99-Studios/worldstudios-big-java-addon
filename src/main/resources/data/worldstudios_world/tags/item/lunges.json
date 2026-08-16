@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "worldstudios_world:netherite_lunge",
+    "worldstudios_world:titan_lunge",
+    "worldstudios_world:repeating_command_block_lunge",
+    "worldstudios_world:steel_lunge",
+    "worldstudios_world:blazite_lunge",
+    "worldstudios_world:branite_lunge",
+    "worldstudios_world:sparkle_lunge",
+    "worldstudios_world:wool_lunge",
+    "worldstudios_world:ignightium_lunge",
+    "worldstudios_world:wopper_lunge",
+    "worldstudios_world:amethesium_lunge",
+    "worldstudios_world:iron_lunge",
+    "worldstudios_world:diamond_lunge",
+    "worldstudios_world:stone_lunge",
+    "worldstudios_world:urainium_lunge"
+  ]
+}
