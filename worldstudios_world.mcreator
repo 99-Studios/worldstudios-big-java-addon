@@ -11684,6 +11684,13 @@
           "src/main/resources/data/worldstudios_world/recipe/wopper_lunge_recipe.json"
         ]
       }
+    },
+    {
+      "name": "DirShieldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dir_shield_recipe"
     }
   ],
   "variable_elements": [
@@ -11705,9 +11712,7 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [
-      "~CoalPickaxe@Items.COAL"
-    ],
+    "ITEMS:worldstudios_world:coal_pickaxe_repair_items": [],
     "ITEMS:worldstudios_world:ender_helmet_repair_items": [
       "~EnderHelmet@Items.ENDER_EYE"
     ],

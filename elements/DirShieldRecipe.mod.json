@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.PLANKS",
+      "Blocks.DIRT"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Blocks.PLANKS",
+      "Blocks.DIRT",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "Blocks.PLANKS",
+      "",
+      "Blocks.PLANKS",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:DirtShield",
+    "name": "dirt_shield_recipe",
+    "namespace": "mod"
+  }
+}

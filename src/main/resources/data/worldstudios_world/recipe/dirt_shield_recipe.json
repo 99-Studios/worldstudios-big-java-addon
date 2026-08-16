@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": "#minecraft:planks",
+    "b": "#minecraft:dirt"
+  },
+  "result": {
+    "id": "worldstudios_world:dirt_shield",
+    "count": 1
+  }
+}
