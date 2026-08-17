@@ -16,10 +16,10 @@
     "terrainAdaptation": "none",
     "generationStep": "SURFACE_STRUCTURES",
     "surfaceDetectionType": "OCEAN_FLOOR_WG",
-    "useStartHeight": false,
+    "useStartHeight": true,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
-    "startHeightMax": 128,
+    "startHeightMax": 64,
     "size": 1,
     "maxDistanceFromCenter": 64,
     "jigsawPools": []
