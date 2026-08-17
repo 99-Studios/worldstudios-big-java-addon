@@ -1,0 +1,27 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "ice_castle",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 24,
+    "separation": 4,
+    "restrictionBiomes": [
+      "mutated_ice_flats",
+      "cold_ocean"
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "OCEAN_FLOOR_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

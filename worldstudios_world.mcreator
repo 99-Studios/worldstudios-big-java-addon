@@ -11749,6 +11749,44 @@
           "src/main/resources/data/worldstudios_world/worldgen/template_pool/chest_city.json"
         ]
       }
+    },
+    {
+      "name": "IceCastleBottom",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_castle_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/chests/ice_castle_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "IceCastleMiddle",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_castle_middle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/loot_table/chests/ice_castle_middle.json"
+        ]
+      }
+    },
+    {
+      "name": "IceCastle",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_castle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/worldgen/structure_set/ice_castle.json",
+          "src/main/resources/data/worldstudios_world/worldgen/template_pool/ice_castle.json",
+          "src/main/resources/data/worldstudios_world/worldgen/structure/ice_castle.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
