@@ -1,0 +1,32 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "CUSTOM:SteelToolHoe",
+      "CUSTOM:Steel"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "CUSTOM:Steel",
+      "CUSTOM:SteelToolHoe",
+      "CUSTOM:Steel",
+      "Items.STICK",
+      "CUSTOM:Steel",
+      "Items.STICK",
+      "CUSTOM:Steel",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:SteelSythe",
+    "name": "steel_sythe_recipe",
+    "namespace": "mod"
+  }
+}

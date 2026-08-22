@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "aca",
+    "ca "
+  ],
+  "key": {
+    "a": "worldstudios_world:steel",
+    "b": "worldstudios_world:steel_tool_hoe",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "worldstudios_world:steel_sythe",
+    "count": 1
+  }
+}

@@ -389,6 +389,7 @@ public class WorldstudiosWorldModItems {
 	public static final DeferredItem<Item> REPEATING_COMMAND_BLOCK_LUNGE;
 	public static final DeferredItem<Item> STEEL_LUNGE;
 	public static final DeferredItem<Item> WOPPER_LUNGE;
+	public static final DeferredItem<Item> STEEL_SYTHE;
 	static {
 		COAL_PICKAXE = register("coal_pickaxe", CoalPickaxeItem::new);
 		ENDER_HELMET_HELMET = register("ender_helmet_helmet", EnderHelmetItem.Helmet::new);
@@ -755,6 +756,7 @@ public class WorldstudiosWorldModItems {
 		REPEATING_COMMAND_BLOCK_LUNGE = register("repeating_command_block_lunge", RepeatingCommandBlockLungeItem::new);
 		STEEL_LUNGE = register("steel_lunge", SteelLungeItem::new);
 		WOPPER_LUNGE = register("wopper_lunge", WopperLungeItem::new);
+		STEEL_SYTHE = register("steel_sythe", SteelSytheItem::new);
 	}
 
 	// Start of user code block custom items

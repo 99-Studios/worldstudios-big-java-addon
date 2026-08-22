@@ -136,6 +136,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.REPEATING_COMMAND_BLOCK_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.STEEL_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.STEEL_SYTHE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(WorldstudiosWorldModItems.ENDER_HELMET_HELMET.get());
 			tabData.accept(WorldstudiosWorldModItems.ACID_ARMOR_HELMET.get());
@@ -257,6 +258,7 @@ public class WorldstudiosWorldModTabs {
 			tabData.accept(WorldstudiosWorldModItems.REPEATING_COMMAND_BLOCK_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.STEEL_LUNGE.get());
 			tabData.accept(WorldstudiosWorldModItems.WOPPER_LUNGE.get());
+			tabData.accept(WorldstudiosWorldModItems.STEEL_SYTHE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(WorldstudiosWorldModBlocks.WASTE_BLOCK.get().asItem());
 			tabData.accept(WorldstudiosWorldModBlocks.CAPSULE.get().asItem());

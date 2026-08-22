@@ -11787,6 +11787,33 @@
           "src/main/resources/data/worldstudios_world/worldgen/structure/ice_castle.json"
         ]
       }
+    },
+    {
+      "name": "SteelSythe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/worldstudiosworld/item/SteelSytheItem.java",
+          "src/main/resources/assets/worldstudios_world/items/steel_sythe.json",
+          "src/main/resources/assets/worldstudios_world/models/item/steel_sythe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSytheRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sythe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/worldstudios_world/advancement/recipes/steel_sythe_recipe.json",
+          "src/main/resources/data/worldstudios_world/recipe/steel_sythe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -12582,6 +12609,7 @@
       "~AndorShovel@CUSTOM:AndorShovel"
     ],
     "ITEMS:minecraft:hoes": [
+      "~SteelSythe@CUSTOM:SteelSythe",
       "~WopperHoe@CUSTOM:WopperHoe",
       "~SouldustHoe@CUSTOM:SouldustHoe",
       "~AmethesiumHoe@CUSTOM:AmethesiumHoe",
@@ -12701,6 +12729,9 @@
       "CUSTOM:RepeatingCommandBlockLunge",
       "CUSTOM:SteelLunge",
       "CUSTOM:WopperLunge"
+    ],
+    "ITEMS:worldstudios_world:steel_sythe_repair_items": [
+      "~SteelSythe@CUSTOM:Steel"
     ]
   },
   "tab_element_order": {},
@@ -13815,7 +13846,8 @@
       "item.worldstudios_world.steel_lunge": "Steel Lunge",
       "item.worldstudios_world.wopper_lunge": "Wopper Lunge",
       "advancements.lunge_life.title": "Lunge Life",
-      "advancements.lunge_life.descr": "Obtain all Lunges."
+      "advancements.lunge_life.descr": "Obtain all Lunges.",
+      "item.worldstudios_world.steel_sythe": "Steel Sythe"
     }
   },
   "metadata": {
@@ -13867,7 +13899,7 @@
   "workspaceSettings": {
     "modid": "worldstudios_world",
     "modName": "WorldStudios World",
-    "version": "26.1.2.8.3",
+    "version": "26.1.2.8.4",
     "description": "Adds a bunch of random stuff to minecraft java like an ender helmet and a biome full of waste.",
     "author": "WorldStudios",
     "websiteURL": "https://its99studios.wordpress.com",
